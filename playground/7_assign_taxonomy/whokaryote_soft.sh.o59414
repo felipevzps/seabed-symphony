@@ -1,0 +1,32 @@
+Classification took 8.77675485610962 seconds.
+67.10908640566497 sequences per second.
+1351684.4431107384 base pairs per second.
+Classification done.
+First iteration statistics:
+	archaea: 1
+	bacteria: 579
+	eukarya: 3
+	prokarya: 5
+	unknown: 1
+
+Output saved to whokaryote_output/tiara_pred.txt.
+Log file saved to whokaryote_output/log_tiara_pred.txt.
+
+Removing contigs with length < 5000 bp...
+Total contigs checked:	625 
+Number of contigs >=5000bp:	589 
+Number of contigs <5000bp and removed:	36
+Model with tiara predictions selected.
+Running tiara with 20 threads...
+Running prodigal...
+Prodigal gene prediction successful. Saving gene coordinate file...
+Gene coordinate file saved.
+Gene prediction took 142.35230493545532 seconds.
+Calculating gene structure features with gene predictions...
+File extension: GFF
+Calculating features successful.
+Calculating gene structure features took 0.37789011001586914 seconds.
+Predicting contig class...
+Using model with tiara predictions to predict contig class...
+Prediction successful! See output directory.
+Predicting contig class took 2.9620325565338135 seconds.
