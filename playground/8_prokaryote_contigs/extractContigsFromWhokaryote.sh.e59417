@@ -1,0 +1,46 @@
+	Command being timed: "./extractContigsFromWhokaryote.py -i ../5_assembly/soft_filter/assembly.fasta -p ../7_assign_taxonomy/whokaryote_output/prokaryote_contig_headers.txt -o prokaryote"
+	User time (seconds): 1.84
+	System time (seconds): 5.88
+	Percent of CPU this job got: 506%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 42980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16349
+	Voluntary context switches: 1569
+	Involuntary context switches: 99677
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 23144
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "./extractContigsFromWhokaryote.py -i ../5_assembly/soft_filter/assembly.fasta -p ../7_assign_taxonomy/whokaryote_output/eukaryote_contig_headers.txt -o eukaryote"
+	User time (seconds): 1.74
+	System time (seconds): 5.85
+	Percent of CPU this job got: 593%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9473
+	Voluntary context switches: 535
+	Involuntary context switches: 106891
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
