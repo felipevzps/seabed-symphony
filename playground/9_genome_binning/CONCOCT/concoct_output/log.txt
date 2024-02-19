@@ -1,0 +1,12 @@
+2024-02-19 00:34:35,925:INFO:root:Results created at /Storage/data1/felipe.peres/seabed-symphony/playground/9_genome_binning/CONCOCT/concoct_output
+2024-02-19 00:34:39,020:INFO:root:Successfully loaded composition data.
+2024-02-19 00:34:39,070:INFO:root:Successfully loaded coverage data.
+2024-02-19 00:34:39,363:INFO:root:Performed PCA, resulted in 11 dimensions
+2024-02-19 00:34:39,837:INFO:root:Wrote original filtered data file.
+2024-02-19 00:34:39,896:INFO:root:Wrote PCA transformed file.
+2024-02-19 00:34:39,930:INFO:root:Wrote PCA components file.
+2024-02-19 00:34:39,930:INFO:root:PCA transformed data.
+2024-02-19 00:34:39,931:INFO:root:Will call vbgmm with parameters: /Storage/data1/felipe.peres/seabed-symphony/playground/9_genome_binning/CONCOCT/concoct_output/, 400, 1000, 10, 500
+2024-02-19 00:34:42,805:INFO:root:Wrote assign file.
+2024-02-19 00:34:42,805:INFO:root:CONCOCT Finished
+2024-02-19 00:34:42,806:INFO:root:CONCOCT Finished, the log shows how it went.
