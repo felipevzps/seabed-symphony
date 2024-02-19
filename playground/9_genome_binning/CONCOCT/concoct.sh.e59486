@@ -1,0 +1,204 @@
+	Command being timed: "cut_up_fasta.py ../../8_prokaryote_contigs/prokaryote/assembly_prokaryote.fasta -c 10000 -o 0 --merge_last -b contigs_10K.bed"
+	User time (seconds): 1.38
+	System time (seconds): 5.18
+	Percent of CPU this job got: 462%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 45172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8510
+	Voluntary context switches: 2003
+	Involuntary context switches: 689
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 22904
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "concoct_coverage_table.py contigs_10K.bed ../mapping/mapped_sorted.bam"
+	User time (seconds): 7.83
+	System time (seconds): 5.31
+	Percent of CPU this job got: 158%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 60600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 64087
+	Voluntary context switches: 2454
+	Involuntary context switches: 190
+	Swaps: 0
+	File system inputs: 128
+	File system outputs: 72
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Setting 10 OMP threads
+Generate input data
+0,-24602.503967,19267.122128
+1,-16908.512521,7693.991445
+2,-15415.986914,1492.525607
+3,-14079.924921,1336.061993
+4,-13254.460111,825.464810
+5,-12993.300301,261.159810
+6,-12831.416316,161.883984
+7,-12629.409667,202.006650
+8,-12381.304091,248.105576
+9,-12328.397477,52.906614
+10,-12227.777162,100.620315
+11,-12190.938408,36.838754
+12,-12036.395403,154.543005
+13,-11891.595273,144.800130
+14,-11874.859243,16.736030
+15,-11797.047147,77.812097
+16,-11667.775905,129.271241
+17,-11663.979384,3.796521
+18,-11656.785592,7.193792
+19,-11591.079846,65.705745
+20,-11591.052496,0.027351
+21,-11590.830959,0.221537
+22,-11591.320928,0.489969
+23,-11591.844067,0.523139
+24,-11592.120042,0.275975
+25,-11592.193900,0.073858
+26,-11592.060730,0.133170
+27,-11591.885235,0.175495
+28,-11591.479670,0.405565
+29,-11590.361876,1.117794
+30,-11587.051339,3.310538
+31,-11581.598529,5.452810
+32,-11579.970763,1.627765
+33,-11571.915071,8.055692
+34,-11505.075689,66.839382
+35,-11506.096942,1.021253
+36,-11506.103723,0.006781
+37,-11506.130990,0.027267
+38,-11506.153775,0.022785
+39,-11506.169371,0.015596
+40,-11506.179374,0.010003
+41,-11506.185557,0.006183
+42,-11506.189234,0.003677
+43,-11506.191305,0.002071
+44,-11506.192369,0.001064
+45,-11506.192818,0.000449
+46,-11506.192904,0.000086
+Up and running. Check /Storage/data1/felipe.peres/seabed-symphony/playground/9_genome_binning/CONCOCT/concoct_output/log.txt for progress
+/home/felipe.peres/.conda/envs/metagenomics/lib/python3.8/site-packages/sklearn/utils/validation.py:1688: FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['int', 'str']. An error will be raised in 1.2.
+  warnings.warn(
+/home/felipe.peres/.conda/envs/metagenomics/lib/python3.8/site-packages/sklearn/utils/validation.py:1688: FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['int', 'str']. An error will be raised in 1.2.
+  warnings.warn(
+	Command being timed: "concoct --composition_file contigs_10K.fa --coverage_file coverage_table.tsv -b concoct_output/ -t 10"
+	User time (seconds): 13.42
+	System time (seconds): 17.80
+	Percent of CPU this job got: 316%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 219684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 16
+	Minor (reclaiming a frame) page faults: 62513
+	Voluntary context switches: 4507
+	Involuntary context switches: 1639794
+	Swaps: 0
+	File system inputs: 347064
+	File system outputs: 5080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+No consensus cluster for contig contig_113: [('5', 1), ('11', 4)]	 Chosen cluster: 11
+No consensus cluster for contig contig_13: [('3', 1), ('11', 10)]	 Chosen cluster: 11
+No consensus cluster for contig contig_136: [('11', 3), ('5', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_140: [('5', 1), ('0', 1), ('11', 1)]	 Chosen cluster: 5
+No consensus cluster for contig contig_15: [('12', 1), ('11', 6)]	 Chosen cluster: 11
+No consensus cluster for contig contig_164: [('11', 1), ('5', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_185: [('2', 1), ('5', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_188: [('0', 1), ('11', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_198: [('11', 4), ('5', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_243: [('12', 1), ('11', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_248: [('5', 1), ('11', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_258: [('11', 3), ('5', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_267: [('1', 3), ('14', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_324: [('12', 1), ('13', 3)]	 Chosen cluster: 13
+No consensus cluster for contig contig_327: [('10', 1), ('4', 1), ('13', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_355: [('5', 1), ('11', 4)]	 Chosen cluster: 11
+No consensus cluster for contig contig_398: [('9', 2), ('12', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_404: [('5', 1), ('11', 1)]	 Chosen cluster: 5
+No consensus cluster for contig contig_405: [('11', 1), ('5', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_412: [('5', 1), ('2', 5)]	 Chosen cluster: 2
+No consensus cluster for contig contig_423: [('5', 1), ('11', 7)]	 Chosen cluster: 11
+No consensus cluster for contig contig_43: [('1', 1), ('8', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_459: [('11', 8), ('12', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_46: [('11', 12), ('5', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_473: [('2', 2), ('5', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_474: [('1', 1), ('8', 3)]	 Chosen cluster: 8
+No consensus cluster for contig contig_485: [('5', 2), ('11', 3)]	 Chosen cluster: 11
+No consensus cluster for contig contig_622: [('2', 4), ('5', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_646: [('5', 1), ('11', 1)]	 Chosen cluster: 5
+No consensus cluster for contig contig_649: [('5', 2), ('11', 3)]	 Chosen cluster: 11
+No consensus cluster for contig contig_653: [('11', 1), ('5', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_73: [('6', 1), ('9', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_84: [('11', 9), ('2', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_88: [('9', 1), ('1', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_94: [('12', 2), ('9', 1)]	 Chosen cluster: 12
+	Command being timed: "merge_cutup_clustering.py concoct_output/clustering_gt1000.csv"
+	User time (seconds): 0.04
+	System time (seconds): 0.01
+	Percent of CPU this job got: 72%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2219
+	Voluntary context switches: 79
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "extract_fasta_bins.py ../../8_prokaryote_contigs/prokaryote/assembly_prokaryote.fasta concoct_output/clustering_merged.csv --output_path bins"
+	User time (seconds): 1.71
+	System time (seconds): 5.24
+	Percent of CPU this job got: 314%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25782
+	Voluntary context switches: 1953
+	Involuntary context switches: 183
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 23184
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
