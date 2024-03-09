@@ -12,4 +12,4 @@ conda activate metagenomics
 /usr/bin/time -v ./extractContigsFromWhokaryote.py -i ../5_assembly/soft_filter/assembly.fasta -p ../7_assign_taxonomy/whokaryote_output/prokaryote_contig_headers.txt -o prokaryote
 
 # Extract eukaryote contigs from assembly
-/usr/bin/time -v ./extractContigsFromWhokaryote.py -i ../5_assembly/soft_filter/assembly.fasta -p ../7_assign_taxonomy/whokaryote_output/eukaryote_contig_headers.txt -o eukaryote
+/usr/bin/time -v ./extractContigsFromWhokaryote.py -i ../5_assembly/soft_filter/assembly.fasta -e ../7_assign_taxonomy/whokaryote_output/eukaryote_contig_headers.txt -o eukaryote
