@@ -1,0 +1,1066 @@
+ClusterBlast scores for contig_10475
+
+Table of genes, locations, strands and annotations of query cluster:
+PLIDEL_00625	98491	99532	+	Ion-translocating oxidoreductase complex subunit D	
+PLIDEL_00630	99512	100172	+	Ion-translocating oxidoreductase complex subunit G	
+PLIDEL_00635	100369	101104	+	Ion-translocating oxidoreductase complex subunit E	
+PLIDEL_00640	101100	101790	+	Endonuclease III	
+PLIDEL_00645	101837	102242	+	DUF1841 domain-containing protein	
+PLIDEL_00650	102277	103168	+	UPF0276 protein ATCM_02265	
+PLIDEL_00655	103175	103955	+	Putative DNA-binding domain-containing protein	
+PLIDEL_00660	104049	104670	+	DoxX family protein	
+PLIDEL_00665	104666	105578	-	Fructokinase	
+PLIDEL_00670	105644	106448	-	Sulfotransferase	
+PLIDEL_00675	106511	106826	-	Pyridine nucleotide-disulphide oxidoreductase dimerisation domain-containing protein	
+PLIDEL_00680	106870	108460	-	Dihydrolipoyl dehydrogenase	
+PLIDEL_00685	108428	109748	-	Acetyltransferase component of pyruvate dehydrogenase complex	
+PLIDEL_00690	109759	110287	-	Pyruvate dehydrogenase E1 component middle domain-containing protein	
+PLIDEL_00695	110574	110937	-	hypothetical protein	
+PLIDEL_00700	111005	112427	-	pyruvate dehydrogenase (acetyl-transferring), homodimeric type	
+PLIDEL_00705	112563	113373	+	hypothetical protein	
+PLIDEL_00710	113416	114085	+	Leucyl aminopeptidase family protein	
+PLIDEL_00715	114081	115116	+	Dihydroorotase	
+PLIDEL_00720	115112	115781	+	Ribonuclease T	
+PLIDEL_00725	115975	116296	-	Glutaredoxin	
+PLIDEL_00730	116547	117654	+	Nicotinate-nucleotide pyrophosphorylase [carboxylating]	
+PLIDEL_00735	117702	120384	-	Diguanylate cyclase	
+PLIDEL_00740	120538	122284	-	Glycosyltransferase RgtA/B/C/D-like domain-containing protein	
+PLIDEL_00745	122285	123044	-	Putative GT2: distantly related to GDP-Man: Dol-P b-mannosyltransferase	
+PLIDEL_00750	123188	124079	+	Zinc transporter ZitB	
+PLIDEL_00755	124081	124840	+	Lysophospholipid acyltransferase family protein	
+PLIDEL_00760	125295	125448	-	hypothetical protein	
+PLIDEL_00765	125621	126806	+	Cytochrome P450	
+PLIDEL_00770	126802	128776	+	Carrier domain-containing protein	
+PLIDEL_00775	128820	129462	-	hypothetical protein	
+PLIDEL_00785	130245	130680	-	Ferric uptake regulation protein	
+PLIDEL_00790	130811	131342	+	Type II secretion system protein H	
+PLIDEL_00795	131568	132009	+	hypothetical protein	
+PLIDEL_00800	132057	132450	+	Type IV pilus modification protein PilV	
+PLIDEL_00805	132452	133193	+	hypothetical protein	
+PLIDEL_00810	133472	133997	+	Type 4 fimbrial biogenesis protein PilX N-terminal domain-containing protein	
+PLIDEL_00815	134030	134411	+	hypothetical protein	
+PLIDEL_00820	134444	137951	+	PQQ-binding-like beta-propeller repeat protein	
+PLIDEL_00825	138010	138424	+	Pilus assembly protein PilE	
+PLIDEL_00830	138420	139356	-	hypothetical protein	
+PLIDEL_00835	139402	139957	-	Lipoprotein signal peptidase	
+PLIDEL_00840	139956	140439	-	Isoleucine--tRNA ligase	
+PLIDEL_00845	141022	141193	-	hypothetical protein	
+PLIDEL_00850	141280	142171	-	hypothetical protein	
+PLIDEL_00855	142180	142915	-	hypothetical protein	
+PLIDEL_00860	142930	143689	-	Riboflavin biosynthesis protein	
+PLIDEL_00865	143842	145483	-	putative lipid II flippase MurJ	
+PLIDEL_00870	145706	145991	+	Small ribosomal subunit protein bS20	
+PLIDEL_00875	146392	148066	-	hypothetical protein	
+
+
+Significant hits: 
+1. NZ_CP016268	Woeseia oceani strain XK5 chromosome, complete genome
+2. NZ_AP018725	Sulfuriflexus mobilis strain aks1 chromosome, complete genome
+3. NZ_SMFX01000001	Thiogranum longum strain DSM 19610 Ga0244536_11, whole genome shotgun sequence
+4. NZ_VYXP01000003	Wenzhouxiangella sp. W260 scaffold3, whole genome shotgun sequence
+5. NZ_SOQX01000003	Thiohalophilus thiocyanatoxydans strain DSM 16326 Ga0244672_103, whole genome shotgun sequence
+6. NZ_CP035467	Methylotuvimicrobium buryatense strain 5GB1C chromosome, complete genome
+7. NZ_CP024202	Methylomicrobium sp. wino1 chromosome, complete genome
+8. NC_016112	Methylotuvimicrobium alcaliphilum 20Z, complete sequence
+9. NZ_CP061849	Chromobacterium haemolyticum strain Bb2 chromosome, complete genome
+10. NZ_CP031968	Chromobacterium rhizoryzae strain JP2-74 chromosome, complete genome
+11. NZ_JAFLRD010000011	Chromobacterium haemolyticum strain WJ-5 NODE_11_length_194406_cov_140.035327, whole genome shotgun sequence
+12. NZ_AP019312	Chromobacterium haemolyticum strain CH06-BL chromosome, complete genome
+13. NZ_CP031514	Chromobacterium sp. Rain0013 chromosome, complete genome
+14. NZ_AP018560	Aerosticca soli strain Dysh456 chromosome, complete genome
+15. NC_017033	Frateuria aurantia DSM 6220, complete sequence
+16. NZ_JACHHX010000009	Rehaibacterium terrae strain DSM 25897 Ga0415263_09, whole genome shotgun sequence
+17. NZ_AP018933	Zymobacter palmae strain IAM14233 chromosome, complete genome
+18. NZ_CP061368	Wenzhouxiangella sp. AB-CW3 chromosome, complete genome
+19. NZ_AP012978	Endosymbiont of unidentified scaly snail isolate Monju chromosome, complete genome
+20. NC_014207	Methylotenera versatilis 301, complete sequence
+21. NZ_AP024239	Thiohalobacter sp. COW1 chromosome, complete genome
+22. NZ_AP018052	Thiohalobacter thiocyanaticus strain FOKN1 chromosome, complete genome
+23. NZ_JALNMH010000015	Lysobacter sp. CAU 1642 contig15, whole genome shotgun sequence
+24. NZ_CP045429	Pseudoalteromonas rubra strain S4059 chromosome 1, complete sequence
+25. NZ_CP054491	Candidatus Reidiella endopervernicosa isolate Santa_Monica_outfall chromosome, complete genome
+26. NZ_KB900536	Thioalkalivibrio thiocyanodenitrificans ARhD 1 scaffold1, whole genome shotgun sequence
+27. NZ_CP007597	Stenotrophomonas rhizophila strain DSM 14405 chromosome
+28. NZ_RRUE01000001	Lautropia dentalis strain KCOM 2505 KCOM2505_1, whole genome shotgun sequence
+29. NZ_CP104694	Tahibacter sp. W38 chromosome
+30. NZ_SNZH01000001	Tahibacter aquaticus strain DSM 21667 Ga0244543_101, whole genome shotgun sequence
+31. NZ_CP021435	Halomonas beimenensis strain NTU-111 chromosome, complete genome
+32. NZ_JYNS01000008	Methyloterricola oryzae strain 73a EK23DRAFT_scaffold00008.8_C, whole genome shotgun sequence
+33. NZ_NHSF01000054	Halochromatium salexigens strain DSM 4395 scaffold0054, whole genome shotgun sequence
+34. NZ_NHSH01000054	Halochromatium roseum strain DSM 18859 scaffold0054, whole genome shotgun sequence
+35. NZ_SMDC01000009	Marichromatium gracile strain DSM 203 Ga0244650_109, whole genome shotgun sequence
+36. NZ_CP007031	Marichromatium purpuratum 984 chromosome, complete genome
+37. NZ_FOMJ01000002	Thiohalospira halophila DSM 15071 strain HL 3, whole genome shotgun sequence
+38. NC_012968	Methylotenera mobilis JLW8, complete sequence
+39. NZ_KB913035	Methylotenera mobilis 13 A391DRAFT_scaffold1.1, whole genome shotgun sequence
+40. NZ_LR134301	Stenotrophomonas maltophilia strain NCTC13014 chromosome 1, complete sequence
+41. NZ_CP028358	Stenotrophomonas maltophilia strain W18 chromosome, complete genome
+42. NZ_CP077679	Stenotrophomonas maltophilia strain Col1 chromosome, complete genome
+43. NZ_CP040435	Stenotrophomonas maltophilia strain PEG-42 chromosome, complete genome
+44. NZ_CP047310	Stenotrophomonas maltophilia strain CPBW01 chromosome, complete genome
+45. NZ_CP060259	Stenotrophomonas maltophilia strain JZL8 chromosome, complete genome
+46. NZ_CP056088	Stenotrophomonas maltophilia strain Oak Ridge strain 02 chromosome
+47. NZ_OU943334	Stenotrophomonas maltophilia isolate Stenotrophomonas maltophilia 1800 chromosome STEN1800, complete sequence
+48. NZ_CP040430	Stenotrophomonas maltophilia strain Sm53 chromosome, complete genome
+49. NZ_CP040431	Stenotrophomonas maltophilia strain sm454 chromosome, complete genome
+50. NZ_CP040440	Stenotrophomonas maltophilia strain ICU331 chromosome, complete genome
+
+
+Details:
+
+>>
+1. NZ_CP016268
+Source: Woeseia oceani strain XK5 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 3094.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	BA177_RS11165	49	300	100.86705202312139	2.51e-98
+PLIDEL_00630	BA177_RS11170	41	149	93.15068493150685	4.47e-43
+PLIDEL_00635	BA177_RS11175	57	192	80.73770491803278	3.49e-59
+PLIDEL_00640	BA177_RS11180	68	289	91.26637554585153	8.42e-98
+PLIDEL_00645	BA177_RS11185	50	137	96.26865671641791	1.61e-40
+PLIDEL_00650	BA177_RS11190	62	328	88.85135135135135	4.22e-111
+PLIDEL_00655	BA177_RS11195	49	234	96.13899613899613	2.77e-75
+PLIDEL_00660	BA177_RS11200	62	219	87.86407766990291	7.33e-71
+PLIDEL_00675	BA177_RS11205	78	149	90.38461538461539	8.3e-42
+PLIDEL_00680	BA177_RS11205	57	522	93.57277882797732	2.96e-179
+PLIDEL_00680	BA177_RS11210	38	66	20.226843100189036	3.8e-09
+PLIDEL_00685	BA177_RS11210	55	425	99.54441913439635	4.14e-143
+PLIDEL_00685	BA177_RS11205	59	84	15.034168564920272	4.19e-15
+
+
+
+>>
+2. NZ_AP018725
+Source: Sulfuriflexus mobilis strain aks1 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 2499.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	EL386_RS04570	51	324	99.71098265895954	7.19e-108
+PLIDEL_00630	EL386_RS04565	52	184	92.23744292237443	1.06e-56
+PLIDEL_00635	EL386_RS04560	52	199	92.21311475409836	7.55e-62
+PLIDEL_00640	EL386_RS04555	72	309	91.26637554585153	9.63e-106
+PLIDEL_00645	EL386_RS04550	47	137	96.26865671641791	2.43e-40
+PLIDEL_00650	EL386_RS04535	66	358	90.54054054054053	8.23e-123
+PLIDEL_00655	EL386_RS04530	47	244	96.13899613899613	6.45e-79
+PLIDEL_00660	EL386_RS04525	56	220	92.23300970873787	2.18e-71
+PLIDEL_00735	EL386_RS04520	49	524	64.72564389697648	6.13e-169
+
+
+
+>>
+3. NZ_SMFX01000001
+Source: Thiogranum longum strain DSM 19610 Ga0244536_11, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 1972.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	DFR30_RS10110	50	322	98.84393063583815	5e-107
+PLIDEL_00630	DFR30_RS10115	48	181	93.60730593607306	1.18e-55
+PLIDEL_00635	DFR30_RS10120	52	191	86.0655737704918	1.09e-58
+PLIDEL_00640	DFR30_RS10125	65	280	91.26637554585153	1.69e-94
+PLIDEL_00645	DFR30_RS10130	52	150	98.50746268656717	1.77e-45
+PLIDEL_00650	DFR30_RS10140	67	369	91.21621621621621	2.04e-127
+PLIDEL_00655	DFR30_RS10145	50	263	96.52509652509652	2.43e-86
+PLIDEL_00660	DFR30_RS10150	52	216	98.05825242718447	7.19e-70
+
+
+
+>>
+4. NZ_VYXP01000003
+Source: Wenzhouxiangella sp. W260 scaffold3, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 1819.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	F3N42_RS04530	51	317	98.26589595375722	5.76e-105
+PLIDEL_00630	F3N42_RS04535	52	191	89.49771689497716	1.77e-59
+PLIDEL_00635	F3N42_RS04540	52	186	84.8360655737705	4.68e-57
+PLIDEL_00640	F3N42_RS04545	72	293	88.64628820960698	2.81e-99
+PLIDEL_00650	F3N42_RS04555	62	341	92.9054054054054	3.44e-116
+PLIDEL_00655	F3N42_RS04560	50	246	95.75289575289575	9.91e-80
+PLIDEL_00720	F3N42_RS04575	65	245	87.83783783783784	6.27e-81
+
+
+
+>>
+5. NZ_SOQX01000003
+Source: Thiohalophilus thiocyanatoxydans strain DSM 16326 Ga0244672_103, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1618.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	EDC23_RS07265	50	316	100.86705202312139	8.15e-105
+PLIDEL_00630	EDC23_RS07260	51	182	84.01826484018264	6.24e-56
+PLIDEL_00635	EDC23_RS07255	53	201	90.57377049180327	1.37e-62
+PLIDEL_00640	EDC23_RS07250	69	295	91.26637554585153	2.8e-100
+PLIDEL_00650	EDC23_RS07240	67	372	90.2027027027027	2.59e-128
+PLIDEL_00655	EDC23_RS07235	49	252	96.91119691119691	5.69e-82
+
+
+
+>>
+6. NZ_CP035467
+Source: Methylotuvimicrobium buryatense strain 5GB1C chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1502.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	EQU24_RS02605	49	304	100.28901734104045	3.97e-100
+PLIDEL_00630	EQU24_RS02600	45	167	91.32420091324201	4.84e-50
+PLIDEL_00635	EQU24_RS02595	53	189	81.9672131147541	4.5e-58
+PLIDEL_00640	EQU24_RS02590	66	278	91.26637554585153	1.89e-93
+PLIDEL_00650	EQU24_RS02580	61	346	90.2027027027027	2.59e-118
+PLIDEL_00655	EQU24_RS02575	49	218	92.27799227799228	8e-69
+
+
+
+>>
+7. NZ_CP024202
+Source: Methylomicrobium sp. wino1 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1500.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	CS064_RS01995	49	304	99.71098265895954	3.97e-100
+PLIDEL_00630	CS064_RS02000	44	165	91.32420091324201	2.75e-49
+PLIDEL_00635	CS064_RS02005	53	191	81.9672131147541	7.92e-59
+PLIDEL_00640	CS064_RS02010	67	282	91.26637554585153	2.83e-95
+PLIDEL_00650	CS064_RS02020	61	345	90.2027027027027	1.05e-117
+PLIDEL_00655	CS064_RS02025	48	213	92.27799227799228	5.2e-67
+
+
+
+>>
+8. NC_016112
+Source: Methylotuvimicrobium alcaliphilum 20Z, complete sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1481.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	MEALZ_RS02075	49	305	100.28901734104045	2.8e-100
+PLIDEL_00630	MEALZ_RS02070	42	157	91.32420091324201	2.84e-46
+PLIDEL_00635	MEALZ_RS02065	52	191	81.9672131147541	1.12e-58
+PLIDEL_00640	MEALZ_RS02060	66	274	91.26637554585153	4.41e-92
+PLIDEL_00650	MEALZ_RS02045	61	343	90.2027027027027	6.03e-117
+PLIDEL_00655	MEALZ_RS02040	48	211	92.27799227799228	4.19e-66
+
+
+
+>>
+9. NZ_CP061849
+Source: Chromobacterium haemolyticum strain Bb2 chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 1229.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+IEZ30_RS24580	IEZ30_RS24580	3650068	3652995	-	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00770	IEZ30_RS16685	31	224	97.4124809741248	4.85e-60
+PLIDEL_00830	IEZ30_RS16745	62	281	71.06109324758843	3.63e-92
+PLIDEL_00835	IEZ30_RS16750	49	126	80.43478260869566	2.91e-35
+PLIDEL_00840	IEZ30_RS16755	39	107	98.125	1.32e-25
+PLIDEL_00845	IEZ30_RS16755	56	48	80.35714285714286	3.16e-06
+PLIDEL_00850	IEZ30_RS16755	34	83	70.94594594594594	2.08e-15
+PLIDEL_00855	IEZ30_RS16755	60	191	59.83606557377049	8.71e-54
+PLIDEL_00860	IEZ30_RS16760	45	169	95.23809523809523	3.96e-49
+
+
+
+>>
+10. NZ_CP031968
+Source: Chromobacterium rhizoryzae strain JP2-74 chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 1228.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00770	D1345_RS16350	31	223	97.4124809741248	1.19e-59
+PLIDEL_00830	D1345_RS16410	62	281	71.06109324758843	7.27e-92
+PLIDEL_00835	D1345_RS16415	49	126	80.43478260869566	2.91e-35
+PLIDEL_00840	D1345_RS16420	39	107	98.125	2.44e-25
+PLIDEL_00845	D1345_RS16420	56	48	80.35714285714286	3.16e-06
+PLIDEL_00850	D1345_RS16420	34	83	70.94594594594594	2.08e-15
+PLIDEL_00855	D1345_RS16420	60	191	59.83606557377049	8.71e-54
+PLIDEL_00860	D1345_RS16425	45	169	95.23809523809523	3.96e-49
+
+
+
+>>
+11. NZ_JAFLRD010000011
+Source: Chromobacterium haemolyticum strain WJ-5 NODE_11_length_194406_cov_140.035327, whole genome shotgun sequence
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 1228.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+J1C50_RS23875	J1C50_RS23875	138147	141074	+	amino_acid_adenylation_domain-containing_protein
+J1C50_RS23880	J1C50_RS23880	141240	145562	+	amino_acid_adenylation_domain-containing_protein
+J1C50_RS15030	J1C50_RS15030	159067	159879	-	septum_site-determining_protein_MinD
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00770	J1C50_RS14970	31	223	97.4124809741248	1.19e-59
+PLIDEL_00830	J1C50_RS14910	62	281	71.06109324758843	3.63e-92
+PLIDEL_00835	J1C50_RS14905	49	126	80.43478260869566	2.91e-35
+PLIDEL_00840	J1C50_RS14900	39	107	98.125	2.44e-25
+PLIDEL_00845	J1C50_RS14900	56	48	80.35714285714286	3.16e-06
+PLIDEL_00850	J1C50_RS14900	34	83	70.94594594594594	2.08e-15
+PLIDEL_00855	J1C50_RS14900	60	191	59.83606557377049	8.71e-54
+PLIDEL_00860	J1C50_RS14895	45	169	95.23809523809523	2.81e-49
+
+
+
+>>
+12. NZ_AP019312
+Source: Chromobacterium haemolyticum strain CH06-BL chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 1227.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00770	GYH29_RS17010	31	223	97.4124809741248	1.19e-59
+PLIDEL_00830	GYH29_RS17070	62	281	71.06109324758843	7.27e-92
+PLIDEL_00835	GYH29_RS17075	49	126	80.43478260869566	2.91e-35
+PLIDEL_00840	GYH29_RS17080	39	107	98.125	2.44e-25
+PLIDEL_00845	GYH29_RS17080	56	48	80.35714285714286	3.16e-06
+PLIDEL_00850	GYH29_RS17080	34	83	70.94594594594594	2.08e-15
+PLIDEL_00855	GYH29_RS17080	60	191	59.83606557377049	8.71e-54
+PLIDEL_00860	GYH29_RS17085	45	168	95.23809523809523	1.11e-48
+
+
+
+>>
+13. NZ_CP031514
+Source: Chromobacterium sp. Rain0013 chromosome, complete genome
+Type: NRPS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 1223.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00770	DXT74_RS09520	31	219	97.4124809741248	3.15e-58
+PLIDEL_00830	DXT74_RS09460	62	281	71.06109324758843	3.63e-92
+PLIDEL_00835	DXT74_RS09455	49	126	80.43478260869566	2.91e-35
+PLIDEL_00840	DXT74_RS09450	39	106	98.125	3.33e-25
+PLIDEL_00845	DXT74_RS09450	56	48	80.35714285714286	3.16e-06
+PLIDEL_00850	DXT74_RS09450	34	84	70.94594594594594	1.15e-15
+PLIDEL_00855	DXT74_RS09450	60	191	59.83606557377049	8.71e-54
+PLIDEL_00860	DXT74_RS09445	45	168	95.23809523809523	1.11e-48
+
+
+
+>>
+14. NZ_AP018560
+Source: Aerosticca soli strain Dysh456 chromosome, complete genome
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 1605.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00830	ALSL_RS08785	71	312	71.06109324758843	3.21e-104
+PLIDEL_00835	ALSL_RS08790	54	142	78.26086956521739	1.58e-41
+PLIDEL_00840	ALSL_RS08795	45	138	100.62500000000001	2.3e-36
+PLIDEL_00845	ALSL_RS08795	92	52	42.857142857142854	1e-07
+PLIDEL_00850	ALSL_RS08795	53	60	16.554054054054053	9.84e-08
+PLIDEL_00855	ALSL_RS08795	61	192	60.65573770491803	7.02e-54
+PLIDEL_00860	ALSL_RS08800	49	208	94.44444444444444	3.38e-64
+PLIDEL_00865	ALSL_RS08805	50	416	86.26373626373626	2.3e-138
+PLIDEL_00870	ALSL_RS08810	55	85	91.48936170212765	4.82e-21
+
+
+
+>>
+15. NC_017033
+Source: Frateuria aurantia DSM 6220, complete sequence
+Type: NI-siderophore
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 1590.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00830	FRAAU_RS12905	67	307	71.38263665594855	4.73e-102
+PLIDEL_00835	FRAAU_RS12910	47	146	82.06521739130434	4.06e-43
+PLIDEL_00840	FRAAU_RS12915	42	111	99.375	5.98e-27
+PLIDEL_00845	FRAAU_RS12915	100	50	37.5	4.81e-07
+PLIDEL_00850	FRAAU_RS12915	48	58	16.89189189189189	3.13e-07
+PLIDEL_00855	FRAAU_RS12915	56	182	59.42622950819673	1.32e-50
+PLIDEL_00860	FRAAU_RS12920	49	220	94.44444444444444	7.49e-69
+PLIDEL_00865	FRAAU_RS12925	51	427	84.98168498168498	1.99e-142
+PLIDEL_00870	FRAAU_RS12930	56	89	91.48936170212765	1.02e-22
+
+
+
+>>
+16. NZ_JACHHX010000009
+Source: Rehaibacterium terrae strain DSM 25897 Ga0415263_09, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1542.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	HNQ58_RS07555	53	195	92.23744292237443	6.33e-61
+PLIDEL_00635	HNQ58_RS07560	51	175	85.24590163934425	1.38e-52
+PLIDEL_00640	HNQ58_RS07565	75	320	90.82969432314411	6.25e-110
+PLIDEL_00650	HNQ58_RS07585	63	346	91.21621621621621	2.77e-118
+PLIDEL_00655	HNQ58_RS07590	52	255	95.36679536679536	3.28e-83
+PLIDEL_00720	HNQ58_RS07600	64	251	90.09009009009009	9.75e-83
+
+
+
+>>
+17. NZ_AP018933
+Source: Zymobacter palmae strain IAM14233 chromosome, complete genome
+Type: T1PKS
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 1523.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ZBT109_RS01690	ZBT109_RS01690	363687	364477	-	IS5_family_transposase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00830	ZBT109_RS01805	66	304	71.70418006430869	8.67e-101
+PLIDEL_00835	ZBT109_RS01800	49	143	80.43478260869566	1.7e-41
+PLIDEL_00840	ZBT109_RS01795	39	108	102.49999999999999	9.7e-26
+PLIDEL_00845	ZBT109_RS01795	58	50	80.35714285714286	4.81e-07
+PLIDEL_00850	ZBT109_RS01795	38	66	36.14864864864865	6.95e-10
+PLIDEL_00855	ZBT109_RS01795	60	194	59.83606557377049	1.07e-54
+PLIDEL_00860	ZBT109_RS01790	43	168	91.66666666666666	1.82e-48
+PLIDEL_00865	ZBT109_RS01785	48	409	83.33333333333334	8.81e-136
+PLIDEL_00870	ZBT109_RS01780	56	81	91.48936170212765	1.15e-19
+
+
+
+>>
+18. NZ_CP061368
+Source: Wenzhouxiangella sp. AB-CW3 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1427.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	IC757_RS10570	45	141	82.64840182648402	3.31e-40
+PLIDEL_00635	IC757_RS10575	59	202	79.91803278688525	4.38e-63
+PLIDEL_00640	IC757_RS10580	69	290	90.82969432314411	2.85e-98
+PLIDEL_00650	IC757_RS10590	62	349	93.58108108108108	2.32e-119
+PLIDEL_00655	IC757_RS10595	42	191	94.98069498069498	2.46e-58
+PLIDEL_00720	IC757_RS10605	64	254	91.8918918918919	2.71e-84
+
+
+
+>>
+19. NZ_AP012978
+Source: Endosymbiont of unidentified scaly snail isolate Monju chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1116.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+EBS_RS02505	EBS_RS02505	531701	532267	-	DoxX_family_protein
+EBS_RS02515	EBS_RS02515	533050	533914	-	DUF692_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00635	EBS_RS02540	55	185	81.14754098360656	1.69e-56
+PLIDEL_00640	EBS_RS02530	71	301	91.26637554585153	1.46e-102
+PLIDEL_00645	EBS_RS02525	55	145	97.01492537313433	8.04e-44
+PLIDEL_00650	EBS_RS02515	53	150	47.97297297297297	1.02e-41
+PLIDEL_00655	EBS_RS02510	47	227	95.75289575289575	1.88e-72
+PLIDEL_00660	EBS_RS02505	50	108	50.970873786407765	2.11e-28
+
+
+
+>>
+20. NC_014207
+Source: Methylotenera versatilis 301, complete sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1106.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	M301_RS11985	38	157	93.15068493150685	4.13e-46
+PLIDEL_00635	M301_RS11990	47	157	81.14754098360656	9.15e-46
+PLIDEL_00640	M301_RS11995	65	276	93.44978165938865	1.04e-92
+PLIDEL_00645	M301_RS12005	35	87	95.52238805970148	8.45e-21
+PLIDEL_00650	M301_RS12025	52	277	96.62162162162163	6.22e-91
+PLIDEL_00655	M301_RS12030	35	152	94.98069498069498	3.8e-43
+
+
+
+>>
+21. NZ_AP024239
+Source: Thiohalobacter sp. COW1 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1770.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00635	COW1_RS08570	54	195	81.14754098360656	2.3e-60
+PLIDEL_00640	COW1_RS08580	70	300	92.57641921397381	2.38e-102
+PLIDEL_00650	COW1_RS08590	64	352	93.91891891891892	1.68e-120
+PLIDEL_00655	COW1_RS08595	50	243	93.43629343629344	9.44e-79
+PLIDEL_00660	COW1_RS08600	49	187	98.54368932038835	1.76e-58
+PLIDEL_00735	COW1_RS08575	46	493	63.71780515117581	3.82e-158
+
+
+
+>>
+22. NZ_AP018052
+Source: Thiohalobacter thiocyanaticus strain FOKN1 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1760.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00635	CFK21_RS04720	54	195	81.14754098360656	2.3e-60
+PLIDEL_00640	CFK21_RS04710	70	300	92.57641921397381	2.38e-102
+PLIDEL_00650	CFK21_RS04700	67	340	84.12162162162163	4.46e-116
+PLIDEL_00655	CFK21_RS04695	52	246	93.43629343629344	5.8e-80
+PLIDEL_00660	CFK21_RS04690	48	184	98.54368932038835	5.76e-57
+PLIDEL_00735	CFK21_RS04715	46	495	63.71780515117581	6.98e-159
+
+
+
+>>
+23. NZ_JALNMH010000015
+Source: Lysobacter sp. CAU 1642 contig15, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1215.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+M0G41_RS16470	M0G41_RS16470	47338	47544	-	response_regulator_transcription_factor
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	M0G41_RS16515	47	149	88.12785388127854	7.92e-43
+PLIDEL_00635	M0G41_RS16510	50	165	91.80327868852459	1.02e-48
+PLIDEL_00640	M0G41_RS16505	69	310	96.06986899563319	6.3e-106
+PLIDEL_00650	M0G41_RS16485	66	351	89.52702702702703	4.03e-120
+PLIDEL_00655	M0G41_RS16480	49	240	98.84169884169884	2.55e-77
+
+
+
+>>
+24. NZ_CP045429
+Source: Pseudoalteromonas rubra strain S4059 chromosome 1, complete sequence
+Type: NRPS,NRPS-like,T1PKS,transAT-PKS
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2221.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00675	CWC22_RS15885	61	118	91.34615384615384	9.69e-31
+PLIDEL_00680	CWC22_RS15885	60	413	66.351606805293	4.13e-138
+PLIDEL_00680	CWC22_RS15890	46	60	14.366729678638942	2.73e-07
+PLIDEL_00685	CWC22_RS15890	48	350	102.9612756264237	4.41e-113
+PLIDEL_00690	CWC22_RS15895	49	167	99.42857142857143	2.02e-46
+PLIDEL_00695	CWC22_RS15895	65	110	68.33333333333333	4.77e-27
+PLIDEL_00700	CWC22_RS15895	59	540	93.23467230443974	2.79e-183
+PLIDEL_00770	CWC22_RS15975	31	237	85.84474885844749	3.82e-64
+PLIDEL_00770	CWC22_RS15875	31	226	87.97564687975647	2.38e-60
+
+
+
+>>
+25. NZ_CP054491
+Source: Candidatus Reidiella endopervernicosa isolate Santa_Monica_outfall chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1221.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+HUE57_RS15895	HUE57_RS15895	2928859	2929029	+	cyanate_hydratase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	HUE57_RS15835	66	280	90.82969432314411	2.39e-94
+PLIDEL_00645	HUE57_RS15860	45	124	95.52238805970148	2.46e-35
+PLIDEL_00650	HUE57_RS15870	66	365	90.2027027027027	1.27e-125
+PLIDEL_00655	HUE57_RS15875	49	241	93.82239382239382	7.4e-78
+PLIDEL_00660	HUE57_RS15880	56	211	89.80582524271846	1.36e-67
+
+
+
+>>
+26. NZ_KB900536
+Source: Thioalkalivibrio thiocyanodenitrificans ARhD 1 scaffold1, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1098.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00645	THITHI_RS0114045	55	148	97.01492537313433	6.34e-45
+PLIDEL_00650	THITHI_RS0114040	66	369	92.9054054054054	1.84e-127
+PLIDEL_00655	THITHI_RS0114035	46	214	94.20849420849422	5.11e-67
+PLIDEL_00665	THITHI_RS0114015	64	367	98.01980198019803	5.98e-126
+
+
+
+>>
+27. NZ_CP007597
+Source: Stenotrophomonas rhizophila strain DSM 14405 chromosome
+Type: RRE-containing,RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1078.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	DX03_RS13080	73	313	92.13973799126637	3.67e-107
+PLIDEL_00650	DX03_RS13140	61	326	89.86486486486487	2.59e-110
+PLIDEL_00655	DX03_RS13145	39	147	83.3976833976834	2.29e-41
+PLIDEL_00660	DX03_RS13150	32	56	52.42718446601942	1.24e-07
+PLIDEL_00720	DX03_RS13155	63	236	85.58558558558559	3.12e-77
+
+
+
+>>
+28. NZ_RRUE01000001
+Source: Lautropia dentalis strain KCOM 2505 KCOM2505_1, whole genome shotgun sequence
+Type: NRP-metallophore,NRPS,NRPS-like,T1PKS
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2220.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+EHV23_RS15895	EHV23_RS15895	975464	976357	-	tannase/feruloyl_esterase_family_alpha/beta_hydrolase
+EHV23_RS15915	EHV23_RS15915	1000226	1000402	-	acyl_carrier_protein
+EHV23_RS15925	EHV23_RS15925	1100187	1100891	+	ATP-binding_cassette_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00675	EHV23_RS03965	65	126	91.34615384615384	3.09e-33
+PLIDEL_00680	EHV23_RS03965	47	422	100.1890359168242	2.6e-139
+PLIDEL_00680	EHV23_RS03960	44	64	13.610586011342155	9.64e-09
+PLIDEL_00685	EHV23_RS03960	50	365	104.55580865603645	4.87e-121
+PLIDEL_00685	EHV23_RS03965	58	93	17.312072892938495	6.06e-18
+PLIDEL_00690	EHV23_RS03955	52	167	93.71428571428572	2.91e-46
+PLIDEL_00695	EHV23_RS03955	68	123	67.5	9.11e-32
+PLIDEL_00700	EHV23_RS03955	68	624	93.02325581395348	9.2e-216
+PLIDEL_00770	EHV23_RS04050	33	236	80.36529680365297	4.79e-64
+
+
+
+>>
+29. NZ_CP104694
+Source: Tahibacter sp. W38 chromosome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1317.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	N4264_RS21370	47	152	71.23287671232876	4.07e-44
+PLIDEL_00640	N4264_RS21380	72	320	92.57641921397381	5.46e-110
+PLIDEL_00650	N4264_RS21395	62	356	91.21621621621621	4.57e-122
+PLIDEL_00655	N4264_RS21400	48	236	94.98069498069498	6.65e-76
+PLIDEL_00720	N4264_RS21410	62	253	96.84684684684684	6.9e-84
+
+
+
+>>
+30. NZ_SNZH01000001
+Source: Tahibacter aquaticus strain DSM 21667 Ga0244543_101, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1260.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	DFR29_RS00715	44	154	95.8904109589041	7.4e-45
+PLIDEL_00640	DFR29_RS00725	69	305	92.57641921397381	5.04e-104
+PLIDEL_00650	DFR29_RS00740	60	340	94.5945945945946	6.47e-116
+PLIDEL_00655	DFR29_RS00745	45	214	95.36679536679536	1.72e-67
+PLIDEL_00720	DFR29_RS00755	64	247	87.38738738738738	4.33e-81
+
+
+
+>>
+31. NZ_CP021435
+Source: Halomonas beimenensis strain NTU-111 chromosome, complete genome
+Type: NRPS-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1217.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00625	BEI_RS07915	48	259	95.08670520231213	3.6e-82
+PLIDEL_00630	BEI_RS07910	44	146	90.41095890410958	6.17e-42
+PLIDEL_00635	BEI_RS07905	55	194	84.01639344262296	6.28e-60
+PLIDEL_00635	BEI_RS07930	41	79	59.01639344262295	8.23e-16
+PLIDEL_00640	BEI_RS07900	70	298	90.82969432314411	2.41e-101
+PLIDEL_00770	BEI_RS07955	31	241	85.99695585996956	1.85e-66
+
+
+
+>>
+32. NZ_JYNS01000008
+Source: Methyloterricola oryzae strain 73a EK23DRAFT_scaffold00008.8_C, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1055.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00635	EK23_RS12155	51	204	94.26229508196722	5.08e-64
+PLIDEL_00640	EK23_RS12160	68	279	91.26637554585153	4.82e-94
+PLIDEL_00650	EK23_RS12175	67	363	90.54054054054053	4.48e-125
+PLIDEL_00655	EK23_RS12180	47	209	93.82239382239382	2.31e-65
+
+
+
+>>
+33. NZ_NHSF01000054
+Source: Halochromatium salexigens strain DSM 4395 scaffold0054, whole genome shotgun sequence
+Type: RiPP-like,acyl_amino_acids
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1029.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	CCR82_RS08440	69	300	93.88646288209607	1.13e-101
+PLIDEL_00645	CCR82_RS08435	46	122	100.0	1.18e-34
+PLIDEL_00650	CCR82_RS08425	65	355	91.8918918918919	1.02e-121
+PLIDEL_00655	CCR82_RS08420	52	252	96.13899613899613	8.11e-82
+
+
+
+>>
+34. NZ_NHSH01000054
+Source: Halochromatium roseum strain DSM 18859 scaffold0054, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1015.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CCR96_RS10845	CCR96_RS10845	34907	35833	-	ornithine_carbamoyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	CCR96_RS10880	74	314	92.13973799126637	1.53e-107
+PLIDEL_00645	CCR96_RS10875	50	127	96.26865671641791	1.27e-36
+PLIDEL_00650	CCR96_RS10865	65	349	90.54054054054053	3.27e-119
+PLIDEL_00655	CCR96_RS10860	48	225	95.36679536679536	1.3e-71
+
+
+
+>>
+35. NZ_SMDC01000009
+Source: Marichromatium gracile strain DSM 203 Ga0244650_109, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1002.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	EDC29_RS12835	69	291	93.01310043668121	1.4e-98
+PLIDEL_00645	EDC29_RS12845	47	125	95.52238805970148	1e-35
+PLIDEL_00650	EDC29_RS12855	62	341	91.21621621621621	2.36e-116
+PLIDEL_00655	EDC29_RS12860	53	245	94.5945945945946	2.19e-79
+
+
+
+>>
+36. NZ_CP007031
+Source: Marichromatium purpuratum 984 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 994.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	MARPU_RS10130	69	292	93.01310043668121	4.9e-99
+PLIDEL_00645	MARPU_RS10135	46	123	95.52238805970148	6.82e-35
+PLIDEL_00650	MARPU_RS10145	62	342	91.21621621621621	1.61e-116
+PLIDEL_00655	MARPU_RS10150	51	237	93.82239382239382	3.42e-76
+
+
+
+>>
+37. NZ_FOMJ01000002
+Source: Thiohalospira halophila DSM 15071 strain HL 3, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 989.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00640	BM272_RS05230	68	295	92.57641921397381	4.11e-100
+PLIDEL_00645	BM272_RS05225	56	151	93.28358208955224	3.74e-46
+PLIDEL_00650	BM272_RS05200	64	341	89.1891891891892	3.98e-116
+PLIDEL_00655	BM272_RS05195	46	202	92.27799227799228	1.19e-62
+
+
+
+>>
+38. NC_012968
+Source: Methylotenera mobilis JLW8, complete sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 988.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	MMOL_RS09930	36	132	90.41095890410958	3.83e-36
+PLIDEL_00635	MMOL_RS09935	50	177	81.14754098360656	1.55e-53
+PLIDEL_00640	MMOL_RS09940	65	278	90.82969432314411	1.36e-93
+PLIDEL_00645	MMOL_RS09950	37	101	96.26865671641791	3.12e-26
+PLIDEL_00650	MMOL_RS09970	55	300	94.25675675675676	7.46e-100
+
+
+
+>>
+39. NZ_KB913035
+Source: Methylotenera mobilis 13 A391DRAFT_scaffold1.1, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 965.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00630	A391_RS0103405	37	135	90.8675799086758	1.73e-37
+PLIDEL_00635	A391_RS0103400	48	177	86.0655737704918	1.65e-53
+PLIDEL_00640	A391_RS0103395	64	266	90.82969432314411	7.02e-89
+PLIDEL_00645	A391_RS0103385	36	101	96.26865671641791	2.2e-26
+PLIDEL_00650	A391_RS0103365	53	286	93.91891891891892	1.82e-94
+
+
+
+>>
+40. NZ_LR134301
+Source: Stenotrophomonas maltophilia strain NCTC13014 chromosome 1, complete sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 798.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	EL200_RS09665	59	331	98.98648648648648	4.04e-112
+PLIDEL_00655	EL200_RS09670	43	172	83.01158301158301	6.03e-51
+PLIDEL_00660	EL200_RS09675	37	58	55.8252427184466	1.9e-08
+PLIDEL_00720	EL200_RS09680	64	237	85.58558558558559	7.7e-78
+
+
+
+>>
+41. NZ_CP028358
+Source: Stenotrophomonas maltophilia strain W18 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 796.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	C9J74_RS07430	59	332	98.98648648648648	2.01e-112
+PLIDEL_00655	C9J74_RS07425	43	169	83.01158301158301	9.57e-50
+PLIDEL_00660	C9J74_RS07420	37	58	55.8252427184466	1.9e-08
+PLIDEL_00720	C9J74_RS07415	64	237	85.58558558558559	7.7e-78
+
+
+
+>>
+42. NZ_CP077679
+Source: Stenotrophomonas maltophilia strain Col1 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 795.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	KS456_RS06775	59	333	98.98648648648648	4.96e-113
+PLIDEL_00655	KS456_RS06770	43	167	83.01158301158301	5.38e-49
+PLIDEL_00660	KS456_RS06765	35	57	55.8252427184466	5.03e-08
+PLIDEL_00720	KS456_RS06760	64	238	85.58558558558559	5.43e-78
+
+
+
+>>
+43. NZ_CP040435
+Source: Stenotrophomonas maltophilia strain PEG-42 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 795.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	FEO92_RS07020	59	331	98.98648648648648	2.85e-112
+PLIDEL_00655	FEO92_RS07015	43	169	83.01158301158301	9.57e-50
+PLIDEL_00660	FEO92_RS07010	37	58	55.8252427184466	1.9e-08
+PLIDEL_00720	FEO92_RS07005	64	237	85.58558558558559	7.7e-78
+
+
+
+>>
+44. NZ_CP047310
+Source: Stenotrophomonas maltophilia strain CPBW01 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 794.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	GS396_RS06545	60	334	97.2972972972973	2.47e-113
+PLIDEL_00655	GS396_RS06540	42	165	83.01158301158301	3.02e-48
+PLIDEL_00660	GS396_RS06535	35	57	55.8252427184466	5.03e-08
+PLIDEL_00720	GS396_RS06530	64	238	85.58558558558559	5.43e-78
+
+
+
+>>
+45. NZ_CP060259
+Source: Stenotrophomonas maltophilia strain JZL8 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 794.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	H7F32_RS07095	60	334	97.2972972972973	2.47e-113
+PLIDEL_00655	H7F32_RS07090	42	165	83.01158301158301	3.02e-48
+PLIDEL_00660	H7F32_RS07085	35	57	55.8252427184466	5.03e-08
+PLIDEL_00720	H7F32_RS07080	64	238	85.58558558558559	5.43e-78
+
+
+
+>>
+46. NZ_CP056088
+Source: Stenotrophomonas maltophilia strain Oak Ridge strain 02 chromosome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 794.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	HUZ96_RS09375	59	332	98.98648648648648	2.01e-112
+PLIDEL_00655	HUZ96_RS09380	42	167	83.01158301158301	7.6e-49
+PLIDEL_00660	HUZ96_RS09385	37	58	55.8252427184466	1.9e-08
+PLIDEL_00720	HUZ96_RS09390	64	237	85.58558558558559	7.7e-78
+
+
+
+>>
+47. NZ_OU943334
+Source: Stenotrophomonas maltophilia isolate Stenotrophomonas maltophilia 1800 chromosome STEN1800, complete sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 793.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	LNN95_RS07345	59	333	98.98648648648648	4.96e-113
+PLIDEL_00655	LNN95_RS07340	42	167	83.01158301158301	3.81e-49
+PLIDEL_00660	LNN95_RS07335	34	55	55.8252427184466	1.82e-07
+PLIDEL_00720	LNN95_RS07330	64	238	85.58558558558559	5.43e-78
+
+
+
+>>
+48. NZ_CP040430
+Source: Stenotrophomonas maltophilia strain Sm53 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 793.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	FEO86_RS07635	59	332	98.98648648648648	1.42e-112
+PLIDEL_00655	FEO86_RS07630	42	169	83.01158301158301	1.35e-49
+PLIDEL_00660	FEO86_RS07625	34	54	55.8252427184466	3.47e-07
+PLIDEL_00720	FEO86_RS07620	64	238	85.58558558558559	5.43e-78
+
+
+
+>>
+49. NZ_CP040431
+Source: Stenotrophomonas maltophilia strain sm454 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 793.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	FEO85_RS07475	59	332	98.98648648648648	1.42e-112
+PLIDEL_00655	FEO85_RS07470	42	169	83.01158301158301	1.35e-49
+PLIDEL_00660	FEO85_RS07465	34	54	55.8252427184466	3.47e-07
+PLIDEL_00720	FEO85_RS07460	64	238	85.58558558558559	5.43e-78
+
+
+
+>>
+50. NZ_CP040440
+Source: Stenotrophomonas maltophilia strain ICU331 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 793.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PLIDEL_00650	FEO84_RS07335	59	332	98.98648648648648	1.42e-112
+PLIDEL_00655	FEO84_RS07330	42	169	83.01158301158301	1.35e-49
+PLIDEL_00660	FEO84_RS07325	34	54	55.8252427184466	3.47e-07
+PLIDEL_00720	FEO84_RS07320	64	238	85.58558558558559	5.43e-78
+
