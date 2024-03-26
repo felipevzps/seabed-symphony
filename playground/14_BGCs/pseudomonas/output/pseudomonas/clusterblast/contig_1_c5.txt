@@ -1,0 +1,1394 @@
+ClusterBlast scores for contig_1
+
+Table of genes, locations, strands and annotations of query cluster:
+MFKKBJ_13420	2932067	2932886	-	IclR family transcriptional regulator	
+MFKKBJ_13425	2933126	2934155	+	Iron(III) transport system ATP-binding	
+MFKKBJ_13430	2934151	2934997	+	ABC transmembrane type-1 domain-containing protein	
+MFKKBJ_13435	2935001	2935796	+	ABC-type spermidine/putrescine transport system, permease component II	
+MFKKBJ_13440	2935795	2936086	+	Ferredoxin	
+MFKKBJ_13445	2936082	2937426	+	FAD/NAD(P)-binding oxidoreductase	
+MFKKBJ_13450	2937422	2938520	+	FAD dependent oxidoreductase domain-containing protein	
+MFKKBJ_13455	2938534	2939566	+	ABC transporter substrate-binding protein	
+MFKKBJ_13460	2939566	2940376	-	ammonia-dependent NAD(+) synthetase	
+MFKKBJ_13465	2940377	2941595	-	nicotinate phosphoribosyltransferase	
+MFKKBJ_13470	2941606	2942254	-	Isochorismatase	
+MFKKBJ_13475	2942400	2942877	+	NUDIX hydrolase	
+MFKKBJ_13480	2942860	2943094	+	hypothetical protein	
+
+
+Significant hits: 
+1. NZ_CP078013	Pseudomonas pergaminensis strain 1008 chromosome, complete genome
+2. NZ_CP019856	Pseudomonas azotoformans strain F77 chromosome, complete genome
+3. NZ_LT629702	Pseudomonas azotoformans strain LMG 21611 chromosome I
+4. NZ_CP022960	Pseudomonas sp. NS1(2017) strain NS1 chromosome
+5. NZ_CP063073	Pseudomonas poae strain PMA22 chromosome, complete genome
+6. NZ_CP027762	Pseudomonas sp. LBUM920 chromosome, complete genome
+7. NZ_LT629708	Pseudomonas extremorientalis strain LMG 19695 chromosome I
+8. NZ_CP089519	Pseudomonas extremorientalis strain 1502IPR-01 chromosome, complete genome
+9. NZ_JALJRR010000020	Pseudomonas sp. Pse79 NODE_20_length_116346_cov_25.4955116346, whole genome shotgun sequence
+10. NZ_LACF01000019	Pseudomonas marginalis strain H21 FCC4LTTACXX-wHAIPI007915-133_L5_1_(paired)_contig_19, whole genome shotgun sequence
+11. NZ_CP031450	Pseudomonas fluorescens strain SIK_W1 chromosome, complete genome
+12. NZ_CP018420	Pseudomonas veronii strain R02 chromosome, complete genome
+13. NZ_CP081944	Pseudomonas sp. DR208 chromosome, complete genome
+14. NZ_CP089551	Pseudomonas sp. 7-41 chromosome, complete genome
+15. NZ_CP007637	Pseudomonas simiae strain WCS417 chromosome
+16. NZ_CP089985	Pseudomonas sp. HN11 chromosome, complete genome
+17. NZ_CP005975	Pseudomonas simiae strain PICF7 chromosome, complete genome
+18. NZ_CP093333	Pseudomonas simiae strain H4-B59 chromosome, complete genome
+19. NZ_CABVHV010000001	Pseudomonas fluorescens isolate PS706, whole genome shotgun sequence
+20. NZ_JAEIKT010000033	Pseudomonas simiae strain S3_5B YA0729_33, whole genome shotgun sequence
+21. NZ_JRMC01000007	Pseudomonas simiae strain 2-36 scaffold6.1, whole genome shotgun sequence
+22. NZ_CP010896	Pseudomonas simiae strain PCL1751 chromosome, complete genome
+23. NZ_CABVHS010000005	Pseudomonas fluorescens isolate PS708, whole genome shotgun sequence
+24. NZ_CP027760	Pseudomonas sp. R4-34-07 chromosome, complete genome
+25. NZ_QODI01000012	Pseudomonas sp. Q1 PROKKA_12, whole genome shotgun sequence
+26. NZ_CP092411	Pseudomonas palleroniana strain Q1 chromosome, complete genome
+27. NZ_CP027733	Pseudomonas sp. R4-39-08 chromosome, complete genome
+28. NZ_CP087111	Pseudomonas palleroniana strain X49 chromosome, complete genome
+29. NZ_CP112866	Pseudomonas sp. S1Bt42 chromosome
+30. NZ_CP087170	Pseudomonas rhodesiae strain B21-046 chromosome, complete genome
+31. NZ_CP025494	Pseudomonas palleroniana strain MAB3 chromosome
+32. NZ_CP027727	Pseudomonas sp. R5-89-07 chromosome, complete genome
+33. NZ_CP027755	Pseudomonas synxantha strain 2-79 chromosome, complete genome
+34. NZ_LT629699	Pseudomonas libanensis strain DSM 17149 chromosome I
+35. NZ_LT629801	Pseudomonas rhodesiae strain LMG 17764 chromosome I
+36. NZ_CP027732	Pseudomonas sp. R4-35-07 chromosome, complete genome
+37. NZ_CP070981	Pseudomonas rhodesiae strain DLA23 chromosome, complete genome
+38. NZ_CP070980	Pseudomonas rhodesiae strain AAMF24 chromosome, complete genome
+39. NZ_CP054205	Pseudomonas rhodesiae strain NL2019 chromosome, complete genome
+40. NZ_CM001025	Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+41. NZ_CP027728	Pseudomonas sp. R2-37-08W chromosome, complete genome
+42. NZ_CP041189	Pseudomonas sp. NIBRBAC000502773 chromosome, complete genome
+43. NZ_CP027729	Pseudomonas sp. R3-18-08 chromosome, complete genome
+44. NZ_CP027731	Pseudomonas sp. R2-60-08W chromosome, complete genome
+45. NZ_CP027761	Pseudomonas sp. R11-23-07 chromosome, complete genome
+46. NZ_CP027734	Pseudomonas sp. R1-43-08 chromosome, complete genome
+47. NZ_CP027759	Pseudomonas sp. R2-7-07 chromosome, complete genome
+48. NZ_JACAPL010000011	Pseudomonas sp. D2002 run0228_D2002_S37_L005_contig_11, whole genome shotgun sequence
+49. NZ_AP025169	Pseudomonas sp. CYM-20-01 chromosome, complete genome
+50. NZ_CP015637	Pseudomonas fluorescens strain L321 chromosome, complete genome
+
+
+Details:
+
+>>
+1. NZ_CP078013
+Source: Pseudomonas pergaminensis strain 1008 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6527.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+KUA23_RS11500	KUA23_RS11500	2472120	2472959	-	ABC_transporter_permease
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	KUA23_RS11510	94	494	101.47058823529412	2.84e-177
+MFKKBJ_13425	KUA23_RS11505	92	616	99.41520467836257	2.65e-223
+MFKKBJ_13430	KUA23_RS11500	98	512	99.644128113879	3.24e-184
+MFKKBJ_13435	KUA23_RS11495	98	473	100.0	3.2e-169
+MFKKBJ_13440	KUA23_RS11490	97	190	98.95833333333334	1.18e-62
+MFKKBJ_13445	KUA23_RS11485	90	815	100.0	1.52e-298
+MFKKBJ_13450	KUA23_RS11480	93	684	100.0	1.67e-249
+MFKKBJ_13455	KUA23_RS11475	97	651	100.0	3.88e-237
+MFKKBJ_13460	KUA23_RS11470	89	460	100.0	5e-164
+MFKKBJ_13465	KUA23_RS11465	95	789	100.0	1.88e-289
+MFKKBJ_13470	KUA23_RS11460	93	412	100.0	6.4e-147
+MFKKBJ_13475	KUA23_RS11455	89	281	95.56962025316456	6.85e-96
+MFKKBJ_13480	KUA23_RS11455	97	150	100.0	1.1e-45
+
+
+
+>>
+2. NZ_CP019856
+Source: Pseudomonas azotoformans strain F77 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6525.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	B1R45_RS11475	94	495	101.47058823529412	1.41e-177
+MFKKBJ_13425	B1R45_RS11470	93	617	99.41520467836257	9.24e-224
+MFKKBJ_13430	B1R45_RS11465	97	512	100.0	4.78e-184
+MFKKBJ_13435	B1R45_RS11460	98	473	100.0	3.2e-169
+MFKKBJ_13440	B1R45_RS11455	97	190	98.95833333333334	1.18e-62
+MFKKBJ_13445	B1R45_RS11450	90	815	100.0	2.16e-298
+MFKKBJ_13450	B1R45_RS11445	93	683	100.0	4.8e-249
+MFKKBJ_13455	B1R45_RS11440	97	651	100.0	3.88e-237
+MFKKBJ_13460	B1R45_RS11435	89	461	100.0	1.75e-164
+MFKKBJ_13465	B1R45_RS11430	95	788	100.0	2.67e-289
+MFKKBJ_13470	B1R45_RS11425	92	409	100.0	1.51e-145
+MFKKBJ_13475	B1R45_RS11420	89	281	95.56962025316456	6.85e-96
+MFKKBJ_13480	B1R45_RS11420	97	150	100.0	1.1e-45
+
+
+
+>>
+3. NZ_LT629702
+Source: Pseudomonas azotoformans strain LMG 21611 chromosome I
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6513.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BLR69_RS03200	BLR69_RS03200	694358	702022	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	BLR69_RS03140	95	503	101.47058823529412	6.24e-181
+MFKKBJ_13425	BLR69_RS03135	93	622	100.0	9.66e-226
+MFKKBJ_13430	BLR69_RS03130	99	518	100.0	1.74e-186
+MFKKBJ_13435	BLR69_RS03125	99	476	100.0	2.74e-170
+MFKKBJ_13440	BLR69_RS03120	91	180	98.95833333333334	1.1e-58
+MFKKBJ_13445	BLR69_RS03115	88	805	100.0	1.97e-294
+MFKKBJ_13450	BLR69_RS03110	93	682	100.0	9.68e-249
+MFKKBJ_13455	BLR69_RS03105	97	651	100.0	5.51e-237
+MFKKBJ_13460	BLR69_RS03100	90	468	100.0	6.37e-167
+MFKKBJ_13465	BLR69_RS03095	94	783	100.0	2.56e-287
+MFKKBJ_13470	BLR69_RS03090	91	409	100.0	2.14e-145
+MFKKBJ_13475	BLR69_RS03085	86	270	95.56962025316456	2.52e-91
+MFKKBJ_13480	BLR69_RS03085	94	146	100.0	7.21e-44
+
+
+
+>>
+4. NZ_CP022960
+Source: Pseudomonas sp. NS1(2017) strain NS1 chromosome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6509.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	CI807_RS19105	95	503	101.47058823529412	8.86e-181
+MFKKBJ_13425	CI807_RS19100	94	630	100.0	8.65e-229
+MFKKBJ_13430	CI807_RS19095	97	512	100.0	4.78e-184
+MFKKBJ_13435	CI807_RS19090	99	479	100.0	8.2e-172
+MFKKBJ_13440	CI807_RS19085	93	182	98.95833333333334	1.89e-59
+MFKKBJ_13445	CI807_RS19080	90	812	100.0	3.57e-297
+MFKKBJ_13450	CI807_RS19075	92	672	100.0	1.79e-244
+MFKKBJ_13455	CI807_RS19070	96	647	100.0	1.3e-235
+MFKKBJ_13460	CI807_RS19065	89	460	100.0	7.1e-164
+MFKKBJ_13465	CI807_RS19060	94	779	100.0	1.73e-285
+MFKKBJ_13470	CI807_RS19055	93	417	100.0	6.68e-149
+MFKKBJ_13475	CI807_RS19050	91	281	95.56962025316456	1.38e-95
+MFKKBJ_13480	CI807_RS19050	88	135	100.0	8.66e-40
+
+
+
+>>
+5. NZ_CP063073
+Source: Pseudomonas poae strain PMA22 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6502.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	IMF22_RS07525	95	503	101.47058823529412	1.26e-180
+MFKKBJ_13425	IMF22_RS07520	93	624	100.0	1.67e-226
+MFKKBJ_13430	IMF22_RS07515	97	508	100.0	1.12e-182
+MFKKBJ_13435	IMF22_RS07510	98	474	100.0	1.59e-169
+MFKKBJ_13440	IMF22_RS07505	97	191	100.0	2.9e-63
+MFKKBJ_13445	IMF22_RS07500	86	769	100.0	2.9e-280
+MFKKBJ_13450	IMF22_RS07495	94	693	100.0	7.43e-253
+MFKKBJ_13455	IMF22_RS07490	95	646	100.0	3.71e-235
+MFKKBJ_13460	IMF22_RS07485	90	467	99.62825278810409	1.24e-166
+MFKKBJ_13465	IMF22_RS07480	96	785	99.01234567901234	5.77e-288
+MFKKBJ_13470	IMF22_RS07475	94	419	100.0	1.64e-149
+MFKKBJ_13475	IMF22_RS07470	88	275	95.56962025316456	2.65e-93
+MFKKBJ_13480	IMF22_RS07470	94	148	100.0	1.26e-44
+
+
+
+>>
+6. NZ_CP027762
+Source: Pseudomonas sp. LBUM920 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6491.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+C4J83_RS17215	C4J83_RS17215	3691670	3693906	+	TonB-dependent_siderophore_receptor
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J83_RS17425	94	497	101.47058823529412	1.71e-178
+MFKKBJ_13425	C4J83_RS17430	93	624	100.0	1.67e-226
+MFKKBJ_13430	C4J83_RS17435	97	509	100.0	5.57e-183
+MFKKBJ_13435	C4J83_RS17440	98	473	100.0	4.54e-169
+MFKKBJ_13440	C4J83_RS17445	95	188	100.0	4.83e-62
+MFKKBJ_13445	C4J83_RS17450	86	763	100.0	7.94e-278
+MFKKBJ_13450	C4J83_RS17455	93	685	100.0	8.3e-250
+MFKKBJ_13455	C4J83_RS17460	96	648	100.0	6.43e-236
+MFKKBJ_13460	C4J83_RS17465	91	469	99.25650557620817	1.14e-167
+MFKKBJ_13465	C4J83_RS17470	96	788	99.01234567901234	4.95e-289
+MFKKBJ_13470	C4J83_RS17475	92	410	100.0	3.71e-146
+MFKKBJ_13475	C4J83_RS17480	93	291	95.56962025316456	1.52e-99
+MFKKBJ_13480	C4J83_RS17480	94	146	100.0	5.09e-44
+
+
+
+>>
+7. NZ_LT629708
+Source: Pseudomonas extremorientalis strain LMG 19695 chromosome I
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6470.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BLT33_RS28810	BLT33_RS28810	6282721	6290385	+	amino_acid_adenylation_domain-containing_protein
+BLT33_RS28890	BLT33_RS28890	6345821	6346956	+	IS3_family_transposase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	BLT33_RS28770	95	497	101.10294117647058	2.43e-178
+MFKKBJ_13425	BLT33_RS28765	94	626	100.0	4.11e-227
+MFKKBJ_13430	BLT33_RS28760	98	511	100.0	1.37e-183
+MFKKBJ_13435	BLT33_RS28755	98	473	100.0	2.25e-169
+MFKKBJ_13440	BLT33_RS28750	92	181	98.95833333333334	2.69e-59
+MFKKBJ_13445	BLT33_RS28745	86	783	100.0	6.71e-286
+MFKKBJ_13450	BLT33_RS28740	93	679	100.0	2.28e-247
+MFKKBJ_13455	BLT33_RS28735	97	653	100.0	9.53e-238
+MFKKBJ_13460	BLT33_RS28730	88	459	100.0	1.01e-163
+MFKKBJ_13465	BLT33_RS28725	94	784	100.0	1.8e-287
+MFKKBJ_13470	BLT33_RS28720	92	411	100.0	1.84e-146
+MFKKBJ_13475	BLT33_RS28715	85	266	95.56962025316456	1.19e-89
+MFKKBJ_13480	BLT33_RS28715	95	147	100.0	3.59e-44
+
+
+
+>>
+8. NZ_CP089519
+Source: Pseudomonas extremorientalis strain 1502IPR-01 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6469.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LUU92_RS11870	LUU92_RS11870	2619339	2627003	+	amino_acid_adenylation_domain-containing_protein
+LUU92_RS11875	LUU92_RS11875	2627131	2633268	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	LUU92_RS11835	95	497	101.10294117647058	2.43e-178
+MFKKBJ_13425	LUU92_RS11830	93	624	100.0	3.37e-226
+MFKKBJ_13430	LUU92_RS11825	98	514	100.0	4.09e-185
+MFKKBJ_13435	LUU92_RS11820	98	473	100.0	2.25e-169
+MFKKBJ_13440	LUU92_RS11815	92	181	98.95833333333334	2.69e-59
+MFKKBJ_13445	LUU92_RS11810	86	787	100.0	2.86e-287
+MFKKBJ_13450	LUU92_RS11805	93	680	100.0	7.94e-248
+MFKKBJ_13455	LUU92_RS11800	96	647	100.0	2.62e-235
+MFKKBJ_13460	LUU92_RS11795	88	459	100.0	1.01e-163
+MFKKBJ_13465	LUU92_RS11790	94	784	100.0	1.8e-287
+MFKKBJ_13470	LUU92_RS11785	92	409	100.0	1.06e-145
+MFKKBJ_13475	LUU92_RS11780	86	267	95.56962025316456	4.16e-90
+MFKKBJ_13480	LUU92_RS11780	95	147	100.0	3.59e-44
+
+
+
+>>
+9. NZ_JALJRR010000020
+Source: Pseudomonas sp. Pse79 NODE_20_length_116346_cov_25.4955116346, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6468.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	NR164_RS22655	95	503	101.47058823529412	1.26e-180
+MFKKBJ_13425	NR164_RS22650	92	610	99.41520467836257	5.11e-221
+MFKKBJ_13430	NR164_RS22645	98	514	100.0	8.26e-185
+MFKKBJ_13435	NR164_RS22640	97	470	100.0	3.73e-168
+MFKKBJ_13440	NR164_RS22635	95	186	98.95833333333334	3.97e-61
+MFKKBJ_13445	NR164_RS22630	87	792	100.0	2.99e-289
+MFKKBJ_13450	NR164_RS22625	93	680	100.0	7.94e-248
+MFKKBJ_13455	NR164_RS22620	96	649	100.0	4.52e-236
+MFKKBJ_13460	NR164_RS22615	89	455	99.25650557620817	5.14e-162
+MFKKBJ_13465	NR164_RS22610	95	790	100.0	6.56e-290
+MFKKBJ_13470	NR164_RS22605	90	398	100.0	2.8e-141
+MFKKBJ_13475	NR164_RS22600	90	281	95.56962025316456	6.85e-96
+MFKKBJ_13480	NR164_RS22600	90	140	100.0	9.42e-42
+
+
+
+>>
+10. NZ_LACF01000019
+Source: Pseudomonas marginalis strain H21 FCC4LTTACXX-wHAIPI007915-133_L5_1_(paired)_contig_19, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6467.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	VC37_RS14960	95	500	101.47058823529412	1.47e-179
+MFKKBJ_13425	VC37_RS14965	93	620	99.41520467836257	5.58e-225
+MFKKBJ_13430	VC37_RS14970	97	511	100.0	9.63e-184
+MFKKBJ_13435	VC37_RS14975	99	475	100.0	3.89e-170
+MFKKBJ_13440	VC37_RS14980	92	182	98.95833333333334	1.33e-59
+MFKKBJ_13445	VC37_RS14985	87	780	99.77628635346755	2.24e-284
+MFKKBJ_13450	VC37_RS14990	93	678	100.0	4.59e-247
+MFKKBJ_13455	VC37_RS14995	96	644	100.0	2.15e-234
+MFKKBJ_13460	VC37_RS15000	87	454	100.0	9.65e-162
+MFKKBJ_13465	VC37_RS15005	95	791	100.0	2.29e-290
+MFKKBJ_13470	VC37_RS15010	92	412	100.0	6.4e-147
+MFKKBJ_13475	VC37_RS15015	87	273	95.56962025316456	1.08e-92
+MFKKBJ_13480	VC37_RS15015	94	147	100.0	3.59e-44
+
+
+
+>>
+11. NZ_CP031450
+Source: Pseudomonas fluorescens strain SIK_W1 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6463.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	DXV65_RS12005	95	503	101.47058823529412	8.86e-181
+MFKKBJ_13425	DXV65_RS12000	94	627	100.0	1.01e-227
+MFKKBJ_13430	DXV65_RS11995	96	508	100.0	1.12e-182
+MFKKBJ_13435	DXV65_RS11990	99	475	100.0	3.89e-170
+MFKKBJ_13440	DXV65_RS11985	94	184	98.95833333333334	1.62e-60
+MFKKBJ_13445	DXV65_RS11980	88	796	100.0	6.3e-291
+MFKKBJ_13450	DXV65_RS11975	91	667	100.0	8.49e-243
+MFKKBJ_13455	DXV65_RS11970	95	642	100.0	1.24e-233
+MFKKBJ_13460	DXV65_RS11965	89	456	99.25650557620817	2.55e-162
+MFKKBJ_13465	DXV65_RS11960	95	781	99.01234567901234	1.93e-286
+MFKKBJ_13470	DXV65_RS11955	92	411	100.0	2.61e-146
+MFKKBJ_13475	DXV65_RS11950	87	271	95.56962025316456	6.21e-92
+MFKKBJ_13480	DXV65_RS11950	91	142	100.0	2.34e-42
+
+
+
+>>
+12. NZ_CP018420
+Source: Pseudomonas veronii strain R02 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6462.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	PverR02_RS13405	95	503	101.47058823529412	1.26e-180
+MFKKBJ_13425	PverR02_RS13400	92	614	99.41520467836257	1.53e-222
+MFKKBJ_13430	PverR02_RS13395	98	514	100.0	8.26e-185
+MFKKBJ_13435	PverR02_RS13390	97	469	100.0	7.52e-168
+MFKKBJ_13440	PverR02_RS13385	95	186	98.95833333333334	3.97e-61
+MFKKBJ_13445	PverR02_RS13380	87	794	100.0	5.17e-290
+MFKKBJ_13450	PverR02_RS13375	92	675	100.0	7.61e-246
+MFKKBJ_13455	PverR02_RS13370	96	649	100.0	4.52e-236
+MFKKBJ_13460	PverR02_RS13365	89	454	99.25650557620817	2.09e-161
+MFKKBJ_13465	PverR02_RS13360	95	788	100.0	2.67e-289
+MFKKBJ_13470	PverR02_RS13355	90	398	100.0	2.8e-141
+MFKKBJ_13475	PverR02_RS13350	90	281	95.56962025316456	6.85e-96
+MFKKBJ_13480	PverR02_RS13350	88	137	100.0	1.52e-40
+
+
+
+>>
+13. NZ_CP081944
+Source: Pseudomonas sp. DR208 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6457.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	K5K89_RS18180	94	495	101.10294117647058	9.9e-178
+MFKKBJ_13425	K5K89_RS18185	94	626	100.0	4.11e-227
+MFKKBJ_13430	K5K89_RS18190	99	488	94.66192170818505	7.75e-175
+MFKKBJ_13435	K5K89_RS18195	98	473	100.0	2.25e-169
+MFKKBJ_13440	K5K89_RS18200	93	183	98.95833333333334	4.65e-60
+MFKKBJ_13445	K5K89_RS18205	87	795	100.0	1.81e-290
+MFKKBJ_13450	K5K89_RS18210	93	680	100.0	7.94e-248
+MFKKBJ_13455	K5K89_RS18215	97	653	100.0	9.53e-238
+MFKKBJ_13460	K5K89_RS18220	88	456	100.0	1.67e-162
+MFKKBJ_13465	K5K89_RS18225	94	784	100.0	1.8e-287
+MFKKBJ_13470	K5K89_RS18230	92	411	100.0	1.84e-146
+MFKKBJ_13475	K5K89_RS18235	85	266	95.56962025316456	1.19e-89
+MFKKBJ_13480	K5K89_RS18235	95	147	100.0	3.59e-44
+
+
+
+>>
+14. NZ_CP089551
+Source: Pseudomonas sp. 7-41 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6449.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	LQ249_RS13115	95	503	101.47058823529412	1.26e-180
+MFKKBJ_13425	LQ249_RS13110	92	613	99.41520467836257	6.23e-222
+MFKKBJ_13430	LQ249_RS13105	98	514	100.0	8.26e-185
+MFKKBJ_13435	LQ249_RS13100	97	467	100.0	8.77e-167
+MFKKBJ_13440	LQ249_RS13095	95	186	98.95833333333334	3.97e-61
+MFKKBJ_13445	LQ249_RS13090	86	775	100.0	1.51e-282
+MFKKBJ_13450	LQ249_RS13085	93	682	100.0	1.95e-248
+MFKKBJ_13455	LQ249_RS13080	96	649	100.0	4.52e-236
+MFKKBJ_13460	LQ249_RS13075	88	450	99.25650557620817	4.91e-160
+MFKKBJ_13465	LQ249_RS13070	96	791	100.0	1.61e-290
+MFKKBJ_13470	LQ249_RS13065	90	398	100.0	2.8e-141
+MFKKBJ_13475	LQ249_RS13060	90	281	95.56962025316456	9.73e-96
+MFKKBJ_13480	LQ249_RS13060	90	140	100.0	9.42e-42
+
+
+
+>>
+15. NZ_CP007637
+Source: Pseudomonas simiae strain WCS417 chromosome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6441.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	PS417_RS16435	94	497	101.47058823529412	2.43e-178
+MFKKBJ_13425	PS417_RS16440	94	627	100.0	1.01e-227
+MFKKBJ_13430	PS417_RS16445	97	510	100.0	1.94e-183
+MFKKBJ_13435	PS417_RS16450	98	471	100.0	1.3e-168
+MFKKBJ_13440	PS417_RS16455	95	186	98.95833333333334	2.8e-61
+MFKKBJ_13445	PS417_RS16460	83	742	99.77628635346755	1.33e-269
+MFKKBJ_13450	PS417_RS16465	92	676	100.0	2.65e-246
+MFKKBJ_13455	PS417_RS16470	96	647	100.0	1.84e-235
+MFKKBJ_13460	PS417_RS16475	90	461	100.0	2.48e-164
+MFKKBJ_13465	PS417_RS16480	95	790	100.0	9.32e-290
+MFKKBJ_13470	PS417_RS16485	93	414	100.0	1.11e-147
+MFKKBJ_13475	PS417_RS16490	87	273	95.56962025316456	1.53e-92
+MFKKBJ_13480	PS417_RS16490	95	147	100.0	1.79e-44
+
+
+
+>>
+16. NZ_CP089985
+Source: Pseudomonas sp. HN11 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6441.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LVW35_RS11325	LVW35_RS11325	2465437	2466812	-	IS3_family_transposase
+LVW35_RS11400	LVW35_RS11400	2506820	2507763	-	D-isomer_specific_2-hydroxyacid_dehydrogenase_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	LVW35_RS11270	94	494	101.47058823529412	2e-177
+MFKKBJ_13425	LVW35_RS11265	94	628	100.0	5e-228
+MFKKBJ_13430	LVW35_RS11260	96	507	100.0	3.22e-182
+MFKKBJ_13435	LVW35_RS11255	99	476	100.0	1.93e-170
+MFKKBJ_13440	LVW35_RS11250	94	184	98.95833333333334	2.3e-60
+MFKKBJ_13445	LVW35_RS11245	87	782	100.0	1.92e-285
+MFKKBJ_13450	LVW35_RS11240	91	667	100.0	1.21e-242
+MFKKBJ_13455	LVW35_RS11235	96	650	100.0	1.58e-236
+MFKKBJ_13460	LVW35_RS11230	87	440	100.0	4.18e-156
+MFKKBJ_13465	LVW35_RS11225	95	788	100.0	2.67e-289
+MFKKBJ_13470	LVW35_RS11220	90	405	100.0	3.55e-144
+MFKKBJ_13475	LVW35_RS11215	89	278	95.56962025316456	1.13e-94
+MFKKBJ_13480	LVW35_RS11215	92	142	100.0	3.32e-42
+
+
+
+>>
+17. NZ_CP005975
+Source: Pseudomonas simiae strain PICF7 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6437.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	PFLUOLIPICF7_RS25480	94	497	101.47058823529412	2.43e-178
+MFKKBJ_13425	PFLUOLIPICF7_RS25485	94	627	100.0	1.43e-227
+MFKKBJ_13430	PFLUOLIPICF7_RS25490	97	510	100.0	1.94e-183
+MFKKBJ_13435	PFLUOLIPICF7_RS25495	98	471	100.0	1.3e-168
+MFKKBJ_13440	PFLUOLIPICF7_RS25500	95	186	98.95833333333334	2.8e-61
+MFKKBJ_13445	PFLUOLIPICF7_RS25505	83	744	100.0	1.62e-270
+MFKKBJ_13450	PFLUOLIPICF7_RS25510	92	676	100.0	2.65e-246
+MFKKBJ_13455	PFLUOLIPICF7_RS25515	95	645	100.0	7.49e-235
+MFKKBJ_13460	PFLUOLIPICF7_RS25520	90	461	100.0	2.48e-164
+MFKKBJ_13465	PFLUOLIPICF7_RS25525	95	786	100.0	1.55e-288
+MFKKBJ_13470	PFLUOLIPICF7_RS25530	93	414	100.0	1.11e-147
+MFKKBJ_13475	PFLUOLIPICF7_RS25535	87	273	95.56962025316456	1.53e-92
+MFKKBJ_13480	PFLUOLIPICF7_RS25535	95	147	100.0	1.79e-44
+
+
+
+>>
+18. NZ_CP093333
+Source: Pseudomonas simiae strain H4-B59 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6437.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	MNO08_RS11390	94	497	101.47058823529412	2.43e-178
+MFKKBJ_13425	MNO08_RS11385	94	625	100.0	5.83e-227
+MFKKBJ_13430	MNO08_RS11380	96	509	100.0	7.91e-183
+MFKKBJ_13435	MNO08_RS11375	98	471	100.0	1.3e-168
+MFKKBJ_13440	MNO08_RS11370	95	186	98.95833333333334	2.8e-61
+MFKKBJ_13445	MNO08_RS11365	83	744	100.0	1.62e-270
+MFKKBJ_13450	MNO08_RS11360	92	676	100.0	2.65e-246
+MFKKBJ_13455	MNO08_RS11355	96	647	100.0	1.84e-235
+MFKKBJ_13460	MNO08_RS11350	90	459	99.62825278810409	1.43e-163
+MFKKBJ_13465	MNO08_RS11345	95	790	100.0	9.32e-290
+MFKKBJ_13470	MNO08_RS11340	93	414	100.0	1.11e-147
+MFKKBJ_13475	MNO08_RS11335	87	272	95.56962025316456	3.08e-92
+MFKKBJ_13480	MNO08_RS11335	95	147	100.0	1.79e-44
+
+
+
+>>
+19. NZ_CABVHV010000001
+Source: Pseudomonas fluorescens isolate PS706, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6435.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	F8N57_RS07045	94	497	101.47058823529412	2.43e-178
+MFKKBJ_13425	F8N57_RS07050	94	627	100.0	1.43e-227
+MFKKBJ_13430	F8N57_RS07055	96	509	100.0	7.91e-183
+MFKKBJ_13435	F8N57_RS07060	98	471	100.0	1.3e-168
+MFKKBJ_13440	F8N57_RS07065	95	186	98.95833333333334	2.8e-61
+MFKKBJ_13445	F8N57_RS07070	83	742	99.77628635346755	1.33e-269
+MFKKBJ_13450	F8N57_RS07075	92	676	100.0	5.36e-246
+MFKKBJ_13455	F8N57_RS07080	96	647	100.0	1.84e-235
+MFKKBJ_13460	F8N57_RS07085	89	459	100.0	1.01e-163
+MFKKBJ_13465	F8N57_RS07090	95	790	100.0	6.56e-290
+MFKKBJ_13470	F8N57_RS07095	93	414	100.0	1.11e-147
+MFKKBJ_13475	F8N57_RS07100	87	270	95.56962025316456	3.58e-91
+MFKKBJ_13480	F8N57_RS07100	95	147	100.0	1.79e-44
+
+
+
+>>
+20. NZ_JAEIKT010000033
+Source: Pseudomonas simiae strain S3_5B YA0729_33, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6435.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	YA0729_RS16585	94	497	101.47058823529412	2.43e-178
+MFKKBJ_13425	YA0729_RS16590	94	624	100.0	2.37e-226
+MFKKBJ_13430	YA0729_RS16595	96	509	100.0	7.91e-183
+MFKKBJ_13435	YA0729_RS16600	98	471	100.0	1.3e-168
+MFKKBJ_13440	YA0729_RS16605	95	186	98.95833333333334	2.8e-61
+MFKKBJ_13445	YA0729_RS16610	83	738	99.77628635346755	8.94e-268
+MFKKBJ_13450	YA0729_RS16615	92	676	100.0	2.65e-246
+MFKKBJ_13455	YA0729_RS16620	96	647	100.0	1.84e-235
+MFKKBJ_13460	YA0729_RS16625	90	461	100.0	2.48e-164
+MFKKBJ_13465	YA0729_RS16630	95	790	100.0	9.32e-290
+MFKKBJ_13470	YA0729_RS16635	94	417	100.0	1.35e-148
+MFKKBJ_13475	YA0729_RS16640	87	272	95.56962025316456	3.08e-92
+MFKKBJ_13480	YA0729_RS16640	95	147	100.0	1.79e-44
+
+
+
+>>
+21. NZ_JRMC01000007
+Source: Pseudomonas simiae strain 2-36 scaffold6.1, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6432.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	LS88_RS17465	94	497	101.47058823529412	2.43e-178
+MFKKBJ_13425	LS88_RS17470	94	627	100.0	1.43e-227
+MFKKBJ_13430	LS88_RS17475	96	509	100.0	7.91e-183
+MFKKBJ_13435	LS88_RS17480	98	471	100.0	1.3e-168
+MFKKBJ_13440	LS88_RS17485	95	186	98.95833333333334	2.8e-61
+MFKKBJ_13445	LS88_RS17490	83	743	100.0	6.6e-270
+MFKKBJ_13450	LS88_RS17495	92	674	100.0	1.53e-245
+MFKKBJ_13455	LS88_RS17500	95	642	100.87463556851313	2.8e-233
+MFKKBJ_13460	LS88_RS17505	89	459	100.0	1.01e-163
+MFKKBJ_13465	LS88_RS17510	95	790	100.0	9.32e-290
+MFKKBJ_13470	LS88_RS17515	93	414	100.0	1.11e-147
+MFKKBJ_13475	LS88_RS17520	87	273	95.56962025316456	1.53e-92
+MFKKBJ_13480	LS88_RS17520	95	147	100.0	1.79e-44
+
+
+
+>>
+22. NZ_CP010896
+Source: Pseudomonas simiae strain PCL1751 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6424.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	PF1751_RS11030	94	495	101.47058823529412	9.9e-178
+MFKKBJ_13425	PF1751_RS11025	94	627	100.0	1.01e-227
+MFKKBJ_13430	PF1751_RS11020	96	509	100.0	7.91e-183
+MFKKBJ_13435	PF1751_RS11015	98	471	100.0	1.3e-168
+MFKKBJ_13440	PF1751_RS11010	94	183	98.95833333333334	6.6e-60
+MFKKBJ_13445	PF1751_RS11005	83	742	99.77628635346755	1.33e-269
+MFKKBJ_13450	PF1751_RS11000	92	674	100.0	1.53e-245
+MFKKBJ_13455	PF1751_RS10995	95	642	100.87463556851313	2.8e-233
+MFKKBJ_13460	PF1751_RS10990	89	459	100.0	1.01e-163
+MFKKBJ_13465	PF1751_RS10985	95	789	100.0	1.88e-289
+MFKKBJ_13470	PF1751_RS10980	93	414	100.0	1.57e-147
+MFKKBJ_13475	PF1751_RS10975	87	272	95.56962025316456	3.08e-92
+MFKKBJ_13480	PF1751_RS10975	95	147	100.0	1.79e-44
+
+
+
+>>
+23. NZ_CABVHS010000005
+Source: Pseudomonas fluorescens isolate PS708, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6421.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	F8N59_RS09775	94	495	101.47058823529412	9.9e-178
+MFKKBJ_13425	F8N59_RS09770	94	627	100.0	1.01e-227
+MFKKBJ_13430	F8N59_RS09765	96	509	100.0	7.91e-183
+MFKKBJ_13435	F8N59_RS09760	98	471	100.0	1.3e-168
+MFKKBJ_13440	F8N59_RS09755	94	183	98.95833333333334	6.6e-60
+MFKKBJ_13445	F8N59_RS09750	83	742	99.77628635346755	1.33e-269
+MFKKBJ_13450	F8N59_RS09745	92	674	100.0	1.53e-245
+MFKKBJ_13455	F8N59_RS09740	95	639	100.87463556851313	2.3e-232
+MFKKBJ_13460	F8N59_RS09735	89	459	100.0	1.01e-163
+MFKKBJ_13465	F8N59_RS09730	95	789	100.0	1.88e-289
+MFKKBJ_13470	F8N59_RS09725	93	414	100.0	1.57e-147
+MFKKBJ_13475	F8N59_RS09720	87	272	95.56962025316456	3.08e-92
+MFKKBJ_13480	F8N59_RS09720	95	147	100.0	1.79e-44
+
+
+
+>>
+24. NZ_CP027760
+Source: Pseudomonas sp. R4-34-07 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J85_RS11630	95	499	101.10294117647058	4.36e-179
+MFKKBJ_13425	C4J85_RS11625	93	620	99.41520467836257	5.58e-225
+MFKKBJ_13430	C4J85_RS11620	98	516	100.0	1.43e-185
+MFKKBJ_13435	C4J85_RS11615	97	471	100.0	1.85e-168
+MFKKBJ_13440	C4J85_RS11610	94	187	100.0	1.97e-61
+MFKKBJ_13445	C4J85_RS11605	86	765	100.0	9.68e-279
+MFKKBJ_13450	C4J85_RS11600	90	661	100.0	3.31e-240
+MFKKBJ_13455	C4J85_RS11595	94	635	100.0	9.76e-231
+MFKKBJ_13460	C4J85_RS11590	84	435	100.0	6.09e-154
+MFKKBJ_13465	C4J85_RS11585	94	778	99.75308641975309	3.48e-285
+MFKKBJ_13470	C4J85_RS11580	89	402	100.0	1.19e-142
+MFKKBJ_13475	C4J85_RS11575	93	291	95.56962025316456	1.52e-99
+MFKKBJ_13480	C4J85_RS11575	94	142	100.0	2.34e-42
+
+
+
+>>
+25. NZ_QODI01000012
+Source: Pseudomonas sp. Q1 PROKKA_12, whole genome shotgun sequence
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+DK870_RS19390	DK870_RS19390	16805	20182	-	ATP-binding_protein
+DK870_RS19565	DK870_RS19565	83204	84537	-	LLM_class_flavin-dependent_oxidoreductase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	DK870_RS19380	95	495	100.73529411764706	1.06e-177
+MFKKBJ_13425	DK870_RS19375	90	596	99.41520467836257	2.22e-215
+MFKKBJ_13430	DK870_RS19370	96	508	100.0	1.6e-182
+MFKKBJ_13435	DK870_RS19365	98	472	100.0	6.45e-169
+MFKKBJ_13440	DK870_RS19360	94	187	100.0	1.97e-61
+MFKKBJ_13445	DK870_RS19355	84	760	100.0	1.31e-276
+MFKKBJ_13450	DK870_RS19350	92	675	100.0	7.61e-246
+MFKKBJ_13455	DK870_RS19345	95	642	100.0	2.5e-233
+MFKKBJ_13460	DK870_RS19340	88	459	99.62825278810409	2.19e-163
+MFKKBJ_13465	DK870_RS19335	95	782	100.0	7.34e-287
+MFKKBJ_13470	DK870_RS19330	94	411	100.0	1.84e-146
+MFKKBJ_13475	DK870_RS19325	88	273	95.56962025316456	1.08e-92
+MFKKBJ_13480	DK870_RS19325	90	142	100.0	3.32e-42
+
+
+
+>>
+26. NZ_CP092411
+Source: Pseudomonas palleroniana strain Q1 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+MJP36_RS19220	MJP36_RS19220	4237184	4249022	-	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	MJP36_RS19295	94	494	101.10294117647058	2.15e-177
+MFKKBJ_13425	MJP36_RS19300	89	592	99.41520467836257	7.4e-214
+MFKKBJ_13430	MJP36_RS19305	97	509	100.0	5.57e-183
+MFKKBJ_13435	MJP36_RS19310	97	472	100.0	9.16e-169
+MFKKBJ_13440	MJP36_RS19315	94	187	100.0	1.97e-61
+MFKKBJ_13445	MJP36_RS19320	84	760	100.0	1.31e-276
+MFKKBJ_13450	MJP36_RS19325	92	676	100.0	5.36e-246
+MFKKBJ_13455	MJP36_RS19330	94	639	100.0	2.92e-232
+MFKKBJ_13460	MJP36_RS19335	89	462	99.62825278810409	9.31e-165
+MFKKBJ_13465	MJP36_RS19340	95	784	100.0	1.27e-287
+MFKKBJ_13470	MJP36_RS19345	94	411	100.0	1.84e-146
+MFKKBJ_13475	MJP36_RS19350	89	277	95.56962025316456	4.6e-94
+MFKKBJ_13480	MJP36_RS19350	87	139	100.0	5.36e-41
+
+
+
+>>
+27. NZ_CP027733
+Source: Pseudomonas sp. R4-39-08 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6401.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+C4J88_RS11805	C4J88_RS11805	2568079	2578565	+	amino_acid_adenylation_domain-containing_protein
+C4J88_RS11810	C4J88_RS11810	2578766	2581197	-	TonB-dependent_siderophore_receptor
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J88_RS11770	95	498	101.10294117647058	1.25e-178
+MFKKBJ_13425	C4J88_RS11765	92	617	99.41520467836257	1.31e-223
+MFKKBJ_13430	C4J88_RS11760	98	516	100.0	7.08e-186
+MFKKBJ_13435	C4J88_RS11755	97	471	100.0	1.85e-168
+MFKKBJ_13440	C4J88_RS11750	94	187	100.0	1.97e-61
+MFKKBJ_13445	C4J88_RS11745	86	767	100.0	2.38e-279
+MFKKBJ_13450	C4J88_RS11740	90	660	100.0	9.47e-240
+MFKKBJ_13455	C4J88_RS11735	94	635	100.0	9.76e-231
+MFKKBJ_13460	C4J88_RS11730	84	435	100.0	6.09e-154
+MFKKBJ_13465	C4J88_RS11725	94	777	99.75308641975309	7.03e-285
+MFKKBJ_13470	C4J88_RS11720	90	405	100.0	7.17e-144
+MFKKBJ_13475	C4J88_RS11715	93	291	95.56962025316456	1.52e-99
+MFKKBJ_13480	C4J88_RS11715	94	142	100.0	2.34e-42
+
+
+
+>>
+28. NZ_CP087111
+Source: Pseudomonas palleroniana strain X49 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6398.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LDL65_RS22380	LDL65_RS22380	4913909	4914076	-	type_II_toxin-antitoxin_system_HicB_family_antitoxin
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	LDL65_RS22310	94	491	101.10294117647058	5.05e-176
+MFKKBJ_13425	LDL65_RS22305	90	597	99.41520467836257	7.74e-216
+MFKKBJ_13430	LDL65_RS22300	98	512	100.0	3.36e-184
+MFKKBJ_13435	LDL65_RS22295	97	472	100.0	9.16e-169
+MFKKBJ_13440	LDL65_RS22290	94	187	100.0	1.97e-61
+MFKKBJ_13445	LDL65_RS22285	83	756	100.0	6.22e-275
+MFKKBJ_13450	LDL65_RS22280	92	672	100.0	1.26e-244
+MFKKBJ_13455	LDL65_RS22275	94	640	100.0	1.02e-232
+MFKKBJ_13460	LDL65_RS22270	89	462	99.62825278810409	1.32e-164
+MFKKBJ_13465	LDL65_RS22265	95	783	100.0	3.64e-287
+MFKKBJ_13470	LDL65_RS22260	93	410	100.0	7.48e-146
+MFKKBJ_13475	LDL65_RS22255	89	277	95.56962025316456	4.6e-94
+MFKKBJ_13480	LDL65_RS22255	87	139	100.0	5.36e-41
+
+
+
+>>
+29. NZ_CP112866
+Source: Pseudomonas sp. S1Bt42 chromosome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6390.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	OSC50_RS14045	93	488	101.10294117647058	7.78e-175
+MFKKBJ_13425	OSC50_RS14050	92	613	99.41520467836257	6.23e-222
+MFKKBJ_13430	OSC50_RS14055	96	511	100.0	1.37e-183
+MFKKBJ_13435	OSC50_RS14060	97	470	100.0	5.3e-168
+MFKKBJ_13440	OSC50_RS14065	89	176	100.0	5.23e-57
+MFKKBJ_13445	OSC50_RS14070	87	788	100.0	1.42e-287
+MFKKBJ_13450	OSC50_RS14075	90	660	100.0	9.47e-240
+MFKKBJ_13455	OSC50_RS14080	94	635	100.0	6.87e-231
+MFKKBJ_13460	OSC50_RS14085	87	446	99.62825278810409	1.64e-158
+MFKKBJ_13465	OSC50_RS14090	94	783	100.0	5.17e-287
+MFKKBJ_13470	OSC50_RS14095	91	409	100.0	1.51e-145
+MFKKBJ_13475	OSC50_RS14100	88	273	95.56962025316456	1.53e-92
+MFKKBJ_13480	OSC50_RS14100	88	138	100.0	1.08e-40
+
+
+
+>>
+30. NZ_CP087170
+Source: Pseudomonas rhodesiae strain B21-046 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6388.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LOY39_RS10395	LOY39_RS10395	2277128	2277900	+	L-iditol_2-dehydrogenase
+LOY39_RS10485	LOY39_RS10485	2304429	2312090	+	amino_acid_adenylation_domain-containing_protein
+LOY39_RS10525	LOY39_RS10525	2338739	2340010	-	aminotransferase_class_V-fold_PLP-dependent_enzyme
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	LOY39_RS10455	94	490	101.10294117647058	1.35e-175
+MFKKBJ_13425	LOY39_RS10450	93	623	99.41520467836257	4.79e-226
+MFKKBJ_13430	LOY39_RS10445	97	511	100.0	1.37e-183
+MFKKBJ_13435	LOY39_RS10440	97	470	100.0	3.73e-168
+MFKKBJ_13440	LOY39_RS10435	88	175	100.0	1.06e-56
+MFKKBJ_13445	LOY39_RS10430	86	776	100.0	3.7e-283
+MFKKBJ_13450	LOY39_RS10425	91	663	100.0	4.03e-241
+MFKKBJ_13455	LOY39_RS10420	93	634	100.0	3.97e-230
+MFKKBJ_13460	LOY39_RS10415	87	447	99.62825278810409	5.73e-159
+MFKKBJ_13465	LOY39_RS10410	95	790	100.0	4.62e-290
+MFKKBJ_13470	LOY39_RS10405	92	410	100.0	7.48e-146
+MFKKBJ_13475	LOY39_RS10400	85	264	95.56962025316456	6.86e-89
+MFKKBJ_13480	LOY39_RS10400	86	135	100.0	1.74e-39
+
+
+
+>>
+31. NZ_CP025494
+Source: Pseudomonas palleroniana strain MAB3 chromosome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6387.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	CYL20_RS01475	94	490	101.10294117647058	1.45e-175
+MFKKBJ_13425	CYL20_RS01470	90	595	99.41520467836257	6.35e-215
+MFKKBJ_13430	CYL20_RS01465	98	512	100.0	3.36e-184
+MFKKBJ_13435	CYL20_RS01460	98	473	100.0	2.25e-169
+MFKKBJ_13440	CYL20_RS01455	94	187	100.0	1.97e-61
+MFKKBJ_13445	CYL20_RS01450	83	744	100.0	1.62e-270
+MFKKBJ_13450	CYL20_RS01445	92	674	100.0	2.18e-245
+MFKKBJ_13455	CYL20_RS01440	94	640	100.0	1.02e-232
+MFKKBJ_13460	CYL20_RS01435	89	461	99.62825278810409	3.79e-164
+MFKKBJ_13465	CYL20_RS01430	95	783	100.0	3.64e-287
+MFKKBJ_13470	CYL20_RS01425	93	409	100.0	1.06e-145
+MFKKBJ_13475	CYL20_RS01420	89	277	95.56962025316456	4.6e-94
+MFKKBJ_13480	CYL20_RS01420	90	142	100.0	3.32e-42
+
+
+
+>>
+32. NZ_CP027727
+Source: Pseudomonas sp. R5-89-07 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6377.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J94_RS11370	94	491	101.10294117647058	3.43e-176
+MFKKBJ_13425	C4J94_RS11365	92	619	99.41520467836257	1.6e-224
+MFKKBJ_13430	C4J94_RS11360	97	508	100.0	1.12e-182
+MFKKBJ_13435	C4J94_RS11355	96	468	100.0	2.16e-167
+MFKKBJ_13440	C4J94_RS11350	93	182	97.91666666666666	1.89e-59
+MFKKBJ_13445	C4J94_RS11345	86	774	100.0	3.04e-282
+MFKKBJ_13450	C4J94_RS11340	90	662	100.0	1.15e-240
+MFKKBJ_13455	C4J94_RS11335	96	644	100.0	3.05e-234
+MFKKBJ_13460	C4J94_RS11330	83	424	99.25650557620817	1.59e-149
+MFKKBJ_13465	C4J94_RS11325	94	780	99.75308641975309	6.03e-286
+MFKKBJ_13470	C4J94_RS11320	87	396	100.0	2.3e-140
+MFKKBJ_13475	C4J94_RS11315	93	285	95.56962025316456	2.92e-97
+MFKKBJ_13480	C4J94_RS11315	95	144	100.0	2.9e-43
+
+
+
+>>
+33. NZ_CP027755
+Source: Pseudomonas synxantha strain 2-79 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6367.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+C4K02_RS11850	C4K02_RS11850	2587322	2587489	-	type_II_toxin-antitoxin_system_HicB_family_antitoxin
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4K02_RS11825	92	493	101.47058823529412	1.15e-176
+MFKKBJ_13425	C4K02_RS11820	92	616	99.41520467836257	3.76e-223
+MFKKBJ_13430	C4K02_RS11815	97	511	100.0	9.63e-184
+MFKKBJ_13435	C4K02_RS11810	97	472	100.0	6.45e-169
+MFKKBJ_13440	C4K02_RS11805	96	189	98.95833333333334	2.39e-62
+MFKKBJ_13445	C4K02_RS11800	84	763	100.0	5.59e-278
+MFKKBJ_13450	C4K02_RS11795	91	635	95.06849315068493	3.88e-230
+MFKKBJ_13455	C4K02_RS11790	93	631	100.0	3.26e-229
+MFKKBJ_13460	C4K02_RS11785	86	438	100.0	3.42e-155
+MFKKBJ_13465	C4K02_RS11780	95	791	100.0	2.29e-290
+MFKKBJ_13470	C4K02_RS11775	92	414	100.0	2.23e-147
+MFKKBJ_13475	C4K02_RS11770	89	275	95.56962025316456	3.76e-93
+MFKKBJ_13480	C4K02_RS11770	88	139	100.0	3.79e-41
+
+
+
+>>
+34. NZ_LT629699
+Source: Pseudomonas libanensis strain DSM 17149 chromosome I
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6361.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	BLQ22_RS07465	92	488	101.47058823529412	5.48e-175
+MFKKBJ_13425	BLQ22_RS07470	92	612	99.41520467836257	1.26e-221
+MFKKBJ_13430	BLQ22_RS07475	96	509	100.0	3.92e-183
+MFKKBJ_13435	BLQ22_RS07480	97	471	100.0	1.85e-168
+MFKKBJ_13440	BLQ22_RS07485	96	189	98.95833333333334	2.39e-62
+MFKKBJ_13445	BLQ22_RS07490	82	749	100.0	1.7e-272
+MFKKBJ_13450	BLQ22_RS07495	91	657	100.0	7.77e-239
+MFKKBJ_13455	BLQ22_RS07500	93	632	100.0	2.3e-229
+MFKKBJ_13460	BLQ22_RS07505	85	437	100.0	9.81e-155
+MFKKBJ_13465	BLQ22_RS07510	95	790	100.0	4.62e-290
+MFKKBJ_13470	BLQ22_RS07515	92	413	100.0	4.51e-147
+MFKKBJ_13475	BLQ22_RS07520	88	274	95.56962025316456	5.34e-93
+MFKKBJ_13480	BLQ22_RS07520	90	140	100.0	1.89e-41
+
+
+
+>>
+35. NZ_LT629801
+Source: Pseudomonas rhodesiae strain LMG 17764 chromosome I
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6360.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BLU13_RS12875	BLU13_RS12875	2839224	2846885	-	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	BLU13_RS12910	93	489	101.10294117647058	3.86e-175
+MFKKBJ_13425	BLU13_RS12915	93	621	99.41520467836257	2.77e-225
+MFKKBJ_13430	BLU13_RS12920	97	512	100.0	4.78e-184
+MFKKBJ_13435	BLU13_RS12925	97	470	100.0	3.73e-168
+MFKKBJ_13440	BLU13_RS12930	88	175	100.0	1.06e-56
+MFKKBJ_13445	BLU13_RS12935	83	747	100.0	1.98e-271
+MFKKBJ_13450	BLU13_RS12940	91	666	100.0	3.45e-242
+MFKKBJ_13455	BLU13_RS12945	93	634	100.0	3.97e-230
+MFKKBJ_13460	BLU13_RS12950	87	446	99.62825278810409	1.64e-158
+MFKKBJ_13465	BLU13_RS12955	95	791	100.0	3.25e-290
+MFKKBJ_13470	BLU13_RS12960	92	410	100.0	7.48e-146
+MFKKBJ_13475	BLU13_RS12965	85	264	95.56962025316456	6.86e-89
+MFKKBJ_13480	BLU13_RS12965	86	135	100.0	1.23e-39
+
+
+
+>>
+36. NZ_CP027732
+Source: Pseudomonas sp. R4-35-07 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6359.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J89_RS11920	95	497	101.10294117647058	1.78e-178
+MFKKBJ_13425	C4J89_RS11915	93	619	99.41520467836257	1.6e-224
+MFKKBJ_13430	C4J89_RS11910	98	513	100.0	1.67e-184
+MFKKBJ_13435	C4J89_RS11905	97	469	100.0	1.07e-167
+MFKKBJ_13440	C4J89_RS11900	95	186	97.91666666666666	5.65e-61
+MFKKBJ_13445	C4J89_RS11895	86	769	100.0	2.04e-280
+MFKKBJ_13450	C4J89_RS11890	89	632	95.06849315068493	6.43e-229
+MFKKBJ_13455	C4J89_RS11885	94	632	100.0	1.62e-229
+MFKKBJ_13460	C4J89_RS11880	84	434	99.62825278810409	1.74e-153
+MFKKBJ_13465	C4J89_RS11875	94	775	99.75308641975309	4.06e-284
+MFKKBJ_13470	C4J89_RS11870	90	401	100.0	1.69e-142
+MFKKBJ_13475	C4J89_RS11865	93	290	95.56962025316456	4.35e-99
+MFKKBJ_13480	C4J89_RS11865	94	142	100.0	2.34e-42
+
+
+
+>>
+37. NZ_CP070981
+Source: Pseudomonas rhodesiae strain DLA23 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6357.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+JYG38_RS09755	JYG38_RS09755	2137364	2145025	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	JYG38_RS09720	93	489	101.10294117647058	3.86e-175
+MFKKBJ_13425	JYG38_RS09715	93	621	99.41520467836257	2.77e-225
+MFKKBJ_13430	JYG38_RS09710	97	512	100.0	4.78e-184
+MFKKBJ_13435	JYG38_RS09705	97	470	100.0	3.73e-168
+MFKKBJ_13440	JYG38_RS09700	88	175	100.0	1.06e-56
+MFKKBJ_13445	JYG38_RS09695	82	738	100.0	6.29e-268
+MFKKBJ_13450	JYG38_RS09690	92	671	100.0	5.13e-244
+MFKKBJ_13455	JYG38_RS09685	93	634	100.0	3.97e-230
+MFKKBJ_13460	JYG38_RS09680	87	447	99.62825278810409	8.13e-159
+MFKKBJ_13465	JYG38_RS09675	95	791	100.0	3.25e-290
+MFKKBJ_13470	JYG38_RS09670	92	408	100.0	3.04e-145
+MFKKBJ_13475	JYG38_RS09665	85	265	95.56962025316456	3.41e-89
+MFKKBJ_13480	JYG38_RS09665	87	136	100.0	6.12e-40
+
+
+
+>>
+38. NZ_CP070980
+Source: Pseudomonas rhodesiae strain AAMF24 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6348.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+JYG35_RS11665	JYG35_RS11665	2561805	2569466	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	JYG35_RS11635	93	488	101.10294117647058	5.48e-175
+MFKKBJ_13425	JYG35_RS11630	93	623	99.41520467836257	4.79e-226
+MFKKBJ_13430	JYG35_RS11625	97	511	100.0	1.37e-183
+MFKKBJ_13435	JYG35_RS11620	98	472	100.0	6.45e-169
+MFKKBJ_13440	JYG35_RS11615	88	175	100.0	1.06e-56
+MFKKBJ_13445	JYG35_RS11610	82	731	100.0	4.92e-265
+MFKKBJ_13450	JYG35_RS11605	92	668	100.0	4.21e-243
+MFKKBJ_13455	JYG35_RS11600	93	634	100.0	3.97e-230
+MFKKBJ_13460	JYG35_RS11595	87	447	99.62825278810409	5.73e-159
+MFKKBJ_13465	JYG35_RS11590	95	790	100.0	4.62e-290
+MFKKBJ_13470	JYG35_RS11585	92	410	100.0	7.48e-146
+MFKKBJ_13475	JYG35_RS11580	85	264	95.56962025316456	4.83e-89
+MFKKBJ_13480	JYG35_RS11580	86	135	100.0	1.74e-39
+
+
+
+>>
+39. NZ_CP054205
+Source: Pseudomonas rhodesiae strain NL2019 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6342.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+HRH33_RS11780	HRH33_RS11780	2582707	2590368	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	HRH33_RS11745	93	489	101.10294117647058	3.86e-175
+MFKKBJ_13425	HRH33_RS11740	93	623	99.41520467836257	4.79e-226
+MFKKBJ_13430	HRH33_RS11735	97	511	100.0	1.37e-183
+MFKKBJ_13435	HRH33_RS11730	97	470	100.0	3.73e-168
+MFKKBJ_13440	HRH33_RS11725	88	175	100.0	1.06e-56
+MFKKBJ_13445	HRH33_RS11720	82	731	100.0	4.92e-265
+MFKKBJ_13450	HRH33_RS11715	92	670	100.0	1.03e-243
+MFKKBJ_13455	HRH33_RS11710	93	632	100.0	1.62e-229
+MFKKBJ_13460	HRH33_RS11705	86	443	99.62825278810409	3.85e-157
+MFKKBJ_13465	HRH33_RS11700	95	791	100.0	3.25e-290
+MFKKBJ_13470	HRH33_RS11695	92	408	100.0	3.04e-145
+MFKKBJ_13475	HRH33_RS11690	85	264	95.56962025316456	6.86e-89
+MFKKBJ_13480	HRH33_RS11690	86	135	100.0	1.23e-39
+
+
+
+>>
+40. NZ_CM001025
+Source: Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6303.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+PFWH6_RS11240	PFWH6_RS11240	2431263	2432359	-	FAD-dependent_oxidoreductase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	PFWH6_RS11270	99	520	100.0	1.5e-187
+MFKKBJ_13425	PFWH6_RS11265	99	668	100.0	7.05e-244
+MFKKBJ_13430	PFWH6_RS11260	100	523	100.0	1.28e-188
+MFKKBJ_13435	PFWH6_RS11255	100	480	100.0	4.07e-172
+MFKKBJ_13440	PFWH6_RS11250	99	192	98.95833333333334	1.01e-63
+MFKKBJ_13445	PFWH6_RS11245	99	875	100.0	0.0
+MFKKBJ_13450	PFWH6_RS11240	100	171	23.013698630136986	3.29e-51
+MFKKBJ_13455	PFWH6_RS11235	100	667	100.0	1.54e-243
+MFKKBJ_13460	PFWH6_RS11230	100	516	100.0	5.67e-186
+MFKKBJ_13465	PFWH6_RS11225	99	810	100.0	7.78e-298
+MFKKBJ_13470	PFWH6_RS11220	98	431	100.0	4.37e-154
+MFKKBJ_13475	PFWH6_RS11215	98	301	95.56962025316456	1.67e-103
+MFKKBJ_13480	PFWH6_RS11215	99	149	100.0	4.44e-45
+
+
+
+>>
+41. NZ_CP027728
+Source: Pseudomonas sp. R2-37-08W chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6012.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+C4J93_RS11940	C4J93_RS11940	2558374	2559698	+	sugar_ABC_transporter_substrate-binding_protein
+C4J93_RS12000	C4J93_RS12000	2569467	2570494	-	ABC_transporter_ATP-binding_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J93_RS12005	95	497	101.10294117647058	1.78e-178
+MFKKBJ_13425	C4J93_RS12000	96	231	36.54970760233918	4.09e-74
+MFKKBJ_13430	C4J93_RS11995	98	516	100.0	7.08e-186
+MFKKBJ_13435	C4J93_RS11990	97	470	100.0	5.3e-168
+MFKKBJ_13440	C4J93_RS11985	94	187	100.0	1.97e-61
+MFKKBJ_13445	C4J93_RS11980	85	765	100.0	9.68e-279
+MFKKBJ_13450	C4J93_RS11975	90	662	100.0	1.15e-240
+MFKKBJ_13455	C4J93_RS11970	95	637	100.0	1.19e-231
+MFKKBJ_13460	C4J93_RS11965	84	437	99.62825278810409	5.23e-155
+MFKKBJ_13465	C4J93_RS11960	94	777	99.75308641975309	7.03e-285
+MFKKBJ_13470	C4J93_RS11955	89	401	100.0	1.69e-142
+MFKKBJ_13475	C4J93_RS11950	93	290	95.56962025316456	3.06e-99
+MFKKBJ_13480	C4J93_RS11950	94	142	100.0	2.34e-42
+
+
+
+>>
+42. NZ_CP041189
+Source: Pseudomonas sp. NIBRBAC000502773 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6479.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+NIBR502773_RS27840	NIBR502773_RS27840	6027704	6035368	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	NIBR502773_RS27805	95	495	101.10294117647058	1.41e-177
+MFKKBJ_13425	NIBR502773_RS27800	94	628	99.41520467836257	5e-228
+MFKKBJ_13430	NIBR502773_RS27795	96	509	100.0	5.57e-183
+MFKKBJ_13435	NIBR502773_RS27790	99	478	100.0	3.34e-171
+MFKKBJ_13440	NIBR502773_RS27785	94	184	100.0	2.3e-60
+MFKKBJ_13445	NIBR502773_RS27780	85	762	100.0	2.27e-277
+MFKKBJ_13450	NIBR502773_RS27775	92	680	100.0	1.13e-247
+MFKKBJ_13455	NIBR502773_RS27770	97	650	100.0	7.82e-237
+MFKKBJ_13460	NIBR502773_RS27750	92	477	99.62825278810409	1.46e-170
+MFKKBJ_13465	NIBR502773_RS27745	95	791	100.0	3.25e-290
+MFKKBJ_13470	NIBR502773_RS27740	94	419	100.0	1.64e-149
+MFKKBJ_13475	NIBR502773_RS27735	85	263	95.56962025316456	1.38e-88
+MFKKBJ_13480	NIBR502773_RS27735	91	143	100.0	1.17e-42
+
+
+
+>>
+43. NZ_CP027729
+Source: Pseudomonas sp. R3-18-08 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6405.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+C4J92_RS11840	C4J92_RS11840	2556704	2557908	+	MFS_transporter
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J92_RS11825	95	498	101.10294117647058	6.2e-179
+MFKKBJ_13425	C4J92_RS11820	92	618	99.41520467836257	4.58e-224
+MFKKBJ_13430	C4J92_RS11815	98	514	100.0	5.82e-185
+MFKKBJ_13435	C4J92_RS11810	97	471	100.0	2.63e-168
+MFKKBJ_13440	C4J92_RS11805	94	187	100.0	1.97e-61
+MFKKBJ_13445	C4J92_RS11800	86	771	100.0	7.14e-281
+MFKKBJ_13450	C4J92_RS11795	90	665	100.0	6.97e-242
+MFKKBJ_13455	C4J92_RS11790	95	637	100.0	1.69e-231
+MFKKBJ_13460	C4J92_RS11785	84	432	99.62825278810409	4.99e-153
+MFKKBJ_13465	C4J92_RS11780	94	777	99.75308641975309	7.03e-285
+MFKKBJ_13470	C4J92_RS11775	89	402	100.0	5.89e-143
+MFKKBJ_13475	C4J92_RS11770	93	291	95.56962025316456	1.52e-99
+MFKKBJ_13480	C4J92_RS11770	94	142	100.0	2.34e-42
+
+
+
+>>
+44. NZ_CP027731
+Source: Pseudomonas sp. R2-60-08W chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J90_RS11710	95	498	101.10294117647058	1.15e-178
+MFKKBJ_13425	C4J90_RS11705	94	622	99.41520467836257	1.95e-225
+MFKKBJ_13430	C4J90_RS11700	98	516	100.0	1.01e-185
+MFKKBJ_13435	C4J90_RS11695	97	469	100.0	1.07e-167
+MFKKBJ_13440	C4J90_RS11690	94	187	100.0	1.97e-61
+MFKKBJ_13445	C4J90_RS11685	86	769	100.0	2.04e-280
+MFKKBJ_13450	C4J90_RS11680	90	662	100.0	1.15e-240
+MFKKBJ_13455	C4J90_RS11675	94	634	100.0	3.97e-230
+MFKKBJ_13460	C4J90_RS11670	84	437	99.62825278810409	5.23e-155
+MFKKBJ_13465	C4J90_RS11665	94	775	99.75308641975309	4.06e-284
+MFKKBJ_13470	C4J90_RS11660	90	401	100.0	1.69e-142
+MFKKBJ_13475	C4J90_RS11655	93	290	95.56962025316456	4.35e-99
+MFKKBJ_13480	C4J90_RS11655	94	142	100.0	2.34e-42
+
+
+
+>>
+45. NZ_CP027761
+Source: Pseudomonas sp. R11-23-07 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6401.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J84_RS11135	95	498	101.10294117647058	1.15e-178
+MFKKBJ_13425	C4J84_RS11130	93	619	99.41520467836257	1.6e-224
+MFKKBJ_13430	C4J84_RS11125	98	517	100.0	3.51e-186
+MFKKBJ_13435	C4J84_RS11120	97	470	100.0	5.3e-168
+MFKKBJ_13440	C4J84_RS11115	93	185	100.0	8.02e-61
+MFKKBJ_13445	C4J84_RS11110	85	765	100.0	9.68e-279
+MFKKBJ_13450	C4J84_RS11105	89	659	100.0	1.91e-239
+MFKKBJ_13455	C4J84_RS11100	95	640	100.0	1.45e-232
+MFKKBJ_13460	C4J84_RS11095	84	437	99.62825278810409	5.23e-155
+MFKKBJ_13465	C4J84_RS11090	94	778	99.75308641975309	4.95e-285
+MFKKBJ_13470	C4J84_RS11085	89	401	100.0	1.69e-142
+MFKKBJ_13475	C4J84_RS11080	93	290	95.56962025316456	4.35e-99
+MFKKBJ_13480	C4J84_RS11080	94	142	100.0	2.34e-42
+
+
+
+>>
+46. NZ_CP027734
+Source: Pseudomonas sp. R1-43-08 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6395.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J87_RS10885	94	495	101.10294117647058	1.46e-177
+MFKKBJ_13425	C4J87_RS10880	93	619	99.41520467836257	1.6e-224
+MFKKBJ_13430	C4J87_RS10875	98	515	100.0	2.03e-185
+MFKKBJ_13435	C4J87_RS10870	97	471	100.0	1.85e-168
+MFKKBJ_13440	C4J87_RS10865	94	187	100.0	1.97e-61
+MFKKBJ_13445	C4J87_RS10860	86	765	100.0	9.68e-279
+MFKKBJ_13450	C4J87_RS10855	89	658	100.0	3.85e-239
+MFKKBJ_13455	C4J87_RS10850	94	635	100.0	9.76e-231
+MFKKBJ_13460	C4J87_RS10845	84	437	99.62825278810409	1.05e-154
+MFKKBJ_13465	C4J87_RS10840	94	775	99.75308641975309	5.77e-284
+MFKKBJ_13470	C4J87_RS10835	90	405	100.0	7.17e-144
+MFKKBJ_13475	C4J87_RS10830	93	291	95.56962025316456	1.52e-99
+MFKKBJ_13480	C4J87_RS10830	94	142	100.0	2.34e-42
+
+
+
+>>
+47. NZ_CP027759
+Source: Pseudomonas sp. R2-7-07 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6394.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	C4J86_RS11520	95	498	101.10294117647058	1.15e-178
+MFKKBJ_13425	C4J86_RS11515	93	619	99.41520467836257	1.6e-224
+MFKKBJ_13430	C4J86_RS11510	98	517	100.0	3.51e-186
+MFKKBJ_13435	C4J86_RS11505	97	470	100.0	5.3e-168
+MFKKBJ_13440	C4J86_RS11500	93	185	100.0	8.02e-61
+MFKKBJ_13445	C4J86_RS11495	85	765	100.0	9.68e-279
+MFKKBJ_13450	C4J86_RS11490	89	657	100.0	7.77e-239
+MFKKBJ_13455	C4J86_RS11485	95	637	100.0	1.69e-231
+MFKKBJ_13460	C4J86_RS11480	84	437	99.62825278810409	5.23e-155
+MFKKBJ_13465	C4J86_RS11475	94	777	99.75308641975309	7.03e-285
+MFKKBJ_13470	C4J86_RS11470	89	402	100.0	1.19e-142
+MFKKBJ_13475	C4J86_RS11465	93	288	95.56962025316456	1.25e-98
+MFKKBJ_13480	C4J86_RS11465	94	142	100.0	2.34e-42
+
+
+
+>>
+48. NZ_JACAPL010000011
+Source: Pseudomonas sp. D2002 run0228_D2002_S37_L005_contig_11, whole genome shotgun sequence
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 6073.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	HX783_RS22105	95	503	101.47058823529412	1.26e-180
+MFKKBJ_13425	HX783_RS22110	93	625	100.0	5.83e-227
+MFKKBJ_13430	HX783_RS22115	97	508	100.0	1.12e-182
+MFKKBJ_13435	HX783_RS22120	99	475	100.0	5.53e-170
+MFKKBJ_13440	HX783_RS22125	97	191	100.0	2.9e-63
+MFKKBJ_13445	HX783_RS22130	86	768	100.0	5.85e-280
+MFKKBJ_13450	HX783_RS22135	94	693	100.0	7.43e-253
+MFKKBJ_13455	HX783_RS22140	95	644	100.0	2.15e-234
+MFKKBJ_13460	HX783_RS22145	90	462	99.62825278810409	8.35e-165
+MFKKBJ_13465	HX783_RS22150	96	786	99.01234567901234	2.01e-288
+MFKKBJ_13470	HX783_RS22155	94	418	100.0	4.7e-149
+
+
+
+>>
+49. NZ_AP025169
+Source: Pseudomonas sp. CYM-20-01 chromosome, complete genome
+Type: NRP-metallophore,NRPS,hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 6061.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+M2497_RS13575	M2497_RS13575	2978795	2986459	+	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	M2497_RS13515	95	502	101.47058823529412	1.79e-180
+MFKKBJ_13425	M2497_RS13510	93	623	100.0	6.8e-226
+MFKKBJ_13430	M2497_RS13505	98	516	100.0	7.08e-186
+MFKKBJ_13435	M2497_RS13500	99	476	100.0	2.74e-170
+MFKKBJ_13440	M2497_RS13495	93	183	98.95833333333334	6.6e-60
+MFKKBJ_13445	M2497_RS13490	87	795	100.0	2.56e-290
+MFKKBJ_13450	M2497_RS13485	93	683	100.0	6.81e-249
+MFKKBJ_13455	M2497_RS13480	97	654	100.0	3.32e-238
+MFKKBJ_13460	M2497_RS13475	89	464	100.0	1.5e-165
+MFKKBJ_13465	M2497_RS13470	94	783	100.0	2.56e-287
+MFKKBJ_13470	M2497_RS13465	91	382	93.02325581395348	4.61e-135
+
+
+
+>>
+50. NZ_CP015637
+Source: Pseudomonas fluorescens strain L321 chromosome, complete genome
+Type: hydrogen-cyanide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 6089.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_13420	A7317_RS10800	95	503	101.47058823529412	8.86e-181
+MFKKBJ_13425	A7317_RS10805	91	613	100.0	4.38e-222
+MFKKBJ_13430	A7317_RS10810	98	514	100.0	5.82e-185
+MFKKBJ_13435	A7317_RS10815	96	467	100.0	6.18e-167
+MFKKBJ_13440	A7317_RS10820	93	182	98.95833333333334	1.33e-59
+MFKKBJ_13445	A7317_RS10825	88	793	100.0	7.34e-290
+MFKKBJ_13450	A7317_RS10830	94	693	100.0	5.23e-253
+MFKKBJ_13455	A7317_RS10835	96	648	100.0	9.13e-236
+MFKKBJ_13460	A7317_RS10845	91	470	99.62825278810409	5.46e-168
+MFKKBJ_13465	A7317_RS10850	95	791	100.0	2.29e-290
+MFKKBJ_13470	A7317_RS10855	92	415	100.0	7.79e-148
+

@@ -1,0 +1,90 @@
+ClusterBlast scores for contig_1
+
+Table of genes, locations, strands and annotations of query cluster:
+MFKKBJ_25520	5534962	5537059	-	Membrane fusion protein biotin-lipoyl like domain-containing protein	
+MFKKBJ_25525	5537058	5538378	-	Membrane fusion protein biotin-lipoyl like domain-containing protein	
+MFKKBJ_25530	5538374	5539148	-	Membrane fusion protein biotin-lipoyl like domain-containing protein	
+MFKKBJ_25535	5539310	5541470	+	Outer membrane assembly lipoprotein YfiO	
+MFKKBJ_25540	5541466	5542171	+	DUF3142 domain-containing protein	
+MFKKBJ_25545	5542459	5542675	+	Nucleotidyl transferase AbiEii/AbiGii toxin family protein	
+MFKKBJ_25550	5543035	5544481	-	RND transporter	
+MFKKBJ_25555	5544477	5545536	-	HlyD family secretion protein	
+MFKKBJ_25560	5545552	5547088	-	Major facilitator superfamily (MFS) profile domain-containing protein	
+MFKKBJ_25565	5547303	5548224	-	HTH lysR-type domain-containing protein	
+MFKKBJ_25570	5548278	5549127	-	ABC transmembrane type-1 domain-containing protein	
+MFKKBJ_25575	5549138	5549990	-	Vitamin B12 import ATP-binding protein BtuD	
+MFKKBJ_25580	5549991	5551017	-	SsuA/THI5-like domain-containing protein	
+MFKKBJ_25585	5551031	5551925	-	Alpha-ketoglutarate-dependent taurine dioxygenase	
+MFKKBJ_25590	5552192	5552903	+	HTH gntR-type domain-containing protein	
+MFKKBJ_25595	5553226	5553985	+	Mangotoxin biosynthesis-involved protein MgoB	
+MFKKBJ_25600	5553981	5554920	+	p-aminobenzoate N-oxygenase AurF	
+MFKKBJ_25605	5554916	5558297	+	Amino acid adenylation:thioester reductase	
+MFKKBJ_25610	5558316	5558781	+	Polyketide cyclase/dehydrase	
+MFKKBJ_25615	5558816	5560745	-	Chemotaxis protein	
+MFKKBJ_25645	5566768	5567989	-	CoA-transferase	
+MFKKBJ_25650	5568001	5569183	-	Acyl-CoA dehydrogenase related to the alkylation response protein AidB	
+MFKKBJ_25655	5569339	5570239	+	HTH lysR-type domain-containing protein	
+MFKKBJ_25660	5570691	5571813	+	Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha	
+MFKKBJ_25665	5571828	5572149	+	proton-translocating NAD(P)(+) transhydrogenase	
+MFKKBJ_25670	5572148	5573585	+	NAD/NADP transhydrogenase beta subunit	
+MFKKBJ_25675	5573764	5575258	+	Propionyl CoA:succinate CoA transferase	
+MFKKBJ_25680	5575576	5575792	+	DUF1127 domain-containing protein	
+MFKKBJ_25685	5576076	5576397	+	Holliday junction resolvasome, helicase subunit	
+MFKKBJ_25690	5576496	5576805	+	Holliday junction resolvasome, helicase subunit	
+MFKKBJ_25695	5576844	5577165	+	DUF2388 domain-containing protein	
+
+
+Significant hits: 
+1. BGC0001131	ambactin
+2. BGC0001692	nematophin
+3. BGC0001599	fragin
+
+
+Details:
+
+>>
+1. BGC0001131
+Source: ambactin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 789.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_25660	Xmir_01404	46	291	99.46380697050938	2.07e-94
+MFKKBJ_25665	Xmir_01404	49	76	82.0754716981132	2.77e-17
+MFKKBJ_25670	Xmir_01405	50	422	100.62761506276149	1.88e-144
+
+
+
+>>
+2. BGC0001692
+Source: nematophin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 784.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_25660	XNC1_RS09375	47	291	99.46380697050938	2.76e-94
+MFKKBJ_25665	XNC1_RS09375	49	78	82.0754716981132	7.95e-18
+MFKKBJ_25670	XNC1_RS09380	49	415	101.04602510460252	8.34e-142
+
+
+
+>>
+3. BGC0001599
+Source: fragin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 643.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_25595	I35_4191	46	211	95.23809523809523	3.73e-68
+MFKKBJ_25600	I35_4193	53	306	97.11538461538461	6.37e-104
+MFKKBJ_25610	I35_4195	46	126	96.75324675324676	2.14e-37
+

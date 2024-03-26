@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CBA63674.1</td>
+              <td>MFS_griseobactin_exporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000368/1">BGC0000368</a></td>
+              <td>NRP</td>
+              <td>27.0</td>
+              <td>51.7</td>
+              <td>85.0</td>
+              <td>2.41e-17</td>
+          </tr>
+    
+          <tr>
+              <td>ABB05093.1</td>
+              <td>LipEx1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001003/1">BGC0001003</a></td>
+              <td>NRP:Lipopeptide+Polyketide:Modular type I polyketide+Saccharide:Hybrid/tailoring saccharide</td>
+              <td>23.0</td>
+              <td>79.1</td>
+              <td>74.0</td>
+              <td>1.74e-13</td>
+          </tr>
+    
+          <tr>
+              <td>QEU90619.1</td>
+              <td>MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000703/1">BGC0000703</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>42.5</td>
+              <td>66.0</td>
+              <td>8.22e-11</td>
+          </tr>
+    
+          <tr>
+              <td>CAF60521.1</td>
+              <td>putative_efflux_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000704/1">BGC0000704</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>42.5</td>
+              <td>66.0</td>
+              <td>8.22e-11</td>
+          </tr>
+    
+          <tr>
+              <td>CAF31575.1</td>
+              <td>putative_kanamycin_efflux_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000705/1">BGC0000705</a></td>
+              <td>Saccharide</td>
+              <td>26.0</td>
+              <td>42.5</td>
+              <td>66.0</td>
+              <td>8.22e-11</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

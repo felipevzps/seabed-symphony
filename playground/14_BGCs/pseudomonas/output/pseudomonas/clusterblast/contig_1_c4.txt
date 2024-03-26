@@ -1,0 +1,1251 @@
+ClusterBlast scores for contig_1
+
+Table of genes, locations, strands and annotations of query cluster:
+MFKKBJ_12140	2624271	2625141	-	Transcriptional regulator, AraC family	
+MFKKBJ_12145	2625329	2625950	+	Lysine transporter LysE	
+MFKKBJ_12150	2626025	2626508	+	PhnB-like domain-containing protein	
+MFKKBJ_12155	2626609	2627401	+	cysteine synthase family protein	
+MFKKBJ_12160	2627401	2627986	+	CBS domain-containing protein	
+MFKKBJ_12165	2627982	2629149	+	cystathionine gamma-synthase	
+MFKKBJ_12170	2629201	2631403	-	OsmC domain/YcaO domain-containing protein	
+MFKKBJ_12175	2631564	2631834	+	PAS domain-containing protein	
+MFKKBJ_12180	2631823	2632174	-	Osmotically inducible protein OsmC	
+MFKKBJ_12185	2632335	2633901	+	Methyl-accepting transducer domain-containing protein	
+MFKKBJ_12190	2634149	2634959	+	Suppressor of fused-like domain-containing protein	
+MFKKBJ_12195	2634958	2635540	+	hypothetical protein	
+MFKKBJ_12200	2635719	2636280	+	Hydrolase, isochorismatase family	
+
+
+Significant hits: 
+1. NZ_CM001025	Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+2. NZ_MSDJ01000013	Pseudomonas fluorescens strain G2Y PF_G2Y_contig_8, whole genome shotgun sequence
+3. NZ_CP041236	Pseudomonas azotoformans strain P45A chromosome, complete genome
+4. NZ_JACHCZ010000001	Pseudomonas sp. JAI120 Ga0401626_01, whole genome shotgun sequence
+5. NZ_CP019856	Pseudomonas azotoformans strain F77 chromosome, complete genome
+6. NZ_CABVGW010000001	Pseudomonas fluorescens isolate PS682, whole genome shotgun sequence
+7. NZ_CP089519	Pseudomonas extremorientalis strain 1502IPR-01 chromosome, complete genome
+8. NZ_CP081944	Pseudomonas sp. DR208 chromosome, complete genome
+9. NZ_CP023272	Pseudomonas lurida strain MYb11 chromosome, complete genome
+10. NZ_LT629708	Pseudomonas extremorientalis strain LMG 19695 chromosome I
+11. NZ_CP078013	Pseudomonas pergaminensis strain 1008 chromosome, complete genome
+12. NZ_CP110885	Pseudomonas lurida strain CFBP13722 chromosome
+13. NZ_LT629702	Pseudomonas azotoformans strain LMG 21611 chromosome I
+14. NZ_CP015639	Pseudomonas lurida strain L228 chromosome, complete genome
+15. NC_023064	Pseudomonas sp. TKP, complete sequence
+16. NZ_CP015637	Pseudomonas fluorescens strain L321 chromosome, complete genome
+17. NZ_CP063233	Pseudomonas fluorescens strain KF1 chromosome, complete genome
+18. NZ_CP120377	Pseudomonas sp. G11 chromosome, complete genome
+19. NZ_CP025263	Pseudomonas sp. S09G 359 chromosome
+20. NZ_CP022960	Pseudomonas sp. NS1(2017) strain NS1 chromosome
+21. NZ_JACAPG010000014	Pseudomonas reactans strain C5002 run0228_C5002_S32_L005_contig_14, whole genome shotgun sequence
+22. NZ_CP114115	Pseudomonas sp. GXZC chromosome, complete genome
+23. NZ_CP014546	Pseudomonas azotoformans strain S4 chromosome, complete genome
+24. NZ_CP041189	Pseudomonas sp. NIBRBAC000502773 chromosome, complete genome
+25. NZ_CP089985	Pseudomonas sp. HN11 chromosome, complete genome
+26. NZ_JACAQM010000001	Pseudomonas reactans strain IPO3748 IPO_3748_S31_L002_contig_1, whole genome shotgun sequence
+27. NZ_JACAQO010000022	Pseudomonas reactans strain IPO3750 IPO_3750_S33_L002_contig_23, whole genome shotgun sequence
+28. NZ_AP025169	Pseudomonas sp. CYM-20-01 chromosome, complete genome
+29. NZ_CP031450	Pseudomonas fluorescens strain SIK_W1 chromosome, complete genome
+30. NZ_CP058533	Pseudomonas fluorescens strain W-6 chromosome, complete genome
+31. NZ_CP011507	Pseudomonas trivialis strain IHBB745 chromosome, complete genome
+32. NZ_CVTP01000008	Pseudomonas sp. 58 R 12, whole genome shotgun sequence
+33. NZ_CP077084	Pseudomonas tritici strain SWRI145 chromosome, complete genome
+34. NZ_CVTI01000011	Pseudomonas sp. 24 R 17, whole genome shotgun sequence
+35. NZ_CVTR01000015	Pseudomonas sp. 52 E 6, whole genome shotgun sequence
+36. NZ_MOAZ01000017	Pseudomonas canadensis strain 36C8 36C8_Joined_contig_1, whole genome shotgun sequence
+37. NZ_LACF01000034	Pseudomonas marginalis strain H21 FCC4LTTACXX-wHAIPI007915-133_L5_1_(paired)_contig_34, whole genome shotgun sequence
+38. NZ_QAJM01000020	Pseudomonas sp. KBW05 KBW5_ACAGTG_contig_20, whole genome shotgun sequence
+39. NZ_QCWA01000001	Pseudomonas sp. GV047 Ga0189750_101, whole genome shotgun sequence
+40. NZ_FKLB01000058	Pseudomonas sp. 1 R 17, whole genome shotgun sequence
+41. NZ_CP092411	Pseudomonas palleroniana strain Q1 chromosome, complete genome
+42. NZ_CP087111	Pseudomonas palleroniana strain X49 chromosome, complete genome
+43. NZ_QODI01000002	Pseudomonas sp. Q1 PROKKA_2, whole genome shotgun sequence
+44. NZ_CP025494	Pseudomonas palleroniana strain MAB3 chromosome
+45. NZ_CP019431	Pseudomonas sp. S35 chromosome, complete genome
+46. NZ_QRBA01000003	Pseudomonas fluorescens strain AHK-1 scaffold3, whole genome shotgun sequence
+47. NZ_PCOS01000003	Pseudomonas trivialis strain MYb75 MYb75_3, whole genome shotgun sequence
+48. NZ_JACVZE010000014	Pseudomonas pisciculturae strain P115 Seq14, whole genome shotgun sequence
+49. NZ_CP018420	Pseudomonas veronii strain R02 chromosome, complete genome
+50. NZ_JXWQ02000001	Pseudomonas veronii strain R4 scaffold00001, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NZ_CM001025
+Source: Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 7032.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12140	PFWH6_RS12675	99	585	100.0	9.66e-213
+MFKKBJ_12145	PFWH6_RS12670	98	387	100.0	3.72e-137
+MFKKBJ_12150	PFWH6_RS12665	100	334	100.0	8.7e-118
+MFKKBJ_12155	PFWH6_RS12660	99	519	100.0	2.42e-184
+MFKKBJ_12160	PFWH6_RS12660	99	376	100.0	3.31e-129
+MFKKBJ_12165	PFWH6_RS12655	99	763	100.0	1.15e-279
+MFKKBJ_12170	PFWH6_RS12650	100	1464	100.0	0.0
+MFKKBJ_12175	PFWH6_RS12645	99	183	100.0	3.05e-55
+MFKKBJ_12180	PFWH6_RS12650	100	234	99.13793103448276	2.3e-72
+MFKKBJ_12185	PFWH6_RS12645	100	909	100.0	0.0
+MFKKBJ_12190	PFWH6_RS12640	100	526	100.0	3.05e-190
+MFKKBJ_12195	PFWH6_RS12635	98	377	100.0	1.27e-133
+MFKKBJ_12200	PFWH6_RS12630	100	375	100.0	3.03e-133
+
+
+
+>>
+2. NZ_MSDJ01000013
+Source: Pseudomonas fluorescens strain G2Y PF_G2Y_contig_8, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 13
+Cumulative BLAST score: 6997.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12140	BFW92_RS13655	98	585	100.0	1.37e-212
+MFKKBJ_12145	BFW92_RS13650	98	385	100.0	1.51e-136
+MFKKBJ_12150	BFW92_RS13645	97	323	100.0	3.28e-113
+MFKKBJ_12155	BFW92_RS13640	99	522	100.0	1.47e-185
+MFKKBJ_12160	BFW92_RS13640	97	373	100.0	3.81e-128
+MFKKBJ_12165	BFW92_RS13635	99	762	100.0	2.33e-279
+MFKKBJ_12170	BFW92_RS13630	99	1455	100.0	0.0
+MFKKBJ_12175	BFW92_RS13625	98	182	100.0	8.42e-55
+MFKKBJ_12180	BFW92_RS13630	99	232	99.13793103448276	8.8e-72
+MFKKBJ_12185	BFW92_RS13625	99	907	100.0	0.0
+MFKKBJ_12190	BFW92_RS13620	99	519	100.0	2.41e-187
+MFKKBJ_12195	BFW92_RS13615	98	377	100.0	8.93e-134
+MFKKBJ_12200	BFW92_RS13610	100	375	100.0	4.3e-133
+
+
+
+>>
+3. NZ_CP041236
+Source: Pseudomonas azotoformans strain P45A chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 5992.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+FKZ69_RS17120	FKZ69_RS17120	3689240	3689413	-	RidA_family_protein
+FKZ69_RS17125	FKZ69_RS17125	3689414	3689836	+	LysR_substrate-binding_domain-containing_protein
+FKZ69_RS32660	FKZ69_RS32660	3695589	3696227	+	PAS_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12140	FKZ69_RS17115	82	484	100.0	8.23e-173
+MFKKBJ_12145	FKZ69_RS17170	90	359	100.0	3.51e-126
+MFKKBJ_12150	FKZ69_RS17180	87	299	99.375	6.36e-104
+MFKKBJ_12155	FKZ69_RS17200	96	501	100.0	3.39e-177
+MFKKBJ_12160	FKZ69_RS17200	91	349	100.0	1.34e-118
+MFKKBJ_12165	FKZ69_RS17205	94	730	100.0	7.32e-267
+MFKKBJ_12170	FKZ69_RS17210	96	1404	99.45429740791269	0.0
+MFKKBJ_12175	FKZ69_RS17215	92	171	100.0	2.13e-50
+MFKKBJ_12180	FKZ69_RS17210	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	FKZ69_RS17215	89	825	100.0	1.01e-299
+MFKKBJ_12185	FKZ69_RS32665	45	104	26.87140115163148	3.79e-24
+MFKKBJ_12195	FKZ69_RS17135	55	218	100.51813471502591	1.45e-70
+MFKKBJ_12200	FKZ69_RS17250	86	318	96.23655913978494	1.15e-110
+
+
+
+>>
+4. NZ_JACHCZ010000001
+Source: Pseudomonas sp. JAI120 Ga0401626_01, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 5908.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+HDC32_RS31965	HDC32_RS31965	621431	621508	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12140	HDC32_RS02865	85	488	97.92387543252595	2.21e-174
+MFKKBJ_12145	HDC32_RS02915	91	362	100.0	3.01e-127
+MFKKBJ_12150	HDC32_RS02925	86	293	99.375	2.49e-101
+MFKKBJ_12155	HDC32_RS02950	96	503	100.0	5.89e-178
+MFKKBJ_12160	HDC32_RS02950	91	348	100.0	3.82e-118
+MFKKBJ_12165	HDC32_RS02955	95	732	100.0	1.8e-267
+MFKKBJ_12170	HDC32_RS02960	96	1414	99.86357435197817	0.0
+MFKKBJ_12175	HDC32_RS02965	90	169	100.0	1.15e-49
+MFKKBJ_12180	HDC32_RS02960	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	HDC32_RS02965	88	820	100.0	9.67e-298
+MFKKBJ_12195	HDC32_RS02885	57	224	100.51813471502591	2.67e-73
+MFKKBJ_12200	HDC32_RS03000	86	325	98.38709677419355	4.19e-113
+
+
+
+>>
+5. NZ_CP019856
+Source: Pseudomonas azotoformans strain F77 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5768.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+B1R45_RS31360	B1R45_RS31360	3444050	3444157	-	30S_ribosomal_protein_S5_alanine_N-acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	B1R45_RS15620	93	370	100.0	1.33e-130
+MFKKBJ_12150	B1R45_RS15630	89	298	98.75	1.33e-103
+MFKKBJ_12155	B1R45_RS15650	95	499	100.0	1.95e-176
+MFKKBJ_12160	B1R45_RS15650	92	350	100.0	6.68e-119
+MFKKBJ_12165	B1R45_RS15655	95	732	100.0	1.27e-267
+MFKKBJ_12170	B1R45_RS15660	95	1403	99.72714870395635	0.0
+MFKKBJ_12175	B1R45_RS15665	91	169	100.0	1.15e-49
+MFKKBJ_12180	B1R45_RS15660	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	B1R45_RS15665	91	836	100.0	2.75e-304
+MFKKBJ_12185	B1R45_RS31350	43	119	40.30710172744721	1.26e-28
+MFKKBJ_12190	B1R45_RS15680	85	442	101.85873605947955	9.21e-157
+MFKKBJ_12200	B1R45_RS15710	85	320	98.38709677419355	2.13e-111
+
+
+
+>>
+6. NZ_CABVGW010000001
+Source: Pseudomonas fluorescens isolate PS682, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5745.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+F8N22_RS00335	F8N22_RS00335	77836	78383	+	GNAT_family_N-acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	F8N22_RS00415	91	362	100.0	3.01e-127
+MFKKBJ_12150	F8N22_RS00405	89	296	99.375	1.5e-102
+MFKKBJ_12155	F8N22_RS00390	95	494	100.0	1.3e-174
+MFKKBJ_12160	F8N22_RS00390	93	353	100.0	2.9e-120
+MFKKBJ_12165	F8N22_RS00385	94	727	100.0	1.72e-265
+MFKKBJ_12170	F8N22_RS00380	95	1409	99.86357435197817	0.0
+MFKKBJ_12175	F8N22_RS00375	91	169	100.0	8.19e-50
+MFKKBJ_12180	F8N22_RS00380	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	F8N22_RS00375	89	833	100.0	6.45e-303
+MFKKBJ_12185	F8N22_RS00445	34	117	61.036468330134355	3.81e-26
+MFKKBJ_12190	F8N22_RS00355	84	441	100.0	1.31e-156
+MFKKBJ_12200	F8N22_RS00315	83	312	98.38709677419355	4.33e-108
+
+
+
+>>
+7. NZ_CP089519
+Source: Pseudomonas extremorientalis strain 1502IPR-01 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5744.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LUU92_RS15095	LUU92_RS15095	3404593	3404812	+	hypothetical_protein
+LUU92_RS15130	LUU92_RS15130	3411018	3412117	-	DUF4113_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	LUU92_RS15140	92	366	100.0	6.33e-129
+MFKKBJ_12150	LUU92_RS15150	89	298	98.75	2.68e-103
+MFKKBJ_12155	LUU92_RS15170	94	494	100.0	9.18e-175
+MFKKBJ_12160	LUU92_RS15170	90	347	100.0	5.42e-118
+MFKKBJ_12165	LUU92_RS15175	95	733	100.0	4.42e-268
+MFKKBJ_12170	LUU92_RS15180	95	1400	99.86357435197817	0.0
+MFKKBJ_12175	LUU92_RS15185	89	167	100.0	4.41e-49
+MFKKBJ_12180	LUU92_RS15180	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	LUU92_RS15185	90	821	100.0	2.38e-298
+MFKKBJ_12185	LUU92_RS15100	40	139	61.036468330134355	1.7e-33
+MFKKBJ_12190	LUU92_RS15205	83	432	100.0	5.32e-153
+MFKKBJ_12200	LUU92_RS15220	84	317	98.38709677419355	3.18e-110
+
+
+
+>>
+8. NZ_CP081944
+Source: Pseudomonas sp. DR208 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5742.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+K5K89_RS28655	K5K89_RS28655	3247490	3248595	+	DUF4113_domain-containing_protein
+K5K89_RS14790	K5K89_RS14790	3254719	3254938	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	K5K89_RS14760	92	365	100.0	1.28e-128
+MFKKBJ_12150	K5K89_RS14750	88	294	98.75	6.32e-102
+MFKKBJ_12155	K5K89_RS14730	94	494	100.0	1.3e-174
+MFKKBJ_12160	K5K89_RS14730	90	347	100.0	5.42e-118
+MFKKBJ_12165	K5K89_RS14725	95	735	100.0	7.65e-269
+MFKKBJ_12170	K5K89_RS14720	95	1400	99.86357435197817	0.0
+MFKKBJ_12175	K5K89_RS14715	90	167	100.0	3.15e-49
+MFKKBJ_12180	K5K89_RS14720	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	K5K89_RS14715	90	822	100.0	1.68e-298
+MFKKBJ_12185	K5K89_RS14785	40	139	61.036468330134355	1.7e-33
+MFKKBJ_12190	K5K89_RS14695	84	433	100.0	1.92e-153
+MFKKBJ_12200	K5K89_RS14680	84	316	98.38709677419355	1.29e-109
+
+
+
+>>
+9. NZ_CP023272
+Source: Pseudomonas lurida strain MYb11 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5742.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	CLM75_RS14675	91	362	100.0	2.12e-127
+MFKKBJ_12150	CLM75_RS14685	89	294	99.375	6.11e-102
+MFKKBJ_12155	CLM75_RS14700	94	493	100.0	3.72e-174
+MFKKBJ_12160	CLM75_RS14700	93	353	100.0	2.9e-120
+MFKKBJ_12165	CLM75_RS14705	93	725	100.0	9.96e-265
+MFKKBJ_12170	CLM75_RS14710	95	1408	99.86357435197817	0.0
+MFKKBJ_12175	CLM75_RS14715	91	169	100.0	8.19e-50
+MFKKBJ_12180	CLM75_RS14710	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	CLM75_RS14715	91	833	100.0	6.45e-303
+MFKKBJ_12185	CLM75_RS14645	34	117	61.036468330134355	3.81e-26
+MFKKBJ_12190	CLM75_RS14735	84	442	100.0	4.57e-157
+MFKKBJ_12200	CLM75_RS14775	84	314	98.38709677419355	5.27e-109
+
+
+
+>>
+10. NZ_LT629708
+Source: Pseudomonas extremorientalis strain LMG 19695 chromosome I
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5741.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BLT33_RS02995	BLT33_RS02995	707233	707452	+	hypothetical_protein
+BLT33_RS29430	BLT33_RS29430	713658	714757	-	DUF4113_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	BLT33_RS03045	93	367	100.0	4.46e-129
+MFKKBJ_12150	BLT33_RS03055	88	294	98.75	6.32e-102
+MFKKBJ_12155	BLT33_RS03075	94	492	100.0	7.5e-174
+MFKKBJ_12160	BLT33_RS03075	90	346	100.0	2.18e-117
+MFKKBJ_12165	BLT33_RS03080	95	735	100.0	1.09e-268
+MFKKBJ_12170	BLT33_RS03085	95	1400	99.86357435197817	0.0
+MFKKBJ_12175	BLT33_RS03090	90	167	100.0	3.15e-49
+MFKKBJ_12180	BLT33_RS03085	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	BLT33_RS03090	90	820	100.0	6.81e-298
+MFKKBJ_12185	BLT33_RS03000	40	139	61.036468330134355	1.7e-33
+MFKKBJ_12190	BLT33_RS03110	84	434	100.0	9.2e-154
+MFKKBJ_12200	BLT33_RS03125	84	317	98.38709677419355	3.18e-110
+
+
+
+>>
+11. NZ_CP078013
+Source: Pseudomonas pergaminensis strain 1008 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5696.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+KUA23_RS16330	KUA23_RS16330	3601362	3601843	+	VOC_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	KUA23_RS16320	93	370	100.0	1.33e-130
+MFKKBJ_12150	KUA23_RS16330	89	228	70.625	2.91e-76
+MFKKBJ_12155	KUA23_RS16350	95	499	100.0	1.95e-176
+MFKKBJ_12160	KUA23_RS16350	92	350	100.0	6.68e-119
+MFKKBJ_12165	KUA23_RS16355	95	731	100.0	5.16e-267
+MFKKBJ_12170	KUA23_RS16360	95	1402	99.86357435197817	0.0
+MFKKBJ_12175	KUA23_RS16365	90	168	100.0	1.61e-49
+MFKKBJ_12180	KUA23_RS16360	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	KUA23_RS16365	91	833	100.0	6.45e-303
+MFKKBJ_12185	KUA23_RS16280	43	120	40.30710172744721	3.52e-29
+MFKKBJ_12190	KUA23_RS16380	87	447	100.0	4.78e-159
+MFKKBJ_12200	KUA23_RS16390	84	318	98.38709677419355	1.75e-110
+
+
+
+>>
+12. NZ_CP110885
+Source: Pseudomonas lurida strain CFBP13722 chromosome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5414.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+OQ519_RS27145	OQ519_RS27145	5922128	5922928	-	suppressor_of_fused_domain_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	OQ519_RS27205	91	363	100.0	1.05e-127
+MFKKBJ_12150	OQ519_RS27195	89	296	99.375	1.5e-102
+MFKKBJ_12155	OQ519_RS27180	95	494	100.0	1.3e-174
+MFKKBJ_12160	OQ519_RS27180	93	353	100.0	2.9e-120
+MFKKBJ_12165	OQ519_RS27175	94	726	100.0	3.48e-265
+MFKKBJ_12170	OQ519_RS27170	95	1408	99.86357435197817	0.0
+MFKKBJ_12175	OQ519_RS27165	91	169	100.0	8.19e-50
+MFKKBJ_12180	OQ519_RS27170	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	OQ519_RS27165	91	833	100.0	6.45e-303
+MFKKBJ_12185	OQ519_RS27240	34	117	61.036468330134355	3.81e-26
+MFKKBJ_12190	OQ519_RS27145	69	110	29.739776951672862	4.4e-29
+MFKKBJ_12200	OQ519_RS27105	83	313	98.38709677419355	1.51e-108
+
+
+
+>>
+13. NZ_LT629702
+Source: Pseudomonas azotoformans strain LMG 21611 chromosome I
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5524.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BLR69_RS07120	BLR69_RS07120	1690352	1691201	-	SDR_family_oxidoreductase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	BLR69_RS07050	93	371	100.0	9.39e-131
+MFKKBJ_12145	BLR69_RS07020	92	221	61.6504854368932	2.5e-72
+MFKKBJ_12150	BLR69_RS07065	90	300	98.75	3.26e-104
+MFKKBJ_12155	BLR69_RS07085	95	498	100.0	5.58e-176
+MFKKBJ_12160	BLR69_RS07085	90	347	100.0	1.09e-117
+MFKKBJ_12165	BLR69_RS07090	95	733	100.0	8.92e-268
+MFKKBJ_12170	BLR69_RS07095	95	1402	99.86357435197817	0.0
+MFKKBJ_12175	BLR69_RS07100	91	169	100.0	1.15e-49
+MFKKBJ_12180	BLR69_RS07095	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	BLR69_RS07100	90	818	100.0	5.58e-297
+MFKKBJ_12190	BLR69_RS07135	83	435	100.3717472118959	4.56e-154
+
+
+
+>>
+14. NZ_CP015639
+Source: Pseudomonas lurida strain L228 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5421.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	A7318_RS12390	90	357	100.0	2.88e-125
+MFKKBJ_12150	A7318_RS12380	89	297	99.375	3.68e-103
+MFKKBJ_12155	A7318_RS12365	95	494	100.0	1.3e-174
+MFKKBJ_12160	A7318_RS12365	93	353	100.0	2.9e-120
+MFKKBJ_12165	A7318_RS12360	94	728	100.0	4.23e-266
+MFKKBJ_12170	A7318_RS12355	95	1409	99.86357435197817	0.0
+MFKKBJ_12175	A7318_RS12350	91	169	100.0	8.19e-50
+MFKKBJ_12180	A7318_RS12355	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	A7318_RS12350	90	829	100.0	2.15e-301
+MFKKBJ_12185	A7318_RS12420	34	117	61.036468330134355	3.81e-26
+MFKKBJ_12190	A7318_RS12330	83	436	100.0	2.52e-154
+
+
+
+>>
+15. NC_023064
+Source: Pseudomonas sp. TKP, complete sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5388.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+U771_RS17590	U771_RS17590	3931475	3932212	-	nucleotidyltransferase_domain-containing_protein
+U771_RS17600	U771_RS17600	3932797	3934227	+	IS1182_family_transposase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	U771_RS17630	89	359	100.0	4.98e-126
+MFKKBJ_12150	U771_RS17640	83	281	98.75	6.79e-97
+MFKKBJ_12155	U771_RS17665	95	496	100.0	1.59e-175
+MFKKBJ_12160	U771_RS17665	91	344	100.0	8.81e-117
+MFKKBJ_12165	U771_RS17670	96	737	100.0	1.88e-269
+MFKKBJ_12170	U771_RS17675	94	1384	99.86357435197817	0.0
+MFKKBJ_12175	U771_RS17680	90	167	100.0	6.17e-49
+MFKKBJ_12180	U771_RS17675	97	229	99.13793103448276	1.77e-70
+MFKKBJ_12185	U771_RS17680	88	819	100.0	1.95e-297
+MFKKBJ_12185	U771_RS17625	43	129	38.38771593090211	9.49e-30
+MFKKBJ_12185	U771_RS17710	35	125	61.42034548944337	1.84e-28
+MFKKBJ_12200	U771_RS17695	83	318	100.0	1.94e-110
+
+
+
+>>
+16. NZ_CP015637
+Source: Pseudomonas fluorescens strain L321 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5387.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	A7317_RS15655	90	361	100.0	8.62e-127
+MFKKBJ_12150	A7317_RS15645	83	281	98.75	6.79e-97
+MFKKBJ_12155	A7317_RS15620	94	493	100.0	5.28e-174
+MFKKBJ_12160	A7317_RS15620	91	344	100.0	8.81e-117
+MFKKBJ_12165	A7317_RS15615	96	738	100.0	6.56e-270
+MFKKBJ_12170	A7317_RS15610	94	1383	99.86357435197817	0.0
+MFKKBJ_12175	A7317_RS15605	90	167	100.0	6.17e-49
+MFKKBJ_12180	A7317_RS15610	97	229	99.13793103448276	1.77e-70
+MFKKBJ_12185	A7317_RS15605	88	819	100.0	1.95e-297
+MFKKBJ_12185	A7317_RS15660	43	129	38.38771593090211	7.01e-30
+MFKKBJ_12185	A7317_RS15575	35	125	61.42034548944337	1.84e-28
+MFKKBJ_12200	A7317_RS15590	83	318	100.0	1.94e-110
+
+
+
+>>
+17. NZ_CP063233
+Source: Pseudomonas fluorescens strain KF1 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5386.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	IM720_RS18045	89	359	100.0	4.98e-126
+MFKKBJ_12150	IM720_RS18055	82	280	98.75	2.77e-96
+MFKKBJ_12155	IM720_RS18080	95	496	100.0	1.59e-175
+MFKKBJ_12160	IM720_RS18080	91	344	100.0	8.81e-117
+MFKKBJ_12165	IM720_RS18085	96	738	100.0	6.56e-270
+MFKKBJ_12170	IM720_RS18090	94	1382	99.86357435197817	0.0
+MFKKBJ_12175	IM720_RS18095	90	167	100.0	6.17e-49
+MFKKBJ_12180	IM720_RS18090	97	229	99.13793103448276	1.77e-70
+MFKKBJ_12185	IM720_RS18095	88	819	100.0	1.95e-297
+MFKKBJ_12185	IM720_RS18040	43	129	38.38771593090211	7.01e-30
+MFKKBJ_12185	IM720_RS18125	35	125	61.42034548944337	1.84e-28
+MFKKBJ_12200	IM720_RS18110	83	318	100.0	1.94e-110
+
+
+
+>>
+18. NZ_CP120377
+Source: Pseudomonas sp. G11 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5383.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	P2T68_RS16515	89	359	100.0	4.98e-126
+MFKKBJ_12150	P2T68_RS16505	84	282	98.75	4.78e-97
+MFKKBJ_12155	P2T68_RS16480	95	496	100.0	1.59e-175
+MFKKBJ_12160	P2T68_RS16480	91	344	100.0	8.81e-117
+MFKKBJ_12165	P2T68_RS16475	95	735	100.0	1.09e-268
+MFKKBJ_12170	P2T68_RS16470	94	1383	99.86357435197817	0.0
+MFKKBJ_12175	P2T68_RS16465	90	167	100.0	6.17e-49
+MFKKBJ_12180	P2T68_RS16470	97	229	99.13793103448276	1.77e-70
+MFKKBJ_12185	P2T68_RS16465	88	819	100.0	1.95e-297
+MFKKBJ_12185	P2T68_RS16520	43	129	38.38771593090211	9.49e-30
+MFKKBJ_12185	P2T68_RS16430	35	125	61.42034548944337	1.84e-28
+MFKKBJ_12200	P2T68_RS16450	82	315	100.0	4.57e-109
+
+
+
+>>
+19. NZ_CP025263
+Source: Pseudomonas sp. S09G 359 chromosome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5304.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	CXQ82_RS17065	90	362	100.0	2.12e-127
+MFKKBJ_12150	CXQ82_RS17075	88	296	99.375	1.21e-102
+MFKKBJ_12155	CXQ82_RS17095	95	499	100.0	9.69e-177
+MFKKBJ_12160	CXQ82_RS17095	93	354	100.0	1.02e-120
+MFKKBJ_12165	CXQ82_RS17100	94	726	100.0	2.45e-265
+MFKKBJ_12170	CXQ82_RS17105	95	1402	99.86357435197817	0.0
+MFKKBJ_12175	CXQ82_RS17110	89	166	100.0	8.64e-49
+MFKKBJ_12180	CXQ82_RS17105	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	CXQ82_RS17110	90	822	100.0	1.68e-298
+MFKKBJ_12185	CXQ82_RS31640	41	114	40.30710172744721	7.97e-27
+MFKKBJ_12200	CXQ82_RS17125	86	332	98.38709677419355	5.14e-116
+
+
+
+>>
+20. NZ_CP022960
+Source: Pseudomonas sp. NS1(2017) strain NS1 chromosome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5219.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	CI807_RS23440	94	373	100.0	1.14e-131
+MFKKBJ_12150	CI807_RS23450	90	301	98.75	1.62e-104
+MFKKBJ_12155	CI807_RS23465	95	501	100.0	1.68e-177
+MFKKBJ_12160	CI807_RS23465	92	354	100.0	1.44e-120
+MFKKBJ_12165	CI807_RS23470	95	729	100.0	2.1e-266
+MFKKBJ_12170	CI807_RS23475	96	1410	99.86357435197817	0.0
+MFKKBJ_12175	CI807_RS23480	92	170	100.0	2.98e-50
+MFKKBJ_12180	CI807_RS23475	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	CI807_RS23480	89	830	100.0	1.07e-301
+MFKKBJ_12200	CI807_RS23520	84	321	98.9247311827957	9.52e-112
+
+
+
+>>
+21. NZ_JACAPG010000014
+Source: Pseudomonas reactans strain C5002 run0228_C5002_S32_L005_contig_14, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5219.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+HX868_RS16920	HX868_RS16920	89042	90052	+	NAD(P)-dependent_alcohol_dehydrogenase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	HX868_RS16900	93	371	100.0	6.61e-131
+MFKKBJ_12150	HX868_RS16890	89	297	98.75	3.81e-103
+MFKKBJ_12155	HX868_RS16875	95	501	100.0	1.68e-177
+MFKKBJ_12160	HX868_RS16875	92	352	100.0	5.82e-120
+MFKKBJ_12165	HX868_RS16870	95	732	100.0	1.8e-267
+MFKKBJ_12170	HX868_RS16865	96	1414	99.86357435197817	0.0
+MFKKBJ_12175	HX868_RS16860	92	170	100.0	2.98e-50
+MFKKBJ_12180	HX868_RS16865	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	HX868_RS16860	89	831	100.0	3.72e-302
+MFKKBJ_12200	HX868_RS16820	84	321	98.9247311827957	9.52e-112
+
+
+
+>>
+22. NZ_CP114115
+Source: Pseudomonas sp. GXZC chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5203.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	OZ428_RS18090	93	370	100.0	1.89e-130
+MFKKBJ_12150	OZ428_RS18100	90	301	98.75	1.62e-104
+MFKKBJ_12155	OZ428_RS18125	94	498	100.0	2.77e-176
+MFKKBJ_12160	OZ428_RS18125	91	351	100.0	2.35e-119
+MFKKBJ_12165	OZ428_RS18130	95	730	100.0	7.32e-267
+MFKKBJ_12170	OZ428_RS18135	95	1403	99.59072305593452	0.0
+MFKKBJ_12175	OZ428_RS18140	91	169	100.0	8.19e-50
+MFKKBJ_12180	OZ428_RS18135	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	OZ428_RS18140	91	831	100.0	3.72e-302
+MFKKBJ_12200	OZ428_RS18175	85	320	98.9247311827957	3.03e-111
+
+
+
+>>
+23. NZ_CP014546
+Source: Pseudomonas azotoformans strain S4 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5197.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AYR47_RS23475	AYR47_RS23475	5130496	5130853	+	VOC_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	AYR47_RS23490	94	373	100.0	1.62e-131
+MFKKBJ_12150	AYR47_RS23500	90	298	98.75	1.33e-103
+MFKKBJ_12155	AYR47_RS23525	95	499	100.0	9.69e-177
+MFKKBJ_12160	AYR47_RS23525	90	346	100.0	1.54e-117
+MFKKBJ_12165	AYR47_RS23530	95	729	100.0	2.98e-266
+MFKKBJ_12170	AYR47_RS23535	95	1404	99.72714870395635	0.0
+MFKKBJ_12175	AYR47_RS23540	91	169	100.0	8.19e-50
+MFKKBJ_12180	AYR47_RS23535	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	AYR47_RS23540	90	825	100.0	1.01e-299
+MFKKBJ_12200	AYR47_RS23575	85	324	98.9247311827957	5.74e-113
+
+
+
+>>
+24. NZ_CP041189
+Source: Pseudomonas sp. NIBRBAC000502773 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5048.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+NIBR502773_RS31085	NIBR502773_RS31085	6339852	6340490	-	PAS_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	NIBR502773_RS28975	90	358	100.0	7.08e-126
+MFKKBJ_12150	NIBR502773_RS28965	87	299	99.375	9.04e-104
+MFKKBJ_12155	NIBR502773_RS28945	96	501	100.0	3.39e-177
+MFKKBJ_12160	NIBR502773_RS28945	92	352	100.0	1.17e-119
+MFKKBJ_12165	NIBR502773_RS28940	94	730	100.0	7.32e-267
+MFKKBJ_12170	NIBR502773_RS28935	95	1399	99.45429740791269	0.0
+MFKKBJ_12175	NIBR502773_RS28930	92	171	100.0	2.13e-50
+MFKKBJ_12180	NIBR502773_RS28935	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	NIBR502773_RS28930	89	820	100.0	6.81e-298
+MFKKBJ_12185	NIBR502773_RS31080	45	108	28.598848368522074	4.51e-25
+MFKKBJ_12195	NIBR502773_RS29015	57	80	31.606217616580313	4.94e-18
+
+
+
+>>
+25. NZ_CP089985
+Source: Pseudomonas sp. HN11 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4958.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LVW35_RS13580	LVW35_RS13580	3004697	3004963	-	dihydrodipicolinate_synthase_family_protein
+LVW35_RS13585	LVW35_RS13585	3004962	3005714	+	SGNH/GDSL_hydrolase_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12150	LVW35_RS13590	89	296	98.75	1.55e-102
+MFKKBJ_12155	LVW35_RS13575	95	500	100.0	4.81e-177
+MFKKBJ_12160	LVW35_RS13575	93	353	100.0	2.9e-120
+MFKKBJ_12165	LVW35_RS13570	94	724	100.0	2.01e-264
+MFKKBJ_12170	LVW35_RS13565	96	1411	99.86357435197817	0.0
+MFKKBJ_12175	LVW35_RS13560	91	169	100.0	8.19e-50
+MFKKBJ_12180	LVW35_RS13565	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	LVW35_RS13560	91	833	100.0	6.45e-303
+MFKKBJ_12185	LVW35_RS13635	43	123	40.30710172744721	5.13e-30
+MFKKBJ_12200	LVW35_RS13540	85	319	98.9247311827957	5.5e-111
+
+
+
+>>
+26. NZ_JACAQM010000001
+Source: Pseudomonas reactans strain IPO3748 IPO_3748_S31_L002_contig_1, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4905.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	HX785_RS02525	94	375	100.0	2.81e-132
+MFKKBJ_12150	HX785_RS02540	89	297	98.75	3.81e-103
+MFKKBJ_12155	HX785_RS02555	95	501	100.0	1.68e-177
+MFKKBJ_12160	HX785_RS02555	92	354	100.0	1.44e-120
+MFKKBJ_12165	HX785_RS02560	95	732	100.0	1.27e-267
+MFKKBJ_12170	HX785_RS02565	96	1412	99.86357435197817	0.0
+MFKKBJ_12175	HX785_RS02570	92	170	100.0	2.98e-50
+MFKKBJ_12180	HX785_RS02565	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	HX785_RS02570	89	834	100.0	1.59e-303
+
+
+
+>>
+27. NZ_JACAQO010000022
+Source: Pseudomonas reactans strain IPO3750 IPO_3750_S33_L002_contig_23, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4894.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	HX796_RS20795	92	368	100.0	1.1e-129
+MFKKBJ_12150	HX796_RS20810	89	297	98.75	3.81e-103
+MFKKBJ_12155	HX796_RS20825	95	501	100.0	1.68e-177
+MFKKBJ_12160	HX796_RS20825	92	354	100.0	1.44e-120
+MFKKBJ_12165	HX796_RS20830	95	732	100.0	1.27e-267
+MFKKBJ_12170	HX796_RS20835	96	1409	99.86357435197817	0.0
+MFKKBJ_12175	HX796_RS20840	92	170	100.0	2.98e-50
+MFKKBJ_12180	HX796_RS20835	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	HX796_RS20840	91	833	100.0	4.54e-303
+
+
+
+>>
+28. NZ_AP025169
+Source: Pseudomonas sp. CYM-20-01 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4862.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	M2497_RS15090	94	375	100.0	2.81e-132
+MFKKBJ_12150	M2497_RS15075	91	302	98.75	5.64e-105
+MFKKBJ_12155	M2497_RS15055	94	496	100.0	1.59e-175
+MFKKBJ_12160	M2497_RS15055	90	347	100.0	7.68e-118
+MFKKBJ_12165	M2497_RS15050	95	731	100.0	2.56e-267
+MFKKBJ_12170	M2497_RS15045	95	1399	99.86357435197817	0.0
+MFKKBJ_12175	M2497_RS15040	91	169	100.0	1.15e-49
+MFKKBJ_12180	M2497_RS15045	97	228	99.13793103448276	2.48e-70
+MFKKBJ_12185	M2497_RS15040	89	815	100.0	9.2e-296
+
+
+
+>>
+29. NZ_CP031450
+Source: Pseudomonas fluorescens strain SIK_W1 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4848.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	DXV65_RS16495	93	370	100.0	1.89e-130
+MFKKBJ_12150	DXV65_RS16510	86	290	99.375	2.9e-100
+MFKKBJ_12155	DXV65_RS16535	96	501	100.0	1.68e-177
+MFKKBJ_12160	DXV65_RS16535	92	347	99.48453608247422	5.42e-118
+MFKKBJ_12165	DXV65_RS16540	95	733	100.0	8.92e-268
+MFKKBJ_12170	DXV65_RS16545	95	1400	99.86357435197817	0.0
+MFKKBJ_12175	DXV65_RS16550	88	162	100.0	4.86e-47
+MFKKBJ_12180	DXV65_RS16545	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	DXV65_RS16550	89	813	100.0	2.63e-295
+
+
+
+>>
+30. NZ_CP058533
+Source: Pseudomonas fluorescens strain W-6 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4468.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12150	HXS75_RS05010	89	302	99.375	3.83e-105
+MFKKBJ_12155	HXS75_RS05005	95	497	100.0	1.12e-175
+MFKKBJ_12160	HXS75_RS05005	93	359	100.0	1.09e-122
+MFKKBJ_12165	HXS75_RS05000	95	729	100.0	2.1e-266
+MFKKBJ_12170	HXS75_RS04995	96	1412	99.45429740791269	0.0
+MFKKBJ_12175	HXS75_RS04990	92	171	100.0	1.52e-50
+MFKKBJ_12180	HXS75_RS04995	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	HXS75_RS04990	85	766	100.0	9.69e-277
+
+
+
+>>
+31. NZ_CP011507
+Source: Pseudomonas trivialis strain IHBB745 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4654.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	AA957_RS28065	94	492	100.0	7.5e-174
+MFKKBJ_12160	AA957_RS28065	92	355	100.0	5.06e-121
+MFKKBJ_12165	AA957_RS28060	95	733	100.0	8.92e-268
+MFKKBJ_12170	AA957_RS28055	95	1403	99.59072305593452	0.0
+MFKKBJ_12175	AA957_RS28050	90	166	100.0	8.64e-49
+MFKKBJ_12180	AA957_RS28055	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	AA957_RS28050	89	819	100.0	1.37e-297
+MFKKBJ_12190	AA957_RS28030	86	455	100.0	5.88e-162
+
+
+
+>>
+32. NZ_CVTP01000008
+Source: Pseudomonas sp. 58 R 12, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4578.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BFP95_RS28770	BFP95_RS28770	377735	378340	-	LysR_family_transcriptional_regulator
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	BFP95_RS05325	94	375	100.0	1.39e-132
+MFKKBJ_12155	BFP95_RS05365	95	500	100.0	4.81e-177
+MFKKBJ_12160	BFP95_RS05365	92	355	100.0	5.06e-121
+MFKKBJ_12165	BFP95_RS05370	95	729	100.0	2.98e-266
+MFKKBJ_12170	BFP95_RS05375	96	1407	99.86357435197817	0.0
+MFKKBJ_12175	BFP95_RS05380	90	166	100.0	8.64e-49
+MFKKBJ_12180	BFP95_RS05375	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	BFP95_RS05380	89	815	100.0	9.2e-296
+
+
+
+>>
+33. NZ_CP077084
+Source: Pseudomonas tritici strain SWRI145 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4576.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+HU722_RS16085	HU722_RS16085	3592405	3593010	-	LysR_family_transcriptional_regulator
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	HU722_RS16130	94	375	100.0	1.39e-132
+MFKKBJ_12155	HU722_RS16165	95	500	100.0	4.81e-177
+MFKKBJ_12160	HU722_RS16165	92	355	100.0	5.06e-121
+MFKKBJ_12165	HU722_RS16170	95	732	100.0	1.27e-267
+MFKKBJ_12170	HU722_RS16175	96	1405	99.86357435197817	0.0
+MFKKBJ_12175	HU722_RS16180	90	166	100.0	8.64e-49
+MFKKBJ_12180	HU722_RS16175	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	HU722_RS16180	89	812	100.0	7.54e-295
+
+
+
+>>
+34. NZ_CVTI01000011
+Source: Pseudomonas sp. 24 R 17, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4574.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BFP98_RS30035	BFP98_RS30035	102777	102860	-	LysE_family_translocator
+BFP98_RS29250	BFP98_RS29250	121491	122084	+	LysR_family_transcriptional_regulator
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	BFP98_RS05075	94	373	100.0	1.14e-131
+MFKKBJ_12155	BFP98_RS05040	95	500	100.0	4.81e-177
+MFKKBJ_12160	BFP98_RS05040	92	355	100.0	5.06e-121
+MFKKBJ_12165	BFP98_RS05035	95	729	100.0	2.98e-266
+MFKKBJ_12170	BFP98_RS05030	96	1405	99.86357435197817	0.0
+MFKKBJ_12175	BFP98_RS05025	90	166	100.0	8.64e-49
+MFKKBJ_12180	BFP98_RS05030	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	BFP98_RS05025	89	815	100.0	9.2e-296
+
+
+
+>>
+35. NZ_CVTR01000015
+Source: Pseudomonas sp. 52 E 6, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4572.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BFP87_RS29745	BFP87_RS29745	100704	100787	-	LysE_family_translocator
+BFP87_RS29190	BFP87_RS29190	119416	120021	+	LysR_family_transcriptional_regulator
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	BFP87_RS07525	94	375	100.0	1.39e-132
+MFKKBJ_12155	BFP87_RS07485	95	500	100.0	4.81e-177
+MFKKBJ_12160	BFP87_RS07485	92	355	100.0	5.06e-121
+MFKKBJ_12165	BFP87_RS07480	94	729	100.0	2.98e-266
+MFKKBJ_12170	BFP87_RS07475	96	1405	99.86357435197817	0.0
+MFKKBJ_12175	BFP87_RS07470	90	166	100.0	8.64e-49
+MFKKBJ_12180	BFP87_RS07475	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	BFP87_RS07470	89	811	100.0	3.06e-294
+
+
+
+>>
+36. NZ_MOAZ01000017
+Source: Pseudomonas canadensis strain 36C8 36C8_Joined_contig_1, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4544.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BK649_RS22895	BK649_RS22895	623232	623375	+	LysE_family_translocator
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	BK649_RS22875	96	502	100.0	8.36e-178
+MFKKBJ_12160	BK649_RS22875	92	353	100.0	2.04e-120
+MFKKBJ_12165	BK649_RS22880	94	725	100.0	9.96e-265
+MFKKBJ_12170	BK649_RS22885	96	1412	99.86357435197817	0.0
+MFKKBJ_12175	BK649_RS22890	92	170	100.0	2.98e-50
+MFKKBJ_12180	BK649_RS22885	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	BK649_RS22890	91	832	100.0	9.16e-303
+MFKKBJ_12200	BK649_RS22915	84	320	98.9247311827957	2.73e-111
+
+
+
+>>
+37. NZ_LACF01000034
+Source: Pseudomonas marginalis strain H21 FCC4LTTACXX-wHAIPI007915-133_L5_1_(paired)_contig_34, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4520.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	VC37_RS23645	95	496	100.0	1.59e-175
+MFKKBJ_12160	VC37_RS23645	92	351	100.0	1.66e-119
+MFKKBJ_12165	VC37_RS23640	95	730	100.0	7.32e-267
+MFKKBJ_12170	VC37_RS23635	95	1398	99.72714870395635	0.0
+MFKKBJ_12175	VC37_RS23630	91	169	100.0	1.15e-49
+MFKKBJ_12180	VC37_RS23635	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	VC37_RS23630	91	831	100.0	2.62e-302
+MFKKBJ_12200	VC37_RS23615	82	313	98.38709677419355	2.14e-108
+
+
+
+>>
+38. NZ_QAJM01000020
+Source: Pseudomonas sp. KBW05 KBW5_ACAGTG_contig_20, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4451.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	DBR46_RS20220	94	493	100.0	2.62e-174
+MFKKBJ_12160	DBR46_RS20220	90	344	100.0	1.25e-116
+MFKKBJ_12165	DBR46_RS20215	94	731	100.0	3.63e-267
+MFKKBJ_12170	DBR46_RS20210	95	1397	99.86357435197817	0.0
+MFKKBJ_12175	DBR46_RS20205	91	169	100.0	1.15e-49
+MFKKBJ_12180	DBR46_RS20210	97	226	99.13793103448276	1.32e-69
+MFKKBJ_12185	DBR46_RS20205	89	810	100.0	8.76e-294
+MFKKBJ_12195	DBR46_RS20190	75	281	98.44559585492227	8.43e-96
+
+
+
+>>
+39. NZ_QCWA01000001
+Source: Pseudomonas sp. GV047 Ga0189750_101, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5207.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	C8K58_RS03050	90	361	100.0	8.62e-127
+MFKKBJ_12150	C8K58_RS03040	87	299	99.375	6.36e-104
+MFKKBJ_12155	C8K58_RS03020	96	502	100.0	1.19e-177
+MFKKBJ_12160	C8K58_RS03020	92	351	100.0	1.66e-119
+MFKKBJ_12165	C8K58_RS03015	95	731	100.0	2.56e-267
+MFKKBJ_12170	C8K58_RS03010	96	1404	99.45429740791269	0.0
+MFKKBJ_12175	C8K58_RS03000	92	171	100.0	2.13e-50
+MFKKBJ_12180	C8K58_RS03010	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	C8K58_RS03000	89	822	100.0	1.18e-298
+MFKKBJ_12185	C8K58_RS03065	45	108	28.598848368522074	2.93e-23
+MFKKBJ_12195	C8K58_RS03095	57	228	100.51813471502591	1.62e-74
+
+
+
+>>
+40. NZ_FKLB01000058
+Source: Pseudomonas sp. 1 R 17, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 5180.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BFP99_RS33765	BFP99_RS33765	464520	465203	-	PAS_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	BFP99_RS22940	91	364	100.0	3.66e-128
+MFKKBJ_12150	BFP99_RS22930	87	295	99.375	2.13e-102
+MFKKBJ_12155	BFP99_RS22905	96	502	100.0	1.19e-177
+MFKKBJ_12160	BFP99_RS22905	92	352	100.0	1.17e-119
+MFKKBJ_12165	BFP99_RS22900	94	730	100.0	7.32e-267
+MFKKBJ_12170	BFP99_RS22895	96	1404	99.45429740791269	0.0
+MFKKBJ_12175	BFP99_RS22885	92	171	100.0	2.13e-50
+MFKKBJ_12180	BFP99_RS22895	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	BFP99_RS22885	87	799	100.0	1.13e-289
+MFKKBJ_12185	BFP99_RS33760	45	108	28.598848368522074	2.98e-25
+MFKKBJ_12195	BFP99_RS22975	57	225	100.51813471502591	1.88e-73
+
+
+
+>>
+41. NZ_CP092411
+Source: Pseudomonas palleroniana strain Q1 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4265.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	MJP36_RS15655	90	362	100.0	4.43e-127
+MFKKBJ_12150	MJP36_RS15630	83	287	99.375	3.51e-99
+MFKKBJ_12155	MJP36_RS15625	92	490	100.0	4.32e-173
+MFKKBJ_12160	MJP36_RS15625	92	351	100.0	1.66e-119
+MFKKBJ_12165	MJP36_RS15620	91	706	100.0	2.92e-257
+MFKKBJ_12170	MJP36_RS15615	94	1390	99.86357435197817	0.0
+MFKKBJ_12180	MJP36_RS15615	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	MJP36_RS15590	36	131	61.42034548944337	2.13e-30
+MFKKBJ_12200	MJP36_RS15595	84	318	98.38709677419355	2.24e-110
+
+
+
+>>
+42. NZ_CP087111
+Source: Pseudomonas palleroniana strain X49 chromosome, complete genome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4263.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+LDL65_RS26425	LDL65_RS26425	5864522	5864638	-	GNAT_family_N-acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	LDL65_RS26420	90	360	100.0	1.8e-126
+MFKKBJ_12150	LDL65_RS26445	82	286	99.375	1.01e-98
+MFKKBJ_12155	LDL65_RS26450	92	490	100.0	6.12e-173
+MFKKBJ_12160	LDL65_RS26450	92	350	100.0	3.33e-119
+MFKKBJ_12165	LDL65_RS26455	92	709	100.0	1.24e-258
+MFKKBJ_12170	LDL65_RS26460	94	1387	99.86357435197817	0.0
+MFKKBJ_12180	LDL65_RS26460	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	LDL65_RS26490	36	131	61.42034548944337	2.13e-30
+MFKKBJ_12200	LDL65_RS26480	84	320	98.38709677419355	2.73e-111
+
+
+
+>>
+43. NZ_QODI01000002
+Source: Pseudomonas sp. Q1 PROKKA_2, whole genome shotgun sequence
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4260.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+DK870_RS29530	DK870_RS29530	62900	63016	+	GNAT_family_N-acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	DK870_RS03120	91	364	100.0	5.39e-128
+MFKKBJ_12150	DK870_RS03100	82	286	99.375	1.01e-98
+MFKKBJ_12155	DK870_RS03095	93	493	100.0	3.72e-174
+MFKKBJ_12160	DK870_RS03095	91	345	100.0	3.1e-117
+MFKKBJ_12165	DK870_RS03090	91	708	100.0	3.55e-258
+MFKKBJ_12170	DK870_RS03085	94	1387	99.86357435197817	0.0
+MFKKBJ_12180	DK870_RS03085	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	DK870_RS03060	36	131	61.42034548944337	2.13e-30
+MFKKBJ_12200	DK870_RS03065	84	316	98.38709677419355	1.29e-109
+
+
+
+>>
+44. NZ_CP025494
+Source: Pseudomonas palleroniana strain MAB3 chromosome
+Type: thiopeptide
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4254.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CYL20_RS29140	CYL20_RS29140	1364165	1364281	-	GNAT_family_N-acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12145	CYL20_RS05750	90	360	100.0	1.8e-126
+MFKKBJ_12150	CYL20_RS05775	82	285	99.375	4.1e-98
+MFKKBJ_12155	CYL20_RS05780	92	490	100.0	6.12e-173
+MFKKBJ_12160	CYL20_RS05780	92	350	100.0	4.72e-119
+MFKKBJ_12165	CYL20_RS05785	91	707	100.0	1.45e-257
+MFKKBJ_12170	CYL20_RS05790	94	1387	99.86357435197817	0.0
+MFKKBJ_12180	CYL20_RS05790	98	230	99.13793103448276	4.63e-71
+MFKKBJ_12185	CYL20_RS05820	36	131	61.42034548944337	2.13e-30
+MFKKBJ_12200	CYL20_RS05815	83	314	98.38709677419355	5.27e-109
+
+
+
+>>
+45. NZ_CP019431
+Source: Pseudomonas sp. S35 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4224.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	PspS35_RS15450	94	497	100.0	1.12e-175
+MFKKBJ_12160	PspS35_RS15450	93	359	100.0	1.55e-122
+MFKKBJ_12165	PspS35_RS15455	94	729	100.0	1.48e-266
+MFKKBJ_12170	PspS35_RS15460	96	1410	99.72714870395635	0.0
+MFKKBJ_12175	PspS35_RS15465	91	170	100.0	4.18e-50
+MFKKBJ_12180	PspS35_RS15460	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	PspS35_RS15465	91	829	100.0	2.15e-301
+
+
+
+>>
+46. NZ_QRBA01000003
+Source: Pseudomonas fluorescens strain AHK-1 scaffold3, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4211.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	DL347_RS06675	96	501	100.0	1.68e-177
+MFKKBJ_12160	DL347_RS06675	92	352	100.0	1.17e-119
+MFKKBJ_12165	DL347_RS06680	94	729	100.0	1.48e-266
+MFKKBJ_12170	DL347_RS06685	96	1405	99.45429740791269	0.0
+MFKKBJ_12175	DL347_RS06690	92	171	100.0	2.13e-50
+MFKKBJ_12180	DL347_RS06685	98	230	99.13793103448276	6.48e-71
+MFKKBJ_12185	DL347_RS06690	89	823	100.0	4.12e-299
+
+
+
+>>
+47. NZ_PCOS01000003
+Source: Pseudomonas trivialis strain MYb75 MYb75_3, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4208.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	CQ048_RS07115	92	485	100.0	5.8e-171
+MFKKBJ_12160	CQ048_RS07115	92	353	100.0	4.1e-120
+MFKKBJ_12165	CQ048_RS07120	95	736	100.0	5.38e-269
+MFKKBJ_12170	CQ048_RS07125	95	1405	99.86357435197817	0.0
+MFKKBJ_12175	CQ048_RS07130	91	169	100.0	1.15e-49
+MFKKBJ_12180	CQ048_RS07125	99	232	99.13793103448276	1.21e-71
+MFKKBJ_12185	CQ048_RS07130	90	828	100.0	3.05e-301
+
+
+
+>>
+48. NZ_JACVZE010000014
+Source: Pseudomonas pisciculturae strain P115 Seq14, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4199.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	ICY20_RS27410	94	490	100.0	6.12e-173
+MFKKBJ_12160	ICY20_RS27410	91	348	100.0	1.9e-118
+MFKKBJ_12165	ICY20_RS27415	94	728	100.0	4.23e-266
+MFKKBJ_12170	ICY20_RS27420	96	1414	99.86357435197817	0.0
+MFKKBJ_12175	ICY20_RS27425	89	164	100.0	9.08e-48
+MFKKBJ_12180	ICY20_RS27420	99	232	99.13793103448276	1.23e-71
+MFKKBJ_12185	ICY20_RS27425	90	823	100.0	2.9e-299
+
+
+
+>>
+49. NZ_CP018420
+Source: Pseudomonas veronii strain R02 chromosome, complete genome
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4107.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	PverR02_RS17150	93	495	100.0	4.56e-175
+MFKKBJ_12160	PverR02_RS17150	91	347	100.0	5.42e-118
+MFKKBJ_12165	PverR02_RS17155	92	716	100.0	4.53e-261
+MFKKBJ_12170	PverR02_RS17160	93	1380	99.86357435197817	0.0
+MFKKBJ_12175	PverR02_RS17165	87	161	100.0	6.8e-47
+MFKKBJ_12180	PverR02_RS17160	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	PverR02_RS17165	86	777	100.0	5.32e-281
+
+
+
+>>
+50. NZ_JXWQ02000001
+Source: Pseudomonas veronii strain R4 scaffold00001, whole genome shotgun sequence
+Type: RiPP-like
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4106.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_12155	SU91_RS17810	93	495	100.0	4.56e-175
+MFKKBJ_12160	SU91_RS17810	91	346	100.0	1.54e-117
+MFKKBJ_12165	SU91_RS17815	92	715	100.0	6.43e-261
+MFKKBJ_12170	SU91_RS17820	93	1379	99.86357435197817	0.0
+MFKKBJ_12175	SU91_RS17825	87	161	100.0	6.8e-47
+MFKKBJ_12180	SU91_RS17820	98	231	99.13793103448276	3.31e-71
+MFKKBJ_12185	SU91_RS17825	86	779	100.0	9.23e-282
+

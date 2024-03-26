@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AFV52171.1</td>
+              <td>CoA_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000081/1">BGC0000081</a></td>
+              <td>NRP+Polyketide:Iterative type I polyketide+Polyketide:Enediyne type I polyketide</td>
+              <td>37.0</td>
+              <td>95.1</td>
+              <td>228.0</td>
+              <td>9.45e-71</td>
+          </tr>
+    
+          <tr>
+              <td>ADC45566.1</td>
+              <td>L-carnitine_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000093/1">BGC0000093</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>100.2</td>
+              <td>216.0</td>
+              <td>5.41e-66</td>
+          </tr>
+    
+          <tr>
+              <td>AJO72732.1</td>
+              <td>Acyl-CoA_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001381/1">BGC0001381</a></td>
+              <td>Polyketide</td>
+              <td>34.0</td>
+              <td>94.6</td>
+              <td>213.0</td>
+              <td>6.9e-65</td>
+          </tr>
+    
+          <tr>
+              <td>AEW98120.1</td>
+              <td>TMC_biosynthetic_enzyme_L2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002642/1">BGC0002642</a></td>
+              <td>Alkaloid</td>
+              <td>34.0</td>
+              <td>95.6</td>
+              <td>209.0</td>
+              <td>2.43e-63</td>
+          </tr>
+    
+          <tr>
+              <td>RSO11565.1</td>
+              <td>formyl-CoA_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002637/1">BGC0002637</a></td>
+              <td>NRP</td>
+              <td>34.0</td>
+              <td>103.4</td>
+              <td>206.0</td>
+              <td>3.56e-62</td>
+          </tr>
+    
+          <tr>
+              <td>AFY23016.1</td>
+              <td>L-carnitine_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000274/1">BGC0000274</a></td>
+              <td>Polyketide:Type II polyketide</td>
+              <td>36.0</td>
+              <td>83.5</td>
+              <td>199.0</td>
+              <td>1.14e-59</td>
+          </tr>
+    
+          <tr>
+              <td>AAF86384.1</td>
+              <td>FkbE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000994/1">BGC0000994</a></td>
+              <td>NRP+Polyketide</td>
+              <td>34.0</td>
+              <td>97.8</td>
+              <td>174.0</td>
+              <td>3.86e-50</td>
+          </tr>
+    
+          <tr>
+              <td>WP_003071788.1</td>
+              <td>CoA_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002009/1">BGC0002009</a></td>
+              <td>Polyketide</td>
+              <td>34.0</td>
+              <td>94.8</td>
+              <td>171.0</td>
+              <td>1.87e-49</td>
+          </tr>
+    
+          <tr>
+              <td>ABO15871.1</td>
+              <td>L-carnitine_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000130/1">BGC0000130</a></td>
+              <td>Polyketide</td>
+              <td>31.0</td>
+              <td>99.0</td>
+              <td>141.0</td>
+              <td>6.66e-38</td>
+          </tr>
+    
+          <tr>
+              <td>AKT74270.1</td>
+              <td>TxnP3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002141/1">BGC0002141</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>95.3</td>
+              <td>113.0</td>
+              <td>2.29e-27</td>
+          </tr>
+    
+          <tr>
+              <td>QDQ37902.1</td>
+              <td>carnitine_dehydratase/CoA_transferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001979/1">BGC0001979</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>95.3</td>
+              <td>100.0</td>
+              <td>8.11e-23</td>
+          </tr>
+    
+          <tr>
+              <td>ALV82343.1</td>
+              <td>putative_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001533/1">BGC0001533</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>54.4</td>
+              <td>72.0</td>
+              <td>2.64e-13</td>
+          </tr>
+    
+          <tr>
+              <td>CAE45666.1</td>
+              <td>putative_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000031/1">BGC0000031</a></td>
+              <td>Polyketide:Modular type I polyketide</td>
+              <td>30.0</td>
+              <td>54.4</td>
+              <td>72.0</td>
+              <td>2.66e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AUM60050.1</td>
+              <td>cytochrome_P450_oxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001706/1">BGC0001706</a></td>
+              <td>Terpene</td>
+              <td>23.0</td>
+              <td>52.0</td>
+              <td>71.0</td>
+              <td>1.01e-12</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

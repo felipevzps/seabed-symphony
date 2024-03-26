@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAW85341.1</td>
+              <td>acyl_carrier_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000837/1">BGC0000837</a></td>
+              <td>Other</td>
+              <td>63.0</td>
+              <td>92.1</td>
+              <td>100.0</td>
+              <td>3.04e-29</td>
+          </tr>
+    
+          <tr>
+              <td>WP_045972709.1</td>
+              <td>phosphopantetheine-binding_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002008/1">BGC0002008</a></td>
+              <td>Other</td>
+              <td>53.0</td>
+              <td>88.8</td>
+              <td>90.0</td>
+              <td>3.86e-25</td>
+          </tr>
+    
+          <tr>
+              <td>AAN79662.1</td>
+              <td>Putative_acyl_carrier_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000836/1">BGC0000836</a></td>
+              <td>Other</td>
+              <td>54.0</td>
+              <td>88.8</td>
+              <td>90.0</td>
+              <td>5.47e-25</td>
+          </tr>
+    
+          <tr>
+              <td>AAG38843.1</td>
+              <td>putative_acyl_carrier_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000840/1">BGC0000840</a></td>
+              <td>Other</td>
+              <td>47.0</td>
+              <td>97.8</td>
+              <td>78.0</td>
+              <td>9.59e-20</td>
+          </tr>
+    
+          <tr>
+              <td>ABQ04122.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000838/1">BGC0000838</a></td>
+              <td>Polyketide</td>
+              <td>44.0</td>
+              <td>91.0</td>
+              <td>69.0</td>
+              <td>6.2e-17</td>
+          </tr>
+    
+          <tr>
+              <td>ACU59361.1</td>
+              <td>phosphopantetheine-binding</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000839/1">BGC0000839</a></td>
+              <td>Other</td>
+              <td>43.0</td>
+              <td>86.5</td>
+              <td>66.0</td>
+              <td>2.09e-15</td>
+          </tr>
+    
+          <tr>
+              <td>ANY57965.1</td>
+              <td>MtcF_Acyl_carrier_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001369/1">BGC0001369</a></td>
+              <td>Polyketide</td>
+              <td>45.0</td>
+              <td>75.3</td>
+              <td>61.0</td>
+              <td>1.71e-13</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

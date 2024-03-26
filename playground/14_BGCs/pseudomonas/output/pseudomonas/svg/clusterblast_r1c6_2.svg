@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,35 5,30 89,30 89,40 5,40 0,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15470&lt;/b&gt;&lt;br&gt;polyphosphate:AMP phosphotransferase&lt;br&gt;Location: 3375153 - 3376668" locus_tag="MFKKBJ_15470" class="clusterblast-orf" id="dummy-6_q0_0_all"  />
+<polygon points="98,40 210,40 215,35 210,30 98,30 98,40 " style="fill:#5cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15475&lt;/b&gt;&lt;br&gt;bifunctional tRNA (5-methylaminomethyl-2-thiouridine)(34)-methyltransferase MnmD/FAD-dependent 5-carboxymethylaminomethyl-2-thiouridine(34) oxidoreductase MnmC&lt;br&gt;Location: 3376822 - 3378808" locus_tag="MFKKBJ_15475" class="clusterblast-orf" id="dummy-6_q1_0_all"  />
+<polygon points="228,40 327,40 332,35 327,30 228,30 228,40 " style="fill:#15a3d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15480&lt;/b&gt;&lt;br&gt;N-acetylglutaminylglutamine amidotransferase&lt;br&gt;Location: 3379033 - 3380806" locus_tag="MFKKBJ_15480" class="clusterblast-orf" id="dummy-6_q2_0_all"  />
+<polygon points="332,40 430,40 435,35 430,30 332,30 332,40 " style="fill:#c715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15485&lt;/b&gt;&lt;br&gt;N-acetylglutaminylglutamine synthetase&lt;br&gt;Location: 3380809 - 3382558" locus_tag="MFKKBJ_15485" class="clusterblast-orf" id="dummy-6_q3_0_all"  />
+<polygon points="444,40 509,40 514,35 509,30 444,30 444,40 " style="fill:#d88015; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15490&lt;/b&gt;&lt;br&gt;osmoprotectant NAGGN system M42 family peptidase&lt;br&gt;Location: 3382721 - 3383906" locus_tag="MFKKBJ_15490" class="clusterblast-orf" id="dummy-6_q4_0_all"  />
+<polygon points="517,40 526,40 531,35 526,30 517,30 517,40 " style="fill:#15d839; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15495&lt;/b&gt;&lt;br&gt;UPF0270 protein Pfl01 4103&lt;br&gt;Location: 3383965 - 3384193" locus_tag="MFKKBJ_15495" class="clusterblast-orf" id="dummy-6_q5_0_all"  />
+<polygon points="531,35 536,30 543,30 543,40 536,40 531,35 " style="fill:#1539d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15500&lt;/b&gt;&lt;br&gt;carbon storage regulator CsrA&lt;br&gt;Location: 3384201 - 3384399" locus_tag="MFKKBJ_15500" class="clusterblast-orf" id="dummy-6_q6_0_all"  />
+<polygon points="550,35 555,30 598,30 598,40 555,40 550,35 " style="fill:#d81580; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15505&lt;/b&gt;&lt;br&gt;SDR family oxidoreductase&lt;br&gt;Location: 3384526 - 3385342" locus_tag="MFKKBJ_15505" class="clusterblast-orf" id="dummy-6_q7_0_all"  />
+<polygon points="617,40 621,40 626,35 621,30 617,30 617,40 " style="fill:#c7d815; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15510&lt;/b&gt;&lt;br&gt;DUF3309 domain-containing protein&lt;br&gt;Location: 3385670 - 3385823" locus_tag="MFKKBJ_15510" class="clusterblast-orf" id="dummy-6_q8_0_all"  />
+<polygon points="629,35 634,30 752,30 752,40 634,40 629,35 " style="fill:#15d8a3; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15515&lt;/b&gt;&lt;br&gt;Phosphoglycerol transferase I&lt;br&gt;Location: 3385874 - 3387962" locus_tag="MFKKBJ_15515" class="clusterblast-orf" id="dummy-6_q9_0_all"  />
+<polygon points="769,35 774,30 780,30 780,40 774,40 769,35 " style="fill:#5c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_15520&lt;/b&gt;&lt;br&gt;Cardiolipin synthase N-terminal domain-containing protein&lt;br&gt;Location: 3388254 - 3388446" locus_tag="MFKKBJ_15520" class="clusterblast-orf" id="dummy-6_q10_0_all"  />
+</g>
+<g label="NZ_MSDJ01000006" description="NZ_MSDJ01000006 (947993-962866): Pseudomonas fluorescens strain G2Y PF G2Y co... (100% of genes show similarity), NAGGN" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_MSDJ01000006&amp;start=947993&amp;end=962866" target="_blank">NZ_MSDJ01000006 (947993-962866)</a>: Pseudomonas fluorescens strain G2Y PF G2Y co... (100% of genes show similarity), NAGGN</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a6_000"  >
+<polygon points="0,85 5,80 88,80 88,90 5,90 0,85 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09270&lt;/b&gt;&lt;br&gt;polyphosphate:AMP phosphotransferase&lt;br&gt;Location: 961745 - 960231&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15470&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1016&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS09270" class="clusterblast-orf" id="dummy-6_h6_2_0"  />
+</g>
+<g id="a6_001"  >
+<polygon points="97,90 209,90 214,85 209,80 97,80 97,90 " style="fill:#5cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09265&lt;/b&gt;&lt;br&gt;bifunctional tRNA (5-methylaminomethyl-2-thiouridine)(34)-methyltransferase MnmD/FAD-dependent 5-carboxymethylaminomethyl-2-thiouridine(34) oxidoreductase MnmC&lt;br&gt;Location: 960076 - 958091&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15475&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1325&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS09265" class="clusterblast-orf" id="dummy-6_h6_2_1"  />
+</g>
+<g id="a6_002"  >
+<polygon points="227,90 326,90 331,85 326,80 227,80 227,90 " style="fill:#15a3d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09260&lt;/b&gt;&lt;br&gt;N-acetylglutaminylglutamine amidotransferase&lt;br&gt;Location: 957866 - 956094&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15480&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1200&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS09260" class="clusterblast-orf" id="dummy-6_h6_2_2"  />
+</g>
+<g id="a6_003"  >
+<polygon points="331,90 429,90 434,85 429,80 331,80 331,90 " style="fill:#c715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09255&lt;/b&gt;&lt;br&gt;N-acetylglutaminylglutamine synthetase&lt;br&gt;Location: 956090 - 954342&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15485&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1150&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS09255" class="clusterblast-orf" id="dummy-6_h6_2_3"  />
+</g>
+<g id="a6_004"  >
+<polygon points="444,90 508,90 513,85 508,80 444,80 444,90 " style="fill:#d88015; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09250&lt;/b&gt;&lt;br&gt;osmoprotectant NAGGN system M42 family peptidase&lt;br&gt;Location: 954178 - 952994&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15490&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 782&lt;br&gt;E-value: 3.1e-287" locus_tag="BFW92_RS09250" class="clusterblast-orf" id="dummy-6_h6_2_4"  />
+</g>
+<g id="a6_005"  >
+<polygon points="517,90 525,90 530,85 525,80 517,80 517,90 " style="fill:#15d839; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09245&lt;/b&gt;&lt;br&gt;YheU family protein&lt;br&gt;Location: 952934 - 952707&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15495&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 152&lt;br&gt;E-value: 3.36e-48" locus_tag="BFW92_RS09245" class="clusterblast-orf" id="dummy-6_h6_2_5"  />
+</g>
+<g id="a6_006"  >
+<polygon points="530,85 535,80 542,80 542,90 535,90 530,85 " style="fill:#1539d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09240&lt;/b&gt;&lt;br&gt;carbon storage regulator CsrA&lt;br&gt;Location: 952698 - 952501&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15500&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 119&lt;br&gt;E-value: 1.11e-35" locus_tag="BFW92_RS09240" class="clusterblast-orf" id="dummy-6_h6_2_6"  />
+</g>
+<g id="a6_007"  >
+<polygon points="549,85 554,80 597,80 597,90 554,90 549,85 " style="fill:#d81580; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09235&lt;/b&gt;&lt;br&gt;SDR family oxidoreductase&lt;br&gt;Location: 952373 - 951558&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15505&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 530&lt;br&gt;E-value: 2.15e-191" locus_tag="BFW92_RS09235" class="clusterblast-orf" id="dummy-6_h6_2_7"  />
+</g>
+<g id="a6_008"  >
+<polygon points="617,90 621,90 626,85 621,80 617,80 617,90 " style="fill:#c7d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09230&lt;/b&gt;&lt;br&gt;DUF3309 family protein&lt;br&gt;Location: 951229 - 951077&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15510&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 81&lt;br&gt;E-value: 1.5e-20" locus_tag="BFW92_RS09230" class="clusterblast-orf" id="dummy-6_h6_2_8"  />
+</g>
+<g id="a6_009"  >
+<polygon points="629,85 634,80 751,80 751,90 634,90 629,85 " style="fill:#15d8a3; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09225&lt;/b&gt;&lt;br&gt;LTA synthase family protein&lt;br&gt;Location: 951024 - 948937&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15515&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1389&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS09225" class="clusterblast-orf" id="dummy-6_h6_2_9"  />
+</g>
+<g id="a6_0010"  >
+<polygon points="768,85 773,80 779,80 779,90 773,90 768,85 " style="fill:#5c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS09220&lt;/b&gt;&lt;br&gt;PLDc N-terminal domain-containing protein&lt;br&gt;Location: 948645 - 948454&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_15520&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 121&lt;br&gt;E-value: 2.36e-36" locus_tag="BFW92_RS09220" class="clusterblast-orf" id="dummy-6_h6_2_10"  />
+</g>
+</svg>

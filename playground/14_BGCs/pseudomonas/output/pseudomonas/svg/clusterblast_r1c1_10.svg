@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 61,40 66,35 61,30 0,30 0,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07180&lt;/b&gt;&lt;br&gt;ABC transmembrane type-1 domain-containing protein&lt;br&gt;Location: 1515901 - 1516858" locus_tag="MFKKBJ_07180" class="clusterblast-orf" id="dummy-1_q0_0_all"  />
+<polygon points="66,40 121,40 126,35 121,30 66,30 66,40 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07185&lt;/b&gt;&lt;br&gt;DNA-directed RNA polymerase subunit alpha&lt;br&gt;Location: 1516854 - 1517730" locus_tag="MFKKBJ_07185" class="clusterblast-orf" id="dummy-1_q1_0_all"  />
+<polygon points="126,40 247,40 252,35 247,30 126,30 126,40 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07190&lt;/b&gt;&lt;br&gt;nickel import ATP-binding protein NikE&lt;br&gt;Location: 1517731 - 1519573" locus_tag="MFKKBJ_07190" class="clusterblast-orf" id="dummy-1_q2_0_all"  />
+<polygon points="252,40 268,40 273,35 268,30 252,30 252,40 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07195&lt;/b&gt;&lt;br&gt;NAD(FAD)-dependent dehydrogenase&lt;br&gt;Location: 1519569 - 1519878" locus_tag="MFKKBJ_07195" class="clusterblast-orf" id="dummy-1_q3_0_all"  />
+<polygon points="272,40 361,40 366,35 361,30 272,30 272,40 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07200&lt;/b&gt;&lt;br&gt;Hydrogen cyanide synthase subunit HcnB&lt;br&gt;Location: 1519859 - 1521239" locus_tag="MFKKBJ_07200" class="clusterblast-orf" id="dummy-1_q4_0_all"  />
+<polygon points="366,40 440,40 445,35 440,30 366,30 366,40 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07205&lt;/b&gt;&lt;br&gt;FAD dependent oxidoreductase domain-containing protein&lt;br&gt;Location: 1521235 - 1522387" locus_tag="MFKKBJ_07205" class="clusterblast-orf" id="dummy-1_q5_0_all"  />
+<polygon points="445,40 519,40 524,35 519,30 445,30 445,40 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07210&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 1522383 - 1523541" locus_tag="MFKKBJ_07210" class="clusterblast-orf" id="dummy-1_q6_0_all"  />
+<polygon points="532,40 628,40 633,35 628,30 532,30 532,40 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07215&lt;/b&gt;&lt;br&gt;Glutarate-semialdehyde dehydrogenase Succinate-semialdehyde dehydrogenase [NADP+]&lt;br&gt;Location: 1523658 - 1525119" locus_tag="MFKKBJ_07215" class="clusterblast-orf" id="dummy-1_q7_0_all"  />
+<polygon points="634,40 703,40 708,35 703,30 634,30 634,40 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07220&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 1525132 - 1526218" locus_tag="MFKKBJ_07220" class="clusterblast-orf" id="dummy-1_q8_0_all"  />
+<polygon points="709,35 714,30 717,30 717,40 714,40 709,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07225&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 1526229 - 1526343" locus_tag="MFKKBJ_07225" class="clusterblast-orf" id="dummy-1_q9_0_all"  />
+<polygon points="717,35 722,30 780,30 780,40 722,40 717,35 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;MFKKBJ_07230&lt;/b&gt;&lt;br&gt;D-3-phosphoglycerate dehydrogenase&lt;br&gt;Location: 1526342 - 1527269" locus_tag="MFKKBJ_07230" class="clusterblast-orf" id="dummy-1_q10_0_all"  />
+</g>
+<g label="NZ_CVTR01000038" description="NZ_CVTR01000038 (3362-16180): Pseudomonas sp. 52 E 6, whole genome shotgun se... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CVTR01000038&amp;start=3362&amp;end=16180" target="_blank">NZ_CVTR01000038 (3362-16180)</a>: Pseudomonas sp. 52 E 6, whole genome shotgun se... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a1_000"  >
+<polygon points="0,90 60,90 65,85 60,80 0,80 0,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26255&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 4695 - 5651&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07180&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 2.4e-207" locus_tag="BFP87_RS26255" class="clusterblast-orf" id="dummy-1_h1_10_0"  />
+</g>
+<g id="a1_001"  >
+<polygon points="65,90 120,90 125,85 120,80 65,80 65,90 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26260&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 5648 - 6523&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07185&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 533&lt;br&gt;E-value: 6.07e-192" locus_tag="BFP87_RS26260" class="clusterblast-orf" id="dummy-1_h1_10_1"  />
+</g>
+<g id="a1_002"  >
+<polygon points="125,90 246,90 251,85 246,80 125,80 125,90 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26265&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 6525 - 8366&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07190&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1091&lt;br&gt;E-value: 0.0" locus_tag="BFP87_RS26265" class="clusterblast-orf" id="dummy-1_h1_10_2"  />
+</g>
+<g id="a1_003"  >
+<polygon points="251,90 267,90 272,85 267,80 251,80 251,90 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26270&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 8363 - 8671&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07195&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 211&lt;br&gt;E-value: 7.43e-71" locus_tag="BFP87_RS26270" class="clusterblast-orf" id="dummy-1_h1_10_3"  />
+</g>
+<g id="a1_004"  >
+<polygon points="271,90 360,90 365,85 360,80 271,80 271,90 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26275&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 8653 - 10029&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07200&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 854&lt;br&gt;E-value: 1.52e-313" locus_tag="BFP87_RS26275" class="clusterblast-orf" id="dummy-1_h1_10_4"  />
+</g>
+<g id="a1_005"  >
+<polygon points="365,90 439,90 444,85 439,80 365,80 365,90 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26280&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 10026 - 11180&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07205&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 717&lt;br&gt;E-value: 5.51e-262" locus_tag="BFP87_RS26280" class="clusterblast-orf" id="dummy-1_h1_10_5"  />
+</g>
+<g id="a1_006"  >
+<polygon points="444,90 519,90 524,85 519,80 444,80 444,90 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26285&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 11177 - 12334&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07210&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 713&lt;br&gt;E-value: 4.18e-260" locus_tag="BFP87_RS26285" class="clusterblast-orf" id="dummy-1_h1_10_6"  />
+</g>
+<g id="a1_007"  >
+<polygon points="532,90 627,90 632,85 627,80 532,80 532,90 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26290&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 12452 - 13906&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07215&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 839&lt;br&gt;E-value: 1.48e-306" locus_tag="BFP87_RS26290" class="clusterblast-orf" id="dummy-1_h1_10_7"  />
+</g>
+<g id="a1_008"  >
+<polygon points="633,90 702,90 707,85 702,80 633,80 633,90 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26295&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 13927 - 15012&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07220&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 703&lt;br&gt;E-value: 4.17e-257" locus_tag="BFP87_RS26295" class="clusterblast-orf" id="dummy-1_h1_10_8"  />
+</g>
+<g id="a1_009"  >
+<polygon points="716,85 721,80 779,80 779,90 721,90 716,85 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26300&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 15136 - 16062&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with MFKKBJ_07230&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 567&lt;br&gt;E-value: 4.33e-205" locus_tag="BFP87_RS26300" class="clusterblast-orf" id="dummy-1_h1_10_9"  />
+</g>
+</svg>

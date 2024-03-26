@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAU04876.1</td>
+              <td>acyl-coA-dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000365/1">BGC0000365</a></td>
+              <td>NRP</td>
+              <td>34.0</td>
+              <td>103.5</td>
+              <td>286.0</td>
+              <td>2.26e-88</td>
+          </tr>
+    
+          <tr>
+              <td>BBA66515.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001495/1">BGC0001495</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>55.9</td>
+              <td>95.0</td>
+              <td>3.29e-20</td>
+          </tr>
+    
+          <tr>
+              <td>AAD24879.1</td>
+              <td>putative_acyl-CoA_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000127/1">BGC0000127</a></td>
+              <td>Polyketide</td>
+              <td>25.0</td>
+              <td>61.6</td>
+              <td>74.0</td>
+              <td>1.32e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AFJ52665.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001073/1">BGC0001073</a></td>
+              <td>NRP+Polyketide</td>
+              <td>25.0</td>
+              <td>58.7</td>
+              <td>69.0</td>
+              <td>3.09e-12</td>
+          </tr>
+    
+          <tr>
+              <td>AEH42483.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000032/1">BGC0000032</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>62.9</td>
+              <td>67.0</td>
+              <td>1.29e-11</td>
+          </tr>
+    
+          <tr>
+              <td>MBA0053729.1</td>
+              <td>acyl-CoA_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002096/1">BGC0002096</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>63.7</td>
+              <td>66.0</td>
+              <td>3.03e-11</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

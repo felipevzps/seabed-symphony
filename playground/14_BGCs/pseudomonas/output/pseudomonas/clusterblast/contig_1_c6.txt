@@ -1,0 +1,1269 @@
+ClusterBlast scores for contig_1
+
+Table of genes, locations, strands and annotations of query cluster:
+MFKKBJ_15470	3375153	3376668	-	polyphosphate:AMP phosphotransferase	
+MFKKBJ_15475	3376822	3378808	+	bifunctional tRNA (5-methylaminomethyl-2-thiouridine)(34)-methyltransferase MnmD/FAD-dependent 5-carboxymethylaminomethyl-2-thiouridine(34) oxidoreductase MnmC	
+MFKKBJ_15480	3379033	3380806	+	N-acetylglutaminylglutamine amidotransferase	
+MFKKBJ_15485	3380809	3382558	+	N-acetylglutaminylglutamine synthetase	
+MFKKBJ_15490	3382721	3383906	+	osmoprotectant NAGGN system M42 family peptidase	
+MFKKBJ_15495	3383965	3384193	+	UPF0270 protein Pfl01_4103	
+MFKKBJ_15500	3384201	3384399	-	carbon storage regulator CsrA	
+MFKKBJ_15505	3384526	3385342	-	SDR family oxidoreductase	
+MFKKBJ_15510	3385670	3385823	+	DUF3309 domain-containing protein	
+MFKKBJ_15515	3385874	3387962	-	Phosphoglycerol transferase I	
+MFKKBJ_15520	3388254	3388446	-	Cardiolipin synthase N-terminal domain-containing protein	
+
+
+Significant hits: 
+1. NZ_CM001025	Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+2. NZ_MSDJ01000006	Pseudomonas fluorescens strain G2Y PF_G2Y_contig_1, whole genome shotgun sequence
+3. NZ_JACAQV010000010	Pseudomonas salomonii strain IPO3765 IPO_3765_S40_L003_contig_10, whole genome shotgun sequence
+4. NZ_CP019428	Pseudomonas sp. R76 chromosome, complete genome
+5. NZ_MOAZ01000003	Pseudomonas canadensis strain 36C8 36C8_contig_4, whole genome shotgun sequence
+6. NC_023064	Pseudomonas sp. TKP, complete sequence
+7. NZ_CP063073	Pseudomonas poae strain PMA22 chromosome, complete genome
+8. NZ_CP063233	Pseudomonas fluorescens strain KF1 chromosome, complete genome
+9. NZ_CP120377	Pseudomonas sp. G11 chromosome, complete genome
+10. NZ_LEKF01000001	Pseudomonas sp. ARP3 contig1, whole genome shotgun sequence
+11. NZ_CP019431	Pseudomonas sp. S35 chromosome, complete genome
+12. NZ_CP070980	Pseudomonas rhodesiae strain AAMF24 chromosome, complete genome
+13. NZ_JACHKW010000001	Pseudomonas rhodesiae strain S00114 Ga0436305_01, whole genome shotgun sequence
+14. NZ_CP046103	Pseudomonas sp. IB20 chromosome
+15. NZ_CVTP01000028	Pseudomonas sp. 58 R 12, whole genome shotgun sequence
+16. NZ_CP054205	Pseudomonas rhodesiae strain NL2019 chromosome, complete genome
+17. NZ_LT629801	Pseudomonas rhodesiae strain LMG 17764 chromosome I
+18. NZ_CP077084	Pseudomonas tritici strain SWRI145 chromosome, complete genome
+19. NZ_JAHZMS010000010	Pseudomonas sp. LAP_36 NODE_10_length_165453_cov_196.982399, whole genome shotgun sequence
+20. NZ_CP070981	Pseudomonas rhodesiae strain DLA23 chromosome, complete genome
+21. NZ_CVTR01000018	Pseudomonas sp. 52 E 6, whole genome shotgun sequence
+22. NZ_CVTI01000005	Pseudomonas sp. 24 R 17, whole genome shotgun sequence
+23. NZ_CP104045	Pseudomonas sp. FJ2-5-13 chromosome, complete genome
+24. NZ_MSDL01000057	Pseudomonas fluorescens strain TDH5 PF_TDH5_contig_14, whole genome shotgun sequence
+25. NZ_KN360950	Pseudomonas lactis strain PA4C2 scaffold1, whole genome shotgun sequence
+26. NZ_CABVIQ010000001	Pseudomonas fluorescens isolate PS887, whole genome shotgun sequence
+27. NZ_JAEACS010000010	Pseudomonas fluorescens strain X C9PK1, whole genome shotgun sequence
+28. NZ_CP043060	Pseudomonas sp. J380 chromosome, complete genome
+29. NZ_CP023269	Pseudomonas sp. MYb193 chromosome, complete genome
+30. NZ_CP023969	Pseudomonas sp. FDAARGOS_380 chromosome, complete genome
+31. NC_017911	Pseudomonas fluorescens A506, complete sequence
+32. NZ_CP034425	Pseudomonas libanensis strain DMSP-1 chromosome, complete genome
+33. NZ_JANCLL010000017	Pseudomonas carnis strain LP NODE_17_length_130217_cov_71.665924, whole genome shotgun sequence
+34. NZ_CP058975	Pseudomonas sp. Y39-6 chromosome
+35. NZ_ML137235	Pseudomonas veronii strain RZ scaffold13, whole genome shotgun sequence
+36. NZ_JALJRR010000026	Pseudomonas sp. Pse79 NODE_26_length_92514_cov_27.47592514, whole genome shotgun sequence
+37. NZ_CP068151	Pseudomonas fluorescens strain FDAARGOS_1088 chromosome, complete genome
+38. NZ_CP089551	Pseudomonas sp. 7-41 chromosome, complete genome
+39. NZ_CP045767	Pseudomonas sp. CFSAN084952 chromosome, complete genome
+40. NZ_CP018420	Pseudomonas veronii strain R02 chromosome, complete genome
+41. NZ_CP026880	Pseudomonas sp. LH1G9 chromosome, complete genome
+42. NZ_JXWQ02000001	Pseudomonas veronii strain R4 scaffold00001, whole genome shotgun sequence
+43. NZ_CP007638	Pseudomonas sp. WCS374 chromosome
+44. NZ_SMOF01000001	Pseudomonas sp. B2021 B2021_chromosome_1, whole genome shotgun sequence
+45. NZ_QBUF01000004	Pseudomonas sp. GV105 Ga0189758_104, whole genome shotgun sequence
+46. NZ_CP089532	Pseudomonas veronii strain G2 chromosome, complete genome
+47. NZ_JACAPY010000023	Pseudomonas sp. G1002 run0228_G1002_S12_L004_contig_23, whole genome shotgun sequence
+48. NZ_CP080030	Pseudomonas sp. Colony2 chromosome
+49. NZ_LT629793	Pseudomonas yamanorum strain LMG 27247 chromosome I
+50. NZ_CM001513	Pseudomonas lactis strain SS101 chromosome, whole genome shotgun sequence
+
+
+Details:
+
+>>
+1. NZ_CM001025
+Source: Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7870.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PFWH6_RS09180	99	1013	100.0	0.0
+MFKKBJ_15475	PFWH6_RS09175	99	1325	100.0	0.0
+MFKKBJ_15480	PFWH6_RS09170	100	1200	100.0	0.0
+MFKKBJ_15485	PFWH6_RS09165	100	1157	100.0	0.0
+MFKKBJ_15490	PFWH6_RS09160	100	780	100.0	1.79e-286
+MFKKBJ_15495	PFWH6_RS09155	100	152	100.0	3.36e-48
+MFKKBJ_15500	PFWH6_RS09150	97	117	100.0	6.41e-35
+MFKKBJ_15505	PFWH6_RS09145	100	530	100.0	1.51e-191
+MFKKBJ_15510	PFWH6_RS09140	100	81	100.0	1.5e-20
+MFKKBJ_15515	PFWH6_RS09135	100	1394	100.0	0.0
+MFKKBJ_15520	PFWH6_RS09130	100	121	100.0	2.36e-36
+
+
+
+>>
+2. NZ_MSDJ01000006
+Source: Pseudomonas fluorescens strain G2Y PF_G2Y_contig_1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7865.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BFW92_RS09270	100	1016	100.0	0.0
+MFKKBJ_15475	BFW92_RS09265	99	1325	100.0	0.0
+MFKKBJ_15480	BFW92_RS09260	100	1200	100.0	0.0
+MFKKBJ_15485	BFW92_RS09255	99	1150	100.0	0.0
+MFKKBJ_15490	BFW92_RS09250	100	782	100.0	3.1e-287
+MFKKBJ_15495	BFW92_RS09245	100	152	100.0	3.36e-48
+MFKKBJ_15500	BFW92_RS09240	99	119	100.0	1.11e-35
+MFKKBJ_15505	BFW92_RS09235	100	530	100.0	2.15e-191
+MFKKBJ_15510	BFW92_RS09230	100	81	100.0	1.5e-20
+MFKKBJ_15515	BFW92_RS09225	99	1389	100.0	0.0
+MFKKBJ_15520	BFW92_RS09220	100	121	100.0	2.36e-36
+
+
+
+>>
+3. NZ_JACAQV010000010
+Source: Pseudomonas salomonii strain IPO3765 IPO_3765_S40_L003_contig_10, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7525.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	HX810_RS12480	96	989	100.0	0.0
+MFKKBJ_15475	HX810_RS12485	87	1156	99.54614220877458	0.0
+MFKKBJ_15480	HX810_RS12490	98	1179	100.0	0.0
+MFKKBJ_15485	HX810_RS12495	95	1108	99.82817869415808	0.0
+MFKKBJ_15490	HX810_RS12500	98	771	100.0	8.17e-283
+MFKKBJ_15495	HX810_RS12505	97	147	100.0	1.6e-46
+MFKKBJ_15500	HX810_RS12510	83	93	90.76923076923077	3.75e-25
+MFKKBJ_15505	HX810_RS12515	98	523	100.0	8.4e-189
+MFKKBJ_15510	HX810_RS12520	100	81	100.0	1.5e-20
+MFKKBJ_15515	HX810_RS12525	96	1357	100.0	0.0
+MFKKBJ_15520	HX810_RS12530	100	121	100.0	2.36e-36
+
+
+
+>>
+4. NZ_CP019428
+Source: Pseudomonas sp. R76 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7504.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PspR76_RS21190	96	993	100.0	0.0
+MFKKBJ_15475	PspR76_RS21195	85	1142	99.54614220877458	0.0
+MFKKBJ_15480	PspR76_RS21200	98	1178	100.0	0.0
+MFKKBJ_15485	PspR76_RS21205	94	1097	99.82817869415808	0.0
+MFKKBJ_15490	PspR76_RS21210	99	776	100.0	6e-285
+MFKKBJ_15495	PspR76_RS21215	99	149	100.0	2.77e-47
+MFKKBJ_15500	PspR76_RS21220	83	92	92.3076923076923	1.02e-24
+MFKKBJ_15505	PspR76_RS21225	98	523	100.0	5.91e-189
+MFKKBJ_15510	PspR76_RS21230	98	81	100.0	1.5e-20
+MFKKBJ_15515	PspR76_RS21235	97	1358	100.0	0.0
+MFKKBJ_15520	PspR76_RS21240	94	115	100.0	4.6e-34
+
+
+
+>>
+5. NZ_MOAZ01000003
+Source: Pseudomonas canadensis strain 36C8 36C8_contig_4, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7504.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BK649_RS03830	96	988	100.0	0.0
+MFKKBJ_15475	BK649_RS03835	88	1172	99.39485627836612	0.0
+MFKKBJ_15480	BK649_RS03840	97	1166	100.0	0.0
+MFKKBJ_15485	BK649_RS03845	96	1102	99.14089347079039	0.0
+MFKKBJ_15490	BK649_RS03850	98	771	100.0	8.17e-283
+MFKKBJ_15495	BK649_RS03855	99	149	100.0	2.77e-47
+MFKKBJ_15500	BK649_RS03860	80	95	100.0	9.71e-26
+MFKKBJ_15505	BK649_RS03865	98	522	100.0	2.41e-188
+MFKKBJ_15510	BK649_RS03870	100	81	100.0	1.5e-20
+MFKKBJ_15515	BK649_RS03875	95	1337	100.0	0.0
+MFKKBJ_15520	BK649_RS03880	100	121	100.0	2.36e-36
+
+
+
+>>
+6. NC_023064
+Source: Pseudomonas sp. TKP, complete sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7496.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	U771_RS21995	94	965	100.0	0.0
+MFKKBJ_15475	U771_RS22000	89	1192	99.39485627836612	0.0
+MFKKBJ_15480	U771_RS22005	97	1169	100.0	0.0
+MFKKBJ_15485	U771_RS22010	95	1101	100.0	0.0
+MFKKBJ_15490	U771_RS22015	98	771	100.0	8.17e-283
+MFKKBJ_15495	U771_RS22020	97	148	100.0	7.94e-47
+MFKKBJ_15500	U771_RS22025	75	86	93.84615384615384	2.09e-22
+MFKKBJ_15505	U771_RS22030	97	519	100.0	2.81e-187
+MFKKBJ_15510	U771_RS32215	96	77	100.0	2.5e-19
+MFKKBJ_15515	U771_RS22040	96	1349	100.0	0.0
+MFKKBJ_15520	U771_RS22045	98	119	100.0	9.64e-36
+
+
+
+>>
+7. NZ_CP063073
+Source: Pseudomonas poae strain PMA22 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7495.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	IMF22_RS04045	96	990	100.0	0.0
+MFKKBJ_15475	IMF22_RS04040	85	1136	99.54614220877458	0.0
+MFKKBJ_15480	IMF22_RS04035	98	1180	100.0	0.0
+MFKKBJ_15485	IMF22_RS04030	94	1097	99.82817869415808	0.0
+MFKKBJ_15490	IMF22_RS04025	99	775	100.0	1.72e-284
+MFKKBJ_15495	IMF22_RS04020	99	149	100.0	2.77e-47
+MFKKBJ_15500	IMF22_RS04015	83	92	92.3076923076923	1.02e-24
+MFKKBJ_15505	IMF22_RS04010	97	522	100.0	1.69e-188
+MFKKBJ_15510	IMF22_RS04005	98	81	100.0	1.5e-20
+MFKKBJ_15515	IMF22_RS04000	97	1356	100.0	0.0
+MFKKBJ_15520	IMF22_RS03995	95	117	100.0	1.13e-34
+
+
+
+>>
+8. NZ_CP063233
+Source: Pseudomonas fluorescens strain KF1 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7495.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	IM720_RS22550	94	965	100.0	0.0
+MFKKBJ_15475	IM720_RS22555	89	1191	99.39485627836612	0.0
+MFKKBJ_15480	IM720_RS22560	97	1169	100.0	0.0
+MFKKBJ_15485	IM720_RS22565	95	1101	100.0	0.0
+MFKKBJ_15490	IM720_RS22570	98	771	100.0	8.17e-283
+MFKKBJ_15495	IM720_RS22575	97	148	100.0	7.94e-47
+MFKKBJ_15500	IM720_RS22580	75	86	93.84615384615384	2.09e-22
+MFKKBJ_15505	IM720_RS22585	97	519	100.0	2.81e-187
+MFKKBJ_15510	IM720_RS22590	96	77	100.0	2.5e-19
+MFKKBJ_15515	IM720_RS22595	96	1349	100.0	0.0
+MFKKBJ_15520	IM720_RS22600	98	119	100.0	9.64e-36
+
+
+
+>>
+9. NZ_CP120377
+Source: Pseudomonas sp. G11 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7491.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	P2T68_RS25975	94	963	100.0	0.0
+MFKKBJ_15475	P2T68_RS25980	89	1192	99.39485627836612	0.0
+MFKKBJ_15480	P2T68_RS25985	97	1168	100.0	0.0
+MFKKBJ_15485	P2T68_RS25990	95	1101	100.0	0.0
+MFKKBJ_15490	P2T68_RS25995	98	769	100.0	4.73e-282
+MFKKBJ_15495	P2T68_RS26000	97	148	100.0	7.94e-47
+MFKKBJ_15500	P2T68_RS26005	75	86	93.84615384615384	2.09e-22
+MFKKBJ_15505	P2T68_RS26010	97	519	100.0	2.81e-187
+MFKKBJ_15510	P2T68_RS26015	96	77	100.0	2.5e-19
+MFKKBJ_15515	P2T68_RS26020	96	1349	100.0	0.0
+MFKKBJ_15520	P2T68_RS26025	98	119	100.0	9.64e-36
+
+
+
+>>
+10. NZ_LEKF01000001
+Source: Pseudomonas sp. ARP3 contig1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7482.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	ABX75_RS01720	95	975	100.0	0.0
+MFKKBJ_15475	ABX75_RS01715	86	1148	100.15128593040848	0.0
+MFKKBJ_15480	ABX75_RS01710	98	1174	100.0	0.0
+MFKKBJ_15485	ABX75_RS01705	95	1102	99.82817869415808	0.0
+MFKKBJ_15490	ABX75_RS01700	99	776	100.0	6e-285
+MFKKBJ_15495	ABX75_RS01695	99	149	100.0	2.77e-47
+MFKKBJ_15500	ABX75_RS01690	69	86	100.0	2.2e-22
+MFKKBJ_15505	ABX75_RS01685	97	519	99.63099630996311	2.81e-187
+MFKKBJ_15510	ABX75_RS28170	98	79	100.0	4.31e-20
+MFKKBJ_15515	ABX75_RS01675	96	1353	100.0	0.0
+MFKKBJ_15520	ABX75_RS01670	100	121	100.0	2.36e-36
+
+
+
+>>
+11. NZ_CP019431
+Source: Pseudomonas sp. S35 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7480.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PspS35_RS20220	95	980	100.0	0.0
+MFKKBJ_15475	PspS35_RS20225	83	1117	99.39485627836612	0.0
+MFKKBJ_15480	PspS35_RS20230	97	1170	100.0	0.0
+MFKKBJ_15485	PspS35_RS20235	95	1098	99.3127147766323	0.0
+MFKKBJ_15490	PspS35_RS20240	99	777	100.0	2.97e-285
+MFKKBJ_15495	PspS35_RS20245	99	149	100.0	2.77e-47
+MFKKBJ_15500	PspS35_RS20250	77	92	100.0	7.58e-25
+MFKKBJ_15505	PspS35_RS20255	98	523	100.0	8.4e-189
+MFKKBJ_15510	PspS35_RS20260	100	81	100.0	1.5e-20
+MFKKBJ_15515	PspS35_RS20265	98	1372	100.0	0.0
+MFKKBJ_15520	PspS35_RS20270	100	121	100.0	2.36e-36
+
+
+
+>>
+12. NZ_CP070980
+Source: Pseudomonas rhodesiae strain AAMF24 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7479.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	JYG35_RS18750	95	975	100.0	0.0
+MFKKBJ_15475	JYG35_RS18755	86	1145	100.15128593040848	0.0
+MFKKBJ_15480	JYG35_RS18760	98	1174	100.0	0.0
+MFKKBJ_15485	JYG35_RS18765	95	1102	99.82817869415808	0.0
+MFKKBJ_15490	JYG35_RS18770	99	776	100.0	6e-285
+MFKKBJ_15495	JYG35_RS18775	99	149	100.0	2.77e-47
+MFKKBJ_15500	JYG35_RS18780	69	86	100.0	2.2e-22
+MFKKBJ_15505	JYG35_RS18785	97	519	99.63099630996311	2.81e-187
+MFKKBJ_15510	JYG35_RS18790	98	79	100.0	4.31e-20
+MFKKBJ_15515	JYG35_RS18795	96	1353	100.0	0.0
+MFKKBJ_15520	JYG35_RS18800	100	121	100.0	2.36e-36
+
+
+
+>>
+13. NZ_JACHKW010000001
+Source: Pseudomonas rhodesiae strain S00114 Ga0436305_01, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7478.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	HNP03_RS00315	95	975	100.0	0.0
+MFKKBJ_15475	HNP03_RS00320	86	1146	100.15128593040848	0.0
+MFKKBJ_15480	HNP03_RS00325	98	1174	100.0	0.0
+MFKKBJ_15485	HNP03_RS00330	95	1098	99.14089347079039	0.0
+MFKKBJ_15490	HNP03_RS00335	99	776	100.0	6e-285
+MFKKBJ_15495	HNP03_RS00340	99	149	100.0	2.77e-47
+MFKKBJ_15500	HNP03_RS00345	69	86	100.0	2.2e-22
+MFKKBJ_15505	HNP03_RS00350	98	521	99.63099630996311	4.86e-188
+MFKKBJ_15510	HNP03_RS00355	98	79	100.0	4.31e-20
+MFKKBJ_15515	HNP03_RS00360	97	1353	100.0	0.0
+MFKKBJ_15520	HNP03_RS00365	100	121	100.0	2.36e-36
+
+
+
+>>
+14. NZ_CP046103
+Source: Pseudomonas sp. IB20 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7477.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	GJU48_RS16030	96	989	100.0	0.0
+MFKKBJ_15475	GJU48_RS16035	85	1135	99.69742813918305	0.0
+MFKKBJ_15480	GJU48_RS16040	98	1180	100.0	0.0
+MFKKBJ_15485	GJU48_RS16045	94	1097	99.82817869415808	0.0
+MFKKBJ_15490	GJU48_RS16050	99	776	100.0	8.53e-285
+MFKKBJ_15495	GJU48_RS16055	96	147	100.0	3.24e-46
+MFKKBJ_15500	GJU48_RS16060	75	87	92.3076923076923	9.84e-23
+MFKKBJ_15505	GJU48_RS16065	97	517	100.0	2.31e-186
+MFKKBJ_15510	GJU48_RS16070	100	81	100.0	1.5e-20
+MFKKBJ_15515	GJU48_RS16075	96	1351	100.0	0.0
+MFKKBJ_15520	GJU48_RS16080	97	117	100.0	5.59e-35
+
+
+
+>>
+15. NZ_CVTP01000028
+Source: Pseudomonas sp. 58 R 12, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7477.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BFP95_RS24945	96	983	100.0	0.0
+MFKKBJ_15475	BFP95_RS24940	85	1147	99.54614220877458	0.0
+MFKKBJ_15480	BFP95_RS24935	96	1167	100.0	0.0
+MFKKBJ_15485	BFP95_RS24930	94	1102	99.82817869415808	0.0
+MFKKBJ_15490	BFP95_RS24925	98	768	100.0	1.92e-281
+MFKKBJ_15495	BFP95_RS24920	99	149	100.0	2.77e-47
+MFKKBJ_15500	BFP95_RS24915	86	94	89.23076923076924	1.31e-25
+MFKKBJ_15505	BFP95_RS24910	97	521	100.0	6.9e-188
+MFKKBJ_15510	BFP95_RS24905	98	81	100.0	1.5e-20
+MFKKBJ_15515	BFP95_RS24900	95	1344	100.0	0.0
+MFKKBJ_15520	BFP95_RS24895	100	121	100.0	2.36e-36
+
+
+
+>>
+16. NZ_CP054205
+Source: Pseudomonas rhodesiae strain NL2019 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7476.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	HRH33_RS18685	95	975	100.0	0.0
+MFKKBJ_15475	HRH33_RS18690	87	1151	100.15128593040848	0.0
+MFKKBJ_15480	HRH33_RS18695	97	1170	100.0	0.0
+MFKKBJ_15485	HRH33_RS18700	95	1099	99.14089347079039	0.0
+MFKKBJ_15490	HRH33_RS18705	99	776	100.0	6e-285
+MFKKBJ_15495	HRH33_RS18710	99	149	100.0	2.77e-47
+MFKKBJ_15500	HRH33_RS18715	69	86	100.0	2.2e-22
+MFKKBJ_15505	HRH33_RS18720	97	519	99.63099630996311	2.81e-187
+MFKKBJ_15510	HRH33_RS18725	98	79	100.0	4.31e-20
+MFKKBJ_15515	HRH33_RS18730	96	1351	100.0	0.0
+MFKKBJ_15520	HRH33_RS18735	100	121	100.0	2.36e-36
+
+
+
+>>
+17. NZ_LT629801
+Source: Pseudomonas rhodesiae strain LMG 17764 chromosome I
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7475.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BLU13_RS05845	95	972	100.0	0.0
+MFKKBJ_15475	BLU13_RS05840	86	1148	100.15128593040848	0.0
+MFKKBJ_15480	BLU13_RS05835	98	1177	100.0	0.0
+MFKKBJ_15485	BLU13_RS05830	95	1098	99.14089347079039	0.0
+MFKKBJ_15490	BLU13_RS05825	99	776	100.0	6e-285
+MFKKBJ_15495	BLU13_RS05820	99	149	100.0	2.77e-47
+MFKKBJ_15500	BLU13_RS05815	69	86	100.0	2.2e-22
+MFKKBJ_15505	BLU13_RS05810	97	519	99.63099630996311	2.81e-187
+MFKKBJ_15510	BLU13_RS05805	98	79	100.0	4.31e-20
+MFKKBJ_15515	BLU13_RS05800	96	1350	100.0	0.0
+MFKKBJ_15520	BLU13_RS05795	100	121	100.0	2.36e-36
+
+
+
+>>
+18. NZ_CP077084
+Source: Pseudomonas tritici strain SWRI145 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7474.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	HU722_RS20130	96	983	100.0	0.0
+MFKKBJ_15475	HU722_RS20135	85	1147	99.54614220877458	0.0
+MFKKBJ_15480	HU722_RS20140	96	1167	100.0	0.0
+MFKKBJ_15485	HU722_RS20145	94	1102	99.82817869415808	0.0
+MFKKBJ_15490	HU722_RS20150	98	768	100.0	1.92e-281
+MFKKBJ_15495	HU722_RS20155	99	149	100.0	2.77e-47
+MFKKBJ_15500	HU722_RS20160	86	94	89.23076923076924	1.31e-25
+MFKKBJ_15505	HU722_RS20165	97	518	100.0	5.67e-187
+MFKKBJ_15510	HU722_RS20170	98	81	100.0	1.5e-20
+MFKKBJ_15515	HU722_RS20175	95	1344	100.0	0.0
+MFKKBJ_15520	HU722_RS20180	100	121	100.0	2.36e-36
+
+
+
+>>
+19. NZ_JAHZMS010000010
+Source: Pseudomonas sp. LAP_36 NODE_10_length_165453_cov_196.982399, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7473.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	JBO08_RS24610	96	983	100.0	0.0
+MFKKBJ_15475	JBO08_RS24605	85	1146	99.54614220877458	0.0
+MFKKBJ_15480	JBO08_RS24600	96	1167	100.0	0.0
+MFKKBJ_15485	JBO08_RS24595	94	1099	99.82817869415808	0.0
+MFKKBJ_15490	JBO08_RS24590	98	768	100.0	1.92e-281
+MFKKBJ_15495	JBO08_RS24585	99	149	100.0	2.77e-47
+MFKKBJ_15500	JBO08_RS24580	86	94	89.23076923076924	1.31e-25
+MFKKBJ_15505	JBO08_RS24575	97	521	100.0	6.9e-188
+MFKKBJ_15510	JBO08_RS24570	98	81	100.0	1.5e-20
+MFKKBJ_15515	JBO08_RS24565	95	1344	100.0	0.0
+MFKKBJ_15520	JBO08_RS24560	100	121	100.0	2.36e-36
+
+
+
+>>
+20. NZ_CP070981
+Source: Pseudomonas rhodesiae strain DLA23 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7470.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	JYG38_RS17815	95	974	100.0	0.0
+MFKKBJ_15475	JYG38_RS17820	86	1141	100.15128593040848	0.0
+MFKKBJ_15480	JYG38_RS17825	98	1177	100.0	0.0
+MFKKBJ_15485	JYG38_RS17830	95	1097	99.14089347079039	0.0
+MFKKBJ_15490	JYG38_RS17835	99	776	100.0	6e-285
+MFKKBJ_15495	JYG38_RS17840	99	149	100.0	2.77e-47
+MFKKBJ_15500	JYG38_RS17845	69	86	100.0	2.2e-22
+MFKKBJ_15505	JYG38_RS17850	97	519	99.63099630996311	2.81e-187
+MFKKBJ_15510	JYG38_RS17855	98	79	100.0	4.31e-20
+MFKKBJ_15515	JYG38_RS17860	96	1351	100.0	0.0
+MFKKBJ_15520	JYG38_RS17865	100	121	100.0	2.36e-36
+
+
+
+>>
+21. NZ_CVTR01000018
+Source: Pseudomonas sp. 52 E 6, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7469.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BFP87_RS10660	96	983	100.0	0.0
+MFKKBJ_15475	BFP87_RS10665	85	1144	99.54614220877458	0.0
+MFKKBJ_15480	BFP87_RS10670	96	1165	100.0	0.0
+MFKKBJ_15485	BFP87_RS10675	94	1099	99.82817869415808	0.0
+MFKKBJ_15490	BFP87_RS10680	98	768	100.0	1.92e-281
+MFKKBJ_15495	BFP87_RS10685	99	149	100.0	2.77e-47
+MFKKBJ_15500	BFP87_RS10690	86	94	89.23076923076924	1.31e-25
+MFKKBJ_15505	BFP87_RS10695	97	521	100.0	6.9e-188
+MFKKBJ_15510	BFP87_RS10700	98	81	100.0	1.5e-20
+MFKKBJ_15515	BFP87_RS10705	95	1344	100.0	0.0
+MFKKBJ_15520	BFP87_RS10710	100	121	100.0	2.36e-36
+
+
+
+>>
+22. NZ_CVTI01000005
+Source: Pseudomonas sp. 24 R 17, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7469.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BFP98_RS02175	96	980	99.60317460317461	0.0
+MFKKBJ_15475	BFP98_RS02170	85	1144	99.54614220877458	0.0
+MFKKBJ_15480	BFP98_RS02165	96	1165	100.0	0.0
+MFKKBJ_15485	BFP98_RS02160	94	1102	99.82817869415808	0.0
+MFKKBJ_15490	BFP98_RS02155	98	768	100.0	1.92e-281
+MFKKBJ_15495	BFP98_RS02150	99	149	100.0	2.77e-47
+MFKKBJ_15500	BFP98_RS02145	86	94	89.23076923076924	1.31e-25
+MFKKBJ_15505	BFP98_RS02140	97	521	100.0	6.9e-188
+MFKKBJ_15510	BFP98_RS02135	98	81	100.0	1.5e-20
+MFKKBJ_15515	BFP98_RS02130	95	1344	100.0	0.0
+MFKKBJ_15520	BFP98_RS02125	100	121	100.0	2.36e-36
+
+
+
+>>
+23. NZ_CP104045
+Source: Pseudomonas sp. FJ2-5-13 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7468.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	N2A98_RS18045	96	982	100.0	0.0
+MFKKBJ_15475	N2A98_RS18050	86	1154	99.69742813918305	0.0
+MFKKBJ_15480	N2A98_RS18055	98	1173	100.0	0.0
+MFKKBJ_15485	N2A98_RS18060	94	1095	99.65635738831615	0.0
+MFKKBJ_15490	N2A98_RS18065	99	775	100.0	3.47e-284
+MFKKBJ_15495	N2A98_RS18070	99	149	100.0	2.77e-47
+MFKKBJ_15500	N2A98_RS18075	63	77	100.0	1.43e-18
+MFKKBJ_15505	N2A98_RS18080	97	518	100.0	8.05e-187
+MFKKBJ_15510	N2A98_RS18085	98	79	100.0	4.31e-20
+MFKKBJ_15515	N2A98_RS18090	96	1347	100.0	0.0
+MFKKBJ_15520	N2A98_RS18095	98	119	100.0	1.95e-35
+
+
+
+>>
+24. NZ_MSDL01000057
+Source: Pseudomonas fluorescens strain TDH5 PF_TDH5_contig_14, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7467.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BFW90_RS17110	96	982	100.0	0.0
+MFKKBJ_15475	BFW90_RS17115	86	1154	99.69742813918305	0.0
+MFKKBJ_15480	BFW90_RS17120	97	1171	100.0	0.0
+MFKKBJ_15485	BFW90_RS17125	94	1095	99.65635738831615	0.0
+MFKKBJ_15490	BFW90_RS17130	99	775	100.0	3.47e-284
+MFKKBJ_15495	BFW90_RS17135	99	149	100.0	2.77e-47
+MFKKBJ_15500	BFW90_RS17140	63	77	100.0	1.43e-18
+MFKKBJ_15505	BFW90_RS17145	97	518	100.0	8.05e-187
+MFKKBJ_15510	BFW90_RS17150	98	79	100.0	4.31e-20
+MFKKBJ_15515	BFW90_RS17155	96	1348	100.0	0.0
+MFKKBJ_15520	BFW90_RS17160	98	119	100.0	1.95e-35
+
+
+
+>>
+25. NZ_KN360950
+Source: Pseudomonas lactis strain PA4C2 scaffold1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7461.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	P909_RS12080	96	982	100.0	0.0
+MFKKBJ_15475	P909_RS12085	85	1152	99.69742813918305	0.0
+MFKKBJ_15480	P909_RS12090	97	1170	100.0	0.0
+MFKKBJ_15485	P909_RS12095	94	1095	99.65635738831615	0.0
+MFKKBJ_15490	P909_RS12100	99	775	100.0	3.47e-284
+MFKKBJ_15495	P909_RS12105	99	149	100.0	2.77e-47
+MFKKBJ_15500	P909_RS12110	63	77	100.0	1.43e-18
+MFKKBJ_15505	P909_RS12115	97	518	100.0	8.05e-187
+MFKKBJ_15510	P909_RS28250	98	79	100.0	4.31e-20
+MFKKBJ_15515	P909_RS12125	96	1345	100.0	0.0
+MFKKBJ_15520	P909_RS12130	98	119	100.0	1.95e-35
+
+
+
+>>
+26. NZ_CABVIQ010000001
+Source: Pseudomonas fluorescens isolate PS887, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7458.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	F8N51_RS01600	96	981	100.0	0.0
+MFKKBJ_15475	F8N51_RS01605	86	1152	99.54614220877458	0.0
+MFKKBJ_15480	F8N51_RS01610	97	1171	100.0	0.0
+MFKKBJ_15485	F8N51_RS01615	95	1093	99.65635738831615	0.0
+MFKKBJ_15490	F8N51_RS01620	99	774	100.0	7e-284
+MFKKBJ_15495	F8N51_RS01625	99	149	100.0	2.77e-47
+MFKKBJ_15500	F8N51_RS01630	62	76	100.0	2.03e-18
+MFKKBJ_15505	F8N51_RS01635	97	517	99.63099630996311	2.31e-186
+MFKKBJ_15510	F8N51_RS01640	98	79	100.0	4.31e-20
+MFKKBJ_15515	F8N51_RS01645	96	1347	100.0	0.0
+MFKKBJ_15520	F8N51_RS01650	98	119	100.0	1.95e-35
+
+
+
+>>
+27. NZ_JAEACS010000010
+Source: Pseudomonas fluorescens strain X C9PK1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7457.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	I5F20_RS18390	96	981	100.0	0.0
+MFKKBJ_15475	I5F20_RS18395	86	1153	99.54614220877458	0.0
+MFKKBJ_15480	I5F20_RS18400	97	1171	100.0	0.0
+MFKKBJ_15485	I5F20_RS18405	94	1093	99.65635738831615	0.0
+MFKKBJ_15490	I5F20_RS18410	99	771	100.0	1.16e-282
+MFKKBJ_15495	I5F20_RS18415	99	149	100.0	2.77e-47
+MFKKBJ_15500	I5F20_RS18420	62	76	100.0	2.89e-18
+MFKKBJ_15505	I5F20_RS18425	97	519	100.0	3.99e-187
+MFKKBJ_15510	I5F20_RS18430	98	79	100.0	4.31e-20
+MFKKBJ_15515	I5F20_RS18435	95	1346	100.0	0.0
+MFKKBJ_15520	I5F20_RS18440	98	119	100.0	1.95e-35
+
+
+
+>>
+28. NZ_CP043060
+Source: Pseudomonas sp. J380 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7457.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	FXO12_RS28075	95	980	100.0	0.0
+MFKKBJ_15475	FXO12_RS28070	86	1154	99.54614220877458	0.0
+MFKKBJ_15480	FXO12_RS28065	97	1167	100.0	0.0
+MFKKBJ_15485	FXO12_RS28060	94	1093	99.65635738831615	0.0
+MFKKBJ_15490	FXO12_RS28055	99	772	100.0	2.85e-283
+MFKKBJ_15495	FXO12_RS28050	99	149	100.0	2.77e-47
+MFKKBJ_15500	FXO12_RS28045	60	75	100.0	8.27e-18
+MFKKBJ_15505	FXO12_RS28040	98	521	100.0	4.86e-188
+MFKKBJ_15510	FXO12_RS28035	98	79	100.0	4.31e-20
+MFKKBJ_15515	FXO12_RS28030	96	1348	100.0	0.0
+MFKKBJ_15520	FXO12_RS28025	98	119	100.0	1.95e-35
+
+
+
+>>
+29. NZ_CP023269
+Source: Pseudomonas sp. MYb193 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7457.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	CLM72_RS18725	95	979	100.0	0.0
+MFKKBJ_15475	CLM72_RS18730	85	1151	99.54614220877458	0.0
+MFKKBJ_15480	CLM72_RS18735	97	1172	100.0	0.0
+MFKKBJ_15485	CLM72_RS18740	95	1094	99.65635738831615	0.0
+MFKKBJ_15490	CLM72_RS18745	99	772	100.0	2.85e-283
+MFKKBJ_15495	CLM72_RS18750	99	149	100.0	2.77e-47
+MFKKBJ_15500	CLM72_RS18755	62	76	100.0	2.89e-18
+MFKKBJ_15505	CLM72_RS18760	97	518	100.0	5.67e-187
+MFKKBJ_15510	CLM72_RS18765	98	79	100.0	4.31e-20
+MFKKBJ_15515	CLM72_RS18770	96	1348	100.0	0.0
+MFKKBJ_15520	CLM72_RS18775	98	119	100.0	1.95e-35
+
+
+
+>>
+30. NZ_CP023969
+Source: Pseudomonas sp. FDAARGOS_380 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7456.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	CRN80_RS18805	96	982	100.0	0.0
+MFKKBJ_15475	CRN80_RS18800	85	1150	99.69742813918305	0.0
+MFKKBJ_15480	CRN80_RS18795	97	1173	100.0	0.0
+MFKKBJ_15485	CRN80_RS18790	94	1094	99.82817869415808	0.0
+MFKKBJ_15490	CRN80_RS18785	99	775	100.0	3.47e-284
+MFKKBJ_15495	CRN80_RS18780	99	149	100.0	2.77e-47
+MFKKBJ_15500	CRN80_RS18775	63	76	100.0	2.74e-18
+MFKKBJ_15505	CRN80_RS18770	96	511	100.0	4.46e-184
+MFKKBJ_15510	CRN80_RS18765	98	79	100.0	4.31e-20
+MFKKBJ_15515	CRN80_RS18760	96	1348	100.0	0.0
+MFKKBJ_15520	CRN80_RS18755	98	119	100.0	1.95e-35
+
+
+
+>>
+31. NC_017911
+Source: Pseudomonas fluorescens A506, complete sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7456.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PFLA506_RS17940	96	982	100.0	0.0
+MFKKBJ_15475	PFLA506_RS17945	85	1147	99.54614220877458	0.0
+MFKKBJ_15480	PFLA506_RS17950	97	1171	100.0	0.0
+MFKKBJ_15485	PFLA506_RS17955	95	1093	99.65635738831615	0.0
+MFKKBJ_15490	PFLA506_RS17960	99	774	100.0	7e-284
+MFKKBJ_15495	PFLA506_RS17965	99	149	100.0	2.77e-47
+MFKKBJ_15500	PFLA506_RS17970	62	76	100.0	2.03e-18
+MFKKBJ_15505	PFLA506_RS17975	97	517	99.63099630996311	2.31e-186
+MFKKBJ_15510	PFLA506_RS27835	98	79	100.0	4.31e-20
+MFKKBJ_15515	PFLA506_RS17985	96	1349	100.0	0.0
+MFKKBJ_15520	PFLA506_RS17990	98	119	100.0	1.95e-35
+
+
+
+>>
+32. NZ_CP034425
+Source: Pseudomonas libanensis strain DMSP-1 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7455.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	EJJ21_RS19405	96	982	100.0	0.0
+MFKKBJ_15475	EJJ21_RS19410	85	1150	99.69742813918305	0.0
+MFKKBJ_15480	EJJ21_RS19415	97	1171	100.0	0.0
+MFKKBJ_15485	EJJ21_RS19420	93	1087	99.65635738831615	0.0
+MFKKBJ_15490	EJJ21_RS19425	99	775	100.0	3.47e-284
+MFKKBJ_15495	EJJ21_RS19430	99	149	100.0	2.77e-47
+MFKKBJ_15500	EJJ21_RS19435	63	77	100.0	1.43e-18
+MFKKBJ_15505	EJJ21_RS19440	97	518	100.0	8.05e-187
+MFKKBJ_15510	EJJ21_RS19445	98	79	100.0	4.31e-20
+MFKKBJ_15515	EJJ21_RS19450	96	1348	100.0	0.0
+MFKKBJ_15520	EJJ21_RS19455	98	119	100.0	1.95e-35
+
+
+
+>>
+33. NZ_JANCLL010000017
+Source: Pseudomonas carnis strain LP NODE_17_length_130217_cov_71.665924, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7452.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	NMG11_RS15540	95	978	100.0	0.0
+MFKKBJ_15475	NMG11_RS15545	86	1152	99.54614220877458	0.0
+MFKKBJ_15480	NMG11_RS15550	97	1171	100.0	0.0
+MFKKBJ_15485	NMG11_RS15555	94	1091	99.65635738831615	0.0
+MFKKBJ_15490	NMG11_RS15560	99	772	100.0	2.85e-283
+MFKKBJ_15495	NMG11_RS15565	99	149	100.0	2.77e-47
+MFKKBJ_15500	NMG11_RS15570	59	74	100.0	2.37e-17
+MFKKBJ_15505	NMG11_RS15575	98	519	99.63099630996311	3.99e-187
+MFKKBJ_15510	NMG11_RS15580	98	79	100.0	4.31e-20
+MFKKBJ_15515	NMG11_RS15585	96	1348	100.0	0.0
+MFKKBJ_15520	NMG11_RS15590	98	119	100.0	1.95e-35
+
+
+
+>>
+34. NZ_CP058975
+Source: Pseudomonas sp. Y39-6 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7452.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	HXW90_RS22060	92	941	100.0	0.0
+MFKKBJ_15475	HXW90_RS22065	89	1177	99.39485627836612	0.0
+MFKKBJ_15480	HXW90_RS22070	96	1159	100.0	0.0
+MFKKBJ_15485	HXW90_RS22075	94	1084	99.82817869415808	0.0
+MFKKBJ_15490	HXW90_RS22080	99	773	100.0	9.95e-284
+MFKKBJ_15495	HXW90_RS22085	97	148	100.0	7.94e-47
+MFKKBJ_15500	HXW90_RS22090	80	94	100.0	1.86e-25
+MFKKBJ_15505	HXW90_RS22095	98	524	100.0	4.16e-189
+MFKKBJ_15510	HXW90_RS22100	96	77	100.0	2.5e-19
+MFKKBJ_15515	HXW90_RS22105	97	1356	100.0	0.0
+MFKKBJ_15520	HXW90_RS22110	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+35. NZ_ML137235
+Source: Pseudomonas veronii strain RZ scaffold13, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7452.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	DJ028_RS21770	92	941	100.0	0.0
+MFKKBJ_15475	DJ028_RS21765	88	1175	99.39485627836612	0.0
+MFKKBJ_15480	DJ028_RS21760	96	1161	100.0	0.0
+MFKKBJ_15485	DJ028_RS21755	94	1084	99.82817869415808	0.0
+MFKKBJ_15490	DJ028_RS21750	99	773	100.0	9.95e-284
+MFKKBJ_15495	DJ028_RS21745	97	148	100.0	7.94e-47
+MFKKBJ_15500	DJ028_RS21740	80	94	100.0	1.86e-25
+MFKKBJ_15505	DJ028_RS21735	98	524	100.0	4.16e-189
+MFKKBJ_15510	DJ028_RS21730	96	77	100.0	2.5e-19
+MFKKBJ_15515	DJ028_RS21725	97	1356	100.0	0.0
+MFKKBJ_15520	DJ028_RS21720	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+36. NZ_JALJRR010000026
+Source: Pseudomonas sp. Pse79 NODE_26_length_92514_cov_27.47592514, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7451.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	NR164_RS25255	92	941	100.0	0.0
+MFKKBJ_15475	NR164_RS25260	89	1177	99.39485627836612	0.0
+MFKKBJ_15480	NR164_RS25265	96	1162	100.0	0.0
+MFKKBJ_15485	NR164_RS25270	94	1082	99.82817869415808	0.0
+MFKKBJ_15490	NR164_RS25275	99	773	100.0	9.95e-284
+MFKKBJ_15495	NR164_RS25280	97	148	100.0	7.94e-47
+MFKKBJ_15500	NR164_RS25285	80	94	100.0	1.86e-25
+MFKKBJ_15505	NR164_RS25290	97	522	100.0	1.69e-188
+MFKKBJ_15510	NR164_RS25295	96	77	100.0	2.5e-19
+MFKKBJ_15515	NR164_RS25300	96	1356	100.0	0.0
+MFKKBJ_15520	NR164_RS25305	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+37. NZ_CP068151
+Source: Pseudomonas fluorescens strain FDAARGOS_1088 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7450.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	I6I45_RS00610	96	982	100.0	0.0
+MFKKBJ_15475	I6I45_RS00605	85	1145	99.54614220877458	0.0
+MFKKBJ_15480	I6I45_RS00600	97	1169	100.0	0.0
+MFKKBJ_15485	I6I45_RS00595	94	1091	99.65635738831615	0.0
+MFKKBJ_15490	I6I45_RS00590	99	774	100.0	7e-284
+MFKKBJ_15495	I6I45_RS00585	99	149	100.0	2.77e-47
+MFKKBJ_15500	I6I45_RS00580	62	76	100.0	2.03e-18
+MFKKBJ_15505	I6I45_RS00575	97	517	99.63099630996311	2.31e-186
+MFKKBJ_15510	I6I45_RS00570	98	79	100.0	4.31e-20
+MFKKBJ_15515	I6I45_RS00565	96	1349	100.0	0.0
+MFKKBJ_15520	I6I45_RS00560	98	119	100.0	1.95e-35
+
+
+
+>>
+38. NZ_CP089551
+Source: Pseudomonas sp. 7-41 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7449.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	LQ249_RS21950	92	941	100.0	0.0
+MFKKBJ_15475	LQ249_RS21955	88	1176	99.39485627836612	0.0
+MFKKBJ_15480	LQ249_RS21960	96	1164	100.0	0.0
+MFKKBJ_15485	LQ249_RS21965	93	1077	99.82817869415808	0.0
+MFKKBJ_15490	LQ249_RS21970	99	773	100.0	9.95e-284
+MFKKBJ_15495	LQ249_RS21975	97	148	100.0	7.94e-47
+MFKKBJ_15500	LQ249_RS21980	80	94	100.0	1.86e-25
+MFKKBJ_15505	LQ249_RS21985	98	524	100.0	4.16e-189
+MFKKBJ_15510	LQ249_RS21990	96	77	100.0	2.5e-19
+MFKKBJ_15515	LQ249_RS21995	97	1356	100.0	0.0
+MFKKBJ_15520	LQ249_RS22000	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+39. NZ_CP045767
+Source: Pseudomonas sp. CFSAN084952 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7448.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	GH769_RS16045	96	982	100.0	0.0
+MFKKBJ_15475	GH769_RS16050	85	1143	99.54614220877458	0.0
+MFKKBJ_15480	GH769_RS16055	97	1170	100.0	0.0
+MFKKBJ_15485	GH769_RS16060	94	1092	99.65635738831615	0.0
+MFKKBJ_15490	GH769_RS16065	99	774	100.0	7e-284
+MFKKBJ_15495	GH769_RS16070	99	149	100.0	2.77e-47
+MFKKBJ_15500	GH769_RS16075	62	76	100.0	2.03e-18
+MFKKBJ_15505	GH769_RS16080	97	517	99.63099630996311	2.31e-186
+MFKKBJ_15510	GH769_RS16085	98	79	100.0	4.31e-20
+MFKKBJ_15515	GH769_RS16090	96	1347	100.0	0.0
+MFKKBJ_15520	GH769_RS16095	98	119	100.0	1.95e-35
+
+
+
+>>
+40. NZ_CP018420
+Source: Pseudomonas veronii strain R02 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7448.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PverR02_RS22105	92	941	100.0	0.0
+MFKKBJ_15475	PverR02_RS22110	89	1175	99.39485627836612	0.0
+MFKKBJ_15480	PverR02_RS22115	96	1162	100.0	0.0
+MFKKBJ_15485	PverR02_RS22120	93	1079	99.82817869415808	0.0
+MFKKBJ_15490	PverR02_RS22125	99	773	100.0	9.95e-284
+MFKKBJ_15495	PverR02_RS22130	97	148	100.0	7.94e-47
+MFKKBJ_15500	PverR02_RS22135	80	94	100.0	1.86e-25
+MFKKBJ_15505	PverR02_RS22140	98	524	100.0	4.16e-189
+MFKKBJ_15510	PverR02_RS22145	96	77	100.0	2.5e-19
+MFKKBJ_15515	PverR02_RS22150	97	1356	100.0	0.0
+MFKKBJ_15520	PverR02_RS22155	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+41. NZ_CP026880
+Source: Pseudomonas sp. LH1G9 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7448.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	C5F70_RS03675	92	940	100.0	0.0
+MFKKBJ_15475	C5F70_RS03670	89	1177	99.39485627836612	0.0
+MFKKBJ_15480	C5F70_RS03665	96	1160	100.0	0.0
+MFKKBJ_15485	C5F70_RS03660	93	1080	99.82817869415808	0.0
+MFKKBJ_15490	C5F70_RS03655	98	773	100.0	2.01e-283
+MFKKBJ_15495	C5F70_RS03650	97	148	100.0	7.94e-47
+MFKKBJ_15500	C5F70_RS03645	80	94	100.0	1.86e-25
+MFKKBJ_15505	C5F70_RS03640	98	524	100.0	4.16e-189
+MFKKBJ_15510	C5F70_RS03635	96	77	100.0	2.5e-19
+MFKKBJ_15515	C5F70_RS03630	96	1356	100.0	0.0
+MFKKBJ_15520	C5F70_RS03625	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+42. NZ_JXWQ02000001
+Source: Pseudomonas veronii strain R4 scaffold00001, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7447.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	SU91_RS09765	92	941	100.0	0.0
+MFKKBJ_15475	SU91_RS09760	89	1177	99.39485627836612	0.0
+MFKKBJ_15480	SU91_RS09755	96	1162	100.0	0.0
+MFKKBJ_15485	SU91_RS09750	93	1076	99.82817869415808	0.0
+MFKKBJ_15490	SU91_RS09745	99	773	100.0	9.95e-284
+MFKKBJ_15495	SU91_RS09740	97	148	100.0	7.94e-47
+MFKKBJ_15500	SU91_RS09735	80	94	100.0	1.86e-25
+MFKKBJ_15505	SU91_RS09730	98	524	100.0	4.16e-189
+MFKKBJ_15510	SU91_RS30225	96	77	100.0	2.5e-19
+MFKKBJ_15515	SU91_RS09720	97	1356	100.0	0.0
+MFKKBJ_15520	SU91_RS09715	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+43. NZ_CP007638
+Source: Pseudomonas sp. WCS374 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7446.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PD374_RS08925	96	981	100.0	0.0
+MFKKBJ_15475	PD374_RS08920	85	1143	99.54614220877458	0.0
+MFKKBJ_15480	PD374_RS08915	97	1168	100.0	0.0
+MFKKBJ_15485	PD374_RS08910	95	1093	99.65635738831615	0.0
+MFKKBJ_15490	PD374_RS08905	99	774	100.0	7e-284
+MFKKBJ_15495	PD374_RS08900	99	149	100.0	2.77e-47
+MFKKBJ_15500	PD374_RS08895	60	74	100.0	2.37e-17
+MFKKBJ_15505	PD374_RS08890	97	517	99.63099630996311	2.31e-186
+MFKKBJ_15510	PD374_RS28240	98	79	100.0	4.31e-20
+MFKKBJ_15515	PD374_RS08885	96	1349	100.0	0.0
+MFKKBJ_15520	PD374_RS08880	98	119	100.0	1.95e-35
+
+
+
+>>
+44. NZ_SMOF01000001
+Source: Pseudomonas sp. B2021 B2021_chromosome_1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7446.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	E1K68_RS18915	95	981	100.0	0.0
+MFKKBJ_15475	E1K68_RS18920	86	1154	99.69742813918305	0.0
+MFKKBJ_15480	E1K68_RS18925	97	1167	100.0	0.0
+MFKKBJ_15485	E1K68_RS18930	95	1095	99.65635738831615	0.0
+MFKKBJ_15490	E1K68_RS18935	99	774	100.0	4.93e-284
+MFKKBJ_15495	E1K68_RS18940	99	149	100.0	2.77e-47
+MFKKBJ_15500	E1K68_RS18945	63	77	100.0	1.43e-18
+MFKKBJ_15505	E1K68_RS18950	97	516	100.0	3.28e-186
+MFKKBJ_15510	E1K68_RS18955	98	79	100.0	4.31e-20
+MFKKBJ_15515	E1K68_RS18960	95	1335	100.0	0.0
+MFKKBJ_15520	E1K68_RS18965	98	119	100.0	1.95e-35
+
+
+
+>>
+45. NZ_QBUF01000004
+Source: Pseudomonas sp. GV105 Ga0189758_104, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7444.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	C8K66_RS08770	92	941	100.0	0.0
+MFKKBJ_15475	C8K66_RS08775	88	1176	99.39485627836612	0.0
+MFKKBJ_15480	C8K66_RS08780	96	1159	100.0	0.0
+MFKKBJ_15485	C8K66_RS08785	93	1080	99.82817869415808	0.0
+MFKKBJ_15490	C8K66_RS08790	98	770	100.0	1.65e-282
+MFKKBJ_15495	C8K66_RS08795	97	148	100.0	7.94e-47
+MFKKBJ_15500	C8K66_RS08800	80	94	100.0	1.86e-25
+MFKKBJ_15505	C8K66_RS08805	98	524	100.0	4.16e-189
+MFKKBJ_15510	C8K66_RS08810	96	77	100.0	2.5e-19
+MFKKBJ_15515	C8K66_RS08815	97	1356	100.0	0.0
+MFKKBJ_15520	C8K66_RS08820	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+46. NZ_CP089532
+Source: Pseudomonas veronii strain G2 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7444.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	LUW10_RS20565	92	940	100.0	0.0
+MFKKBJ_15475	LUW10_RS20570	88	1172	99.39485627836612	0.0
+MFKKBJ_15480	LUW10_RS20575	96	1161	100.0	0.0
+MFKKBJ_15485	LUW10_RS20580	93	1080	99.82817869415808	0.0
+MFKKBJ_15490	LUW10_RS20585	99	773	100.0	9.95e-284
+MFKKBJ_15495	LUW10_RS20590	97	148	100.0	7.94e-47
+MFKKBJ_15500	LUW10_RS20595	80	94	100.0	1.86e-25
+MFKKBJ_15505	LUW10_RS20600	98	524	100.0	4.16e-189
+MFKKBJ_15510	LUW10_RS20605	96	77	100.0	2.5e-19
+MFKKBJ_15515	LUW10_RS20610	96	1356	100.0	0.0
+MFKKBJ_15520	LUW10_RS20615	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+47. NZ_JACAPY010000023
+Source: Pseudomonas sp. G1002 run0228_G1002_S12_L004_contig_23, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7441.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	HX801_RS11875	94	966	100.0	0.0
+MFKKBJ_15475	HX801_RS11880	89	1185	99.39485627836612	0.0
+MFKKBJ_15480	HX801_RS11885	98	1177	100.0	0.0
+MFKKBJ_15485	HX801_RS11890	92	1078	99.82817869415808	0.0
+MFKKBJ_15490	HX801_RS11895	97	758	99.74619289340102	1.24e-277
+MFKKBJ_15495	HX801_RS11900	99	149	100.0	2.77e-47
+MFKKBJ_15500	HX801_RS11905	66	76	103.07692307692307	2.14e-18
+MFKKBJ_15505	HX801_RS11910	94	502	98.8929889298893	1.54e-180
+MFKKBJ_15510	HX801_RS11915	82	78	100.0	1.76e-19
+MFKKBJ_15515	HX801_RS11920	96	1351	100.0	0.0
+MFKKBJ_15520	HX801_RS11925	100	121	100.0	2.36e-36
+
+
+
+>>
+48. NZ_CP080030
+Source: Pseudomonas sp. Colony2 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7439.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	JV201_RS09185	93	967	100.0	0.0
+MFKKBJ_15475	JV201_RS09180	89	1180	99.39485627836612	0.0
+MFKKBJ_15480	JV201_RS09175	98	1179	100.0	0.0
+MFKKBJ_15485	JV201_RS09170	92	1079	99.82817869415808	0.0
+MFKKBJ_15490	JV201_RS09165	97	758	99.74619289340102	1.24e-277
+MFKKBJ_15495	JV201_RS09160	99	149	100.0	2.77e-47
+MFKKBJ_15500	JV201_RS09155	66	76	103.07692307692307	2.14e-18
+MFKKBJ_15505	JV201_RS09150	94	501	98.8929889298893	4.41e-180
+MFKKBJ_15510	JV201_RS09145	82	78	100.0	1.76e-19
+MFKKBJ_15515	JV201_RS09140	96	1351	100.0	0.0
+MFKKBJ_15520	JV201_RS09135	100	121	100.0	2.36e-36
+
+
+
+>>
+49. NZ_LT629793
+Source: Pseudomonas yamanorum strain LMG 27247 chromosome I
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7439.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	BLU46_RS06375	93	966	100.0	0.0
+MFKKBJ_15475	BLU46_RS06380	88	1178	99.39485627836612	0.0
+MFKKBJ_15480	BLU46_RS06385	98	1180	100.0	0.0
+MFKKBJ_15485	BLU46_RS06390	92	1078	99.82817869415808	0.0
+MFKKBJ_15490	BLU46_RS06395	97	758	99.74619289340102	1.24e-277
+MFKKBJ_15495	BLU46_RS06400	99	149	100.0	2.77e-47
+MFKKBJ_15500	BLU46_RS06405	71	77	90.76923076923077	1.51e-18
+MFKKBJ_15505	BLU46_RS06410	94	501	99.63099630996311	4.1e-180
+MFKKBJ_15510	BLU46_RS06415	82	78	100.0	1.76e-19
+MFKKBJ_15515	BLU46_RS06420	96	1353	100.0	0.0
+MFKKBJ_15520	BLU46_RS06425	100	121	100.0	2.36e-36
+
+
+
+>>
+50. NZ_CM001513
+Source: Pseudomonas lactis strain SS101 chromosome, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 7437.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+MFKKBJ_15470	PFLSS101_RS08890	95	981	100.0	0.0
+MFKKBJ_15475	PFLSS101_RS08885	85	1143	99.69742813918305	0.0
+MFKKBJ_15480	PFLSS101_RS08880	97	1171	100.0	0.0
+MFKKBJ_15485	PFLSS101_RS08875	94	1093	99.65635738831615	0.0
+MFKKBJ_15490	PFLSS101_RS08870	99	774	100.0	4.93e-284
+MFKKBJ_15495	PFLSS101_RS08865	99	149	100.0	2.77e-47
+MFKKBJ_15500	PFLSS101_RS08860	63	77	100.0	1.43e-18
+MFKKBJ_15505	PFLSS101_RS08855	97	516	100.0	3.28e-186
+MFKKBJ_15510	PFLSS101_RS28265	98	79	100.0	4.31e-20
+MFKKBJ_15515	PFLSS101_RS08845	95	1335	100.0	0.0
+MFKKBJ_15520	PFLSS101_RS08840	98	119	100.0	1.95e-35
+
