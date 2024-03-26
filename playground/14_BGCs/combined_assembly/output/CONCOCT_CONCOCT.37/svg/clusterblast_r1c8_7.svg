@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 11,40 16,35 11,30 0,30 0,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22985&lt;/b&gt;&lt;br&gt;Cytochrome b561 bacterial/Ni-hydrogenase domain-containing protein&lt;br&gt;Location: 4860170 - 4860710" locus_tag="JNAJGP_22985" class="clusterblast-orf" id="dummy-8_q0_0_all"  />
+<polygon points="18,35 23,30 52,30 52,40 23,40 18,35 " style="fill:#56d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22990&lt;/b&gt;&lt;br&gt;Peptidase M14 carboxypeptidase A domain-containing protein&lt;br&gt;Location: 4860766 - 4861918" locus_tag="JNAJGP_22990" class="clusterblast-orf" id="dummy-8_q1_0_all"  />
+<polygon points="66,35 71,30 77,30 77,40 71,40 66,35 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23000&lt;/b&gt;&lt;br&gt;DUF3077 domain-containing protein&lt;br&gt;Location: 4862380 - 4862731" locus_tag="JNAJGP_23000" class="clusterblast-orf" id="dummy-8_q2_0_all"  />
+<polygon points="81,40 95,40 100,35 95,30 81,30 81,40 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23005&lt;/b&gt;&lt;br&gt;Putative prophage repressor&lt;br&gt;Location: 4862860 - 4863496" locus_tag="JNAJGP_23005" class="clusterblast-orf" id="dummy-8_q3_0_all"  />
+<polygon points="100,35 105,30 158,30 158,40 105,40 100,35 " style="fill:#d85615; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23010&lt;/b&gt;&lt;br&gt;Methylcrotonyl-CoA carboxylase, alpha-subunit LiuD&lt;br&gt;Location: 4863492 - 4865418" locus_tag="JNAJGP_23010" class="clusterblast-orf" id="dummy-8_q4_0_all"  />
+<polygon points="158,35 163,30 182,30 182,40 163,40 158,35 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23015&lt;/b&gt;&lt;br&gt;gamma-carboxygeranoyl-CoA hydratase&lt;br&gt;Location: 4865414 - 4866221" locus_tag="JNAJGP_23015" class="clusterblast-orf" id="dummy-8_q5_0_all"  />
+<polygon points="183,35 188,30 231,30 231,40 188,40 183,35 " style="fill:#1556d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23020&lt;/b&gt;&lt;br&gt;Acetyl-CoA carboxylase, carboxyltransferase component&lt;br&gt;Location: 4866236 - 4867844" locus_tag="JNAJGP_23020" class="clusterblast-orf" id="dummy-8_q6_0_all"  />
+<polygon points="231,35 236,30 267,30 267,40 236,40 231,35 " style="fill:#d815d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23025&lt;/b&gt;&lt;br&gt;Acyl-CoA dehydrogenase related to the alkylation response protein AidB&lt;br&gt;Location: 4867855 - 4869019" locus_tag="JNAJGP_23025" class="clusterblast-orf" id="dummy-8_q7_0_all"  />
+<polygon points="271,40 315,40 320,35 315,30 271,30 271,40 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23030&lt;/b&gt;&lt;br&gt;Long-chain-fatty-acid--CoA ligase&lt;br&gt;Location: 4869168 - 4870800" locus_tag="JNAJGP_23030" class="clusterblast-orf" id="dummy-8_q8_0_all"  />
+<polygon points="323,40 473,40 478,35 473,30 323,30 323,40 " style="fill:#15d856; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23035&lt;/b&gt;&lt;br&gt;RING-type E3 ubiquitin transferase&lt;br&gt;Location: 4870898 - 4876037" locus_tag="JNAJGP_23035" class="clusterblast-orf" id="dummy-8_q9_0_all"  />
+<polygon points="495,35 500,30 522,30 522,40 500,40 495,35 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23045&lt;/b&gt;&lt;br&gt;hydroxymethylglutaryl-CoA lyase&lt;br&gt;Location: 4876585 - 4877485" locus_tag="JNAJGP_23045" class="clusterblast-orf" id="dummy-8_q10_0_all"  />
+<polygon points="522,35 527,30 534,30 534,40 527,40 522,35 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23050&lt;/b&gt;&lt;br&gt;HTH merR-type domain-containing protein&lt;br&gt;Location: 4877501 - 4877894" locus_tag="JNAJGP_23050" class="clusterblast-orf" id="dummy-8_q11_0_all"  />
+<polygon points="538,35 543,30 566,30 566,40 543,40 538,35 " style="fill:#d8d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23055&lt;/b&gt;&lt;br&gt;DNA-binding transcriptional regulator, LysR family&lt;br&gt;Location: 4878031 - 4878967" locus_tag="JNAJGP_23055" class="clusterblast-orf" id="dummy-8_q12_0_all"  />
+<polygon points="571,40 603,40 608,35 603,30 571,30 571,40 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23060&lt;/b&gt;&lt;br&gt;Acyl-CoA dehydrogenase related to the alkylation response protein AidB&lt;br&gt;Location: 4879133 - 4880363" locus_tag="JNAJGP_23060" class="clusterblast-orf" id="dummy-8_q13_0_all"  />
+<polygon points="612,35 617,30 652,30 652,40 617,40 612,35 " style="fill:#5615d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23065&lt;/b&gt;&lt;br&gt;OmpA-like domain-containing protein&lt;br&gt;Location: 4880479 - 4881811" locus_tag="JNAJGP_23065" class="clusterblast-orf" id="dummy-8_q14_0_all"  />
+<polygon points="656,35 661,30 680,30 680,40 661,40 656,35 " style="fill:#d81556; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23070&lt;/b&gt;&lt;br&gt;exodeoxyribonuclease III&lt;br&gt;Location: 4881934 - 4882747" locus_tag="JNAJGP_23070" class="clusterblast-orf" id="dummy-8_q15_0_all"  />
+<polygon points="685,40 700,40 705,35 700,30 685,30 685,40 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23075&lt;/b&gt;&lt;br&gt;N-acetyltransferase domain-containing protein&lt;br&gt;Location: 4882916 - 4883567" locus_tag="JNAJGP_23075" class="clusterblast-orf" id="dummy-8_q16_0_all"  />
+<polygon points="708,40 754,40 759,35 754,30 708,30 708,40 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23080&lt;/b&gt;&lt;br&gt;Translocation and assembly module subunit TamA&lt;br&gt;Location: 4883660 - 4885358" locus_tag="JNAJGP_23080" class="clusterblast-orf" id="dummy-8_q17_0_all"  />
+<polygon points="759,40 775,40 780,35 775,30 759,30 759,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23085&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 4885357 - 4886047" locus_tag="JNAJGP_23085" class="clusterblast-orf" id="dummy-8_q18_0_all"  />
+</g>
+<g label="NZ_CP054205" description="NZ_CP054205 (3774874-3803223): Pseudomonas rhodesiae strain NL2019 chromosome... (100% of genes show similarity), betalactone" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP054205&amp;start=3774874&amp;end=3803223" target="_blank">NZ_CP054205 (3774874-3803223)</a>: Pseudomonas rhodesiae strain NL2019 chromosome... (100% of genes show similarity), betalactone</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a8_000"  >
+<polygon points="10,90 21,90 26,85 21,80 10,80 10,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17110&lt;/b&gt;&lt;br&gt;cytochrome b&lt;br&gt;Location: 3802189 - 3801650&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22985&lt;/b&gt;&lt;br&gt;Percentage identity: 88&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 292&lt;br&gt;E-value: 1.52e-100" locus_tag="HRH33_RS17110" class="clusterblast-orf" id="dummy-8_h8_7_0"  />
+</g>
+<g id="a8_001"  >
+<polygon points="27,85 32,80 62,80 62,90 32,90 27,85 " style="fill:#56d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17105&lt;/b&gt;&lt;br&gt;M14-type cytosolic carboxypeptidase&lt;br&gt;Location: 3801631 - 3800480&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22990&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 743&lt;br&gt;E-value: 3.26e-272" locus_tag="HRH33_RS17105" class="clusterblast-orf" id="dummy-8_h8_7_1"  />
+</g>
+<g id="a8_002"  >
+<polygon points="76,85 81,80 86,80 86,90 81,90 76,85 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17100&lt;/b&gt;&lt;br&gt;DUF3077 domain-containing protein&lt;br&gt;Location: 3800014 - 3799664&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23000&lt;/b&gt;&lt;br&gt;Percentage identity: 83&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 175&lt;br&gt;E-value: 4.47e-56" locus_tag="HRH33_RS17100" class="clusterblast-orf" id="dummy-8_h8_7_2"  />
+</g>
+<g id="a8_003"  >
+<polygon points="90,90 104,90 109,85 104,80 90,80 90,90 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17095&lt;/b&gt;&lt;br&gt;LexA family transcriptional regulator&lt;br&gt;Location: 3799532 - 3798897&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23005&lt;/b&gt;&lt;br&gt;Percentage identity: 79&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 339&lt;br&gt;E-value: 4.28e-118" locus_tag="HRH33_RS17095" class="clusterblast-orf" id="dummy-8_h8_7_3"  />
+</g>
+<g id="a8_004"  >
+<polygon points="109,85 114,80 167,80 167,90 114,90 109,85 " style="fill:#d85615; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17090&lt;/b&gt;&lt;br&gt;acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha&lt;br&gt;Location: 3798900 - 3796975&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23010&lt;/b&gt;&lt;br&gt;Percentage identity: 91&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1136&lt;br&gt;E-value: 0.0" locus_tag="HRH33_RS17090" class="clusterblast-orf" id="dummy-8_h8_7_4"  />
+</g>
+<g id="a8_005"  >
+<polygon points="167,85 172,80 192,80 192,90 172,90 167,85 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17085&lt;/b&gt;&lt;br&gt;gamma-carboxygeranoyl-CoA hydratase&lt;br&gt;Location: 3796978 - 3796172&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23015&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 501&lt;br&gt;E-value: 2.29e-180" locus_tag="HRH33_RS17085" class="clusterblast-orf" id="dummy-8_h8_7_5"  />
+</g>
+<g id="a8_006"  >
+<polygon points="192,85 197,80 241,80 241,90 197,90 192,85 " style="fill:#1556d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17080&lt;/b&gt;&lt;br&gt;methylcrotonoyl-CoA carboxylase&lt;br&gt;Location: 3796156 - 3794549&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23020&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1037&lt;br&gt;E-value: 0.0" locus_tag="HRH33_RS17080" class="clusterblast-orf" id="dummy-8_h8_7_6"  />
+</g>
+<g id="a8_007"  >
+<polygon points="241,85 246,80 276,80 276,90 246,90 241,85 " style="fill:#d815d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17075&lt;/b&gt;&lt;br&gt;isovaleryl-CoA dehydrogenase&lt;br&gt;Location: 3794537 - 3793374&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23025&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 753&lt;br&gt;E-value: 6.9e-276" locus_tag="HRH33_RS17075" class="clusterblast-orf" id="dummy-8_h8_7_7"  />
+</g>
+<g id="a8_008"  >
+<polygon points="280,90 325,90 330,85 325,80 280,80 280,90 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17070&lt;/b&gt;&lt;br&gt;AMP-binding protein&lt;br&gt;Location: 3793223 - 3791589&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23030&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1007&lt;br&gt;E-value: 0.0" locus_tag="HRH33_RS17070" class="clusterblast-orf" id="dummy-8_h8_7_8"  />
+</g>
+<g id="a8_009"  >
+<polygon points="332,90 483,90 488,85 483,80 332,80 332,90 " style="fill:#15d856; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17065&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 3791507 - 3786324&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23035&lt;/b&gt;&lt;br&gt;Percentage identity: 53&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1699&lt;br&gt;E-value: 0.0" locus_tag="HRH33_RS17065" class="clusterblast-orf" id="dummy-8_h8_7_9"  />
+</g>
+<g id="a8_0010"  >
+<polygon points="505,85 510,80 532,80 532,90 510,90 505,85 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17060&lt;/b&gt;&lt;br&gt;hydroxymethylglutaryl-CoA lyase&lt;br&gt;Location: 3785774 - 3784875&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23045&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 539&lt;br&gt;E-value: 2.88e-194" locus_tag="HRH33_RS17060" class="clusterblast-orf" id="dummy-8_h8_7_10"  />
+</g>
+<g id="a8_0011"  >
+<polygon points="533,85 538,80 544,80 544,90 538,90 533,85 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17055&lt;/b&gt;&lt;br&gt;MerR family DNA-binding transcriptional regulator&lt;br&gt;Location: 3784858 - 3784466&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23050&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 234&lt;br&gt;E-value: 4.13e-79" locus_tag="HRH33_RS17055" class="clusterblast-orf" id="dummy-8_h8_7_11"  />
+</g>
+<g id="a8_0012"  >
+<polygon points="549,85 554,80 577,80 577,90 554,90 549,85 " style="fill:#d8d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17050&lt;/b&gt;&lt;br&gt;LysR family transcriptional regulator&lt;br&gt;Location: 3784330 - 3783395&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23055&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 599&lt;br&gt;E-value: 1.22e-217" locus_tag="HRH33_RS17050" class="clusterblast-orf" id="dummy-8_h8_7_12"  />
+</g>
+<g id="a8_0013"  >
+<polygon points="581,90 613,90 618,85 613,80 581,80 581,90 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17045&lt;/b&gt;&lt;br&gt;acyl-CoA dehydrogenase&lt;br&gt;Location: 3783243 - 3782014&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23060&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 815&lt;br&gt;E-value: 1.11e-299" locus_tag="HRH33_RS17045" class="clusterblast-orf" id="dummy-8_h8_7_13"  />
+</g>
+<g id="a8_0014"  >
+<polygon points="622,85 627,80 662,80 662,90 627,90 622,85 " style="fill:#5615d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17040&lt;/b&gt;&lt;br&gt;phosphate ABC transporter substrate-binding/OmpA family protein&lt;br&gt;Location: 3781895 - 3780561&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23065&lt;/b&gt;&lt;br&gt;Percentage identity: 88&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 751&lt;br&gt;E-value: 3.19e-273" locus_tag="HRH33_RS17040" class="clusterblast-orf" id="dummy-8_h8_7_14"  />
+</g>
+<g id="a8_0015"  >
+<polygon points="666,85 671,80 690,80 690,90 671,90 666,85 " style="fill:#d81556; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17035&lt;/b&gt;&lt;br&gt;exodeoxyribonuclease III&lt;br&gt;Location: 3780450 - 3779638&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23070&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 550&lt;br&gt;E-value: 1.65e-199" locus_tag="HRH33_RS17035" class="clusterblast-orf" id="dummy-8_h8_7_15"  />
+</g>
+<g id="a8_0016"  >
+<polygon points="695,90 710,90 715,85 710,80 695,80 695,90 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17030&lt;/b&gt;&lt;br&gt;GNAT family N-acetyltransferase&lt;br&gt;Location: 3779467 - 3778817&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23075&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 426&lt;br&gt;E-value: 2.24e-152" locus_tag="HRH33_RS17030" class="clusterblast-orf" id="dummy-8_h8_7_16"  />
+</g>
+<g id="a8_0017"  >
+<polygon points="717,90 764,90 769,85 764,80 717,80 717,90 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HRH33_RS17025&lt;/b&gt;&lt;br&gt;autotransporter assembly complex protein TamA&lt;br&gt;Location: 3778752 - 3777025&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23080&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1105&lt;br&gt;E-value: 0.0" locus_tag="HRH33_RS17025" class="clusterblast-orf" id="dummy-8_h8_7_17"  />
+</g>
+</svg>

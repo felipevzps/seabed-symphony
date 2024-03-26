@@ -1,0 +1,73 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_27310	5819740	5820610	-	Transcriptional regulator, AraC family	
+JNAJGP_27315	5820798	5821419	+	Lysine transporter LysE	
+JNAJGP_27320	5821494	5821977	+	PhnB-like domain-containing protein	
+JNAJGP_27325	5822078	5822870	+	cysteine synthase family protein	
+JNAJGP_27330	5822870	5823455	+	CBS domain-containing protein	
+JNAJGP_27335	5823451	5824618	+	cystathionine gamma-synthase	
+JNAJGP_27340	5824670	5826872	-	OsmC domain/YcaO domain-containing protein	
+JNAJGP_27345	5827033	5827303	+	PAS domain-containing protein	
+JNAJGP_27350	5827292	5827724	-	Osmotically inducible protein OsmC	
+JNAJGP_27355	5827804	5829370	+	Methyl-accepting transducer domain-containing protein	
+JNAJGP_27360	5829618	5830428	+	Suppressor of fused-like domain-containing protein	
+JNAJGP_27365	5830427	5831009	+	hypothetical protein	
+JNAJGP_27370	5831188	5831749	+	Hydrolase, isochorismatase family	
+
+
+Significant hits: 
+1. BGC0000774	lipopolysaccharide
+
+
+Details:
+
+>>
+1. BGC0000774
+Source: lipopolysaccharide
+Type: Saccharide:Lipopolysaccharide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1081.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAK53494.1	AAK53494.1	134	772	+	conserved_protein_involved_in_carbohydrate_biosynthesis
+AAK53493.1	AAK53493.1	1054	1692	-	beta-subunit_of_putative_3-oxoacid_CoA-transferase
+AAK53462.1	AAK53462.1	1692	2420	-	alpha_subunit_of_putative_3-oxoacid_CoA-transferase
+AAA27610.1	AAA27610.1	2555	3901	+	phosphoglucomutase_/_phosphomannomutase
+AAK53463.1	AAK53463.1	3947	5350	+	phosphomannose_isomerase_/_GDP-mannose_pyrophosphorylase
+AAK53464.1	AAK53464.1	5472	6380	-	dTDP-4-dehydrorhamnose_reductase
+AAK53465.1	AAK53465.1	6377	6934	-	dTDP-4-dehydrorhamnose_3,5-epimerase
+AAA16191.1	AAA16191.1	6931	7818	-	glucose-1-phosphate_thymidylyltransferase
+AAK53466.1	AAK53466.1	7882	8937	-	dTDP-glucose_4,6-dehydratase
+AAK53467.1	AAK53467.1	9166	9912	+	putative_electron-transferring_flavoprotein_beta_subunit
+AAK53468.1	AAK53468.1	9912	10856	+	putative_electron-transferring_flavoprotein_alpha_subunit
+AAK53469.1	AAK53469.1	10916	11263	+	WxcH
+AAK53470.1	AAK53470.1	11312	12415	+	nucleotide_sugar_aminotransferase
+AAK53471.1	AAK53471.1	12400	13371	+	glycosyltransferase
+AAK53472.1	AAK53472.1	13368	14297	+	bifunctional_nucleotide_hexosamine_acetyltransferase_/_isomerase
+AAK53473.1	AAK53473.1	14284	14724	+	putative_integral_membrane_protein_WxcN
+AAK53474.1	AAK53474.1	14794	17046	+	integral_membrane_protein
+AAK53475.1	AAK53475.1	17188	18126	-	GDP-4-dehydro-D-rhamnose_reductase
+AAK53476.1	AAK53476.1	18110	19144	-	GDP-mannose_4,6-dehydratase
+AAK53477.1	AAK53477.1	19222	19857	-	Unknown
+AAK53478.1	AAK53478.1	19857	21602	-	putative_glycosyltransferase
+AAK53479.1	AAK53479.1	21623	22684	-	glycosyltransferase
+AAK53480.1	AAK53480.1	22734	25022	-	putative_protein_kinase
+AAK53481.1	AAK53481.1	25062	26348	-	ATP-binding_component_of_an_ABC-type_polysaccharide_exporter
+AAK53482.1	AAK53482.1	26345	27130	-	permease_protein_of_an_ABC-type_polysaccaharide_exporter
+AAK53483.1	AAK53483.1	27214	28599	-	glycosyltransferase
+AAK53484.1	AAK53484.1	28596	29795	-	cystathionine_gamma-synthase
+AAK53485.1	AAK53485.1	29889	31259	-	cystathionine_beta-lyase
+AAK53486.1	AAK53486.1	31491	31985	-	UptF
+AAK53487.1	AAK53487.1	32051	32941	-	putative_outer_membrane_protein_UptE_precursor
+AAK53488.1	AAK53488.1	32938	33321	-	putative_outer_membrane_protein_UptD_precursor
+AAK53489.1	AAK53489.1	33420	34553	+	type_II_secretion_system_protein-like_protein
+AAK53490.1	AAK53490.1	35073	35735	-	putative_maleylacetoacetate_isomerase
+AAK53491.1	AAK53491.1	35779	36768	-	putative_dioxygenase
+AAK53492.1	AAK53492.1	37148	37753	+	putative_ATP-dependent_RNA_helicase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_27325	AAK53485.1	64	337	97.71863117870723	9.15e-115
+JNAJGP_27330	AAK53485.1	58	211	98.4536082474227	2e-66
+JNAJGP_27335	AAK53484.1	68	533	97.42268041237114	1.94e-190
+

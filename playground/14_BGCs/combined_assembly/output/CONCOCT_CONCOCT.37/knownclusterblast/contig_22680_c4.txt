@@ -1,0 +1,90 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_10370	2187504	2189601	-	Membrane fusion protein biotin-lipoyl like domain-containing protein	
+JNAJGP_10375	2189600	2190920	-	Membrane fusion protein biotin-lipoyl like domain-containing protein	
+JNAJGP_10380	2190916	2191690	-	Membrane fusion protein biotin-lipoyl like domain-containing protein	
+JNAJGP_10385	2191852	2194012	+	Outer membrane assembly lipoprotein YfiO	
+JNAJGP_10390	2194008	2194713	+	DUF3142 domain-containing protein	
+JNAJGP_10395	2195001	2195217	+	Nucleotidyl transferase AbiEii/AbiGii toxin family protein	
+JNAJGP_10400	2195577	2197023	-	RND transporter	
+JNAJGP_10405	2197019	2198078	-	HlyD family secretion protein	
+JNAJGP_10410	2198094	2199630	-	Major facilitator superfamily (MFS) profile domain-containing protein	
+JNAJGP_10415	2199845	2200766	-	HTH lysR-type domain-containing protein	
+JNAJGP_10420	2200820	2201669	-	ABC transmembrane type-1 domain-containing protein	
+JNAJGP_10425	2201680	2202532	-	Vitamin B12 import ATP-binding protein BtuD	
+JNAJGP_10430	2202533	2203559	-	SsuA/THI5-like domain-containing protein	
+JNAJGP_10435	2203573	2204467	-	Alpha-ketoglutarate-dependent taurine dioxygenase	
+JNAJGP_10440	2204734	2205445	+	HTH gntR-type domain-containing protein	
+JNAJGP_10445	2205768	2206527	+	Mangotoxin biosynthesis-involved protein MgoB	
+JNAJGP_10450	2206523	2207462	+	p-aminobenzoate N-oxygenase AurF	
+JNAJGP_10455	2207458	2210839	+	Amino acid adenylation:thioester reductase	
+JNAJGP_10460	2210858	2211323	+	Polyketide cyclase/dehydrase	
+JNAJGP_10465	2211358	2213239	-	Chemotaxis protein	
+JNAJGP_10495	2219310	2220531	-	CoA-transferase	
+JNAJGP_10500	2220543	2221725	-	Acyl-CoA dehydrogenase related to the alkylation response protein AidB	
+JNAJGP_10505	2221881	2222781	+	HTH lysR-type domain-containing protein	
+JNAJGP_10510	2223233	2224355	+	Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha	
+JNAJGP_10515	2224370	2224691	+	proton-translocating NAD(P)(+) transhydrogenase	
+JNAJGP_10520	2224690	2226127	+	NAD/NADP transhydrogenase beta subunit	
+JNAJGP_10525	2226306	2227800	+	Propionyl CoA:succinate CoA transferase	
+JNAJGP_10530	2228118	2228334	+	DUF1127 domain-containing protein	
+JNAJGP_10535	2228618	2228939	+	Holliday junction resolvasome, helicase subunit	
+JNAJGP_10540	2229038	2229347	+	Holliday junction resolvasome, helicase subunit	
+JNAJGP_10545	2229386	2229707	+	DUF2388 domain-containing protein	
+
+
+Significant hits: 
+1. BGC0001131	ambactin
+2. BGC0001692	nematophin
+3. BGC0001599	fragin
+
+
+Details:
+
+>>
+1. BGC0001131
+Source: ambactin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 789.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_10510	Xmir_01404	46	291	99.46380697050938	2.07e-94
+JNAJGP_10515	Xmir_01404	49	76	82.0754716981132	2.77e-17
+JNAJGP_10520	Xmir_01405	50	422	100.62761506276149	1.88e-144
+
+
+
+>>
+2. BGC0001692
+Source: nematophin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 784.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_10510	XNC1_RS09375	47	291	99.46380697050938	2.76e-94
+JNAJGP_10515	XNC1_RS09375	49	78	82.0754716981132	7.95e-18
+JNAJGP_10520	XNC1_RS09380	49	415	101.04602510460252	8.34e-142
+
+
+
+>>
+3. BGC0001599
+Source: fragin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 643.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_10445	I35_4191	46	211	95.23809523809523	3.73e-68
+JNAJGP_10450	I35_4193	53	306	97.11538461538461	6.37e-104
+JNAJGP_10460	I35_4195	46	126	96.75324675324676	2.14e-37
+

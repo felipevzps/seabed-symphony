@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="3,40 81,40 86,35 81,30 3,30 3,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04285&lt;/b&gt;&lt;br&gt;high-affinity branched-chain amino acid ABC transporter permease LivH&lt;br&gt;Location: 851344 - 852268" locus_tag="JNAJGP_04285" class="clusterblast-orf" id="dummy-2_q0_0_all"  />
+<polygon points="85,40 193,40 198,35 193,30 85,30 85,40 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04290&lt;/b&gt;&lt;br&gt;High-affinity branched-chain amino acid transport system permease LivHM N-terminal domain-containing protein&lt;br&gt;Location: 852264 - 853518" locus_tag="JNAJGP_04290" class="clusterblast-orf" id="dummy-2_q1_0_all"  />
+<polygon points="197,40 261,40 266,35 261,30 197,30 197,40 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04295&lt;/b&gt;&lt;br&gt;high-affinity branched-chain amino acid ABC transporter ATP-binding protein LivG&lt;br&gt;Location: 853514 - 854282" locus_tag="JNAJGP_04295" class="clusterblast-orf" id="dummy-2_q2_0_all"  />
+<polygon points="266,40 324,40 329,35 324,30 266,30 266,40 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04300&lt;/b&gt;&lt;br&gt;ABC-type branched-chain amino acid transport system, ATPase component LivF&lt;br&gt;Location: 854283 - 854985" locus_tag="JNAJGP_04300" class="clusterblast-orf" id="dummy-2_q3_0_all"  />
+<polygon points="347,40 368,40 373,35 368,30 347,30 347,40 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04305&lt;/b&gt;&lt;br&gt;DUF2282 domain-containing protein&lt;br&gt;Location: 855181 - 855478" locus_tag="JNAJGP_04305" class="clusterblast-orf" id="dummy-2_q4_0_all"  />
+<polygon points="376,40 447,40 452,35 447,30 376,30 376,40 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04310&lt;/b&gt;&lt;br&gt;UPF0276 protein PFWH6 1361&lt;br&gt;Location: 855504 - 856359" locus_tag="JNAJGP_04310" class="clusterblast-orf" id="dummy-2_q5_0_all"  />
+<polygon points="452,40 516,40 521,35 516,30 452,30 452,40 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04315&lt;/b&gt;&lt;br&gt;Putative DNA-binding domain-containing protein&lt;br&gt;Location: 856355 - 857132" locus_tag="JNAJGP_04315" class="clusterblast-orf" id="dummy-2_q6_0_all"  />
+<polygon points="521,40 560,40 565,35 560,30 521,30 521,40 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04320&lt;/b&gt;&lt;br&gt;DoxX family protein&lt;br&gt;Location: 857128 - 857614" locus_tag="JNAJGP_04320" class="clusterblast-orf" id="dummy-2_q7_0_all"  />
+<polygon points="564,35 569,30 646,30 646,40 569,40 564,35 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04325&lt;/b&gt;&lt;br&gt;HTH lysR-type domain-containing protein&lt;br&gt;Location: 857610 - 858519" locus_tag="JNAJGP_04325" class="clusterblast-orf" id="dummy-2_q8_0_all"  />
+<polygon points="655,40 704,40 709,35 704,30 655,30 655,40 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04330&lt;/b&gt;&lt;br&gt;short chain dehydrogenase&lt;br&gt;Location: 858623 - 859223" locus_tag="JNAJGP_04330" class="clusterblast-orf" id="dummy-2_q9_0_all"  />
+<polygon points="717,40 773,40 778,35 773,30 717,30 717,40 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_04335&lt;/b&gt;&lt;br&gt;Lipoprotein&lt;br&gt;Location: 859320 - 859992" locus_tag="JNAJGP_04335" class="clusterblast-orf" id="dummy-2_q10_0_all"  />
+</g>
+<g label="NZ_CP058533" description="NZ_CP058533 (2928096-2938975): Pseudomonas fluorescens strain W-6 chromosome,... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP058533&amp;start=2928096&amp;end=2938975" target="_blank">NZ_CP058533 (2928096-2938975)</a>: Pseudomonas fluorescens strain W-6 chromosome,... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a2_000"  >
+<polygon points="0,90 77,90 82,85 77,80 0,80 0,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13145&lt;/b&gt;&lt;br&gt;high-affinity branched-chain amino acid ABC transporter permease LivH&lt;br&gt;Location: 2928898 - 2929821&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04285&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 566&lt;br&gt;E-value: 1.15e-204" locus_tag="HXS75_RS13145" class="clusterblast-orf" id="dummy-2_h2_10_0"  />
+</g>
+<g id="a2_001"  >
+<polygon points="82,90 189,90 194,85 189,80 82,80 82,90 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13150&lt;/b&gt;&lt;br&gt;high-affinity branched-chain amino acid ABC transporter permease LivM&lt;br&gt;Location: 2929818 - 2931071&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04290&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 771&lt;br&gt;E-value: 6.98e-282" locus_tag="HXS75_RS13150" class="clusterblast-orf" id="dummy-2_h2_10_1"  />
+</g>
+<g id="a2_002"  >
+<polygon points="194,90 258,90 263,85 258,80 194,80 194,90 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13155&lt;/b&gt;&lt;br&gt;high-affinity branched-chain amino acid ABC transporter ATP-binding protein LivG&lt;br&gt;Location: 2931068 - 2931835&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04295&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 502&lt;br&gt;E-value: 5.92e-181&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04300&lt;/b&gt;&lt;br&gt;Percentage identity: 31&lt;br&gt;Percentage coverage: 107&lt;br&gt;BLAST bit score: 116&lt;br&gt;E-value: 1.23e-29" locus_tag="HXS75_RS13155" class="clusterblast-orf" id="dummy-2_h2_10_2"  />
+</g>
+<g id="a2_003"  >
+<polygon points="263,90 321,90 326,85 321,80 263,80 263,90 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13160&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 2931837 - 2932538&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04295&lt;/b&gt;&lt;br&gt;Percentage identity: 32&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 120&lt;br&gt;E-value: 3.19e-31&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04300&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 445&lt;br&gt;E-value: 3.98e-159" locus_tag="HXS75_RS13160" class="clusterblast-orf" id="dummy-2_h2_10_3"  />
+</g>
+<g id="a2_004"  >
+<polygon points="347,90 368,90 373,85 368,80 347,80 347,90 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13165&lt;/b&gt;&lt;br&gt;DUF2282 domain-containing protein&lt;br&gt;Location: 2932777 - 2933073&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04305&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 165&lt;br&gt;E-value: 7.94e-53" locus_tag="HXS75_RS13165" class="clusterblast-orf" id="dummy-2_h2_10_4"  />
+</g>
+<g id="a2_005"  >
+<polygon points="376,90 449,90 454,85 449,80 376,80 376,90 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13170&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 2933097 - 2933975&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04310&lt;/b&gt;&lt;br&gt;Percentage identity: 87&lt;br&gt;Percentage coverage: 96&lt;br&gt;BLAST bit score: 492&lt;br&gt;E-value: 4.75e-176" locus_tag="HXS75_RS13170" class="clusterblast-orf" id="dummy-2_h2_10_5"  />
+</g>
+<g id="a2_006"  >
+<polygon points="454,90 518,90 523,85 518,80 454,80 454,90 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13175&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 2933972 - 2934748&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04315&lt;/b&gt;&lt;br&gt;Percentage identity: 74&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 376&lt;br&gt;E-value: 4.9e-131" locus_tag="HXS75_RS13175" class="clusterblast-orf" id="dummy-2_h2_10_6"  />
+</g>
+<g id="a2_007"  >
+<polygon points="523,90 562,90 567,85 562,80 523,80 523,90 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13180&lt;/b&gt;&lt;br&gt;DoxX family protein&lt;br&gt;Location: 2934745 - 2935230&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04320&lt;/b&gt;&lt;br&gt;Percentage identity: 89&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 283&lt;br&gt;E-value: 1.27e-97" locus_tag="HXS75_RS13180" class="clusterblast-orf" id="dummy-2_h2_10_7"  />
+</g>
+<g id="a2_008"  >
+<polygon points="566,85 571,80 648,80 648,90 571,90 566,85 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13185&lt;/b&gt;&lt;br&gt;LysR family transcriptional regulator&lt;br&gt;Location: 2935227 - 2936135&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04325&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 563&lt;br&gt;E-value: 9.11e-204" locus_tag="HXS75_RS13185" class="clusterblast-orf" id="dummy-2_h2_10_8"  />
+</g>
+<g id="a2_009"  >
+<polygon points="657,90 706,90 711,85 706,80 657,80 657,90 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13190&lt;/b&gt;&lt;br&gt;short chain dehydrogenase&lt;br&gt;Location: 2936239 - 2936838&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04330&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 358&lt;br&gt;E-value: 4.17e-126" locus_tag="HXS75_RS13190" class="clusterblast-orf" id="dummy-2_h2_10_9"  />
+</g>
+<g id="a2_0010"  >
+<polygon points="719,90 775,90 780,85 775,80 719,80 719,90 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS13195&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 2936936 - 2937607&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_04335&lt;/b&gt;&lt;br&gt;Percentage identity: 89&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 406&lt;br&gt;E-value: 4.61e-144" locus_tag="HXS75_RS13195" class="clusterblast-orf" id="dummy-2_h2_10_10"  />
+</g>
+</svg>

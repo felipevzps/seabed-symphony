@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAW85344.1</td>
+              <td>AMP-(fatty)acid_ligase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000837/1">BGC0000837</a></td>
+              <td>Other</td>
+              <td>40.0</td>
+              <td>61.2</td>
+              <td>224.0</td>
+              <td>1.01e-66</td>
+          </tr>
+    
+          <tr>
+              <td>AAN79659.1</td>
+              <td>Putative_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000836/1">BGC0000836</a></td>
+              <td>Other</td>
+              <td>36.0</td>
+              <td>57.4</td>
+              <td>183.0</td>
+              <td>1.9e-51</td>
+          </tr>
+    
+          <tr>
+              <td>WP_052705732.1</td>
+              <td>AMP-binding_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002008/1">BGC0002008</a></td>
+              <td>Other</td>
+              <td>35.0</td>
+              <td>72.3</td>
+              <td>183.0</td>
+              <td>2.3e-51</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ88630.1</td>
+              <td>putative_acyl-CoA_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000327/1">BGC0000327</a></td>
+              <td>NRP</td>
+              <td>27.0</td>
+              <td>63.1</td>
+              <td>79.0</td>
+              <td>3.02e-15</td>
+          </tr>
+    
+          <tr>
+              <td>AGY30675.1</td>
+              <td>Ann3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001298/1">BGC0001298</a></td>
+              <td>Polyketide</td>
+              <td>23.0</td>
+              <td>85.4</td>
+              <td>74.0</td>
+              <td>1.49e-13</td>
+          </tr>
+    
+          <tr>
+              <td>AAG02364.1</td>
+              <td>peptide_synthetase_NRPS2-1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000963/1">BGC0000963</a></td>
+              <td>NRP:Glycopeptide+Polyketide:Modular type I polyketide+Saccharide:Hybrid/tailoring saccharide</td>
+              <td>26.0</td>
+              <td>84.7</td>
+              <td>73.0</td>
+              <td>6.87e-13</td>
+          </tr>
+    
+          <tr>
+              <td>QTT72092.1</td>
+              <td>amino_acid_adenylation_domain-containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002350/1">BGC0002350</a></td>
+              <td>NRP+Polyketide+Saccharide</td>
+              <td>26.0</td>
+              <td>84.7</td>
+              <td>71.0</td>
+              <td>3.58e-12</td>
+          </tr>
+    
+          <tr>
+              <td>CBL93718.1</td>
+              <td>NRPS_didomain_PCP-C</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000360/1">BGC0000360</a></td>
+              <td>NRP</td>
+              <td>25.0</td>
+              <td>91.7</td>
+              <td>66.0</td>
+              <td>9.58e-11</td>
+          </tr>
+    
+          <tr>
+              <td>CAN89638.1</td>
+              <td>putative_non-ribosomal_peptide_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001070/1">BGC0001070</a></td>
+              <td>NRP+Polyketide:Modular type I polyketide+Polyketide:Trans-AT type I polyketide</td>
+              <td>26.0</td>
+              <td>74.3</td>
+              <td>62.0</td>
+              <td>1.27e-09</td>
+          </tr>
+    
+          <tr>
+              <td>CAE17553.1</td>
+              <td>acyl_CoA_ligase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000210/1">BGC0000210</a></td>
+              <td>Polyketide:Type II polyketide+Saccharide:Oligosaccharide</td>
+              <td>25.0</td>
+              <td>50.2</td>
+              <td>60.0</td>
+              <td>3.66e-09</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ76292.1</td>
+              <td>putative_non-ribosomal_peptide_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000972/1">BGC0000972</a></td>
+              <td>NRP+Polyketide:Modular type I polyketide+Polyketide:Trans-AT type I polyketide</td>
+              <td>25.0</td>
+              <td>92.3</td>
+              <td>60.0</td>
+              <td>7.3e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AVV61987.1</td>
+              <td>putative_non-ribosomal_peptide_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001477/1">BGC0001477</a></td>
+              <td>NRP+Polyketide:Modular type I polyketide</td>
+              <td>26.0</td>
+              <td>87.1</td>
+              <td>59.0</td>
+              <td>8.73e-09</td>
+          </tr>
+    
+          <tr>
+              <td>CAK50779.1</td>
+              <td>acyl_CoA_ligase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000247/1">BGC0000247</a></td>
+              <td>Polyketide:Type II polyketide+Saccharide:Oligosaccharide</td>
+              <td>26.0</td>
+              <td>51.1</td>
+              <td>56.0</td>
+              <td>1.01e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

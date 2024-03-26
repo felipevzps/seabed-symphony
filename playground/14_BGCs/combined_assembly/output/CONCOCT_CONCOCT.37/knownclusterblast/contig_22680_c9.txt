@@ -1,0 +1,573 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_24070	5054663	5058125	+	phage tail protein	
+JNAJGP_24075	5058471	5059101	+	Phage tail protein	
+JNAJGP_24080	5059159	5059927	+	Phage tail protein	
+JNAJGP_24085	5059926	5060217	+	hypothetical protein	
+JNAJGP_24090	5060213	5060465	+	Phage tail protein	
+JNAJGP_24095	5060520	5061054	+	Chitinase	
+JNAJGP_24100	5061050	5061620	+	Lysozyme	
+JNAJGP_24105	5061579	5061843	-	NIPSNAP domain-containing protein	
+JNAJGP_24110	5061930	5062311	-	Lipoprotein	
+JNAJGP_24120	5062760	5063663	+	LysR family transcriptional regulator	
+JNAJGP_24125	5063700	5064642	-	Cupin	
+JNAJGP_24130	5064843	5065122	-	hypothetical protein	
+JNAJGP_24135	5065316	5067488	-	Ferric siderophore receptor	
+JNAJGP_24140	5067586	5068606	-	Acyltransferase MbtK/IucB-like conserved domain-containing protein	
+JNAJGP_24145	5068765	5070754	-	Fe(3+)-hydroxamate ABC transporter permease FhuB	
+JNAJGP_24150	5070746	5071658	-	Periplasmic binding protein	
+JNAJGP_24155	5071857	5073504	+	Putative ATP-binding cassette transporter	
+JNAJGP_24160	5073678	5074422	+	Thioesterase	
+JNAJGP_24165	5074461	5075442	+	TauD/TfdA-like domain-containing protein	
+JNAJGP_24170	5075492	5079956	+	Non ribosomal peptide synthase	
+JNAJGP_24175	5079967	5083114	+	Amino acid adenylation	
+JNAJGP_24180	5083162	5090896	+	Carrier domain-containing protein	
+JNAJGP_24185	5090892	5103210	+	non-ribosomal peptide synthetase	
+JNAJGP_24190	5103211	5107270	+	Non-ribosomal peptide synthetase	
+JNAJGP_24195	5107342	5108698	+	L-ornithine 5-monooxygenase	
+JNAJGP_24200	5108789	5109545	+	siderophore-iron reductase FhuF	
+JNAJGP_24205	5109585	5110353	-	Iron-hydroxamate transporter ATP-binding subunit	
+JNAJGP_24210	5110578	5110803	-	hypothetical protein	
+JNAJGP_24215	5110983	5111682	+	Lipoprotein	
+JNAJGP_24220	5111807	5112086	+	EAL domain-containing protein	
+JNAJGP_24225	5112170	5113484	+	Methyl-accepting chemotaxis protein (2 PAS,MCP domains)	
+JNAJGP_24230	5113706	5115821	+	Outer membrane siderophore receptor	
+JNAJGP_24235	5115830	5117648	-	Sigma-54 factor interaction domain-containing protein	
+JNAJGP_24240	5117939	5119034	+	sn-glycerol-3-phosphate import ATP-binding protein UgpC	
+JNAJGP_24245	5119033	5120131	+	ABC transporter ATP-binding protein	
+JNAJGP_24250	5120127	5120994	+	ABC-type sugar transport system, permease component	
+JNAJGP_24255	5121004	5121805	+	ABC-type glycerol-3-phosphate transport system, permease component	
+JNAJGP_24260	5121815	5122088	+	Small integral membrane protein	
+JNAJGP_24265	5122120	5123863	+	ABC transporter substrate-binding protein	
+JNAJGP_24270	5124300	5125680	+	Iron-containing redox enzyme family protein	
+JNAJGP_24275	5125690	5126635	+	Release factor glutamine methyltransferase	
+JNAJGP_24280	5126641	5127760	+	carboxylate-amine ligase	
+
+
+Significant hits: 
+1. BGC0002117	potashchelin A/potashchelin B/potashchelin C/potashchelin D
+2. BGC0002001	crochelin A
+3. BGC0000424	serobactin C/serobactin B/serobactin A
+4. BGC0002433	azotobactin D
+5. BGC0001189	taiwachelin
+6. BGC0002417	variochelin A/variochelin B
+7. BGC0002420	vacidobactin A/vacidobactin B
+8. BGC0002418	pacifibactin
+9. BGC0002419	acidobactin A/acidobactin B
+10. BGC0000984	delftibactin A/delftibactin B
+11. BGC0002693	pyoverdine SMX-1
+12. BGC0000413	Pf-5 pyoverdine
+13. BGC0002416	variobactin A/variobactin B
+14. BGC0002565	plantaribactin
+15. BGC0002569	ornibactin C8/ornibactin C4/ornibactin C6
+16. BGC0001721	ornibactin
+17. BGC0002564	megapolibactin Acyc/megapolibactin Bcyc/megapolibactin A/megapolibactin B/megapolibactin C/megapolibactin D/megapolibactin E/megapolibactin F
+18. BGC0002329	trinickiabactin
+19. BGC0002421	malleobactin LB400
+20. BGC0000386	malleobactin A/malleobactin B/malleobactin C/malleobactin D
+21. BGC0002408	malleobactin X
+22. BGC0000330	cupriachelin
+23. BGC0002531	cepaciachelin
+24. BGC0002465	amphibactin E/amphibactin H/amphibactin I
+25. BGC0001999	gramibactin
+26. BGC0002563	gramibactin B
+27. BGC0001879	type R and F tailocins
+
+
+Details:
+
+>>
+1. BGC0002117
+Source: potashchelin A/potashchelin B/potashchelin C/potashchelin D
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 4606.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+FRY77_09885	FRY77_09885	53505	53670	-	IS630_family_transposase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	FRY77_09910	48	231	65.19174041297934	6.35e-73
+JNAJGP_24145	FRY77_09930	49	500	93.80664652567975	2.2e-169
+JNAJGP_24155	FRY77_09915	49	498	97.44525547445255	7.81e-172
+JNAJGP_24165	FRY77_09855	62	397	94.78527607361963	5.56e-139
+JNAJGP_24170	FRY77_09860	48	1330	101.68123739071957	0.0
+JNAJGP_24190	FRY77_09880	48	880	79.65976331360946	6.28e-278
+JNAJGP_24195	FRY77_09905	54	441	95.1219512195122	8.32e-153
+JNAJGP_24205	FRY77_09795	65	329	96.07843137254902	1.97e-114
+
+
+
+>>
+2. BGC0002001
+Source: crochelin A
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 5080.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24155	Achr_RS19535	52	498	99.08759124087592	4.6e-172
+JNAJGP_24165	Achr_RS19595	60	375	93.55828220858896	2.71e-130
+JNAJGP_24180	Achr_RS19580	48	907	40.93907644547924	1.1e-298
+JNAJGP_24180	Achr_RS19570	46	874	43.383779588669	5.84e-283
+JNAJGP_24180	Achr_RS19590	48	866	40.318199456732636	5.99e-275
+JNAJGP_24190	Achr_RS19575	49	885	80.1775147928994	2.04e-287
+JNAJGP_24195	Achr_RS19635	47	379	92.90465631929047	2.79e-128
+JNAJGP_24205	Achr_RS19525	62	296	98.82352941176471	2.32e-101
+
+
+
+>>
+3. BGC0000424
+Source: serobactin C/serobactin B/serobactin A
+Type: NRP:NRP siderophore
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 4306.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	Hsero_2347	47	236	72.27138643067846	1.09e-75
+JNAJGP_24155	Hsero_2349	46	439	102.55474452554745	6.99e-149
+JNAJGP_24165	Hsero_2342	61	387	94.47852760736197	4.75e-135
+JNAJGP_24180	Hsero_2343	46	2032	101.39697322467987	0.0
+JNAJGP_24190	Hsero_2343	47	798	82.24852071005917	8.61e-250
+JNAJGP_24195	Hsero_2346	52	414	93.34811529933481	6.92e-142
+
+
+
+>>
+4. BGC0002433
+Source: azotobactin D
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 5375.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24160	Avin_25620	50	205	91.49797570850203	5.64e-66
+JNAJGP_24165	Avin_25610	65	432	96.93251533742331	6.66e-153
+JNAJGP_24180	Avin_25580	48	2174	100.23282887077998	0.0
+JNAJGP_24180	Avin_25570	46	2021	99.80597594101668	0.0
+JNAJGP_24195	Avin_25600	64	543	94.2350332594235	1.15e-192
+
+
+
+>>
+5. BGC0001189
+Source: taiwachelin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 4587.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+RALTA_B1233	RALTA_B1233	33971	34705	-	Transposase_fragment,_IS1111_family
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	RALTA_B1236	50	258	70.79646017699115	1.29e-83
+JNAJGP_24155	RALTA_B1234	51	464	98.54014598540147	1e-158
+JNAJGP_24170	RALTA_B1225	50	1338	99.5965030262273	0.0
+JNAJGP_24185	RALTA_B1228	47	2001	62.436053593179054	0.0
+JNAJGP_24195	RALTA_B1237	63	526	94.2350332594235	5.32e-186
+
+
+
+>>
+6. BGC0002417
+Source: variochelin A/variochelin B
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2728.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24165	VAPA_1c38720	58	375	97.85276073619632	3.22e-130
+JNAJGP_24180	VAPA_1c38690	48	877	40.473418703919286	2.06e-287
+JNAJGP_24190	VAPA_1c38670	48	1085	100.59171597633136	0.0
+JNAJGP_24195	VAPA_1c38650	49	391	92.23946784922394	5.07e-133
+
+
+
+>>
+7. BGC0002420
+Source: vacidobactin A/vacidobactin B
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2723.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24165	Vapar_3747	58	372	97.85276073619632	2.62e-129
+JNAJGP_24180	Vapar_3744	47	874	41.404734187039196	1.94e-286
+JNAJGP_24190	Vapar_3742	48	1080	99.18639053254438	0.0
+JNAJGP_24195	Vapar_3740	50	397	92.23946784922394	2.71e-135
+
+
+
+>>
+8. BGC0002418
+Source: pacifibactin
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2070.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24155	S7S_05415	50	491	97.8102189781022	2.53e-169
+JNAJGP_24165	S7S_05300	62	391	93.86503067484662	7.45e-137
+JNAJGP_24170	S7S_05310	48	778	60.25554808338938	1.72e-248
+JNAJGP_24195	S7S_05400	51	410	95.78713968957871	8.89e-141
+
+
+
+>>
+9. BGC0002419
+Source: acidobactin A/acidobactin B
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2031.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	Aave_3727	48	229	66.96165191740413	1.39e-72
+JNAJGP_24165	Aave_3734	58	367	94.78527607361963	2.46e-127
+JNAJGP_24190	Aave_3729	46	1035	102.29289940828403	0.0
+JNAJGP_24195	Aave_3723	51	400	91.13082039911308	1.28e-136
+
+
+
+>>
+10. BGC0000984
+Source: delftibactin A/delftibactin B
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1796.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	Daci_4748	52	229	65.78171091445427	7.16e-72
+JNAJGP_24165	Daci_4757	58	363	95.39877300613497	1.58e-125
+JNAJGP_24190	Daci_4754	48	809	78.03254437869822	3.19e-255
+JNAJGP_24195	Daci_4749	49	395	92.01773835920177	1.23e-134
+
+
+
+>>
+11. BGC0002693
+Source: pyoverdine SMX-1
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 8693.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+DCC84_23210	DCC84_23210	56263	56358	+	helix-turn-helix_domain-containing_protein
+DCC84_23215	DCC84_23215	56669	56776	-	helix-turn-helix_domain-containing_protein
+DCC84_23255	DCC84_23255	65483	65551	+	NAD-dependent_DNA_ligase
+DCC84_23260	DCC84_23260	65556	65705	+	glyoxalase/bleomycin_resistance/dioxygenase_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24180	DCC84_23185	47	2097	98.9522700814901	0.0
+JNAJGP_24185	DCC84_23185	48	3531	100.99878197320339	0.0
+JNAJGP_24185	DCC84_23175	47	2492	73.78806333739342	0.0
+JNAJGP_24195	DCC84_23115	68	573	94.2350332594235	1.23e-204
+
+
+
+>>
+12. BGC0000413
+Source: Pf-5 pyoverdine
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 4736.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24170	PFL_4189	46	862	75.25218560860793	3.82e-270
+JNAJGP_24185	PFL_4093	46	3319	101.09622411693057	0.0
+JNAJGP_24195	PFL_4079	66	555	94.2350332594235	2.41e-197
+
+
+
+>>
+13. BGC0002416
+Source: variobactin A/variobactin B
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 3287.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ALG65337.1	ALG65337.1	1	834	+	Var1
+ALG65338.1	ALG65338.1	812	1513	+	Var2
+ALG65336.1	ALG65336.1	1510	6735	+	Var3
+ALG65339.1	ALG65339.1	6735	13772	+	Var4
+ALG65340.1	ALG65340.1	13769	16882	+	Var5
+ALG65341.1	ALG65341.1	16879	24630	+	Var6
+ALG65342.1	ALG65342.1	24670	31965	+	Var7
+ALG65343.1	ALG65343.1	32061	34508	-	Var8
+ALG65344.1	ALG65344.1	34707	35735	-	Var9
+ALG65345.1	ALG65345.1	35732	36310	-	Var10
+ALG65346.1	ALG65346.1	36472	37791	-	Var11
+ALG65347.1	ALG65347.1	37778	38884	-	Var12
+ALG65348.1	ALG65348.1	38953	39738	-	Var13
+ALG65349.1	ALG65349.1	40220	41899	+	Var14
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24170	ALG65339.1	47	770	61.600537995965034	1.34e-244
+JNAJGP_24180	ALG65341.1	47	2108	101.0477299185099	0.0
+JNAJGP_24195	ALG65346.1	52	409	92.01773835920177	5.6e-140
+
+
+
+>>
+14. BGC0002565
+Source: plantaribactin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1934.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24145	BGL_2c16950	46	469	98.94259818731118	2.56e-157
+JNAJGP_24165	BGL_2c17000	54	330	89.87730061349694	8.06e-113
+JNAJGP_24180	BGL_2c16910	47	838	41.05549088086923	1.71e-255
+JNAJGP_24205	BGL_2c16970	57	297	99.2156862745098	1.1e-101
+
+
+
+>>
+15. BGC0002569
+Source: ornibactin C8/ornibactin C4/ornibactin C6
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1497.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	BCAL1702	49	308	88.20058997050147	1.69e-103
+JNAJGP_24155	BCAL1695	49	464	98.90510948905109	2.2e-158
+JNAJGP_24165	BCAL1690	53	341	96.0122699386503	8.52e-117
+JNAJGP_24195	BCAL1699	50	384	93.56984478935698	6.87e-130
+
+
+
+>>
+16. BGC0001721
+Source: ornibactin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1425.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AUD11988.1	AUD11988.1	1	1017	-	OrbL
+AUD11989.1	AUD11989.1	1017	1856	-	PvdF
+AUD11990.1	AUD11990.1	1916	4258	-	OrbA
+AUD11991.1	AUD11991.1	4203	5375	-	PvdA
+AUD11992.1	AUD11992.1	5612	6664	-	OrbK
+AUD11993.1	AUD11993.1	6654	11705	-	OrbJ
+AUD11994.1	AUD11994.1	11715	21164	-	OrbI
+AUD11995.1	AUD11995.1	21514	23415	+	OrbE
+AUD11996.1	AUD11996.1	23592	24629	-	OrbB
+AUD11997.1	AUD11997.1	24626	25426	-	OrbF
+AUD11998.1	AUD11998.1	25423	27513	-	OrbD
+AUD11999.1	AUD11999.1	27510	28358	-	OrbC
+AUD12000.1	AUD12000.1	28358	29365	-	OrbG
+AUD12001.1	AUD12001.1	29411	29767	-	OrbH
+AUD12002.1	AUD12002.1	29728	30395	-	OrbS
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	AUD11988.1	48	306	91.44542772861357	6.37e-103
+JNAJGP_24155	AUD11995.1	49	465	98.90510948905109	8.08e-158
+JNAJGP_24165	AUD12000.1	53	337	96.0122699386503	2.79e-115
+JNAJGP_24195	AUD11991.1	49	317	79.6008869179601	1.29e-104
+
+
+
+>>
+17. BGC0002564
+Source: megapolibactin Acyc/megapolibactin Bcyc/megapolibactin A/megapolibactin B/megapolibactin C/megapolibactin D/megapolibactin E/megapolibactin F
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1668.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+FNZ07_17545	FNZ07_17545	3714	4487	+	YqcI/YcgG_family_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24145	FNZ07_17585	51	526	98.33836858006042	1.96e-179
+JNAJGP_24155	FNZ07_17550	48	469	97.99270072992701	1.44e-160
+JNAJGP_24165	FNZ07_17535	57	352	91.71779141104295	2.2e-121
+JNAJGP_24205	FNZ07_17555	64	321	100.0	4.92e-111
+
+
+
+>>
+18. BGC0002329
+Source: trinickiabactin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1580.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+FNF07_04280	FNF07_04280	28346	28684	-	amino_acid_adenylation_domain-containing_protein
+FNF07_04290	FNF07_04290	32473	33292	-	ATP-binding_cassette_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24145	FNF07_04255	47	488	97.58308157099698	9.41e-165
+JNAJGP_24155	FNF07_04295	49	469	99.81751824817519	2.37e-160
+JNAJGP_24165	FNF07_04310	53	325	92.94478527607362	1.59e-110
+JNAJGP_24205	FNF07_04290	66	298	87.45098039215686	7.39e-102
+
+
+
+>>
+19. BGC0002421
+Source: malleobactin LB400
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1166.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24155	Bxe_B0524	47	458	102.37226277372262	3.08e-156
+JNAJGP_24165	Bxe_B0519	56	350	98.46625766871165	2.32e-120
+JNAJGP_24195	Bxe_B0527	47	358	93.56984478935698	8.13e-120
+
+
+
+>>
+20. BGC0000386
+Source: malleobactin A/malleobactin B/malleobactin C/malleobactin D
+Type: NRP:NRP siderophore
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1162.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24155	BTH_I2419	48	457	97.62773722627736	1.24e-155
+JNAJGP_24165	BTH_I2425	56	345	95.0920245398773	4.66e-118
+JNAJGP_24195	BTH_I2416	48	360	96.89578713968959	6.41e-120
+
+
+
+>>
+21. BGC0002408
+Source: malleobactin X
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1141.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24155	GN109_07685	48	449	99.08759124087592	3.31e-152
+JNAJGP_24165	GN109_07660	57	335	87.73006134969326	2.68e-114
+JNAJGP_24195	GN109_07700	48	357	94.45676274944567	2.38e-119
+
+
+
+>>
+22. BGC0000330
+Source: cupriachelin
+Type: NRP:NRP siderophore
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1007.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	H16_B1681	52	253	64.89675516224189	6.97e-82
+JNAJGP_24165	H16_B1688	59	358	94.1717791411043	3.33e-123
+JNAJGP_24195	H16_B1680	52	396	93.12638580931264	1.32e-134
+
+
+
+>>
+23. BGC0002531
+Source: cepaciachelin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 803.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24155	Bamb_1536	49	460	98.90510948905109	1e-156
+JNAJGP_24165	Bamb_1531	53	343	97.54601226993866	1.7e-117
+
+
+
+>>
+24. BGC0002465
+Source: amphibactin E/amphibactin H/amphibactin I
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 616.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24140	ABO_2090	50	237	67.2566371681416	6.45e-76
+JNAJGP_24195	ABO_2089	49	379	92.01773835920177	1.26e-128
+
+
+
+>>
+25. BGC0001999
+Source: gramibactin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1313.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BGRAMDRAFT_RS22640	BGRAMDRAFT_RS22640	9170	15185	-	amino_acid_adenylation_domain-containing_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24145	BGRAMDRAFT_RS22625	47	508	97.43202416918429	1.39e-172
+JNAJGP_24155	BGRAMDRAFT_RS22660	50	473	97.62773722627736	3.62e-162
+JNAJGP_24205	BGRAMDRAFT_RS22655	65	332	100.0	1.2e-115
+
+
+
+>>
+26. BGC0002563
+Source: gramibactin B
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1299.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24145	CUJ87_10400	47	511	100.1510574018127	8.73e-174
+JNAJGP_24155	CUJ87_10435	49	459	97.62773722627736	9.77e-157
+JNAJGP_24205	CUJ87_10430	64	329	100.0	3.54e-114
+
+
+
+>>
+27. BGC0001879
+Source: type R and F tailocins
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 348.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_24095	QS95_21885	60	184	103.38983050847457	2e-59
+JNAJGP_24100	QS95_21890	57	164	88.88888888888889	1.19e-51
+

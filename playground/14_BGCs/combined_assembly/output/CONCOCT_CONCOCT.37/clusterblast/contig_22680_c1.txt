@@ -1,0 +1,1320 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_00145	27238	27385	-	hypothetical protein	
+JNAJGP_00150	27695	29210	-	polyphosphate:AMP phosphotransferase	
+JNAJGP_00155	29364	31350	+	bifunctional tRNA (5-methylaminomethyl-2-thiouridine)(34)-methyltransferase MnmD/FAD-dependent 5-carboxymethylaminomethyl-2-thiouridine(34) oxidoreductase MnmC	
+JNAJGP_00160	31575	33348	+	N-acetylglutaminylglutamine amidotransferase	
+JNAJGP_00165	33351	35100	+	N-acetylglutaminylglutamine synthetase	
+JNAJGP_00170	35263	36448	+	osmoprotectant NAGGN system M42 family peptidase	
+JNAJGP_00175	36507	36735	+	UPF0270 protein Pfl01_4103	
+JNAJGP_00180	36743	36941	-	carbon storage regulator CsrA	
+JNAJGP_00185	37068	37884	-	SDR family oxidoreductase	
+JNAJGP_00190	38212	38365	+	DUF3309 domain-containing protein	
+JNAJGP_00195	38416	40504	-	Phosphoglycerol transferase I	
+JNAJGP_00200	40796	40988	-	Cardiolipin synthase N-terminal domain-containing protein	
+
+
+Significant hits: 
+1. NZ_CM001025	Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+2. NZ_MSDJ01000006	Pseudomonas fluorescens strain G2Y PF_G2Y_contig_1, whole genome shotgun sequence
+3. NZ_JACAQV010000010	Pseudomonas salomonii strain IPO3765 IPO_3765_S40_L003_contig_10, whole genome shotgun sequence
+4. NZ_CP019428	Pseudomonas sp. R76 chromosome, complete genome
+5. NZ_MOAZ01000003	Pseudomonas canadensis strain 36C8 36C8_contig_4, whole genome shotgun sequence
+6. NC_023064	Pseudomonas sp. TKP, complete sequence
+7. NZ_CP063233	Pseudomonas fluorescens strain KF1 chromosome, complete genome
+8. NZ_CP120377	Pseudomonas sp. G11 chromosome, complete genome
+9. NZ_CP063073	Pseudomonas poae strain PMA22 chromosome, complete genome
+10. NZ_LEKF01000001	Pseudomonas sp. ARP3 contig1, whole genome shotgun sequence
+11. NZ_CP019431	Pseudomonas sp. S35 chromosome, complete genome
+12. NZ_CVTP01000028	Pseudomonas sp. 58 R 12, whole genome shotgun sequence
+13. NZ_CP070980	Pseudomonas rhodesiae strain AAMF24 chromosome, complete genome
+14. NZ_JACHKW010000001	Pseudomonas rhodesiae strain S00114 Ga0436305_01, whole genome shotgun sequence
+15. NZ_CP077084	Pseudomonas tritici strain SWRI145 chromosome, complete genome
+16. NZ_JAHZMS010000010	Pseudomonas sp. LAP_36 NODE_10_length_165453_cov_196.982399, whole genome shotgun sequence
+17. NZ_CP054205	Pseudomonas rhodesiae strain NL2019 chromosome, complete genome
+18. NZ_CP046103	Pseudomonas sp. IB20 chromosome
+19. NZ_LT629801	Pseudomonas rhodesiae strain LMG 17764 chromosome I
+20. NZ_CVTR01000018	Pseudomonas sp. 52 E 6, whole genome shotgun sequence
+21. NZ_CVTI01000005	Pseudomonas sp. 24 R 17, whole genome shotgun sequence
+22. NZ_CP070981	Pseudomonas rhodesiae strain DLA23 chromosome, complete genome
+23. NZ_CP104045	Pseudomonas sp. FJ2-5-13 chromosome, complete genome
+24. NZ_MSDL01000057	Pseudomonas fluorescens strain TDH5 PF_TDH5_contig_14, whole genome shotgun sequence
+25. NZ_KN360950	Pseudomonas lactis strain PA4C2 scaffold1, whole genome shotgun sequence
+26. NZ_CABVIQ010000001	Pseudomonas fluorescens isolate PS887, whole genome shotgun sequence
+27. NZ_CP023269	Pseudomonas sp. MYb193 chromosome, complete genome
+28. NZ_CP043060	Pseudomonas sp. J380 chromosome, complete genome
+29. NZ_JAEACS010000010	Pseudomonas fluorescens strain X C9PK1, whole genome shotgun sequence
+30. NC_017911	Pseudomonas fluorescens A506, complete sequence
+31. NZ_CP023969	Pseudomonas sp. FDAARGOS_380 chromosome, complete genome
+32. NZ_CP034425	Pseudomonas libanensis strain DMSP-1 chromosome, complete genome
+33. NZ_JANCLL010000017	Pseudomonas carnis strain LP NODE_17_length_130217_cov_71.665924, whole genome shotgun sequence
+34. NZ_CP068151	Pseudomonas fluorescens strain FDAARGOS_1088 chromosome, complete genome
+35. NZ_CP058975	Pseudomonas sp. Y39-6 chromosome
+36. NZ_ML137235	Pseudomonas veronii strain RZ scaffold13, whole genome shotgun sequence
+37. NZ_CP045767	Pseudomonas sp. CFSAN084952 chromosome, complete genome
+38. NZ_JALJRR010000026	Pseudomonas sp. Pse79 NODE_26_length_92514_cov_27.47592514, whole genome shotgun sequence
+39. NZ_CP007638	Pseudomonas sp. WCS374 chromosome
+40. NZ_CP089551	Pseudomonas sp. 7-41 chromosome, complete genome
+41. NZ_SMOF01000001	Pseudomonas sp. B2021 B2021_chromosome_1, whole genome shotgun sequence
+42. NZ_CP018420	Pseudomonas veronii strain R02 chromosome, complete genome
+43. NZ_CP026880	Pseudomonas sp. LH1G9 chromosome, complete genome
+44. NZ_JXWQ02000001	Pseudomonas veronii strain R4 scaffold00001, whole genome shotgun sequence
+45. NZ_CP089532	Pseudomonas veronii strain G2 chromosome, complete genome
+46. NZ_QBUF01000004	Pseudomonas sp. GV105 Ga0189758_104, whole genome shotgun sequence
+47. NZ_JACAPY010000023	Pseudomonas sp. G1002 run0228_G1002_S12_L004_contig_23, whole genome shotgun sequence
+48. NZ_CM001513	Pseudomonas lactis strain SS101 chromosome, whole genome shotgun sequence
+49. NZ_CP080030	Pseudomonas sp. Colony2 chromosome
+50. NZ_LT629793	Pseudomonas yamanorum strain LMG 27247 chromosome I
+
+
+Details:
+
+>>
+1. NZ_CM001025
+Source: Pseudomonas fluorescens WH6 chromosome, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7954.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PFWH6_RS09180	93	84	93.75	5.09e-19
+JNAJGP_00150	PFWH6_RS09180	99	1013	100.0	0.0
+JNAJGP_00155	PFWH6_RS09175	99	1325	100.0	0.0
+JNAJGP_00160	PFWH6_RS09170	100	1200	100.0	0.0
+JNAJGP_00165	PFWH6_RS09165	100	1157	100.0	0.0
+JNAJGP_00170	PFWH6_RS09160	100	780	100.0	1.79e-286
+JNAJGP_00175	PFWH6_RS09155	100	152	100.0	3.36e-48
+JNAJGP_00180	PFWH6_RS09150	97	117	100.0	6.41e-35
+JNAJGP_00185	PFWH6_RS09145	100	530	100.0	1.51e-191
+JNAJGP_00190	PFWH6_RS09140	100	81	100.0	1.5e-20
+JNAJGP_00195	PFWH6_RS09135	100	1394	100.0	0.0
+JNAJGP_00200	PFWH6_RS09130	100	121	100.0	2.36e-36
+
+
+
+>>
+2. NZ_MSDJ01000006
+Source: Pseudomonas fluorescens strain G2Y PF_G2Y_contig_1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7952.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BFW92_RS09270	98	87	93.75	3.01e-20
+JNAJGP_00150	BFW92_RS09270	100	1016	100.0	0.0
+JNAJGP_00155	BFW92_RS09265	99	1325	100.0	0.0
+JNAJGP_00160	BFW92_RS09260	100	1200	100.0	0.0
+JNAJGP_00165	BFW92_RS09255	99	1150	100.0	0.0
+JNAJGP_00170	BFW92_RS09250	100	782	100.0	3.1e-287
+JNAJGP_00175	BFW92_RS09245	100	152	100.0	3.36e-48
+JNAJGP_00180	BFW92_RS09240	99	119	100.0	1.11e-35
+JNAJGP_00185	BFW92_RS09235	100	530	100.0	2.15e-191
+JNAJGP_00190	BFW92_RS09230	100	81	100.0	1.5e-20
+JNAJGP_00195	BFW92_RS09225	99	1389	100.0	0.0
+JNAJGP_00200	BFW92_RS09220	100	121	100.0	2.36e-36
+
+
+
+>>
+3. NZ_JACAQV010000010
+Source: Pseudomonas salomonii strain IPO3765 IPO_3765_S40_L003_contig_10, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7606.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	HX810_RS12480	91	81	93.75	3.34e-18
+JNAJGP_00150	HX810_RS12480	96	989	100.0	0.0
+JNAJGP_00155	HX810_RS12485	87	1156	99.54614220877458	0.0
+JNAJGP_00160	HX810_RS12490	98	1179	100.0	0.0
+JNAJGP_00165	HX810_RS12495	95	1108	99.82817869415808	0.0
+JNAJGP_00170	HX810_RS12500	98	771	100.0	8.17e-283
+JNAJGP_00175	HX810_RS12505	97	147	100.0	1.6e-46
+JNAJGP_00180	HX810_RS12510	83	93	90.76923076923077	3.75e-25
+JNAJGP_00185	HX810_RS12515	98	523	100.0	8.4e-189
+JNAJGP_00190	HX810_RS12520	100	81	100.0	1.5e-20
+JNAJGP_00195	HX810_RS12525	96	1357	100.0	0.0
+JNAJGP_00200	HX810_RS12530	100	121	100.0	2.36e-36
+
+
+
+>>
+4. NZ_CP019428
+Source: Pseudomonas sp. R76 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7584.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PspR76_RS21190	87	80	93.75	1.17e-17
+JNAJGP_00150	PspR76_RS21190	96	993	100.0	0.0
+JNAJGP_00155	PspR76_RS21195	85	1142	99.54614220877458	0.0
+JNAJGP_00160	PspR76_RS21200	98	1178	100.0	0.0
+JNAJGP_00165	PspR76_RS21205	94	1097	99.82817869415808	0.0
+JNAJGP_00170	PspR76_RS21210	99	776	100.0	6e-285
+JNAJGP_00175	PspR76_RS21215	99	149	100.0	2.77e-47
+JNAJGP_00180	PspR76_RS21220	83	92	92.3076923076923	1.02e-24
+JNAJGP_00185	PspR76_RS21225	98	523	100.0	5.91e-189
+JNAJGP_00190	PspR76_RS21230	98	81	100.0	1.5e-20
+JNAJGP_00195	PspR76_RS21235	97	1358	100.0	0.0
+JNAJGP_00200	PspR76_RS21240	94	115	100.0	4.6e-34
+
+
+
+>>
+5. NZ_MOAZ01000003
+Source: Pseudomonas canadensis strain 36C8 36C8_contig_4, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7582.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BK649_RS03830	87	78	93.75	4.09e-17
+JNAJGP_00150	BK649_RS03830	96	988	100.0	0.0
+JNAJGP_00155	BK649_RS03835	88	1172	99.39485627836612	0.0
+JNAJGP_00160	BK649_RS03840	97	1166	100.0	0.0
+JNAJGP_00165	BK649_RS03845	96	1102	99.14089347079039	0.0
+JNAJGP_00170	BK649_RS03850	98	771	100.0	8.17e-283
+JNAJGP_00175	BK649_RS03855	99	149	100.0	2.77e-47
+JNAJGP_00180	BK649_RS03860	80	95	100.0	9.71e-26
+JNAJGP_00185	BK649_RS03865	98	522	100.0	2.41e-188
+JNAJGP_00190	BK649_RS03870	100	81	100.0	1.5e-20
+JNAJGP_00195	BK649_RS03875	95	1337	100.0	0.0
+JNAJGP_00200	BK649_RS03880	100	121	100.0	2.36e-36
+
+
+
+>>
+6. NC_023064
+Source: Pseudomonas sp. TKP, complete sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7580.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	U771_RS21995	96	84	93.75	5.09e-19
+JNAJGP_00150	U771_RS21995	94	965	100.0	0.0
+JNAJGP_00155	U771_RS22000	89	1192	99.39485627836612	0.0
+JNAJGP_00160	U771_RS22005	97	1169	100.0	0.0
+JNAJGP_00165	U771_RS22010	95	1101	100.0	0.0
+JNAJGP_00170	U771_RS22015	98	771	100.0	8.17e-283
+JNAJGP_00175	U771_RS22020	97	148	100.0	7.94e-47
+JNAJGP_00180	U771_RS22025	75	86	93.84615384615384	2.09e-22
+JNAJGP_00185	U771_RS22030	97	519	100.0	2.81e-187
+JNAJGP_00190	U771_RS32215	96	77	100.0	2.5e-19
+JNAJGP_00195	U771_RS22040	96	1349	100.0	0.0
+JNAJGP_00200	U771_RS22045	98	119	100.0	9.64e-36
+
+
+
+>>
+7. NZ_CP063233
+Source: Pseudomonas fluorescens strain KF1 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7579.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	IM720_RS22550	96	84	93.75	5.09e-19
+JNAJGP_00150	IM720_RS22550	94	965	100.0	0.0
+JNAJGP_00155	IM720_RS22555	89	1191	99.39485627836612	0.0
+JNAJGP_00160	IM720_RS22560	97	1169	100.0	0.0
+JNAJGP_00165	IM720_RS22565	95	1101	100.0	0.0
+JNAJGP_00170	IM720_RS22570	98	771	100.0	8.17e-283
+JNAJGP_00175	IM720_RS22575	97	148	100.0	7.94e-47
+JNAJGP_00180	IM720_RS22580	75	86	93.84615384615384	2.09e-22
+JNAJGP_00185	IM720_RS22585	97	519	100.0	2.81e-187
+JNAJGP_00190	IM720_RS22590	96	77	100.0	2.5e-19
+JNAJGP_00195	IM720_RS22595	96	1349	100.0	0.0
+JNAJGP_00200	IM720_RS22600	98	119	100.0	9.64e-36
+
+
+
+>>
+8. NZ_CP120377
+Source: Pseudomonas sp. G11 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7575.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	P2T68_RS25975	96	84	93.75	5.09e-19
+JNAJGP_00150	P2T68_RS25975	94	963	100.0	0.0
+JNAJGP_00155	P2T68_RS25980	89	1192	99.39485627836612	0.0
+JNAJGP_00160	P2T68_RS25985	97	1168	100.0	0.0
+JNAJGP_00165	P2T68_RS25990	95	1101	100.0	0.0
+JNAJGP_00170	P2T68_RS25995	98	769	100.0	4.73e-282
+JNAJGP_00175	P2T68_RS26000	97	148	100.0	7.94e-47
+JNAJGP_00180	P2T68_RS26005	75	86	93.84615384615384	2.09e-22
+JNAJGP_00185	P2T68_RS26010	97	519	100.0	2.81e-187
+JNAJGP_00190	P2T68_RS26015	96	77	100.0	2.5e-19
+JNAJGP_00195	P2T68_RS26020	96	1349	100.0	0.0
+JNAJGP_00200	P2T68_RS26025	98	119	100.0	9.64e-36
+
+
+
+>>
+9. NZ_CP063073
+Source: Pseudomonas poae strain PMA22 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7575.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	IMF22_RS04045	87	80	93.75	1.17e-17
+JNAJGP_00150	IMF22_RS04045	96	990	100.0	0.0
+JNAJGP_00155	IMF22_RS04040	85	1136	99.54614220877458	0.0
+JNAJGP_00160	IMF22_RS04035	98	1180	100.0	0.0
+JNAJGP_00165	IMF22_RS04030	94	1097	99.82817869415808	0.0
+JNAJGP_00170	IMF22_RS04025	99	775	100.0	1.72e-284
+JNAJGP_00175	IMF22_RS04020	99	149	100.0	2.77e-47
+JNAJGP_00180	IMF22_RS04015	83	92	92.3076923076923	1.02e-24
+JNAJGP_00185	IMF22_RS04010	97	522	100.0	1.69e-188
+JNAJGP_00190	IMF22_RS04005	98	81	100.0	1.5e-20
+JNAJGP_00195	IMF22_RS04000	97	1356	100.0	0.0
+JNAJGP_00200	IMF22_RS03995	95	117	100.0	1.13e-34
+
+
+
+>>
+10. NZ_LEKF01000001
+Source: Pseudomonas sp. ARP3 contig1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7563.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	ABX75_RS01720	91	81	93.75	3.34e-18
+JNAJGP_00150	ABX75_RS01720	95	975	100.0	0.0
+JNAJGP_00155	ABX75_RS01715	86	1148	100.15128593040848	0.0
+JNAJGP_00160	ABX75_RS01710	98	1174	100.0	0.0
+JNAJGP_00165	ABX75_RS01705	95	1102	99.82817869415808	0.0
+JNAJGP_00170	ABX75_RS01700	99	776	100.0	6e-285
+JNAJGP_00175	ABX75_RS01695	99	149	100.0	2.77e-47
+JNAJGP_00180	ABX75_RS01690	69	86	100.0	2.2e-22
+JNAJGP_00185	ABX75_RS01685	97	519	99.63099630996311	2.81e-187
+JNAJGP_00190	ABX75_RS28170	98	79	100.0	4.31e-20
+JNAJGP_00195	ABX75_RS01675	96	1353	100.0	0.0
+JNAJGP_00200	ABX75_RS01670	100	121	100.0	2.36e-36
+
+
+
+>>
+11. NZ_CP019431
+Source: Pseudomonas sp. S35 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7562.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PspS35_RS20220	89	82	93.75	2.44e-18
+JNAJGP_00150	PspS35_RS20220	95	980	100.0	0.0
+JNAJGP_00155	PspS35_RS20225	83	1117	99.39485627836612	0.0
+JNAJGP_00160	PspS35_RS20230	97	1170	100.0	0.0
+JNAJGP_00165	PspS35_RS20235	95	1098	99.3127147766323	0.0
+JNAJGP_00170	PspS35_RS20240	99	777	100.0	2.97e-285
+JNAJGP_00175	PspS35_RS20245	99	149	100.0	2.77e-47
+JNAJGP_00180	PspS35_RS20250	77	92	100.0	7.58e-25
+JNAJGP_00185	PspS35_RS20255	98	523	100.0	8.4e-189
+JNAJGP_00190	PspS35_RS20260	100	81	100.0	1.5e-20
+JNAJGP_00195	PspS35_RS20265	98	1372	100.0	0.0
+JNAJGP_00200	PspS35_RS20270	100	121	100.0	2.36e-36
+
+
+
+>>
+12. NZ_CVTP01000028
+Source: Pseudomonas sp. 58 R 12, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7561.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BFP95_RS24945	96	84	93.75	5.09e-19
+JNAJGP_00150	BFP95_RS24945	96	983	100.0	0.0
+JNAJGP_00155	BFP95_RS24940	85	1147	99.54614220877458	0.0
+JNAJGP_00160	BFP95_RS24935	96	1167	100.0	0.0
+JNAJGP_00165	BFP95_RS24930	94	1102	99.82817869415808	0.0
+JNAJGP_00170	BFP95_RS24925	98	768	100.0	1.92e-281
+JNAJGP_00175	BFP95_RS24920	99	149	100.0	2.77e-47
+JNAJGP_00180	BFP95_RS24915	86	94	89.23076923076924	1.31e-25
+JNAJGP_00185	BFP95_RS24910	97	521	100.0	6.9e-188
+JNAJGP_00190	BFP95_RS24905	98	81	100.0	1.5e-20
+JNAJGP_00195	BFP95_RS24900	95	1344	100.0	0.0
+JNAJGP_00200	BFP95_RS24895	100	121	100.0	2.36e-36
+
+
+
+>>
+13. NZ_CP070980
+Source: Pseudomonas rhodesiae strain AAMF24 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7560.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	JYG35_RS18750	91	81	93.75	3.34e-18
+JNAJGP_00150	JYG35_RS18750	95	975	100.0	0.0
+JNAJGP_00155	JYG35_RS18755	86	1145	100.15128593040848	0.0
+JNAJGP_00160	JYG35_RS18760	98	1174	100.0	0.0
+JNAJGP_00165	JYG35_RS18765	95	1102	99.82817869415808	0.0
+JNAJGP_00170	JYG35_RS18770	99	776	100.0	6e-285
+JNAJGP_00175	JYG35_RS18775	99	149	100.0	2.77e-47
+JNAJGP_00180	JYG35_RS18780	69	86	100.0	2.2e-22
+JNAJGP_00185	JYG35_RS18785	97	519	99.63099630996311	2.81e-187
+JNAJGP_00190	JYG35_RS18790	98	79	100.0	4.31e-20
+JNAJGP_00195	JYG35_RS18795	96	1353	100.0	0.0
+JNAJGP_00200	JYG35_RS18800	100	121	100.0	2.36e-36
+
+
+
+>>
+14. NZ_JACHKW010000001
+Source: Pseudomonas rhodesiae strain S00114 Ga0436305_01, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7559.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	HNP03_RS00315	91	81	93.75	3.34e-18
+JNAJGP_00150	HNP03_RS00315	95	975	100.0	0.0
+JNAJGP_00155	HNP03_RS00320	86	1146	100.15128593040848	0.0
+JNAJGP_00160	HNP03_RS00325	98	1174	100.0	0.0
+JNAJGP_00165	HNP03_RS00330	95	1098	99.14089347079039	0.0
+JNAJGP_00170	HNP03_RS00335	99	776	100.0	6e-285
+JNAJGP_00175	HNP03_RS00340	99	149	100.0	2.77e-47
+JNAJGP_00180	HNP03_RS00345	69	86	100.0	2.2e-22
+JNAJGP_00185	HNP03_RS00350	98	521	99.63099630996311	4.86e-188
+JNAJGP_00190	HNP03_RS00355	98	79	100.0	4.31e-20
+JNAJGP_00195	HNP03_RS00360	97	1353	100.0	0.0
+JNAJGP_00200	HNP03_RS00365	100	121	100.0	2.36e-36
+
+
+
+>>
+15. NZ_CP077084
+Source: Pseudomonas tritici strain SWRI145 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7558.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	HU722_RS20130	96	84	93.75	5.09e-19
+JNAJGP_00150	HU722_RS20130	96	983	100.0	0.0
+JNAJGP_00155	HU722_RS20135	85	1147	99.54614220877458	0.0
+JNAJGP_00160	HU722_RS20140	96	1167	100.0	0.0
+JNAJGP_00165	HU722_RS20145	94	1102	99.82817869415808	0.0
+JNAJGP_00170	HU722_RS20150	98	768	100.0	1.92e-281
+JNAJGP_00175	HU722_RS20155	99	149	100.0	2.77e-47
+JNAJGP_00180	HU722_RS20160	86	94	89.23076923076924	1.31e-25
+JNAJGP_00185	HU722_RS20165	97	518	100.0	5.67e-187
+JNAJGP_00190	HU722_RS20170	98	81	100.0	1.5e-20
+JNAJGP_00195	HU722_RS20175	95	1344	100.0	0.0
+JNAJGP_00200	HU722_RS20180	100	121	100.0	2.36e-36
+
+
+
+>>
+16. NZ_JAHZMS010000010
+Source: Pseudomonas sp. LAP_36 NODE_10_length_165453_cov_196.982399, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7557.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	JBO08_RS24610	96	84	93.75	5.09e-19
+JNAJGP_00150	JBO08_RS24610	96	983	100.0	0.0
+JNAJGP_00155	JBO08_RS24605	85	1146	99.54614220877458	0.0
+JNAJGP_00160	JBO08_RS24600	96	1167	100.0	0.0
+JNAJGP_00165	JBO08_RS24595	94	1099	99.82817869415808	0.0
+JNAJGP_00170	JBO08_RS24590	98	768	100.0	1.92e-281
+JNAJGP_00175	JBO08_RS24585	99	149	100.0	2.77e-47
+JNAJGP_00180	JBO08_RS24580	86	94	89.23076923076924	1.31e-25
+JNAJGP_00185	JBO08_RS24575	97	521	100.0	6.9e-188
+JNAJGP_00190	JBO08_RS24570	98	81	100.0	1.5e-20
+JNAJGP_00195	JBO08_RS24565	95	1344	100.0	0.0
+JNAJGP_00200	JBO08_RS24560	100	121	100.0	2.36e-36
+
+
+
+>>
+17. NZ_CP054205
+Source: Pseudomonas rhodesiae strain NL2019 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7557.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	HRH33_RS18685	91	81	93.75	3.34e-18
+JNAJGP_00150	HRH33_RS18685	95	975	100.0	0.0
+JNAJGP_00155	HRH33_RS18690	87	1151	100.15128593040848	0.0
+JNAJGP_00160	HRH33_RS18695	97	1170	100.0	0.0
+JNAJGP_00165	HRH33_RS18700	95	1099	99.14089347079039	0.0
+JNAJGP_00170	HRH33_RS18705	99	776	100.0	6e-285
+JNAJGP_00175	HRH33_RS18710	99	149	100.0	2.77e-47
+JNAJGP_00180	HRH33_RS18715	69	86	100.0	2.2e-22
+JNAJGP_00185	HRH33_RS18720	97	519	99.63099630996311	2.81e-187
+JNAJGP_00190	HRH33_RS18725	98	79	100.0	4.31e-20
+JNAJGP_00195	HRH33_RS18730	96	1351	100.0	0.0
+JNAJGP_00200	HRH33_RS18735	100	121	100.0	2.36e-36
+
+
+
+>>
+18. NZ_CP046103
+Source: Pseudomonas sp. IB20 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7556.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	GJU48_RS16030	89	79	93.75	2.19e-17
+JNAJGP_00150	GJU48_RS16030	96	989	100.0	0.0
+JNAJGP_00155	GJU48_RS16035	85	1135	99.69742813918305	0.0
+JNAJGP_00160	GJU48_RS16040	98	1180	100.0	0.0
+JNAJGP_00165	GJU48_RS16045	94	1097	99.82817869415808	0.0
+JNAJGP_00170	GJU48_RS16050	99	776	100.0	8.53e-285
+JNAJGP_00175	GJU48_RS16055	96	147	100.0	3.24e-46
+JNAJGP_00180	GJU48_RS16060	75	87	92.3076923076923	9.84e-23
+JNAJGP_00185	GJU48_RS16065	97	517	100.0	2.31e-186
+JNAJGP_00190	GJU48_RS16070	100	81	100.0	1.5e-20
+JNAJGP_00195	GJU48_RS16075	96	1351	100.0	0.0
+JNAJGP_00200	GJU48_RS16080	97	117	100.0	5.59e-35
+
+
+
+>>
+19. NZ_LT629801
+Source: Pseudomonas rhodesiae strain LMG 17764 chromosome I
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7555.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BLU13_RS05845	89	80	93.75	8.55e-18
+JNAJGP_00150	BLU13_RS05845	95	972	100.0	0.0
+JNAJGP_00155	BLU13_RS05840	86	1148	100.15128593040848	0.0
+JNAJGP_00160	BLU13_RS05835	98	1177	100.0	0.0
+JNAJGP_00165	BLU13_RS05830	95	1098	99.14089347079039	0.0
+JNAJGP_00170	BLU13_RS05825	99	776	100.0	6e-285
+JNAJGP_00175	BLU13_RS05820	99	149	100.0	2.77e-47
+JNAJGP_00180	BLU13_RS05815	69	86	100.0	2.2e-22
+JNAJGP_00185	BLU13_RS05810	97	519	99.63099630996311	2.81e-187
+JNAJGP_00190	BLU13_RS05805	98	79	100.0	4.31e-20
+JNAJGP_00195	BLU13_RS05800	96	1350	100.0	0.0
+JNAJGP_00200	BLU13_RS05795	100	121	100.0	2.36e-36
+
+
+
+>>
+20. NZ_CVTR01000018
+Source: Pseudomonas sp. 52 E 6, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7553.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BFP87_RS10660	96	84	93.75	5.09e-19
+JNAJGP_00150	BFP87_RS10660	96	983	100.0	0.0
+JNAJGP_00155	BFP87_RS10665	85	1144	99.54614220877458	0.0
+JNAJGP_00160	BFP87_RS10670	96	1165	100.0	0.0
+JNAJGP_00165	BFP87_RS10675	94	1099	99.82817869415808	0.0
+JNAJGP_00170	BFP87_RS10680	98	768	100.0	1.92e-281
+JNAJGP_00175	BFP87_RS10685	99	149	100.0	2.77e-47
+JNAJGP_00180	BFP87_RS10690	86	94	89.23076923076924	1.31e-25
+JNAJGP_00185	BFP87_RS10695	97	521	100.0	6.9e-188
+JNAJGP_00190	BFP87_RS10700	98	81	100.0	1.5e-20
+JNAJGP_00195	BFP87_RS10705	95	1344	100.0	0.0
+JNAJGP_00200	BFP87_RS10710	100	121	100.0	2.36e-36
+
+
+
+>>
+21. NZ_CVTI01000005
+Source: Pseudomonas sp. 24 R 17, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BFP98_RS02175	95	81	89.58333333333334	3.34e-18
+JNAJGP_00150	BFP98_RS02175	96	980	99.60317460317461	0.0
+JNAJGP_00155	BFP98_RS02170	85	1144	99.54614220877458	0.0
+JNAJGP_00160	BFP98_RS02165	96	1165	100.0	0.0
+JNAJGP_00165	BFP98_RS02160	94	1102	99.82817869415808	0.0
+JNAJGP_00170	BFP98_RS02155	98	768	100.0	1.92e-281
+JNAJGP_00175	BFP98_RS02150	99	149	100.0	2.77e-47
+JNAJGP_00180	BFP98_RS02145	86	94	89.23076923076924	1.31e-25
+JNAJGP_00185	BFP98_RS02140	97	521	100.0	6.9e-188
+JNAJGP_00190	BFP98_RS02135	98	81	100.0	1.5e-20
+JNAJGP_00195	BFP98_RS02130	95	1344	100.0	0.0
+JNAJGP_00200	BFP98_RS02125	100	121	100.0	2.36e-36
+
+
+
+>>
+22. NZ_CP070981
+Source: Pseudomonas rhodesiae strain DLA23 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	JYG38_RS17815	89	80	93.75	8.55e-18
+JNAJGP_00150	JYG38_RS17815	95	974	100.0	0.0
+JNAJGP_00155	JYG38_RS17820	86	1141	100.15128593040848	0.0
+JNAJGP_00160	JYG38_RS17825	98	1177	100.0	0.0
+JNAJGP_00165	JYG38_RS17830	95	1097	99.14089347079039	0.0
+JNAJGP_00170	JYG38_RS17835	99	776	100.0	6e-285
+JNAJGP_00175	JYG38_RS17840	99	149	100.0	2.77e-47
+JNAJGP_00180	JYG38_RS17845	69	86	100.0	2.2e-22
+JNAJGP_00185	JYG38_RS17850	97	519	99.63099630996311	2.81e-187
+JNAJGP_00190	JYG38_RS17855	98	79	100.0	4.31e-20
+JNAJGP_00195	JYG38_RS17860	96	1351	100.0	0.0
+JNAJGP_00200	JYG38_RS17865	100	121	100.0	2.36e-36
+
+
+
+>>
+23. NZ_CP104045
+Source: Pseudomonas sp. FJ2-5-13 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7549.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	N2A98_RS18045	91	81	93.75	3.34e-18
+JNAJGP_00150	N2A98_RS18045	96	982	100.0	0.0
+JNAJGP_00155	N2A98_RS18050	86	1154	99.69742813918305	0.0
+JNAJGP_00160	N2A98_RS18055	98	1173	100.0	0.0
+JNAJGP_00165	N2A98_RS18060	94	1095	99.65635738831615	0.0
+JNAJGP_00170	N2A98_RS18065	99	775	100.0	3.47e-284
+JNAJGP_00175	N2A98_RS18070	99	149	100.0	2.77e-47
+JNAJGP_00180	N2A98_RS18075	63	77	100.0	1.43e-18
+JNAJGP_00185	N2A98_RS18080	97	518	100.0	8.05e-187
+JNAJGP_00190	N2A98_RS18085	98	79	100.0	4.31e-20
+JNAJGP_00195	N2A98_RS18090	96	1347	100.0	0.0
+JNAJGP_00200	N2A98_RS18095	98	119	100.0	1.95e-35
+
+
+
+>>
+24. NZ_MSDL01000057
+Source: Pseudomonas fluorescens strain TDH5 PF_TDH5_contig_14, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7548.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BFW90_RS17110	91	81	93.75	3.34e-18
+JNAJGP_00150	BFW90_RS17110	96	982	100.0	0.0
+JNAJGP_00155	BFW90_RS17115	86	1154	99.69742813918305	0.0
+JNAJGP_00160	BFW90_RS17120	97	1171	100.0	0.0
+JNAJGP_00165	BFW90_RS17125	94	1095	99.65635738831615	0.0
+JNAJGP_00170	BFW90_RS17130	99	775	100.0	3.47e-284
+JNAJGP_00175	BFW90_RS17135	99	149	100.0	2.77e-47
+JNAJGP_00180	BFW90_RS17140	63	77	100.0	1.43e-18
+JNAJGP_00185	BFW90_RS17145	97	518	100.0	8.05e-187
+JNAJGP_00190	BFW90_RS17150	98	79	100.0	4.31e-20
+JNAJGP_00195	BFW90_RS17155	96	1348	100.0	0.0
+JNAJGP_00200	BFW90_RS17160	98	119	100.0	1.95e-35
+
+
+
+>>
+25. NZ_KN360950
+Source: Pseudomonas lactis strain PA4C2 scaffold1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7542.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	P909_RS12080	91	81	93.75	3.34e-18
+JNAJGP_00150	P909_RS12080	96	982	100.0	0.0
+JNAJGP_00155	P909_RS12085	85	1152	99.69742813918305	0.0
+JNAJGP_00160	P909_RS12090	97	1170	100.0	0.0
+JNAJGP_00165	P909_RS12095	94	1095	99.65635738831615	0.0
+JNAJGP_00170	P909_RS12100	99	775	100.0	3.47e-284
+JNAJGP_00175	P909_RS12105	99	149	100.0	2.77e-47
+JNAJGP_00180	P909_RS12110	63	77	100.0	1.43e-18
+JNAJGP_00185	P909_RS12115	97	518	100.0	8.05e-187
+JNAJGP_00190	P909_RS28250	98	79	100.0	4.31e-20
+JNAJGP_00195	P909_RS12125	96	1345	100.0	0.0
+JNAJGP_00200	P909_RS12130	98	119	100.0	1.95e-35
+
+
+
+>>
+26. NZ_CABVIQ010000001
+Source: Pseudomonas fluorescens isolate PS887, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7539.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	F8N51_RS01600	91	81	93.75	3.34e-18
+JNAJGP_00150	F8N51_RS01600	96	981	100.0	0.0
+JNAJGP_00155	F8N51_RS01605	86	1152	99.54614220877458	0.0
+JNAJGP_00160	F8N51_RS01610	97	1171	100.0	0.0
+JNAJGP_00165	F8N51_RS01615	95	1093	99.65635738831615	0.0
+JNAJGP_00170	F8N51_RS01620	99	774	100.0	7e-284
+JNAJGP_00175	F8N51_RS01625	99	149	100.0	2.77e-47
+JNAJGP_00180	F8N51_RS01630	62	76	100.0	2.03e-18
+JNAJGP_00185	F8N51_RS01635	97	517	99.63099630996311	2.31e-186
+JNAJGP_00190	F8N51_RS01640	98	79	100.0	4.31e-20
+JNAJGP_00195	F8N51_RS01645	96	1347	100.0	0.0
+JNAJGP_00200	F8N51_RS01650	98	119	100.0	1.95e-35
+
+
+
+>>
+27. NZ_CP023269
+Source: Pseudomonas sp. MYb193 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7538.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	CLM72_RS18725	91	81	93.75	3.34e-18
+JNAJGP_00150	CLM72_RS18725	95	979	100.0	0.0
+JNAJGP_00155	CLM72_RS18730	85	1151	99.54614220877458	0.0
+JNAJGP_00160	CLM72_RS18735	97	1172	100.0	0.0
+JNAJGP_00165	CLM72_RS18740	95	1094	99.65635738831615	0.0
+JNAJGP_00170	CLM72_RS18745	99	772	100.0	2.85e-283
+JNAJGP_00175	CLM72_RS18750	99	149	100.0	2.77e-47
+JNAJGP_00180	CLM72_RS18755	62	76	100.0	2.89e-18
+JNAJGP_00185	CLM72_RS18760	97	518	100.0	5.67e-187
+JNAJGP_00190	CLM72_RS18765	98	79	100.0	4.31e-20
+JNAJGP_00195	CLM72_RS18770	96	1348	100.0	0.0
+JNAJGP_00200	CLM72_RS18775	98	119	100.0	1.95e-35
+
+
+
+>>
+28. NZ_CP043060
+Source: Pseudomonas sp. J380 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7538.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	FXO12_RS28075	91	81	93.75	3.34e-18
+JNAJGP_00150	FXO12_RS28075	95	980	100.0	0.0
+JNAJGP_00155	FXO12_RS28070	86	1154	99.54614220877458	0.0
+JNAJGP_00160	FXO12_RS28065	97	1167	100.0	0.0
+JNAJGP_00165	FXO12_RS28060	94	1093	99.65635738831615	0.0
+JNAJGP_00170	FXO12_RS28055	99	772	100.0	2.85e-283
+JNAJGP_00175	FXO12_RS28050	99	149	100.0	2.77e-47
+JNAJGP_00180	FXO12_RS28045	60	75	100.0	8.27e-18
+JNAJGP_00185	FXO12_RS28040	98	521	100.0	4.86e-188
+JNAJGP_00190	FXO12_RS28035	98	79	100.0	4.31e-20
+JNAJGP_00195	FXO12_RS28030	96	1348	100.0	0.0
+JNAJGP_00200	FXO12_RS28025	98	119	100.0	1.95e-35
+
+
+
+>>
+29. NZ_JAEACS010000010
+Source: Pseudomonas fluorescens strain X C9PK1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7538.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	I5F20_RS18390	91	81	93.75	3.34e-18
+JNAJGP_00150	I5F20_RS18390	96	981	100.0	0.0
+JNAJGP_00155	I5F20_RS18395	86	1153	99.54614220877458	0.0
+JNAJGP_00160	I5F20_RS18400	97	1171	100.0	0.0
+JNAJGP_00165	I5F20_RS18405	94	1093	99.65635738831615	0.0
+JNAJGP_00170	I5F20_RS18410	99	771	100.0	1.16e-282
+JNAJGP_00175	I5F20_RS18415	99	149	100.0	2.77e-47
+JNAJGP_00180	I5F20_RS18420	62	76	100.0	2.89e-18
+JNAJGP_00185	I5F20_RS18425	97	519	100.0	3.99e-187
+JNAJGP_00190	I5F20_RS18430	98	79	100.0	4.31e-20
+JNAJGP_00195	I5F20_RS18435	95	1346	100.0	0.0
+JNAJGP_00200	I5F20_RS18440	98	119	100.0	1.95e-35
+
+
+
+>>
+30. NC_017911
+Source: Pseudomonas fluorescens A506, complete sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7537.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PFLA506_RS17940	91	81	93.75	3.34e-18
+JNAJGP_00150	PFLA506_RS17940	96	982	100.0	0.0
+JNAJGP_00155	PFLA506_RS17945	85	1147	99.54614220877458	0.0
+JNAJGP_00160	PFLA506_RS17950	97	1171	100.0	0.0
+JNAJGP_00165	PFLA506_RS17955	95	1093	99.65635738831615	0.0
+JNAJGP_00170	PFLA506_RS17960	99	774	100.0	7e-284
+JNAJGP_00175	PFLA506_RS17965	99	149	100.0	2.77e-47
+JNAJGP_00180	PFLA506_RS17970	62	76	100.0	2.03e-18
+JNAJGP_00185	PFLA506_RS17975	97	517	99.63099630996311	2.31e-186
+JNAJGP_00190	PFLA506_RS27835	98	79	100.0	4.31e-20
+JNAJGP_00195	PFLA506_RS17985	96	1349	100.0	0.0
+JNAJGP_00200	PFLA506_RS17990	98	119	100.0	1.95e-35
+
+
+
+>>
+31. NZ_CP023969
+Source: Pseudomonas sp. FDAARGOS_380 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7537.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	CRN80_RS18805	91	81	93.75	3.34e-18
+JNAJGP_00150	CRN80_RS18805	96	982	100.0	0.0
+JNAJGP_00155	CRN80_RS18800	85	1150	99.69742813918305	0.0
+JNAJGP_00160	CRN80_RS18795	97	1173	100.0	0.0
+JNAJGP_00165	CRN80_RS18790	94	1094	99.82817869415808	0.0
+JNAJGP_00170	CRN80_RS18785	99	775	100.0	3.47e-284
+JNAJGP_00175	CRN80_RS18780	99	149	100.0	2.77e-47
+JNAJGP_00180	CRN80_RS18775	63	76	100.0	2.74e-18
+JNAJGP_00185	CRN80_RS18770	96	511	100.0	4.46e-184
+JNAJGP_00190	CRN80_RS18765	98	79	100.0	4.31e-20
+JNAJGP_00195	CRN80_RS18760	96	1348	100.0	0.0
+JNAJGP_00200	CRN80_RS18755	98	119	100.0	1.95e-35
+
+
+
+>>
+32. NZ_CP034425
+Source: Pseudomonas libanensis strain DMSP-1 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7536.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	EJJ21_RS19405	91	81	93.75	3.34e-18
+JNAJGP_00150	EJJ21_RS19405	96	982	100.0	0.0
+JNAJGP_00155	EJJ21_RS19410	85	1150	99.69742813918305	0.0
+JNAJGP_00160	EJJ21_RS19415	97	1171	100.0	0.0
+JNAJGP_00165	EJJ21_RS19420	93	1087	99.65635738831615	0.0
+JNAJGP_00170	EJJ21_RS19425	99	775	100.0	3.47e-284
+JNAJGP_00175	EJJ21_RS19430	99	149	100.0	2.77e-47
+JNAJGP_00180	EJJ21_RS19435	63	77	100.0	1.43e-18
+JNAJGP_00185	EJJ21_RS19440	97	518	100.0	8.05e-187
+JNAJGP_00190	EJJ21_RS19445	98	79	100.0	4.31e-20
+JNAJGP_00195	EJJ21_RS19450	96	1348	100.0	0.0
+JNAJGP_00200	EJJ21_RS19455	98	119	100.0	1.95e-35
+
+
+
+>>
+33. NZ_JANCLL010000017
+Source: Pseudomonas carnis strain LP NODE_17_length_130217_cov_71.665924, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7533.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	NMG11_RS15540	91	81	93.75	3.34e-18
+JNAJGP_00150	NMG11_RS15540	95	978	100.0	0.0
+JNAJGP_00155	NMG11_RS15545	86	1152	99.54614220877458	0.0
+JNAJGP_00160	NMG11_RS15550	97	1171	100.0	0.0
+JNAJGP_00165	NMG11_RS15555	94	1091	99.65635738831615	0.0
+JNAJGP_00170	NMG11_RS15560	99	772	100.0	2.85e-283
+JNAJGP_00175	NMG11_RS15565	99	149	100.0	2.77e-47
+JNAJGP_00180	NMG11_RS15570	59	74	100.0	2.37e-17
+JNAJGP_00185	NMG11_RS15575	98	519	99.63099630996311	3.99e-187
+JNAJGP_00190	NMG11_RS15580	98	79	100.0	4.31e-20
+JNAJGP_00195	NMG11_RS15585	96	1348	100.0	0.0
+JNAJGP_00200	NMG11_RS15590	98	119	100.0	1.95e-35
+
+
+
+>>
+34. NZ_CP068151
+Source: Pseudomonas fluorescens strain FDAARGOS_1088 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7531.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	I6I45_RS00610	91	81	93.75	3.34e-18
+JNAJGP_00150	I6I45_RS00610	96	982	100.0	0.0
+JNAJGP_00155	I6I45_RS00605	85	1145	99.54614220877458	0.0
+JNAJGP_00160	I6I45_RS00600	97	1169	100.0	0.0
+JNAJGP_00165	I6I45_RS00595	94	1091	99.65635738831615	0.0
+JNAJGP_00170	I6I45_RS00590	99	774	100.0	7e-284
+JNAJGP_00175	I6I45_RS00585	99	149	100.0	2.77e-47
+JNAJGP_00180	I6I45_RS00580	62	76	100.0	2.03e-18
+JNAJGP_00185	I6I45_RS00575	97	517	99.63099630996311	2.31e-186
+JNAJGP_00190	I6I45_RS00570	98	79	100.0	4.31e-20
+JNAJGP_00195	I6I45_RS00565	96	1349	100.0	0.0
+JNAJGP_00200	I6I45_RS00560	98	119	100.0	1.95e-35
+
+
+
+>>
+35. NZ_CP058975
+Source: Pseudomonas sp. Y39-6 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7530.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	HXW90_RS22060	89	78	93.75	5.59e-17
+JNAJGP_00150	HXW90_RS22060	92	941	100.0	0.0
+JNAJGP_00155	HXW90_RS22065	89	1177	99.39485627836612	0.0
+JNAJGP_00160	HXW90_RS22070	96	1159	100.0	0.0
+JNAJGP_00165	HXW90_RS22075	94	1084	99.82817869415808	0.0
+JNAJGP_00170	HXW90_RS22080	99	773	100.0	9.95e-284
+JNAJGP_00175	HXW90_RS22085	97	148	100.0	7.94e-47
+JNAJGP_00180	HXW90_RS22090	80	94	100.0	1.86e-25
+JNAJGP_00185	HXW90_RS22095	98	524	100.0	4.16e-189
+JNAJGP_00190	HXW90_RS22100	96	77	100.0	2.5e-19
+JNAJGP_00195	HXW90_RS22105	97	1356	100.0	0.0
+JNAJGP_00200	HXW90_RS22110	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+36. NZ_ML137235
+Source: Pseudomonas veronii strain RZ scaffold13, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7530.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	DJ028_RS21770	89	78	93.75	5.59e-17
+JNAJGP_00150	DJ028_RS21770	92	941	100.0	0.0
+JNAJGP_00155	DJ028_RS21765	88	1175	99.39485627836612	0.0
+JNAJGP_00160	DJ028_RS21760	96	1161	100.0	0.0
+JNAJGP_00165	DJ028_RS21755	94	1084	99.82817869415808	0.0
+JNAJGP_00170	DJ028_RS21750	99	773	100.0	9.95e-284
+JNAJGP_00175	DJ028_RS21745	97	148	100.0	7.94e-47
+JNAJGP_00180	DJ028_RS21740	80	94	100.0	1.86e-25
+JNAJGP_00185	DJ028_RS21735	98	524	100.0	4.16e-189
+JNAJGP_00190	DJ028_RS21730	96	77	100.0	2.5e-19
+JNAJGP_00195	DJ028_RS21725	97	1356	100.0	0.0
+JNAJGP_00200	DJ028_RS21720	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+37. NZ_CP045767
+Source: Pseudomonas sp. CFSAN084952 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7529.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	GH769_RS16045	91	81	93.75	3.34e-18
+JNAJGP_00150	GH769_RS16045	96	982	100.0	0.0
+JNAJGP_00155	GH769_RS16050	85	1143	99.54614220877458	0.0
+JNAJGP_00160	GH769_RS16055	97	1170	100.0	0.0
+JNAJGP_00165	GH769_RS16060	94	1092	99.65635738831615	0.0
+JNAJGP_00170	GH769_RS16065	99	774	100.0	7e-284
+JNAJGP_00175	GH769_RS16070	99	149	100.0	2.77e-47
+JNAJGP_00180	GH769_RS16075	62	76	100.0	2.03e-18
+JNAJGP_00185	GH769_RS16080	97	517	99.63099630996311	2.31e-186
+JNAJGP_00190	GH769_RS16085	98	79	100.0	4.31e-20
+JNAJGP_00195	GH769_RS16090	96	1347	100.0	0.0
+JNAJGP_00200	GH769_RS16095	98	119	100.0	1.95e-35
+
+
+
+>>
+38. NZ_JALJRR010000026
+Source: Pseudomonas sp. Pse79 NODE_26_length_92514_cov_27.47592514, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7529.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	NR164_RS25255	89	78	93.75	5.59e-17
+JNAJGP_00150	NR164_RS25255	92	941	100.0	0.0
+JNAJGP_00155	NR164_RS25260	89	1177	99.39485627836612	0.0
+JNAJGP_00160	NR164_RS25265	96	1162	100.0	0.0
+JNAJGP_00165	NR164_RS25270	94	1082	99.82817869415808	0.0
+JNAJGP_00170	NR164_RS25275	99	773	100.0	9.95e-284
+JNAJGP_00175	NR164_RS25280	97	148	100.0	7.94e-47
+JNAJGP_00180	NR164_RS25285	80	94	100.0	1.86e-25
+JNAJGP_00185	NR164_RS25290	97	522	100.0	1.69e-188
+JNAJGP_00190	NR164_RS25295	96	77	100.0	2.5e-19
+JNAJGP_00195	NR164_RS25300	96	1356	100.0	0.0
+JNAJGP_00200	NR164_RS25305	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+39. NZ_CP007638
+Source: Pseudomonas sp. WCS374 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7527.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PD374_RS08925	91	81	93.75	3.34e-18
+JNAJGP_00150	PD374_RS08925	96	981	100.0	0.0
+JNAJGP_00155	PD374_RS08920	85	1143	99.54614220877458	0.0
+JNAJGP_00160	PD374_RS08915	97	1168	100.0	0.0
+JNAJGP_00165	PD374_RS08910	95	1093	99.65635738831615	0.0
+JNAJGP_00170	PD374_RS08905	99	774	100.0	7e-284
+JNAJGP_00175	PD374_RS08900	99	149	100.0	2.77e-47
+JNAJGP_00180	PD374_RS08895	60	74	100.0	2.37e-17
+JNAJGP_00185	PD374_RS08890	97	517	99.63099630996311	2.31e-186
+JNAJGP_00190	PD374_RS28240	98	79	100.0	4.31e-20
+JNAJGP_00195	PD374_RS08885	96	1349	100.0	0.0
+JNAJGP_00200	PD374_RS08880	98	119	100.0	1.95e-35
+
+
+
+>>
+40. NZ_CP089551
+Source: Pseudomonas sp. 7-41 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7527.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	LQ249_RS21950	89	78	93.75	5.59e-17
+JNAJGP_00150	LQ249_RS21950	92	941	100.0	0.0
+JNAJGP_00155	LQ249_RS21955	88	1176	99.39485627836612	0.0
+JNAJGP_00160	LQ249_RS21960	96	1164	100.0	0.0
+JNAJGP_00165	LQ249_RS21965	93	1077	99.82817869415808	0.0
+JNAJGP_00170	LQ249_RS21970	99	773	100.0	9.95e-284
+JNAJGP_00175	LQ249_RS21975	97	148	100.0	7.94e-47
+JNAJGP_00180	LQ249_RS21980	80	94	100.0	1.86e-25
+JNAJGP_00185	LQ249_RS21985	98	524	100.0	4.16e-189
+JNAJGP_00190	LQ249_RS21990	96	77	100.0	2.5e-19
+JNAJGP_00195	LQ249_RS21995	97	1356	100.0	0.0
+JNAJGP_00200	LQ249_RS22000	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+41. NZ_SMOF01000001
+Source: Pseudomonas sp. B2021 B2021_chromosome_1, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7526.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	E1K68_RS18915	89	80	93.75	8.55e-18
+JNAJGP_00150	E1K68_RS18915	95	981	100.0	0.0
+JNAJGP_00155	E1K68_RS18920	86	1154	99.69742813918305	0.0
+JNAJGP_00160	E1K68_RS18925	97	1167	100.0	0.0
+JNAJGP_00165	E1K68_RS18930	95	1095	99.65635738831615	0.0
+JNAJGP_00170	E1K68_RS18935	99	774	100.0	4.93e-284
+JNAJGP_00175	E1K68_RS18940	99	149	100.0	2.77e-47
+JNAJGP_00180	E1K68_RS18945	63	77	100.0	1.43e-18
+JNAJGP_00185	E1K68_RS18950	97	516	100.0	3.28e-186
+JNAJGP_00190	E1K68_RS18955	98	79	100.0	4.31e-20
+JNAJGP_00195	E1K68_RS18960	95	1335	100.0	0.0
+JNAJGP_00200	E1K68_RS18965	98	119	100.0	1.95e-35
+
+
+
+>>
+42. NZ_CP018420
+Source: Pseudomonas veronii strain R02 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7526.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PverR02_RS22105	89	78	93.75	5.59e-17
+JNAJGP_00150	PverR02_RS22105	92	941	100.0	0.0
+JNAJGP_00155	PverR02_RS22110	89	1175	99.39485627836612	0.0
+JNAJGP_00160	PverR02_RS22115	96	1162	100.0	0.0
+JNAJGP_00165	PverR02_RS22120	93	1079	99.82817869415808	0.0
+JNAJGP_00170	PverR02_RS22125	99	773	100.0	9.95e-284
+JNAJGP_00175	PverR02_RS22130	97	148	100.0	7.94e-47
+JNAJGP_00180	PverR02_RS22135	80	94	100.0	1.86e-25
+JNAJGP_00185	PverR02_RS22140	98	524	100.0	4.16e-189
+JNAJGP_00190	PverR02_RS22145	96	77	100.0	2.5e-19
+JNAJGP_00195	PverR02_RS22150	97	1356	100.0	0.0
+JNAJGP_00200	PverR02_RS22155	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+43. NZ_CP026880
+Source: Pseudomonas sp. LH1G9 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7526.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	C5F70_RS03675	89	78	93.75	5.59e-17
+JNAJGP_00150	C5F70_RS03675	92	940	100.0	0.0
+JNAJGP_00155	C5F70_RS03670	89	1177	99.39485627836612	0.0
+JNAJGP_00160	C5F70_RS03665	96	1160	100.0	0.0
+JNAJGP_00165	C5F70_RS03660	93	1080	99.82817869415808	0.0
+JNAJGP_00170	C5F70_RS03655	98	773	100.0	2.01e-283
+JNAJGP_00175	C5F70_RS03650	97	148	100.0	7.94e-47
+JNAJGP_00180	C5F70_RS03645	80	94	100.0	1.86e-25
+JNAJGP_00185	C5F70_RS03640	98	524	100.0	4.16e-189
+JNAJGP_00190	C5F70_RS03635	96	77	100.0	2.5e-19
+JNAJGP_00195	C5F70_RS03630	96	1356	100.0	0.0
+JNAJGP_00200	C5F70_RS03625	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+44. NZ_JXWQ02000001
+Source: Pseudomonas veronii strain R4 scaffold00001, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7525.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	SU91_RS09765	89	78	93.75	5.59e-17
+JNAJGP_00150	SU91_RS09765	92	941	100.0	0.0
+JNAJGP_00155	SU91_RS09760	89	1177	99.39485627836612	0.0
+JNAJGP_00160	SU91_RS09755	96	1162	100.0	0.0
+JNAJGP_00165	SU91_RS09750	93	1076	99.82817869415808	0.0
+JNAJGP_00170	SU91_RS09745	99	773	100.0	9.95e-284
+JNAJGP_00175	SU91_RS09740	97	148	100.0	7.94e-47
+JNAJGP_00180	SU91_RS09735	80	94	100.0	1.86e-25
+JNAJGP_00185	SU91_RS09730	98	524	100.0	4.16e-189
+JNAJGP_00190	SU91_RS30225	96	77	100.0	2.5e-19
+JNAJGP_00195	SU91_RS09720	97	1356	100.0	0.0
+JNAJGP_00200	SU91_RS09715	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+45. NZ_CP089532
+Source: Pseudomonas veronii strain G2 chromosome, complete genome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7522.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	LUW10_RS20565	89	78	93.75	5.59e-17
+JNAJGP_00150	LUW10_RS20565	92	940	100.0	0.0
+JNAJGP_00155	LUW10_RS20570	88	1172	99.39485627836612	0.0
+JNAJGP_00160	LUW10_RS20575	96	1161	100.0	0.0
+JNAJGP_00165	LUW10_RS20580	93	1080	99.82817869415808	0.0
+JNAJGP_00170	LUW10_RS20585	99	773	100.0	9.95e-284
+JNAJGP_00175	LUW10_RS20590	97	148	100.0	7.94e-47
+JNAJGP_00180	LUW10_RS20595	80	94	100.0	1.86e-25
+JNAJGP_00185	LUW10_RS20600	98	524	100.0	4.16e-189
+JNAJGP_00190	LUW10_RS20605	96	77	100.0	2.5e-19
+JNAJGP_00195	LUW10_RS20610	96	1356	100.0	0.0
+JNAJGP_00200	LUW10_RS20615	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+46. NZ_QBUF01000004
+Source: Pseudomonas sp. GV105 Ga0189758_104, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7522.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	C8K66_RS08770	89	78	93.75	5.59e-17
+JNAJGP_00150	C8K66_RS08770	92	941	100.0	0.0
+JNAJGP_00155	C8K66_RS08775	88	1176	99.39485627836612	0.0
+JNAJGP_00160	C8K66_RS08780	96	1159	100.0	0.0
+JNAJGP_00165	C8K66_RS08785	93	1080	99.82817869415808	0.0
+JNAJGP_00170	C8K66_RS08790	98	770	100.0	1.65e-282
+JNAJGP_00175	C8K66_RS08795	97	148	100.0	7.94e-47
+JNAJGP_00180	C8K66_RS08800	80	94	100.0	1.86e-25
+JNAJGP_00185	C8K66_RS08805	98	524	100.0	4.16e-189
+JNAJGP_00190	C8K66_RS08810	96	77	100.0	2.5e-19
+JNAJGP_00195	C8K66_RS08815	97	1356	100.0	0.0
+JNAJGP_00200	C8K66_RS08820	98	119	98.4126984126984	9.64e-36
+
+
+
+>>
+47. NZ_JACAPY010000023
+Source: Pseudomonas sp. G1002 run0228_G1002_S12_L004_contig_23, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7518.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	HX801_RS11875	84	77	93.75	7.65e-17
+JNAJGP_00150	HX801_RS11875	94	966	100.0	0.0
+JNAJGP_00155	HX801_RS11880	89	1185	99.39485627836612	0.0
+JNAJGP_00160	HX801_RS11885	98	1177	100.0	0.0
+JNAJGP_00165	HX801_RS11890	92	1078	99.82817869415808	0.0
+JNAJGP_00170	HX801_RS11895	97	758	99.74619289340102	1.24e-277
+JNAJGP_00175	HX801_RS11900	99	149	100.0	2.77e-47
+JNAJGP_00180	HX801_RS11905	66	76	103.07692307692307	2.14e-18
+JNAJGP_00185	HX801_RS11910	94	502	98.8929889298893	1.54e-180
+JNAJGP_00190	HX801_RS11915	82	78	100.0	1.76e-19
+JNAJGP_00195	HX801_RS11920	96	1351	100.0	0.0
+JNAJGP_00200	HX801_RS11925	100	121	100.0	2.36e-36
+
+
+
+>>
+48. NZ_CM001513
+Source: Pseudomonas lactis strain SS101 chromosome, whole genome shotgun sequence
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7517.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	PFLSS101_RS08890	89	80	93.75	8.55e-18
+JNAJGP_00150	PFLSS101_RS08890	95	981	100.0	0.0
+JNAJGP_00155	PFLSS101_RS08885	85	1143	99.69742813918305	0.0
+JNAJGP_00160	PFLSS101_RS08880	97	1171	100.0	0.0
+JNAJGP_00165	PFLSS101_RS08875	94	1093	99.65635738831615	0.0
+JNAJGP_00170	PFLSS101_RS08870	99	774	100.0	4.93e-284
+JNAJGP_00175	PFLSS101_RS08865	99	149	100.0	2.77e-47
+JNAJGP_00180	PFLSS101_RS08860	63	77	100.0	1.43e-18
+JNAJGP_00185	PFLSS101_RS08855	97	516	100.0	3.28e-186
+JNAJGP_00190	PFLSS101_RS28265	98	79	100.0	4.31e-20
+JNAJGP_00195	PFLSS101_RS08845	95	1335	100.0	0.0
+JNAJGP_00200	PFLSS101_RS08840	98	119	100.0	1.95e-35
+
+
+
+>>
+49. NZ_CP080030
+Source: Pseudomonas sp. Colony2 chromosome
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7517.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	JV201_RS09185	84	78	93.75	4.09e-17
+JNAJGP_00150	JV201_RS09185	93	967	100.0	0.0
+JNAJGP_00155	JV201_RS09180	89	1180	99.39485627836612	0.0
+JNAJGP_00160	JV201_RS09175	98	1179	100.0	0.0
+JNAJGP_00165	JV201_RS09170	92	1079	99.82817869415808	0.0
+JNAJGP_00170	JV201_RS09165	97	758	99.74619289340102	1.24e-277
+JNAJGP_00175	JV201_RS09160	99	149	100.0	2.77e-47
+JNAJGP_00180	JV201_RS09155	66	76	103.07692307692307	2.14e-18
+JNAJGP_00185	JV201_RS09150	94	501	98.8929889298893	4.41e-180
+JNAJGP_00190	JV201_RS09145	82	78	100.0	1.76e-19
+JNAJGP_00195	JV201_RS09140	96	1351	100.0	0.0
+JNAJGP_00200	JV201_RS09135	100	121	100.0	2.36e-36
+
+
+
+>>
+50. NZ_LT629793
+Source: Pseudomonas yamanorum strain LMG 27247 chromosome I
+Type: NAGGN
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 7516.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_00145	BLU46_RS06375	84	77	93.75	1.05e-16
+JNAJGP_00150	BLU46_RS06375	93	966	100.0	0.0
+JNAJGP_00155	BLU46_RS06380	88	1178	99.39485627836612	0.0
+JNAJGP_00160	BLU46_RS06385	98	1180	100.0	0.0
+JNAJGP_00165	BLU46_RS06390	92	1078	99.82817869415808	0.0
+JNAJGP_00170	BLU46_RS06395	97	758	99.74619289340102	1.24e-277
+JNAJGP_00175	BLU46_RS06400	99	149	100.0	2.77e-47
+JNAJGP_00180	BLU46_RS06405	71	77	90.76923076923077	1.51e-18
+JNAJGP_00185	BLU46_RS06410	94	501	99.63099630996311	4.1e-180
+JNAJGP_00190	BLU46_RS06415	82	78	100.0	1.76e-19
+JNAJGP_00195	BLU46_RS06420	96	1353	100.0	0.0
+JNAJGP_00200	BLU46_RS06425	100	121	100.0	2.36e-36
+

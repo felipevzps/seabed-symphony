@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAY59070.1</td>
+              <td>outer_membrane_channel_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000128/1">BGC0000128</a></td>
+              <td>Polyketide</td>
+              <td>34.0</td>
+              <td>99.8</td>
+              <td>250.0</td>
+              <td>2.11e-77</td>
+          </tr>
+    
+          <tr>
+              <td>AAX56377.1</td>
+              <td>PltO</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000127/1">BGC0000127</a></td>
+              <td>Polyketide</td>
+              <td>33.0</td>
+              <td>100.4</td>
+              <td>238.0</td>
+              <td>2.45e-72</td>
+          </tr>
+    
+          <tr>
+              <td>AEA60652.1</td>
+              <td>RND_efflux_system,_outer_membrane_lipoprotein,_NodT</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000892/1">BGC0000892</a></td>
+              <td>Other</td>
+              <td>34.0</td>
+              <td>97.1</td>
+              <td>216.0</td>
+              <td>5.95e-64</td>
+          </tr>
+    
+          <tr>
+              <td>BCJ07603.1</td>
+              <td>adeC/adeK/oprM_family_multidrug_efflux_complex_outer_membrane_factor</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002379/1">BGC0002379</a></td>
+              <td>NRP</td>
+              <td>32.0</td>
+              <td>95.6</td>
+              <td>181.0</td>
+              <td>1.87e-51</td>
+          </tr>
+    
+          <tr>
+              <td>AHZ34244.1</td>
+              <td>PseA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001389/1">BGC0001389</a></td>
+              <td>NRP</td>
+              <td>29.0</td>
+              <td>98.3</td>
+              <td>168.0</td>
+              <td>2.56e-46</td>
+          </tr>
+    
+          <tr>
+              <td>WP_039806869.1</td>
+              <td>efflux_transporter_outer_membrane_subunit</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002001/1">BGC0002001</a></td>
+              <td>NRP+Polyketide</td>
+              <td>31.0</td>
+              <td>99.0</td>
+              <td>161.0</td>
+              <td>6.51e-44</td>
+          </tr>
+    
+          <tr>
+              <td>AAY93388.1</td>
+              <td>efflux_transporter,_outer_membrane_factor_lipoprotein,_NodT_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000413/1">BGC0000413</a></td>
+              <td>NRP</td>
+              <td>28.0</td>
+              <td>100.2</td>
+              <td>155.0</td>
+              <td>2.03e-41</td>
+          </tr>
+    
+          <tr>
+              <td>ACV88183.1</td>
+              <td>PcoA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000329/1">BGC0000329</a></td>
+              <td>NRP</td>
+              <td>27.0</td>
+              <td>97.3</td>
+              <td>154.0</td>
+              <td>4.06e-41</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

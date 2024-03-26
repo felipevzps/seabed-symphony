@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="550" width="800" viewBox="0 0 800 550" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="2,40 62,40 67,35 62,30 2,30 2,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22300&lt;/b&gt;&lt;br&gt;ABC transmembrane type-1 domain-containing protein&lt;br&gt;Location: 4711370 - 4712327" locus_tag="JNAJGP_22300" class="clusterblast-orf" id="general-7_q0_0_all"  />
+<polygon points="67,40 122,40 127,35 122,30 67,30 67,40 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22305&lt;/b&gt;&lt;br&gt;DNA-directed RNA polymerase subunit alpha&lt;br&gt;Location: 4712323 - 4713199" locus_tag="JNAJGP_22305" class="clusterblast-orf" id="general-7_q1_0_all"  />
+<polygon points="127,40 248,40 253,35 248,30 127,30 127,40 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22310&lt;/b&gt;&lt;br&gt;nickel import ATP-binding protein NikE&lt;br&gt;Location: 4713200 - 4715042" locus_tag="JNAJGP_22310" class="clusterblast-orf" id="general-7_q2_0_all"  />
+<polygon points="253,40 269,40 274,35 269,30 253,30 253,40 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22315&lt;/b&gt;&lt;br&gt;NAD(FAD)-dependent dehydrogenase&lt;br&gt;Location: 4715038 - 4715347" locus_tag="JNAJGP_22315" class="clusterblast-orf" id="general-7_q3_0_all"  />
+<polygon points="272,40 362,40 367,35 362,30 272,30 272,40 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22320&lt;/b&gt;&lt;br&gt;Hydrogen cyanide synthase subunit HcnB&lt;br&gt;Location: 4715328 - 4716708" locus_tag="JNAJGP_22320" class="clusterblast-orf" id="general-7_q4_0_all"  />
+<polygon points="366,40 440,40 445,35 440,30 366,30 366,40 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22325&lt;/b&gt;&lt;br&gt;FAD dependent oxidoreductase domain-containing protein&lt;br&gt;Location: 4716704 - 4717856" locus_tag="JNAJGP_22325" class="clusterblast-orf" id="general-7_q5_0_all"  />
+<polygon points="445,40 519,40 524,35 519,30 445,30 445,40 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22330&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 4717852 - 4719010" locus_tag="JNAJGP_22330" class="clusterblast-orf" id="general-7_q6_0_all"  />
+<polygon points="532,40 626,40 631,35 626,30 532,30 532,40 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22335&lt;/b&gt;&lt;br&gt;Glutarate-semialdehyde dehydrogenase Succinate-semialdehyde dehydrogenase [NADP+]&lt;br&gt;Location: 4719127 - 4720588" locus_tag="JNAJGP_22335" class="clusterblast-orf" id="general-7_q7_0_all"  />
+<polygon points="632,40 702,40 707,35 702,30 632,30 632,40 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22340&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 4720601 - 4721687" locus_tag="JNAJGP_22340" class="clusterblast-orf" id="general-7_q8_0_all"  />
+<polygon points="707,35 712,30 715,30 715,40 712,40 707,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22345&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 4721698 - 4721812" locus_tag="JNAJGP_22345" class="clusterblast-orf" id="general-7_q9_0_all"  />
+<polygon points="715,35 720,30 778,30 778,40 720,40 715,35 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22350&lt;/b&gt;&lt;br&gt;D-3-phosphoglycerate dehydrogenase&lt;br&gt;Location: 4721811 - 4722738" locus_tag="JNAJGP_22350" class="clusterblast-orf" id="general-7_q10_0_all"  />
+</g>
+<g label="NZ_MSDJ01000015" description="NZ_MSDJ01000015 (393713-406531): Pseudomonas fluorescens strain G2Y PF G2Y co... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_MSDJ01000015&amp;start=393713&amp;end=406531" target="_blank">NZ_MSDJ01000015 (393713-406531)</a>: Pseudomonas fluorescens strain G2Y PF G2Y co... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="3,90 63,90 68,85 63,80 3,80 3,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17735&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 405199 - 404243&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 588&lt;br&gt;E-value: 7.85e-213" locus_tag="BFW92_RS17735" class="clusterblast-orf" id="general-7_all_7_1_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="68,90 123,90 128,85 123,80 68,80 68,90 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17730&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 404246 - 403371&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 546&lt;br&gt;E-value: 1.98e-197" locus_tag="BFW92_RS17730" class="clusterblast-orf" id="general-7_all_7_1_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="128,90 249,90 254,85 249,80 128,80 128,90 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17725&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 403369 - 401528&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1168&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS17725" class="clusterblast-orf" id="general-7_all_7_1_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="253,90 269,90 274,85 269,80 253,80 253,90 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17720&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 401531 - 401223&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 216&lt;br&gt;E-value: 7.72e-73" locus_tag="BFW92_RS17720" class="clusterblast-orf" id="general-7_all_7_1_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="273,90 362,90 367,85 362,80 273,80 273,90 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17715&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 401241 - 399862&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 882&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS17715" class="clusterblast-orf" id="general-7_all_7_1_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="367,90 441,90 446,85 441,80 367,80 367,90 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17710&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 399865 - 398714&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 754&lt;br&gt;E-value: 2.5e-276" locus_tag="BFW92_RS17710" class="clusterblast-orf" id="general-7_all_7_1_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="446,90 520,90 525,85 520,80 446,80 446,90 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17705&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 398717 - 397560&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 748&lt;br&gt;E-value: 8.03e-274" locus_tag="BFW92_RS17705" class="clusterblast-orf" id="general-7_all_7_1_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="533,90 627,90 632,85 627,80 533,80 533,90 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17700&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 397442 - 395982&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 898&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS17700" class="clusterblast-orf" id="general-7_all_7_1_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="633,90 702,90 707,85 702,80 633,80 633,90 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17695&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 395968 - 394883&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 738&lt;br&gt;E-value: 5.6e-271" locus_tag="BFW92_RS17695" class="clusterblast-orf" id="general-7_all_7_1_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="713,85 718,80 776,80 776,90 718,90 713,85 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS17690&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 394803 - 393877&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 624&lt;br&gt;E-value: 1.19e-227" locus_tag="BFW92_RS17690" class="clusterblast-orf" id="general-7_all_7_1_9"  />
+</g>
+<g label="NZ_LT629777" description="NZ_LT629777 (3140580-3153398): Pseudomonas asplenii strain ATCC 23835 chromos... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="120" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_LT629777&amp;start=3140580&amp;end=3153398" target="_blank">NZ_LT629777 (3140580-3153398)</a>: Pseudomonas asplenii strain ATCC 23835 chromos... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="135" x2="778.0" y2="135" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="4,140 64,140 69,135 64,130 4,130 4,140 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14420&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 3141913 - 3142869&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 1.69e-207" locus_tag="BLU37_RS14420" class="clusterblast-orf" id="general-7_all_7_2_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="69,140 124,140 129,135 124,130 69,130 69,140 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14425&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 3142866 - 3143741&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 535&lt;br&gt;E-value: 1.05e-192" locus_tag="BLU37_RS14425" class="clusterblast-orf" id="general-7_all_7_2_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="129,140 249,140 254,135 249,130 129,130 129,140 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14430&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 3143743 - 3145584&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1109&lt;br&gt;E-value: 0.0" locus_tag="BLU37_RS14430" class="clusterblast-orf" id="general-7_all_7_2_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="254,140 270,140 275,135 270,130 254,130 254,140 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14435&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 3145581 - 3145889&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 211&lt;br&gt;E-value: 1.06e-70" locus_tag="BLU37_RS14435" class="clusterblast-orf" id="general-7_all_7_2_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="274,140 363,140 368,135 363,130 274,130 274,140 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14440&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 3145871 - 3147247&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 840&lt;br&gt;E-value: 4.64e-308" locus_tag="BLU37_RS14440" class="clusterblast-orf" id="general-7_all_7_2_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="368,140 442,140 447,135 442,130 368,130 368,140 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14445&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 3147244 - 3148398&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 711&lt;br&gt;E-value: 3.05e-259" locus_tag="BLU37_RS14445" class="clusterblast-orf" id="general-7_all_7_2_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="446,140 520,140 525,135 520,130 446,130 446,140 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14450&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 3148395 - 3149552&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 727&lt;br&gt;E-value: 1.36e-265" locus_tag="BLU37_RS14450" class="clusterblast-orf" id="general-7_all_7_2_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="533,140 628,140 633,135 628,130 533,130 533,140 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14455&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 3149671 - 3151131&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 875&lt;br&gt;E-value: 0.0" locus_tag="BLU37_RS14455" class="clusterblast-orf" id="general-7_all_7_2_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="634,140 703,140 708,135 703,130 634,130 634,140 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14460&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 3151144 - 3152229&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 701&lt;br&gt;E-value: 4.87e-256" locus_tag="BLU37_RS14460" class="clusterblast-orf" id="general-7_all_7_2_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="712,135 717,130 775,130 775,140 717,140 712,135 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BLU37_RS14465&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 3152285 - 3153211&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 581&lt;br&gt;E-value: 1.41e-210" locus_tag="BLU37_RS14465" class="clusterblast-orf" id="general-7_all_7_2_9"  />
+</g>
+<g label="NZ_CP041189" description="NZ_CP041189 (1095906-1108727): Pseudomonas sp. NIBRBAC000502773 chromosome, c... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="170" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP041189&amp;start=1095906&amp;end=1108727" target="_blank">NZ_CP041189 (1095906-1108727)</a>: Pseudomonas sp. NIBRBAC000502773 chromosome, c... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="185" x2="778.0" y2="185" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="0,190 60,190 65,185 60,180 0,180 0,190 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04930&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 1107395 - 1106439&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 579&lt;br&gt;E-value: 1.77e-209" locus_tag="NIBR502773_RS04930" class="clusterblast-orf" id="general-7_all_7_3_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="65,190 119,190 124,185 119,180 65,180 65,190 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04925&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 1106442 - 1105567&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 541&lt;br&gt;E-value: 1.9e-195" locus_tag="NIBR502773_RS04925" class="clusterblast-orf" id="general-7_all_7_3_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="124,190 245,190 250,185 245,180 124,180 124,190 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04920&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 1105565 - 1103724&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1112&lt;br&gt;E-value: 0.0" locus_tag="NIBR502773_RS04920" class="clusterblast-orf" id="general-7_all_7_3_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="250,190 266,190 271,185 266,180 250,180 250,190 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04915&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 1103727 - 1103419&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 207&lt;br&gt;E-value: 1.76e-69" locus_tag="NIBR502773_RS04915" class="clusterblast-orf" id="general-7_all_7_3_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="270,190 359,190 364,185 359,180 270,180 270,190 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04910&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 1103437 - 1102058&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 847&lt;br&gt;E-value: 1.24e-310" locus_tag="NIBR502773_RS04910" class="clusterblast-orf" id="general-7_all_7_3_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="364,190 437,190 442,185 437,180 364,180 364,190 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04905&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 1102061 - 1100907&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 725&lt;br&gt;E-value: 4.94e-265" locus_tag="NIBR502773_RS04905" class="clusterblast-orf" id="general-7_all_7_3_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="442,190 516,190 521,185 516,180 442,180 442,190 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04900&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 1100910 - 1099753&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 720&lt;br&gt;E-value: 5.32e-263" locus_tag="NIBR502773_RS04900" class="clusterblast-orf" id="general-7_all_7_3_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="529,190 624,190 629,185 624,180 529,180 529,190 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04895&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 1099635 - 1098175&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 850&lt;br&gt;E-value: 4.29e-311" locus_tag="NIBR502773_RS04895" class="clusterblast-orf" id="general-7_all_7_3_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="630,190 700,190 705,185 700,180 630,180 630,190 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04890&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 1098154 - 1097063&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 699&lt;br&gt;E-value: 1.5e-255" locus_tag="NIBR502773_RS04890" class="clusterblast-orf" id="general-7_all_7_3_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="716,185 721,180 779,180 779,190 721,190 716,185 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;NIBR502773_RS04885&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 1096897 - 1095971&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 88&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 554&lt;br&gt;E-value: 9.34e-200" locus_tag="NIBR502773_RS04885" class="clusterblast-orf" id="general-7_all_7_3_9"  />
+</g>
+<g label="NZ_QCWA01000007" description="NZ_QCWA01000007 (193420-206241): Pseudomonas sp. GV047 Ga0189750 107, whole g... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="220" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_QCWA01000007&amp;start=193420&amp;end=206241" target="_blank">NZ_QCWA01000007 (193420-206241)</a>: Pseudomonas sp. GV047 Ga0189750 107, whole g... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="235" x2="778.0" y2="235" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="0,240 60,240 65,235 60,230 0,230 0,240 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19750&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 194753 - 195709&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 579&lt;br&gt;E-value: 1.77e-209" locus_tag="C8K58_RS19750" class="clusterblast-orf" id="general-7_all_7_4_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="65,240 120,240 125,235 120,230 65,230 65,240 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19755&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 195706 - 196581&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 541&lt;br&gt;E-value: 2.69e-195" locus_tag="C8K58_RS19755" class="clusterblast-orf" id="general-7_all_7_4_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="125,240 246,240 251,235 246,230 125,230 125,240 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19760&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 196583 - 198424&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1116&lt;br&gt;E-value: 0.0" locus_tag="C8K58_RS19760" class="clusterblast-orf" id="general-7_all_7_4_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="250,240 266,240 271,235 266,230 250,230 250,240 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19765&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 198421 - 198729&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 207&lt;br&gt;E-value: 1.76e-69" locus_tag="C8K58_RS19765" class="clusterblast-orf" id="general-7_all_7_4_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="270,240 359,240 364,235 359,230 270,230 270,240 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19770&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 198711 - 200090&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 837&lt;br&gt;E-value: 7.98e-307" locus_tag="C8K58_RS19770" class="clusterblast-orf" id="general-7_all_7_4_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="364,240 438,240 443,235 438,230 364,230 364,240 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19775&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 200087 - 201241&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 723&lt;br&gt;E-value: 4.05e-264" locus_tag="C8K58_RS19775" class="clusterblast-orf" id="general-7_all_7_4_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="443,240 517,240 522,235 517,230 443,230 443,240 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19780&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 201238 - 202395&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 717&lt;br&gt;E-value: 1.25e-261" locus_tag="C8K58_RS19780" class="clusterblast-orf" id="general-7_all_7_4_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="530,240 624,240 629,235 624,230 530,230 530,240 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19785&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 202513 - 203973&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 850&lt;br&gt;E-value: 8.66e-311" locus_tag="C8K58_RS19785" class="clusterblast-orf" id="general-7_all_7_4_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="631,240 700,240 705,235 700,230 631,230 631,240 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19790&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 203994 - 205085&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 697&lt;br&gt;E-value: 1.75e-254" locus_tag="C8K58_RS19790" class="clusterblast-orf" id="general-7_all_7_4_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="716,235 721,230 779,230 779,240 721,240 716,235 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;C8K58_RS19795&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 205236 - 206162&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 86&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 546&lt;br&gt;E-value: 1.04e-196" locus_tag="C8K58_RS19795" class="clusterblast-orf" id="general-7_all_7_4_9"  />
+</g>
+<g label="NZ_CVTP01000028" description="NZ_CVTP01000028 (376556-389374): Pseudomonas sp. 58 R 12, whole genome shotgu... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="270" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CVTP01000028&amp;start=376556&amp;end=389374" target="_blank">NZ_CVTP01000028 (376556-389374)</a>: Pseudomonas sp. 58 R 12, whole genome shotgu... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="285" x2="778.0" y2="285" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="1,290 61,290 66,285 61,280 1,280 1,290 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26110&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 377889 - 378845&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 2.4e-207" locus_tag="BFP95_RS26110" class="clusterblast-orf" id="general-7_all_7_5_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="66,290 121,290 126,285 121,280 66,280 66,290 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26115&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 378842 - 379717&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 533&lt;br&gt;E-value: 6.07e-192" locus_tag="BFP95_RS26115" class="clusterblast-orf" id="general-7_all_7_5_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="126,290 247,290 252,285 247,280 126,280 126,290 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26120&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 379719 - 381560&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1091&lt;br&gt;E-value: 0.0" locus_tag="BFP95_RS26120" class="clusterblast-orf" id="general-7_all_7_5_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="252,290 268,290 273,285 268,280 252,280 252,290 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26125&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 381557 - 381865&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 211&lt;br&gt;E-value: 7.43e-71" locus_tag="BFP95_RS26125" class="clusterblast-orf" id="general-7_all_7_5_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="271,290 360,290 365,285 360,280 271,280 271,290 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26130&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 381847 - 383223&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 854&lt;br&gt;E-value: 1.52e-313" locus_tag="BFP95_RS26130" class="clusterblast-orf" id="general-7_all_7_5_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="365,290 439,290 444,285 439,280 365,280 365,290 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26135&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 383220 - 384374&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 717&lt;br&gt;E-value: 5.51e-262" locus_tag="BFP95_RS26135" class="clusterblast-orf" id="general-7_all_7_5_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="444,290 518,290 523,285 518,280 444,280 444,290 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26140&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 384371 - 385528&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 715&lt;br&gt;E-value: 5.09e-261" locus_tag="BFP95_RS26140" class="clusterblast-orf" id="general-7_all_7_5_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="531,290 626,290 631,285 626,280 531,280 531,290 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26145&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 385646 - 387106&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 848&lt;br&gt;E-value: 3.52e-310" locus_tag="BFP95_RS26145" class="clusterblast-orf" id="general-7_all_7_5_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="632,290 701,290 706,285 701,280 632,280 632,290 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26150&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 387127 - 388212&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 703&lt;br&gt;E-value: 4.17e-257" locus_tag="BFP95_RS26150" class="clusterblast-orf" id="general-7_all_7_5_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="714,285 719,280 778,280 778,290 719,290 714,285 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP95_RS26155&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 388336 - 389262&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 567&lt;br&gt;E-value: 4.33e-205" locus_tag="BFP95_RS26155" class="clusterblast-orf" id="general-7_all_7_5_9"  />
+</g>
+<g label="NZ_CVTI01000022" description="NZ_CVTI01000022 (9458-22276): Pseudomonas sp. 24 R 17, whole genome shotgun s... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="320" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CVTI01000022&amp;start=9458&amp;end=22276" target="_blank">NZ_CVTI01000022 (9458-22276)</a>: Pseudomonas sp. 24 R 17, whole genome shotgun s... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="335" x2="778.0" y2="335" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="1,340 61,340 66,335 61,330 1,330 1,340 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15325&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 10791 - 11747&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 2.4e-207" locus_tag="BFP98_RS15325" class="clusterblast-orf" id="general-7_all_7_6_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="66,340 121,340 126,335 121,330 66,330 66,340 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15330&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 11744 - 12619&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 533&lt;br&gt;E-value: 6.07e-192" locus_tag="BFP98_RS15330" class="clusterblast-orf" id="general-7_all_7_6_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="126,340 247,340 252,335 247,330 126,330 126,340 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15335&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 12621 - 14462&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1094&lt;br&gt;E-value: 0.0" locus_tag="BFP98_RS15335" class="clusterblast-orf" id="general-7_all_7_6_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="252,340 268,340 273,335 268,330 252,330 252,340 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15340&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 14459 - 14767&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 211&lt;br&gt;E-value: 7.43e-71" locus_tag="BFP98_RS15340" class="clusterblast-orf" id="general-7_all_7_6_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="271,340 360,340 365,335 360,330 271,330 271,340 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15345&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 14749 - 16125&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 853&lt;br&gt;E-value: 3.06e-313" locus_tag="BFP98_RS15345" class="clusterblast-orf" id="general-7_all_7_6_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="365,340 439,340 444,335 439,330 365,330 365,340 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15350&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 16122 - 17276&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 717&lt;br&gt;E-value: 1.11e-261" locus_tag="BFP98_RS15350" class="clusterblast-orf" id="general-7_all_7_6_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="444,340 518,340 523,335 518,330 444,330 444,340 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15355&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 17273 - 18430&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 712&lt;br&gt;E-value: 1.2e-259" locus_tag="BFP98_RS15355" class="clusterblast-orf" id="general-7_all_7_6_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="531,340 626,340 631,335 626,330 531,330 531,340 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15360&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 18548 - 20008&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 850&lt;br&gt;E-value: 6.1e-311" locus_tag="BFP98_RS15360" class="clusterblast-orf" id="general-7_all_7_6_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="632,340 701,340 706,335 701,330 632,330 632,340 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15365&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 20029 - 21114&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 701&lt;br&gt;E-value: 2.41e-256" locus_tag="BFP98_RS15365" class="clusterblast-orf" id="general-7_all_7_6_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="714,335 719,330 778,330 778,340 719,340 714,335 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP98_RS15370&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 21238 - 22164&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 567&lt;br&gt;E-value: 4.33e-205" locus_tag="BFP98_RS15370" class="clusterblast-orf" id="general-7_all_7_6_9"  />
+</g>
+<g label="NZ_CP041236" description="NZ_CP041236 (4483475-4496296): Pseudomonas azotoformans strain P45A chromosom... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="370" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP041236&amp;start=4483475&amp;end=4496296" target="_blank">NZ_CP041236 (4483475-4496296)</a>: Pseudomonas azotoformans strain P45A chromosom... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="385" x2="778.0" y2="385" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="0,390 60,390 65,385 60,380 0,380 0,390 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20890&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 4494961 - 4494005&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 578&lt;br&gt;E-value: 5.06e-209" locus_tag="FKZ69_RS20890" class="clusterblast-orf" id="general-7_all_7_7_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="65,390 119,390 124,385 119,380 65,380 65,390 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20885&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 4494008 - 4493133&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 539&lt;br&gt;E-value: 1.56e-194" locus_tag="FKZ69_RS20885" class="clusterblast-orf" id="general-7_all_7_7_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="125,390 245,390 250,385 245,380 125,380 125,390 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20880&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 4493131 - 4491293&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1108&lt;br&gt;E-value: 0.0" locus_tag="FKZ69_RS20880" class="clusterblast-orf" id="general-7_all_7_7_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="250,390 266,390 271,385 266,380 250,380 250,390 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20875&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 4491296 - 4490988&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 207&lt;br&gt;E-value: 1.76e-69" locus_tag="FKZ69_RS20875" class="clusterblast-orf" id="general-7_all_7_7_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="270,390 359,390 364,385 359,380 270,380 270,390 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20870&lt;/b&gt;&lt;br&gt;FAD-dependent oxidoreductase&lt;br&gt;Location: 4491006 - 4489627&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 838&lt;br&gt;E-value: 3.96e-307" locus_tag="FKZ69_RS20870" class="clusterblast-orf" id="general-7_all_7_7_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="364,390 437,390 442,385 437,380 364,380 364,390 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20865&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 4489630 - 4488476&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 722&lt;br&gt;E-value: 1.16e-263" locus_tag="FKZ69_RS20865" class="clusterblast-orf" id="general-7_all_7_7_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="442,390 516,390 521,385 516,380 442,380 442,390 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20860&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 4488479 - 4487322&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 718&lt;br&gt;E-value: 3.07e-262" locus_tag="FKZ69_RS20860" class="clusterblast-orf" id="general-7_all_7_7_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="529,390 624,390 629,385 624,380 529,380 529,390 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20855&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 4487204 - 4485744&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 855&lt;br&gt;E-value: 6.38e-313" locus_tag="FKZ69_RS20855" class="clusterblast-orf" id="general-7_all_7_7_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="630,390 700,390 705,385 700,380 630,380 630,390 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20850&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 4485723 - 4484632&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 695&lt;br&gt;E-value: 7.14e-254" locus_tag="FKZ69_RS20850" class="clusterblast-orf" id="general-7_all_7_7_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="716,385 721,380 779,380 779,390 721,390 716,385 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;FKZ69_RS20845&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 4484466 - 4483540&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 87&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.55e-198" locus_tag="FKZ69_RS20845" class="clusterblast-orf" id="general-7_all_7_7_9"  />
+</g>
+<g label="NZ_CP011507" description="NZ_CP011507 (5418694-5431512): Pseudomonas trivialis strain IHBB745 chromosom... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="420" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP011507&amp;start=5418694&amp;end=5431512" target="_blank">NZ_CP011507 (5418694-5431512)</a>: Pseudomonas trivialis strain IHBB745 chromosom... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="435" x2="778.0" y2="435" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="2,440 62,440 67,435 62,430 2,430 2,440 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24650&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 5420027 - 5420983&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 2.4e-207" locus_tag="AA957_RS24650" class="clusterblast-orf" id="general-7_all_7_8_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="67,440 122,440 127,435 122,430 67,430 67,440 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24655&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 5420980 - 5421855&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 536&lt;br&gt;E-value: 1.82e-193" locus_tag="AA957_RS24655" class="clusterblast-orf" id="general-7_all_7_8_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="127,440 248,440 253,435 248,430 127,430 127,440 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24660&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 5421857 - 5423698&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1095&lt;br&gt;E-value: 0.0" locus_tag="AA957_RS24660" class="clusterblast-orf" id="general-7_all_7_8_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="252,440 268,440 273,435 268,430 252,430 252,440 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24665&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 5423695 - 5424003&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 209&lt;br&gt;E-value: 3.03e-70" locus_tag="AA957_RS24665" class="clusterblast-orf" id="general-7_all_7_8_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="272,440 361,440 366,435 361,430 272,430 272,440 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24670&lt;/b&gt;&lt;br&gt;FAD/NAD(P)-binding oxidoreductase&lt;br&gt;Location: 5423985 - 5425361&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 853&lt;br&gt;E-value: 3.06e-313" locus_tag="AA957_RS24670" class="clusterblast-orf" id="general-7_all_7_8_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="366,440 440,440 445,435 440,430 366,430 366,440 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24675&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 5425358 - 5426512&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 724&lt;br&gt;E-value: 1.41e-264" locus_tag="AA957_RS24675" class="clusterblast-orf" id="general-7_all_7_8_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="445,440 519,440 524,435 519,430 445,430 445,440 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24680&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 5426509 - 5427666&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 716&lt;br&gt;E-value: 2.52e-261" locus_tag="AA957_RS24680" class="clusterblast-orf" id="general-7_all_7_8_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="532,440 626,440 631,435 626,430 532,430 532,440 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24685&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 5427784 - 5429244&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 855&lt;br&gt;E-value: 6.38e-313" locus_tag="AA957_RS24685" class="clusterblast-orf" id="general-7_all_7_8_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="633,440 700,440 705,435 700,430 633,430 633,440 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24690&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 5429265 - 5430317&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 96&lt;br&gt;BLAST bit score: 683&lt;br&gt;E-value: 2.33e-249" locus_tag="AA957_RS24690" class="clusterblast-orf" id="general-7_all_7_8_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="714,435 719,430 777,430 777,440 719,440 714,435 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;AA957_RS24695&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 5430452 - 5431378&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 566&lt;br&gt;E-value: 8.74e-205" locus_tag="AA957_RS24695" class="clusterblast-orf" id="general-7_all_7_8_9"  />
+</g>
+<g label="NZ_CP077084" description="NZ_CP077084 (4196957-4209775): Pseudomonas tritici strain SWRI145 chromosome,... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="470" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP077084&amp;start=4196957&amp;end=4209775" target="_blank">NZ_CP077084 (4196957-4209775)</a>: Pseudomonas tritici strain SWRI145 chromosome,... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="485" x2="778.0" y2="485" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="1,490 61,490 66,485 61,480 1,480 1,490 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18965&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 4208443 - 4207487&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 2.4e-207" locus_tag="HU722_RS18965" class="clusterblast-orf" id="general-7_all_7_9_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="66,490 121,490 126,485 121,480 66,480 66,490 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18960&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 4207490 - 4206615&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 533&lt;br&gt;E-value: 6.07e-192" locus_tag="HU722_RS18960" class="clusterblast-orf" id="general-7_all_7_9_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="126,490 247,490 252,485 247,480 126,480 126,490 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18955&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 4206613 - 4204772&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1094&lt;br&gt;E-value: 0.0" locus_tag="HU722_RS18955" class="clusterblast-orf" id="general-7_all_7_9_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="252,490 268,490 273,485 268,480 252,480 252,490 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18950&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 4204775 - 4204467&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 211&lt;br&gt;E-value: 7.43e-71" locus_tag="HU722_RS18950" class="clusterblast-orf" id="general-7_all_7_9_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="271,490 360,490 365,485 360,480 271,480 271,490 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18945&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 4204485 - 4203109&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 853&lt;br&gt;E-value: 3.06e-313" locus_tag="HU722_RS18945" class="clusterblast-orf" id="general-7_all_7_9_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="365,490 439,490 444,485 439,480 365,480 365,490 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18940&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 4203112 - 4201958&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 714&lt;br&gt;E-value: 1.84e-260" locus_tag="HU722_RS18940" class="clusterblast-orf" id="general-7_all_7_9_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="444,490 518,490 523,485 518,480 444,480 444,490 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18935&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 4201961 - 4200804&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 705&lt;br&gt;E-value: 6.63e-257" locus_tag="HU722_RS18935" class="clusterblast-orf" id="general-7_all_7_9_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="531,490 626,490 631,485 626,480 531,480 531,490 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18930&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 4200686 - 4199226&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 850&lt;br&gt;E-value: 6.1e-311" locus_tag="HU722_RS18930" class="clusterblast-orf" id="general-7_all_7_9_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="632,490 701,490 706,485 701,480 632,480 632,490 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18925&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 4199205 - 4198120&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 701&lt;br&gt;E-value: 2.41e-256" locus_tag="HU722_RS18925" class="clusterblast-orf" id="general-7_all_7_9_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="714,485 719,480 778,480 778,490 719,490 714,485 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HU722_RS18920&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 4197996 - 4197070&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 568&lt;br&gt;E-value: 3.05e-205" locus_tag="HU722_RS18920" class="clusterblast-orf" id="general-7_all_7_9_9"  />
+</g>
+<g label="NZ_CVTR01000038" description="NZ_CVTR01000038 (3362-16180): Pseudomonas sp. 52 E 6, whole genome shotgun se... (100% of genes show similarity), hydrogen-cyanide" class="clusterblast-cluster"  >
+<text x="5" y="520" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CVTR01000038&amp;start=3362&amp;end=16180" target="_blank">NZ_CVTR01000038 (3362-16180)</a>: Pseudomonas sp. 52 E 6, whole genome shotgun se... (100% of genes show similarity), hydrogen-cyanide</text>
+<line x1="10" y1="535" x2="778.0" y2="535" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a7_000"  >
+<polygon points="1,540 62,540 67,535 62,530 1,530 1,540 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26255&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 4695 - 5651&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22300&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 574&lt;br&gt;E-value: 2.4e-207" locus_tag="BFP87_RS26255" class="clusterblast-orf" id="general-7_all_7_10_0"  />
+</g>
+<g id="a7_001"  >
+<polygon points="66,540 121,540 126,535 121,530 66,530 66,540 " style="fill:#3cd815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26260&lt;/b&gt;&lt;br&gt;ABC transporter permease&lt;br&gt;Location: 5648 - 6523&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22305&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 533&lt;br&gt;E-value: 6.07e-192" locus_tag="BFP87_RS26260" class="clusterblast-orf" id="general-7_all_7_10_1"  />
+</g>
+<g id="a7_002"  >
+<polygon points="126,540 247,540 252,535 247,530 126,530 126,540 " style="fill:#1563d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26265&lt;/b&gt;&lt;br&gt;ABC transporter ATP-binding protein&lt;br&gt;Location: 6525 - 8366&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22310&lt;/b&gt;&lt;br&gt;Percentage identity: 93&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1091&lt;br&gt;E-value: 0.0" locus_tag="BFP87_RS26265" class="clusterblast-orf" id="general-7_all_7_10_2"  />
+</g>
+<g id="a7_003"  >
+<polygon points="252,540 268,540 273,535 268,530 252,530 252,540 " style="fill:#b115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26270&lt;/b&gt;&lt;br&gt;(2Fe-2S)-binding protein&lt;br&gt;Location: 8363 - 8671&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22315&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 211&lt;br&gt;E-value: 7.43e-71" locus_tag="BFP87_RS26270" class="clusterblast-orf" id="general-7_all_7_10_3"  />
+</g>
+<g id="a7_004"  >
+<polygon points="272,540 361,540 366,535 361,530 272,530 272,540 " style="fill:#d88a15; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26275&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 8653 - 10029&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22320&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 854&lt;br&gt;E-value: 1.52e-313" locus_tag="BFP87_RS26275" class="clusterblast-orf" id="general-7_all_7_10_4"  />
+</g>
+<g id="a7_005"  >
+<polygon points="365,540 439,540 444,535 439,530 365,530 365,540 " style="fill:#15d863; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26280&lt;/b&gt;&lt;br&gt;FAD-binding oxidoreductase&lt;br&gt;Location: 10026 - 11180&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22325&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 717&lt;br&gt;E-value: 5.51e-262" locus_tag="BFP87_RS26280" class="clusterblast-orf" id="general-7_all_7_10_5"  />
+</g>
+<g id="a7_006"  >
+<polygon points="444,540 518,540 523,535 518,530 444,530 444,540 " style="fill:#3c15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26285&lt;/b&gt;&lt;br&gt;acetylornithine deacetylase&lt;br&gt;Location: 11177 - 12334&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22330&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 713&lt;br&gt;E-value: 4.18e-260" locus_tag="BFP87_RS26285" class="clusterblast-orf" id="general-7_all_7_10_6"  />
+</g>
+<g id="a7_007"  >
+<polygon points="531,540 625,540 630,535 625,530 531,530 531,540 " style="fill:#d8158a; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26290&lt;/b&gt;&lt;br&gt;NAD-dependent succinate-semialdehyde dehydrogenase&lt;br&gt;Location: 12452 - 13906&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22335&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 839&lt;br&gt;E-value: 1.48e-306" locus_tag="BFP87_RS26290" class="clusterblast-orf" id="general-7_all_7_10_7"  />
+</g>
+<g id="a7_008"  >
+<polygon points="632,540 701,540 706,535 701,530 632,530 632,540 " style="fill:#b1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26295&lt;/b&gt;&lt;br&gt;tartrate dehydrogenase&lt;br&gt;Location: 13927 - 15012&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22340&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 703&lt;br&gt;E-value: 4.17e-257" locus_tag="BFP87_RS26295" class="clusterblast-orf" id="general-7_all_7_10_8"  />
+</g>
+<g id="a7_009"  >
+<polygon points="714,535 719,530 778,530 778,540 719,540 714,535 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFP87_RS26300&lt;/b&gt;&lt;br&gt;glyoxylate/hydroxypyruvate reductase A&lt;br&gt;Location: 15136 - 16062&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_22350&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 567&lt;br&gt;E-value: 4.33e-205" locus_tag="BFP87_RS26300" class="clusterblast-orf" id="general-7_all_7_10_9"  />
+</g>
+</svg>

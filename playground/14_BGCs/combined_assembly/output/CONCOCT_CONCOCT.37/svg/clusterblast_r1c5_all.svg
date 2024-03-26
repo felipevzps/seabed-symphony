@@ -1,0 +1,348 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="550" width="800" viewBox="0 0 800 550" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="28,40 100,40 105,35 100,30 28,30 28,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11390&lt;/b&gt;&lt;br&gt;Protein HflC&lt;br&gt;Location: 2434299 - 2435289" locus_tag="JNAJGP_11390" class="clusterblast-orf" id="general-5_q0_0_all"  />
+<polygon points="104,40 179,40 184,35 179,30 104,30 104,40 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11395&lt;/b&gt;&lt;br&gt;Modulator of FtsH protease HflK&lt;br&gt;Location: 2435285 - 2436320" locus_tag="JNAJGP_11395" class="clusterblast-orf" id="general-5_q1_0_all"  />
+<polygon points="184,40 324,40 329,35 324,30 184,30 184,40 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11400&lt;/b&gt;&lt;br&gt;Cadmium-translocating P-type ATPase&lt;br&gt;Location: 2436316 - 2438203" locus_tag="JNAJGP_11400" class="clusterblast-orf" id="general-5_q2_0_all"  />
+<polygon points="338,40 352,40 357,35 352,30 338,30 338,40 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11405&lt;/b&gt;&lt;br&gt;Integral membrane protein&lt;br&gt;Location: 2438320 - 2438572" locus_tag="JNAJGP_11405" class="clusterblast-orf" id="general-5_q3_0_all"  />
+<polygon points="362,40 422,40 427,35 422,30 362,30 362,40 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11410&lt;/b&gt;&lt;br&gt;UPF0276 protein BW43 00573&lt;br&gt;Location: 2438638 - 2439484" locus_tag="JNAJGP_11410" class="clusterblast-orf" id="general-5_q4_0_all"  />
+<polygon points="427,40 482,40 487,35 482,30 427,30 427,40 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11415&lt;/b&gt;&lt;br&gt;DUF2063 domain-containing protein&lt;br&gt;Location: 2439474 - 2440263" locus_tag="JNAJGP_11415" class="clusterblast-orf" id="general-5_q5_0_all"  />
+<polygon points="494,40 580,40 585,35 580,30 494,30 494,40 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11420&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 2440350 - 2441535" locus_tag="JNAJGP_11420" class="clusterblast-orf" id="general-5_q6_0_all"  />
+<polygon points="591,35 596,30 702,30 702,40 596,40 591,35 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11425&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 2441609 - 2443049" locus_tag="JNAJGP_11425" class="clusterblast-orf" id="general-5_q7_0_all"  />
+<polygon points="712,40 747,40 752,35 747,30 712,30 712,40 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_11430&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 2443180 - 2443702" locus_tag="JNAJGP_11430" class="clusterblast-orf" id="general-5_q8_0_all"  />
+</g>
+<g label="NZ_MSDJ01000026" description="NZ_MSDJ01000026 (77523-88369): Pseudomonas fluorescens strain G2Y PF G2Y cont... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_MSDJ01000026&amp;start=77523&amp;end=88369" target="_blank">NZ_MSDJ01000026 (77523-88369)</a>: Pseudomonas fluorescens strain G2Y PF G2Y cont... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="28,90 99,90 104,85 99,80 28,80 28,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27690&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 87711 - 86719&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 531&lt;br&gt;E-value: 3.31e-190" locus_tag="BFW92_RS27690" class="clusterblast-orf" id="general-5_all_5_1_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="104,90 178,90 183,85 178,80 104,80 104,90 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27685&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 86722 - 85688&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 562&lt;br&gt;E-value: 9.31e-202" locus_tag="BFW92_RS27685" class="clusterblast-orf" id="general-5_all_5_1_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="183,90 323,90 328,85 323,80 183,80 183,90 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27680&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 85691 - 83805&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1101&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS27680" class="clusterblast-orf" id="general-5_all_5_1_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="337,90 352,90 357,85 352,80 337,80 337,90 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27675&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 83687 - 83436&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 104&lt;br&gt;E-value: 3.41e-29" locus_tag="BFW92_RS27675" class="clusterblast-orf" id="general-5_all_5_1_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="362,90 422,90 427,85 422,80 362,80 362,90 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27670&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 83369 - 82524&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 578&lt;br&gt;E-value: 4.09e-210" locus_tag="BFW92_RS27670" class="clusterblast-orf" id="general-5_all_5_1_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="426,90 482,90 487,85 482,80 426,80 426,90 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27665&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 82533 - 81745&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 508&lt;br&gt;E-value: 2.6e-183" locus_tag="BFW92_RS27665" class="clusterblast-orf" id="general-5_all_5_1_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="494,90 580,90 585,85 580,80 494,80 494,90 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27660&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 81657 - 80473&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 795&lt;br&gt;E-value: 4.11e-292" locus_tag="BFW92_RS27660" class="clusterblast-orf" id="general-5_all_5_1_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="590,85 595,80 701,80 701,90 595,90 590,85 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27655&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 80401 - 78962&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 943&lt;br&gt;E-value: 0.0" locus_tag="BFW92_RS27655" class="clusterblast-orf" id="general-5_all_5_1_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="711,90 746,90 751,85 746,80 711,80 711,90 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;BFW92_RS27650&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 78830 - 78309&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 341&lt;br&gt;E-value: 4.2e-120" locus_tag="BFW92_RS27650" class="clusterblast-orf" id="general-5_all_5_1_8"  />
+</g>
+<g label="NZ_CP077079" description="NZ_CP077079 (144473-155319): Pseudomonas asgharzadehiana strain SWRI132 chrom... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="120" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP077079&amp;start=144473&amp;end=155319" target="_blank">NZ_CP077079 (144473-155319)</a>: Pseudomonas asgharzadehiana strain SWRI132 chrom... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="135" x2="778.0" y2="135" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="26,140 97,140 102,135 97,130 26,130 26,140 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00725&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 154659 - 153667&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 94&lt;br&gt;BLAST bit score: 517&lt;br&gt;E-value: 1.42e-184" locus_tag="KSS96_RS00725" class="clusterblast-orf" id="general-5_all_5_2_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="102,140 176,140 181,135 176,130 102,130 102,140 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00720&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 153670 - 152636&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 555&lt;br&gt;E-value: 7.28e-199" locus_tag="KSS96_RS00720" class="clusterblast-orf" id="general-5_all_5_2_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="181,140 321,140 326,135 321,130 181,130 181,140 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00715&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 152639 - 150753&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1082&lt;br&gt;E-value: 0.0" locus_tag="KSS96_RS00715" class="clusterblast-orf" id="general-5_all_5_2_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="335,140 349,140 354,135 349,130 335,130 335,140 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00710&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 150635 - 150384&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 103&lt;br&gt;E-value: 1.39e-28" locus_tag="KSS96_RS00710" class="clusterblast-orf" id="general-5_all_5_2_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="359,140 420,140 425,135 420,130 359,130 359,140 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00705&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 150319 - 149474&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 95&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 559&lt;br&gt;E-value: 1.21e-202" locus_tag="KSS96_RS00705" class="clusterblast-orf" id="general-5_all_5_2_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="424,140 479,140 484,135 479,130 424,130 424,140 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00700&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 149483 - 148695&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 90&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 487&lt;br&gt;E-value: 6.3e-175" locus_tag="KSS96_RS00700" class="clusterblast-orf" id="general-5_all_5_2_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="491,140 577,140 582,135 577,130 491,130 491,140 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00695&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 148607 - 147423&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 786&lt;br&gt;E-value: 1.32e-288" locus_tag="KSS96_RS00695" class="clusterblast-orf" id="general-5_all_5_2_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="593,135 598,130 703,130 703,140 598,140 593,135 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00690&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 147291 - 145852&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 916&lt;br&gt;E-value: 0.0" locus_tag="KSS96_RS00690" class="clusterblast-orf" id="general-5_all_5_2_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="713,140 748,140 753,135 748,130 713,130 713,140 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;KSS96_RS00685&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 145721 - 145200&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 340&lt;br&gt;E-value: 8.49e-120" locus_tag="KSS96_RS00685" class="clusterblast-orf" id="general-5_all_5_2_8"  />
+</g>
+<g label="NZ_CP058533" description="NZ_CP058533 (4419362-4430208): Pseudomonas fluorescens strain W-6 chromosome,... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="170" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP058533&amp;start=4419362&amp;end=4430208" target="_blank">NZ_CP058533 (4419362-4430208)</a>: Pseudomonas fluorescens strain W-6 chromosome,... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="185" x2="778.0" y2="185" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="25,190 96,190 101,185 96,180 25,180 25,190 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19800&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 4420024 - 4421010&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 527&lt;br&gt;E-value: 2.07e-188" locus_tag="HXS75_RS19800" class="clusterblast-orf" id="general-5_all_5_3_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="101,190 176,190 181,185 176,180 101,180 101,190 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19805&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 4421007 - 4422041&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 549&lt;br&gt;E-value: 9.86e-197" locus_tag="HXS75_RS19805" class="clusterblast-orf" id="general-5_all_5_3_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="180,190 320,190 325,185 320,180 180,180 180,190 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19810&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 4422038 - 4423924&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1073&lt;br&gt;E-value: 0.0" locus_tag="HXS75_RS19810" class="clusterblast-orf" id="general-5_all_5_3_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="335,190 349,190 354,185 349,180 335,180 335,190 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19815&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 4424042 - 4424293&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 77&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 94&lt;br&gt;E-value: 6.28e-25" locus_tag="HXS75_RS19815" class="clusterblast-orf" id="general-5_all_5_3_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="359,190 419,190 424,185 419,180 359,180 359,190 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19820&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 4424363 - 4425208&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 555&lt;br&gt;E-value: 4.05e-201" locus_tag="HXS75_RS19820" class="clusterblast-orf" id="general-5_all_5_3_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="424,190 479,190 484,185 479,180 424,180 424,190 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19825&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 4425199 - 4425987&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 84&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 453&lt;br&gt;E-value: 2.3e-161" locus_tag="HXS75_RS19825" class="clusterblast-orf" id="general-5_all_5_3_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="491,190 577,190 582,185 577,180 491,180 491,190 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19830&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 4426074 - 4427258&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 777&lt;br&gt;E-value: 4.23e-285" locus_tag="HXS75_RS19830" class="clusterblast-orf" id="general-5_all_5_3_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="593,185 598,180 703,180 703,190 598,190 593,185 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19835&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 4427397 - 4428836&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 924&lt;br&gt;E-value: 0.0" locus_tag="HXS75_RS19835" class="clusterblast-orf" id="general-5_all_5_3_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="714,190 749,190 754,185 749,180 714,180 714,190 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HXS75_RS19840&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 4428967 - 4429488&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 337&lt;br&gt;E-value: 2e-118" locus_tag="HXS75_RS19840" class="clusterblast-orf" id="general-5_all_5_3_8"  />
+</g>
+<g label="NZ_JAAOWV010000002" description="NZ_JAAOWV010000002 (464760-475606): Pseudomonas sivasensis strain CCUG 57209 ... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="220" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_JAAOWV010000002&amp;start=464760&amp;end=475606" target="_blank">NZ_JAAOWV010000002 (464760-475606)</a>: Pseudomonas sivasensis strain CCUG 57209 ... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="235" x2="778.0" y2="235" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="26,240 96,240 101,235 96,230 26,230 26,240 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05785&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 474945 - 473959&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 525&lt;br&gt;E-value: 1.69e-187" locus_tag="G9Q86_RS05785" class="clusterblast-orf" id="general-5_all_5_4_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="101,240 176,240 181,235 176,230 101,230 101,240 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05780&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 473962 - 472928&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 550&lt;br&gt;E-value: 3.45e-197" locus_tag="G9Q86_RS05780" class="clusterblast-orf" id="general-5_all_5_4_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="180,240 321,240 326,235 321,230 180,230 180,240 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05775&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 472931 - 471045&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1072&lt;br&gt;E-value: 0.0" locus_tag="G9Q86_RS05775" class="clusterblast-orf" id="general-5_all_5_4_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="335,240 349,240 354,235 349,230 335,230 335,240 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05770&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 470927 - 470676&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 77&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 94&lt;br&gt;E-value: 6.28e-25" locus_tag="G9Q86_RS05770" class="clusterblast-orf" id="general-5_all_5_4_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="359,240 419,240 424,235 419,230 359,230 359,240 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05765&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 470606 - 469761&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 555&lt;br&gt;E-value: 5.75e-201" locus_tag="G9Q86_RS05765" class="clusterblast-orf" id="general-5_all_5_4_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="424,240 479,240 484,235 479,230 424,230 424,240 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05760&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 469770 - 468982&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 84&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 455&lt;br&gt;E-value: 2.81e-162" locus_tag="G9Q86_RS05760" class="clusterblast-orf" id="general-5_all_5_4_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="491,240 577,240 582,235 577,230 491,230 491,240 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05755&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 468895 - 467711&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 777&lt;br&gt;E-value: 4.23e-285" locus_tag="G9Q86_RS05755" class="clusterblast-orf" id="general-5_all_5_4_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="593,235 598,230 703,230 703,240 598,240 593,235 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05750&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 467577 - 466138&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 920&lt;br&gt;E-value: 0.0" locus_tag="G9Q86_RS05750" class="clusterblast-orf" id="general-5_all_5_4_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="713,240 748,240 753,235 748,230 713,230 713,240 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;G9Q86_RS05745&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 466007 - 465486&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 337&lt;br&gt;E-value: 2.84e-118" locus_tag="G9Q86_RS05745" class="clusterblast-orf" id="general-5_all_5_4_8"  />
+</g>
+<g label="NZ_CABVGU010000001" description="NZ_CABVGU010000001 (517632-528478): Pseudomonas fluorescens isolate PS664, wh... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="270" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CABVGU010000001&amp;start=517632&amp;end=528478" target="_blank">NZ_CABVGU010000001 (517632-528478)</a>: Pseudomonas fluorescens isolate PS664, wh... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="285" x2="778.0" y2="285" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="26,290 98,290 103,285 98,280 26,280 26,290 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02495&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 527828 - 526827&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 94&lt;br&gt;BLAST bit score: 514&lt;br&gt;E-value: 3.72e-183" locus_tag="F8N47_RS02495" class="clusterblast-orf" id="general-5_all_5_5_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="103,290 177,290 182,285 177,280 103,280 103,290 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02490&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 526830 - 525796&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 552&lt;br&gt;E-value: 8.48e-198" locus_tag="F8N47_RS02490" class="clusterblast-orf" id="general-5_all_5_5_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="182,290 322,290 327,285 322,280 182,280 182,290 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02485&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 525799 - 523913&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1075&lt;br&gt;E-value: 0.0" locus_tag="F8N47_RS02485" class="clusterblast-orf" id="general-5_all_5_5_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="336,290 351,290 356,285 351,280 336,280 336,290 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02480&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 523795 - 523544&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 89&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 88&lt;br&gt;E-value: 1.72e-22" locus_tag="F8N47_RS02480" class="clusterblast-orf" id="general-5_all_5_5_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="361,290 421,290 426,285 421,280 361,280 361,290 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02475&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 523478 - 522633&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 560&lt;br&gt;E-value: 4.22e-203" locus_tag="F8N47_RS02475" class="clusterblast-orf" id="general-5_all_5_5_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="425,290 481,290 486,285 481,280 425,280 425,290 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02470&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 522642 - 521854&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 84&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 457&lt;br&gt;E-value: 3.42e-163" locus_tag="F8N47_RS02470" class="clusterblast-orf" id="general-5_all_5_5_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="492,290 579,290 584,285 579,280 492,280 492,290 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02465&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 521767 - 520583&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 776&lt;br&gt;E-value: 1.21e-284" locus_tag="F8N47_RS02465" class="clusterblast-orf" id="general-5_all_5_5_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="592,285 597,280 703,280 703,290 597,290 592,285 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02460&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 520474 - 519035&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 926&lt;br&gt;E-value: 0.0" locus_tag="F8N47_RS02460" class="clusterblast-orf" id="general-5_all_5_5_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="713,290 748,290 753,285 748,280 713,280 713,290 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;F8N47_RS02455&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 518904 - 518383&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 336&lt;br&gt;E-value: 5.74e-118" locus_tag="F8N47_RS02455" class="clusterblast-orf" id="general-5_all_5_5_8"  />
+</g>
+<g label="NZ_CP114115" description="NZ_CP114115 (6985050-6995896): Pseudomonas sp. GXZC chromosome, complete genome (90% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="320" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP114115&amp;start=6985050&amp;end=6995896" target="_blank">NZ_CP114115 (6985050-6995896)</a>: Pseudomonas sp. GXZC chromosome, complete genome (90% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="335" x2="778.0" y2="335" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="0,340 71,340 76,335 71,330 0,330 0,340 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33080&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 6995236 - 6994247&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 528&lt;br&gt;E-value: 5.27e-189" locus_tag="OZ428_RS33080" class="clusterblast-orf" id="general-5_all_5_6_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="75,340 150,340 155,335 150,330 75,330 75,340 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33075&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 6994250 - 6993216&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 550&lt;br&gt;E-value: 4.89e-197" locus_tag="OZ428_RS33075" class="clusterblast-orf" id="general-5_all_5_6_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="155,340 295,340 300,335 295,330 155,330 155,340 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33070&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 6993219 - 6991333&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1075&lt;br&gt;E-value: 0.0" locus_tag="OZ428_RS33070" class="clusterblast-orf" id="general-5_all_5_6_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="309,340 323,340 328,335 323,330 309,330 309,340 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33065&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 6991216 - 6990962&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 69&lt;br&gt;Percentage coverage: 101&lt;br&gt;BLAST bit score: 79&lt;br&gt;E-value: 5.57e-19" locus_tag="OZ428_RS33065" class="clusterblast-orf" id="general-5_all_5_6_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="333,340 394,340 399,335 394,330 333,330 333,340 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33060&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 6990896 - 6990051&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 9.53e-200" locus_tag="OZ428_RS33060" class="clusterblast-orf" id="general-5_all_5_6_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="398,340 453,340 458,335 453,330 398,330 398,340 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33055&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 6990060 - 6989272&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 82&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 455&lt;br&gt;E-value: 3.99e-162" locus_tag="OZ428_RS33055" class="clusterblast-orf" id="general-5_all_5_6_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="465,340 551,340 556,335 551,330 465,330 465,340 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33050&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 6989184 - 6988000&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 781&lt;br&gt;E-value: 6.26e-287" locus_tag="OZ428_RS33050" class="clusterblast-orf" id="general-5_all_5_6_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="557,335 562,330 668,330 668,340 562,340 557,335 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33045&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 6987994 - 6986555&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 923&lt;br&gt;E-value: 0.0" locus_tag="OZ428_RS33045" class="clusterblast-orf" id="general-5_all_5_6_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="678,340 713,340 718,335 713,330 678,330 678,340 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33040&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 6986424 - 6985903&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 335&lt;br&gt;E-value: 1.16e-117" locus_tag="OZ428_RS33040" class="clusterblast-orf" id="general-5_all_5_6_8"  />
+</g>
+<g id="a5_009"  >
+<polygon points="716,335 721,330 779,330 779,340 721,340 716,335 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;OZ428_RS33035&lt;/b&gt;&lt;br&gt;His/Gly/Thr/Pro-type tRNA ligase C-terminal domain-containing protein&lt;br&gt;Location: 6985919 - 6985101" locus_tag="OZ428_RS33035" class="clusterblast-orf" id="general-5_all_5_6_9"  />
+</g>
+<g label="NZ_JACAQO010000032" description="NZ_JACAQO010000032 (74366-85212): Pseudomonas reactans strain IPO3750 IPO 375... (90% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="370" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_JACAQO010000032&amp;start=74366&amp;end=85212" target="_blank">NZ_JACAQO010000032 (74366-85212)</a>: Pseudomonas reactans strain IPO3750 IPO 375... (90% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="385" x2="778.0" y2="385" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="0,390 71,390 76,385 71,380 0,380 0,390 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25445&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 84552 - 83563&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 525&lt;br&gt;E-value: 8.71e-188" locus_tag="HX796_RS25445" class="clusterblast-orf" id="general-5_all_5_7_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="75,390 150,390 155,385 150,380 75,380 75,390 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25440&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 83566 - 82532&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.2e-197" locus_tag="HX796_RS25440" class="clusterblast-orf" id="general-5_all_5_7_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="155,390 295,390 300,385 295,380 155,380 155,390 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25435&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 82535 - 80649&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1075&lt;br&gt;E-value: 0.0" locus_tag="HX796_RS25435" class="clusterblast-orf" id="general-5_all_5_7_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="309,390 323,390 328,385 323,380 309,380 309,390 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25430&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 80532 - 80278&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 70&lt;br&gt;Percentage coverage: 101&lt;br&gt;BLAST bit score: 80&lt;br&gt;E-value: 1.95e-19" locus_tag="HX796_RS25430" class="clusterblast-orf" id="general-5_all_5_7_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="333,390 394,390 399,385 394,380 333,380 333,390 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25425&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 80212 - 79367&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.35e-199" locus_tag="HX796_RS25425" class="clusterblast-orf" id="general-5_all_5_7_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="398,390 453,390 458,385 453,380 398,380 398,390 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25420&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 79376 - 78588&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 83&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 456&lt;br&gt;E-value: 1.39e-162" locus_tag="HX796_RS25420" class="clusterblast-orf" id="general-5_all_5_7_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="465,390 551,390 556,385 551,380 465,380 465,390 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25415&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 78500 - 77316&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 779&lt;br&gt;E-value: 7.31e-286" locus_tag="HX796_RS25415" class="clusterblast-orf" id="general-5_all_5_7_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="557,385 562,380 668,380 668,390 562,390 557,385 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25410&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 77310 - 75871&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 923&lt;br&gt;E-value: 0.0" locus_tag="HX796_RS25410" class="clusterblast-orf" id="general-5_all_5_7_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="678,390 713,390 718,385 713,380 678,380 678,390 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25405&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 75740 - 75219&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 335&lt;br&gt;E-value: 1.16e-117" locus_tag="HX796_RS25405" class="clusterblast-orf" id="general-5_all_5_7_8"  />
+</g>
+<g id="a5_009"  >
+<polygon points="716,385 721,380 779,380 779,390 721,390 716,385 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HX796_RS25400&lt;/b&gt;&lt;br&gt;His/Gly/Thr/Pro-type tRNA ligase C-terminal domain-containing protein&lt;br&gt;Location: 75235 - 74417" locus_tag="HX796_RS25400" class="clusterblast-orf" id="general-5_all_5_7_9"  />
+</g>
+<g label="NZ_JACAPG010000023" description="NZ_JACAPG010000023 (161755-172601): Pseudomonas reactans strain C5002 run0228... (100% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="420" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_JACAPG010000023&amp;start=161755&amp;end=172601" target="_blank">NZ_JACAPG010000023 (161755-172601)</a>: Pseudomonas reactans strain C5002 run0228... (100% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="435" x2="778.0" y2="435" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="26,440 97,440 102,435 97,430 26,430 26,440 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27240&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 162416 - 163405&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 527&lt;br&gt;E-value: 2.14e-188" locus_tag="HX868_RS27240" class="clusterblast-orf" id="general-5_all_5_8_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="102,440 176,440 181,435 176,430 102,430 102,440 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27245&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 163402 - 164436&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 550&lt;br&gt;E-value: 3.45e-197" locus_tag="HX868_RS27245" class="clusterblast-orf" id="general-5_all_5_8_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="181,440 321,440 326,435 321,430 181,430 181,440 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27250&lt;/b&gt;&lt;br&gt;cadmium-translocating P-type ATPase&lt;br&gt;Location: 164433 - 166319&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1076&lt;br&gt;E-value: 0.0" locus_tag="HX868_RS27250" class="clusterblast-orf" id="general-5_all_5_8_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="335,440 350,440 355,435 350,430 335,430 335,440 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27255&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 166436 - 166690&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 70&lt;br&gt;Percentage coverage: 101&lt;br&gt;BLAST bit score: 80&lt;br&gt;E-value: 1.95e-19" locus_tag="HX868_RS27255" class="clusterblast-orf" id="general-5_all_5_8_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="360,440 420,440 425,435 420,430 360,430 360,440 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27260&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 166756 - 167601&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.35e-199" locus_tag="HX868_RS27260" class="clusterblast-orf" id="general-5_all_5_8_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="424,440 480,440 485,435 480,430 424,430 424,440 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27265&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 167592 - 168380&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 82&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 446&lt;br&gt;E-value: 8.96e-159" locus_tag="HX868_RS27265" class="clusterblast-orf" id="general-5_all_5_8_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="492,440 578,440 583,435 578,430 492,430 492,440 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27270&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 168468 - 169652&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 781&lt;br&gt;E-value: 6.26e-287" locus_tag="HX868_RS27270" class="clusterblast-orf" id="general-5_all_5_8_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="592,435 597,430 703,430 703,440 597,440 592,435 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27275&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 169774 - 171213&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 923&lt;br&gt;E-value: 0.0" locus_tag="HX868_RS27275" class="clusterblast-orf" id="general-5_all_5_8_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="713,440 748,440 753,435 748,430 713,430 713,440 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HX868_RS27280&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 171344 - 171865&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 335&lt;br&gt;E-value: 1.16e-117" locus_tag="HX868_RS27280" class="clusterblast-orf" id="general-5_all_5_8_8"  />
+</g>
+<g label="NZ_JACAQM010000014" description="NZ_JACAQM010000014 (24383-35229): Pseudomonas reactans strain IPO3748 IPO 374... (90% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="470" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_JACAQM010000014&amp;start=24383&amp;end=35229" target="_blank">NZ_JACAQM010000014 (24383-35229)</a>: Pseudomonas reactans strain IPO3748 IPO 374... (90% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="485" x2="778.0" y2="485" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="0,490 71,490 76,485 71,480 0,480 0,490 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17650&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 25044 - 26033&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 527&lt;br&gt;E-value: 1.51e-188" locus_tag="HX785_RS17650" class="clusterblast-orf" id="general-5_all_5_9_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="75,490 150,490 155,485 150,480 75,480 75,490 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17655&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 26030 - 27064&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.2e-197" locus_tag="HX785_RS17655" class="clusterblast-orf" id="general-5_all_5_9_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="155,490 295,490 300,485 295,480 155,480 155,490 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17660&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 27061 - 28947&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1071&lt;br&gt;E-value: 0.0" locus_tag="HX785_RS17660" class="clusterblast-orf" id="general-5_all_5_9_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="309,490 323,490 328,485 323,480 309,480 309,490 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17665&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 29064 - 29318&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 70&lt;br&gt;Percentage coverage: 101&lt;br&gt;BLAST bit score: 80&lt;br&gt;E-value: 1.95e-19" locus_tag="HX785_RS17665" class="clusterblast-orf" id="general-5_all_5_9_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="333,490 394,490 399,485 394,480 333,480 333,490 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17670&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 29384 - 30229&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.35e-199" locus_tag="HX785_RS17670" class="clusterblast-orf" id="general-5_all_5_9_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="398,490 453,490 458,485 453,480 398,480 398,490 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17675&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 30220 - 31008&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 82&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 453&lt;br&gt;E-value: 1.62e-161" locus_tag="HX785_RS17675" class="clusterblast-orf" id="general-5_all_5_9_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="465,490 551,490 556,485 551,480 465,480 465,490 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17680&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 31096 - 32280&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 779&lt;br&gt;E-value: 7.31e-286" locus_tag="HX785_RS17680" class="clusterblast-orf" id="general-5_all_5_9_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="557,485 562,480 668,480 668,490 562,490 557,485 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17685&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 32286 - 33725&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 921&lt;br&gt;E-value: 0.0" locus_tag="HX785_RS17685" class="clusterblast-orf" id="general-5_all_5_9_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="678,490 713,490 718,485 713,480 678,480 678,490 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17690&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 33856 - 34377&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 335&lt;br&gt;E-value: 1.16e-117" locus_tag="HX785_RS17690" class="clusterblast-orf" id="general-5_all_5_9_8"  />
+</g>
+<g id="a5_009"  >
+<polygon points="716,485 721,480 779,480 779,490 721,490 716,485 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;HX785_RS17695&lt;/b&gt;&lt;br&gt;His/Gly/Thr/Pro-type tRNA ligase C-terminal domain-containing protein&lt;br&gt;Location: 34361 - 35179" locus_tag="HX785_RS17695" class="clusterblast-orf" id="general-5_all_5_9_9"  />
+</g>
+<g label="NZ_CP022960" description="NZ_CP022960 (1284260-1295106): Pseudomonas sp. NS1(2017) strain NS1 chromosome (90% of genes show similarity), RiPP-like" class="clusterblast-cluster"  >
+<text x="5" y="520" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CP022960&amp;start=1284260&amp;end=1295106" target="_blank">NZ_CP022960 (1284260-1295106)</a>: Pseudomonas sp. NS1(2017) strain NS1 chromosome (90% of genes show similarity), RiPP-like</text>
+<line x1="10" y1="535" x2="778.0" y2="535" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a5_000"  >
+<polygon points="0,540 71,540 76,535 71,530 0,530 0,540 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06255&lt;/b&gt;&lt;br&gt;protease modulator HflC&lt;br&gt;Location: 1294446 - 1293457&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11390&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 525&lt;br&gt;E-value: 1.76e-187" locus_tag="CI807_RS06255" class="clusterblast-orf" id="general-5_all_5_10_0"  />
+</g>
+<g id="a5_001"  >
+<polygon points="75,540 150,540 155,535 150,530 75,530 75,540 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06250&lt;/b&gt;&lt;br&gt;protease modulator HflK&lt;br&gt;Location: 1293460 - 1292426&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11395&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 548&lt;br&gt;E-value: 1.99e-196" locus_tag="CI807_RS06250" class="clusterblast-orf" id="general-5_all_5_10_1"  />
+</g>
+<g id="a5_002"  >
+<polygon points="155,540 295,540 300,535 295,530 155,530 155,540 " style="fill:#1597d8; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06245&lt;/b&gt;&lt;br&gt;cation-translocating P-type ATPase&lt;br&gt;Location: 1292429 - 1290543&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11400&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1078&lt;br&gt;E-value: 0.0" locus_tag="CI807_RS06245" class="clusterblast-orf" id="general-5_all_5_10_2"  />
+</g>
+<g id="a5_003"  >
+<polygon points="309,540 323,540 328,535 323,530 309,530 309,540 " style="fill:#9715d8; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06240&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 1290426 - 1290172&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11405&lt;/b&gt;&lt;br&gt;Percentage identity: 70&lt;br&gt;Percentage coverage: 101&lt;br&gt;BLAST bit score: 80&lt;br&gt;E-value: 1.95e-19" locus_tag="CI807_RS06240" class="clusterblast-orf" id="general-5_all_5_10_3"  />
+</g>
+<g id="a5_004"  >
+<polygon points="333,540 394,540 399,535 394,530 333,530 333,540 " style="fill:#d89715; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06235&lt;/b&gt;&lt;br&gt;DUF692 domain-containing protein&lt;br&gt;Location: 1290106 - 1289261&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11410&lt;/b&gt;&lt;br&gt;Percentage identity: 94&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 551&lt;br&gt;E-value: 1.35e-199" locus_tag="CI807_RS06235" class="clusterblast-orf" id="general-5_all_5_10_4"  />
+</g>
+<g id="a5_005"  >
+<polygon points="398,540 453,540 458,535 453,530 398,530 398,540 " style="fill:#15d897; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06230&lt;/b&gt;&lt;br&gt;DNA-binding domain-containing protein&lt;br&gt;Location: 1289270 - 1288482&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11415&lt;/b&gt;&lt;br&gt;Percentage identity: 82&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 449&lt;br&gt;E-value: 7.69e-160" locus_tag="CI807_RS06230" class="clusterblast-orf" id="general-5_all_5_10_5"  />
+</g>
+<g id="a5_006"  >
+<polygon points="465,540 551,540 556,535 551,530 465,530 465,540 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06225&lt;/b&gt;&lt;br&gt;C17 cyclopropane fatty acid synthase CfaB&lt;br&gt;Location: 1288394 - 1287210&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11420&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 781&lt;br&gt;E-value: 6.26e-287" locus_tag="CI807_RS06225" class="clusterblast-orf" id="general-5_all_5_10_6"  />
+</g>
+<g id="a5_007"  >
+<polygon points="557,535 562,530 668,530 668,540 562,540 557,535 " style="fill:#d81597; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06220&lt;/b&gt;&lt;br&gt;cardiolipin synthase&lt;br&gt;Location: 1287204 - 1285765&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11425&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 924&lt;br&gt;E-value: 0.0" locus_tag="CI807_RS06220" class="clusterblast-orf" id="general-5_all_5_10_7"  />
+</g>
+<g id="a5_008"  >
+<polygon points="678,540 713,540 718,535 713,530 678,530 678,540 " style="fill:#97d815; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06215&lt;/b&gt;&lt;br&gt;DUF3617 domain-containing protein&lt;br&gt;Location: 1285633 - 1285112&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_11430&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 332&lt;br&gt;E-value: 1.92e-116" locus_tag="CI807_RS06215" class="clusterblast-orf" id="general-5_all_5_10_8"  />
+</g>
+<g id="a5_009"  >
+<polygon points="717,535 722,530 780,530 780,540 722,540 717,535 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CI807_RS06210&lt;/b&gt;&lt;br&gt;His/Gly/Thr/Pro-type tRNA ligase C-terminal domain-containing protein&lt;br&gt;Location: 1285128 - 1284310" locus_tag="CI807_RS06210" class="clusterblast-orf" id="general-5_all_5_10_9"  />
+</g>
+</svg>

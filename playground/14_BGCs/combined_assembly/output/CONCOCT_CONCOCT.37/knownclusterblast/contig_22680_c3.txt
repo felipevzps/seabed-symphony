@@ -1,0 +1,110 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_08685	1807450	1808914	+	YdiU family protein	
+JNAJGP_08690	1808932	1809334	-	Antitoxin HigA	
+JNAJGP_08695	1809341	1809629	-	mRNA interferase toxin HigB	
+JNAJGP_08700	1809863	1810298	+	thioredoxin TrxC	
+JNAJGP_08705	1810426	1810660	-	DUF3077 domain-containing protein	
+JNAJGP_08715	1811037	1811808	-	ParA-like ATPase involved in chromosome/plasmid partitioning or cellulose biosynthesis protein BcsQ	
+JNAJGP_08720	1812135	1812855	+	Beta-ketoacyl synthase N-terminal domain-containing protein	
+JNAJGP_08725	1812830	1813643	+	Phospholipid/glycerol acyltransferase domain-containing protein	
+JNAJGP_08730	1813620	1813890	+	Acyl carrier protein	
+JNAJGP_08735	1813899	1814154	+	acyl carrier protein	
+JNAJGP_08740	1814150	1814696	+	Intracellular septation protein a	
+JNAJGP_08745	1814692	1816363	+	Acetyl-coenzyme A synthetase	
+JNAJGP_08750	1816530	1817265	+	Glycosyl transferase	
+JNAJGP_08755	1817261	1818197	+	Glycosyl transferase	
+JNAJGP_08760	1818180	1819722	+	Histidine ammonia-lyase	
+JNAJGP_08765	1819714	1820140	+	Thioesterase domain-containing protein	
+JNAJGP_08770	1820136	1820727	+	Outer membrane lipoprotein carrier protein LolA	
+JNAJGP_08775	1820716	1823029	+	Membrane transport protein MMPL domain-containing protein	
+JNAJGP_08780	1823062	1824310	+	FAD-binding domain-containing protein	
+JNAJGP_08785	1824306	1825041	+	Methyltransferase type 11 domain-containing protein	
+JNAJGP_08790	1825037	1825520	+	Lipoprotein	
+JNAJGP_08795	1825516	1826683	+	3-oxoacyl-(Acyl carrier protein) synthase	
+JNAJGP_08800	1826679	1827141	+	3-hydroxydecanoyl-(ACP) dehydratase	
+JNAJGP_08805	1827137	1827866	+	3-oxoacyl-ACP reductase FabG	
+JNAJGP_08810	1827865	1829092	+	beta-ketoacyl-ACP synthase	
+JNAJGP_08815	1829118	1829571	+	Lipoprotein	
+JNAJGP_08820	1829787	1830171	-	Type II toxin-antitoxin system PemK/MazF family toxin	
+JNAJGP_08825	1830258	1831152	-	HTH lysR-type domain-containing protein	
+JNAJGP_08830	1831274	1832549	+	Major facilitator superfamily (MFS) profile domain-containing protein	
+JNAJGP_08835	1832609	1833677	-	uroporphyrinogen decarboxylase	
+JNAJGP_08840	1833919	1835338	-	NADPH-dependent glutamate synthase beta chain or related oxidoreductase	
+JNAJGP_08845	1835370	1839816	-	Glutamate synthase large subunit	
+JNAJGP_08850	1840170	1841733	-	General secretion pathway protein a	
+JNAJGP_08855	1841743	1842844	-	3-dehydroquinate synthase	
+JNAJGP_08860	1842959	1843451	-	shikimate kinase AroK	
+JNAJGP_08865	1843482	1844865	-	Type IV fimbriae biogenesis protein	
+JNAJGP_08870	1844878	1845850	-	Pilus assembly protein	
+JNAJGP_08875	1845846	1846401	-	Type IV pilus assembly protein	
+JNAJGP_08880	1846397	1847051	-	Type IV pilus assembly protein	
+
+
+Significant hits: 
+1. BGC0000837	APE Vf
+2. BGC0002008	aryl polyenes
+3. BGC0000836	APE Ec
+
+
+Details:
+
+>>
+1. BGC0000837
+Source: APE Vf
+Type: Other
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 2682.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_08730	VF_0846	63	100	92.13483146067416	3.04e-29
+JNAJGP_08735	VF_0847	51	81	92.85714285714286	2.02e-21
+JNAJGP_08750	VF_0851	53	270	97.95081967213115	1.32e-87
+JNAJGP_08760	VF_0852	63	612	100.19493177387915	4.31e-218
+JNAJGP_08780	VF_0841	57	459	96.62650602409639	8.16e-161
+JNAJGP_08795	VF_0857	50	348	100.0	1.09e-117
+JNAJGP_08805	VF_0859	61	298	99.58677685950413	1.08e-102
+JNAJGP_08810	VF_0860	60	514	99.75490196078431	1.79e-182
+
+
+
+>>
+2. BGC0002008
+Source: aryl polyenes
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 1707.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_08730	XDD1_RS16000	53	90	88.76404494382022	3.86e-25
+JNAJGP_08735	XDD1_RS16005	51	84	96.42857142857143	1.16e-22
+JNAJGP_08750	XDD1_RS16025	57	283	97.95081967213115	1.9e-92
+JNAJGP_08765	XDD1_RS16030	48	132	87.94326241134752	2.63e-40
+JNAJGP_08795	XDD1_RS16050	47	342	100.25773195876289	1.25e-115
+JNAJGP_08805	XDD1_RS16060	61	292	100.0	2.2e-100
+JNAJGP_08810	XDD1_RS16065	56	484	99.75490196078431	8.28e-171
+
+
+
+>>
+3. BGC0000836
+Source: APE Ec
+Type: Other
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1520.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_08730	c1200	54	90	88.76404494382022	5.47e-25
+JNAJGP_08735	c1199	56	87	96.42857142857143	7.04e-24
+JNAJGP_08750	c1194	55	253	91.39344262295081	2.76e-81
+JNAJGP_08795	c1189	48	330	100.25773195876289	1.24e-110
+JNAJGP_08805	c1187	61	286	100.0	4.18e-98
+JNAJGP_08810	c1186	54	474	99.50980392156863	5.17e-167
+

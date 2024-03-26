@@ -1,0 +1,114 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_22985	4860170	4860710	+	Cytochrome b561 bacterial/Ni-hydrogenase domain-containing protein	
+JNAJGP_22990	4860766	4861918	-	Peptidase M14 carboxypeptidase A domain-containing protein	
+JNAJGP_23000	4862380	4862731	-	DUF3077 domain-containing protein	
+JNAJGP_23005	4862860	4863496	+	Putative prophage repressor	
+JNAJGP_23010	4863492	4865418	-	Methylcrotonyl-CoA carboxylase, alpha-subunit LiuD	
+JNAJGP_23015	4865414	4866221	-	gamma-carboxygeranoyl-CoA hydratase	
+JNAJGP_23020	4866236	4867844	-	Acetyl-CoA carboxylase, carboxyltransferase component	
+JNAJGP_23025	4867855	4869019	-	Acyl-CoA dehydrogenase related to the alkylation response protein AidB	
+JNAJGP_23030	4869168	4870800	+	Long-chain-fatty-acid--CoA ligase	
+JNAJGP_23035	4870898	4876037	+	RING-type E3 ubiquitin transferase	
+JNAJGP_23045	4876585	4877485	-	hydroxymethylglutaryl-CoA lyase	
+JNAJGP_23050	4877501	4877894	-	HTH merR-type domain-containing protein	
+JNAJGP_23055	4878031	4878967	-	DNA-binding transcriptional regulator, LysR family	
+JNAJGP_23060	4879133	4880363	+	Acyl-CoA dehydrogenase related to the alkylation response protein AidB	
+JNAJGP_23065	4880479	4881811	-	OmpA-like domain-containing protein	
+JNAJGP_23070	4881934	4882747	-	exodeoxyribonuclease III	
+JNAJGP_23075	4882916	4883567	+	N-acetyltransferase domain-containing protein	
+JNAJGP_23080	4883660	4885358	+	Translocation and assembly module subunit TamA	
+JNAJGP_23085	4885357	4886047	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001095	fengycin
+2. BGC0001103	mycosubtilin
+3. BGC0000407	plipastatin
+4. BGC0002284	corynecin III/corynecin I/corynecin II
+
+
+Details:
+
+>>
+1. BGC0001095
+Source: fengycin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 909.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_23010	RBAM_018370	49	405	68.33073322932918	1.35e-135
+JNAJGP_23030	RBAM_018380	47	504	99.6316758747698	1.65e-174
+
+
+
+>>
+2. BGC0001103
+Source: mycosubtilin
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 897.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAF08794.1	AAF08794.1	1938	3140	+	FenF
+AAF08795.1	AAF08795.1	3161	15076	+	MycA
+AAF08796.1	AAF08796.1	15133	31242	+	MycB
+AAF08797.1	AAF08797.1	31340	39169	+	MycC
+AAF08798.1	AAF08798.1	39339	39731	+	YngL
+AAF08799.1	AAF08799.1	39886	41418	+	YngK
+AAF08800.1	AAF08800.1	41925	43067	+	YngJ
+AAF08801.1	AAF08801.1	43110	44759	+	YngI
+AAF08802.1	AAF08802.1	44769	46103	+	YngH
+AAF08803.1	AAF08803.1	46118	46339	+	YngXX
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_23010	AAF08802.1	47	391	69.11076443057722	2.05e-130
+JNAJGP_23030	AAF08801.1	47	506	99.2633517495396	3.2e-175
+
+
+
+>>
+3. BGC0000407
+Source: plipastatin
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 894.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AEW31016.1	AEW31016.1	1	1392	+	putative_efflux_transporter
+AEW31017.1	AEW31017.1	1526	2503	+	putative_epimerase
+AEW31018.1	AEW31018.1	2537	4012	+	penicillin-binding_protein
+AEW31019.1	AEW31019.1	4394	12079	+	plipastatin_synthetase
+AEW31020.1	AEW31020.1	12104	19786	+	plipastatin_synthetase
+AEW31021.1	AEW31021.1	19804	27471	+	plipastatin_synthetase
+AEW31022.1	AEW31022.1	27497	38347	+	plipastatin_synthetase
+AEW31015.1	AEW31015.1	38355	42194	+	plipastatin_synthetase
+AEW31023.1	AEW31023.1	42302	42694	+	integral_inner_membrane_protein
+AEW31024.1	AEW31024.1	42830	44362	+	hypothetical_protein
+AEW31025.1	AEW31025.1	44943	46085	+	acyl-CoA_dehydrogenase
+AEW31026.1	AEW31026.1	46130	47779	+	short-chain_acyl-CoA_synthetase
+AEW31027.1	AEW31027.1	47789	49123	+	acetyl-CoA_carboxylase_biotin_carboxylase_subunit
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_23010	AEW31027.1	47	397	69.11076443057722	1.63e-132
+JNAJGP_23030	AEW31026.1	46	497	99.2633517495396	1.36e-171
+
+
+
+>>
+4. BGC0002284
+Source: corynecin III/corynecin I/corynecin II
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1214.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_23010	CPI83_20020	46	497	101.56006240249611	1.86e-168
+JNAJGP_23020	CPI83_20025	69	717	95.32710280373831	6.34e-259
+

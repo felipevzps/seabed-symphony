@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 11,40 16,35 11,30 0,30 0,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22985&lt;/b&gt;&lt;br&gt;Cytochrome b561 bacterial/Ni-hydrogenase domain-containing protein&lt;br&gt;Location: 4860170 - 4860710" locus_tag="JNAJGP_22985" class="clusterblast-orf" id="dummy-8_q0_0_all"  />
+<polygon points="18,35 23,30 52,30 52,40 23,40 18,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_22990&lt;/b&gt;&lt;br&gt;Peptidase M14 carboxypeptidase A domain-containing protein&lt;br&gt;Location: 4860766 - 4861918" locus_tag="JNAJGP_22990" class="clusterblast-orf" id="dummy-8_q1_0_all"  />
+<polygon points="66,35 71,30 77,30 77,40 71,40 66,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23000&lt;/b&gt;&lt;br&gt;DUF3077 domain-containing protein&lt;br&gt;Location: 4862380 - 4862731" locus_tag="JNAJGP_23000" class="clusterblast-orf" id="dummy-8_q2_0_all"  />
+<polygon points="81,40 95,40 100,35 95,30 81,30 81,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23005&lt;/b&gt;&lt;br&gt;Putative prophage repressor&lt;br&gt;Location: 4862860 - 4863496" locus_tag="JNAJGP_23005" class="clusterblast-orf" id="dummy-8_q3_0_all"  />
+<polygon points="100,35 105,30 158,30 158,40 105,40 100,35 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23010&lt;/b&gt;&lt;br&gt;Methylcrotonyl-CoA carboxylase, alpha-subunit LiuD&lt;br&gt;Location: 4863492 - 4865418" locus_tag="JNAJGP_23010" class="clusterblast-orf" id="dummy-8_q4_0_all"  />
+<polygon points="158,35 163,30 182,30 182,40 163,40 158,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23015&lt;/b&gt;&lt;br&gt;gamma-carboxygeranoyl-CoA hydratase&lt;br&gt;Location: 4865414 - 4866221" locus_tag="JNAJGP_23015" class="clusterblast-orf" id="dummy-8_q5_0_all"  />
+<polygon points="183,35 188,30 231,30 231,40 188,40 183,35 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23020&lt;/b&gt;&lt;br&gt;Acetyl-CoA carboxylase, carboxyltransferase component&lt;br&gt;Location: 4866236 - 4867844" locus_tag="JNAJGP_23020" class="clusterblast-orf" id="dummy-8_q6_0_all"  />
+<polygon points="231,35 236,30 267,30 267,40 236,40 231,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23025&lt;/b&gt;&lt;br&gt;Acyl-CoA dehydrogenase related to the alkylation response protein AidB&lt;br&gt;Location: 4867855 - 4869019" locus_tag="JNAJGP_23025" class="clusterblast-orf" id="dummy-8_q7_0_all"  />
+<polygon points="271,40 315,40 320,35 315,30 271,30 271,40 " style="fill:#1515d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23030&lt;/b&gt;&lt;br&gt;Long-chain-fatty-acid--CoA ligase&lt;br&gt;Location: 4869168 - 4870800" locus_tag="JNAJGP_23030" class="clusterblast-orf" id="dummy-8_q8_0_all"  />
+<polygon points="323,40 473,40 478,35 473,30 323,30 323,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23035&lt;/b&gt;&lt;br&gt;RING-type E3 ubiquitin transferase&lt;br&gt;Location: 4870898 - 4876037" locus_tag="JNAJGP_23035" class="clusterblast-orf" id="dummy-8_q9_0_all"  />
+<polygon points="495,35 500,30 522,30 522,40 500,40 495,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23045&lt;/b&gt;&lt;br&gt;hydroxymethylglutaryl-CoA lyase&lt;br&gt;Location: 4876585 - 4877485" locus_tag="JNAJGP_23045" class="clusterblast-orf" id="dummy-8_q10_0_all"  />
+<polygon points="522,35 527,30 534,30 534,40 527,40 522,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23050&lt;/b&gt;&lt;br&gt;HTH merR-type domain-containing protein&lt;br&gt;Location: 4877501 - 4877894" locus_tag="JNAJGP_23050" class="clusterblast-orf" id="dummy-8_q11_0_all"  />
+<polygon points="538,35 543,30 566,30 566,40 543,40 538,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23055&lt;/b&gt;&lt;br&gt;DNA-binding transcriptional regulator, LysR family&lt;br&gt;Location: 4878031 - 4878967" locus_tag="JNAJGP_23055" class="clusterblast-orf" id="dummy-8_q12_0_all"  />
+<polygon points="571,40 603,40 608,35 603,30 571,30 571,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23060&lt;/b&gt;&lt;br&gt;Acyl-CoA dehydrogenase related to the alkylation response protein AidB&lt;br&gt;Location: 4879133 - 4880363" locus_tag="JNAJGP_23060" class="clusterblast-orf" id="dummy-8_q13_0_all"  />
+<polygon points="612,35 617,30 652,30 652,40 617,40 612,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23065&lt;/b&gt;&lt;br&gt;OmpA-like domain-containing protein&lt;br&gt;Location: 4880479 - 4881811" locus_tag="JNAJGP_23065" class="clusterblast-orf" id="dummy-8_q14_0_all"  />
+<polygon points="656,35 661,30 680,30 680,40 661,40 656,35 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23070&lt;/b&gt;&lt;br&gt;exodeoxyribonuclease III&lt;br&gt;Location: 4881934 - 4882747" locus_tag="JNAJGP_23070" class="clusterblast-orf" id="dummy-8_q15_0_all"  />
+<polygon points="685,40 700,40 705,35 700,30 685,30 685,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23075&lt;/b&gt;&lt;br&gt;N-acetyltransferase domain-containing protein&lt;br&gt;Location: 4882916 - 4883567" locus_tag="JNAJGP_23075" class="clusterblast-orf" id="dummy-8_q16_0_all"  />
+<polygon points="708,40 754,40 759,35 754,30 708,30 708,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23080&lt;/b&gt;&lt;br&gt;Translocation and assembly module subunit TamA&lt;br&gt;Location: 4883660 - 4885358" locus_tag="JNAJGP_23080" class="clusterblast-orf" id="dummy-8_q17_0_all"  />
+<polygon points="759,40 775,40 780,35 775,30 759,30 759,40 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_23085&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 4885357 - 4886047" locus_tag="JNAJGP_23085" class="clusterblast-orf" id="dummy-8_q18_0_all"  />
+</g>
+<g label="BGC0002284" description="BGC0002284_c1: corynecin III/corynecin I/corynecin II (13% of genes show similarity), Other" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0002284/1" target="_blank">BGC0002284</a>: corynecin III/corynecin I/corynecin II                                           (13% of genes show similarity), Other</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a8_000"  >
+<polygon points="120,85 125,80 139,80 139,90 125,90 120,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_19995&lt;/b&gt;&lt;br&gt;succinyl-CoA--3-ketoacid-CoA transferase&lt;br&gt;Location: 1 - 627" locus_tag="CPI83_19995" class="clusterblast-orf" id="dummy-8_h8_4_0"  />
+</g>
+<g id="a8_001"  >
+<polygon points="139,85 144,80 162,80 162,90 144,90 139,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20000&lt;/b&gt;&lt;br&gt;CoA transferase subunit A&lt;br&gt;Location: 648 - 1403" locus_tag="CPI83_20000" class="clusterblast-orf" id="dummy-8_h8_4_1"  />
+</g>
+<g id="a8_002"  >
+<polygon points="162,85 167,80 187,80 187,90 167,90 162,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20005&lt;/b&gt;&lt;br&gt;CoA ester lyase&lt;br&gt;Location: 1407 - 2234" locus_tag="CPI83_20005" class="clusterblast-orf" id="dummy-8_h8_4_2"  />
+</g>
+<g id="a8_003"  >
+<polygon points="187,85 192,80 202,80 202,90 192,90 187,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20010&lt;/b&gt;&lt;br&gt;dehydratase&lt;br&gt;Location: 2231 - 2719" locus_tag="CPI83_20010" class="clusterblast-orf" id="dummy-8_h8_4_3"  />
+</g>
+<g id="a8_004"  >
+<polygon points="202,85 207,80 237,80 237,90 207,90 202,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20015&lt;/b&gt;&lt;br&gt;acyl-CoA dehydrogenase&lt;br&gt;Location: 2716 - 3879" locus_tag="CPI83_20015" class="clusterblast-orf" id="dummy-8_h8_4_4"  />
+</g>
+<g id="a8_005"  >
+<polygon points="237,85 242,80 298,80 298,90 242,90 237,85 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20020&lt;/b&gt;&lt;br&gt;acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha&lt;br&gt;Location: 3879 - 5918&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23010&lt;/b&gt;&lt;br&gt;Percentage identity: 46&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 497&lt;br&gt;E-value: 1.86e-168" locus_tag="CPI83_20020" class="clusterblast-orf" id="dummy-8_h8_4_5"  />
+</g>
+<g id="a8_006"  >
+<polygon points="298,85 303,80 346,80 346,90 303,90 298,85 " style="fill:#15d815; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20025&lt;/b&gt;&lt;br&gt;methylcrotonoyl-CoA carboxylase&lt;br&gt;Location: 5924 - 7513&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_23020&lt;/b&gt;&lt;br&gt;Percentage identity: 69&lt;br&gt;Percentage coverage: 95&lt;br&gt;BLAST bit score: 717&lt;br&gt;E-value: 6.34e-259" locus_tag="CPI83_20025" class="clusterblast-orf" id="dummy-8_h8_4_6"  />
+</g>
+<g id="a8_007"  >
+<polygon points="349,90 362,90 367,85 362,80 349,80 349,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20030&lt;/b&gt;&lt;br&gt;TetR/AcrR family transcriptional regulator&lt;br&gt;Location: 7612 - 8211" locus_tag="CPI83_20030" class="clusterblast-orf" id="dummy-8_h8_4_7"  />
+</g>
+<g id="a8_008"  >
+<polygon points="369,90 386,90 391,85 386,80 369,80 369,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20035&lt;/b&gt;&lt;br&gt;GTP pyrophosphokinase&lt;br&gt;Location: 8260 - 9006" locus_tag="CPI83_20035" class="clusterblast-orf" id="dummy-8_h8_4_8"  />
+</g>
+<g id="a8_009"  >
+<polygon points="396,85 401,80 404,80 404,90 401,90 396,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20040&lt;/b&gt;&lt;br&gt;GlsB/YeaQ/YmgE family stress response membrane protein&lt;br&gt;Location: 9164 - 9424" locus_tag="CPI83_20040" class="clusterblast-orf" id="dummy-8_h8_4_9"  />
+</g>
+<g id="a8_0010"  >
+<polygon points="409,90 447,90 452,85 447,80 409,80 409,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20045&lt;/b&gt;&lt;br&gt;C4-dicarboxylate transporter DctA&lt;br&gt;Location: 9613 - 11019" locus_tag="CPI83_20045" class="clusterblast-orf" id="dummy-8_h8_4_10"  />
+</g>
+<g id="a8_0011"  >
+<polygon points="451,85 456,80 492,80 492,90 456,90 451,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20050&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 10997 - 12361" locus_tag="CPI83_20050" class="clusterblast-orf" id="dummy-8_h8_4_11"  />
+</g>
+<g id="a8_0012"  >
+<polygon points="492,85 497,80 536,80 536,90 497,90 492,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20055&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 12358 - 13797" locus_tag="CPI83_20055" class="clusterblast-orf" id="dummy-8_h8_4_12"  />
+</g>
+<g id="a8_0013"  >
+<polygon points="541,85 546,80 609,80 609,90 546,90 541,85 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20060&lt;/b&gt;&lt;br&gt;MMPL family transporter&lt;br&gt;Location: 13981 - 16227" locus_tag="CPI83_20060" class="clusterblast-orf" id="dummy-8_h8_4_13"  />
+</g>
+<g id="a8_0014"  >
+<polygon points="616,90 654,90 659,85 654,80 616,80 616,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;CPI83_20065&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 16452 - 17900" locus_tag="CPI83_20065" class="clusterblast-orf" id="dummy-8_h8_4_14"  />
+</g>
+</svg>

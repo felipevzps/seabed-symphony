@@ -1,0 +1,55 @@
+ClusterBlast scores for contig_22680
+
+Table of genes, locations, strands and annotations of query cluster:
+JNAJGP_13890	2957054	2958860	+	phenylacyl-CoA dehydrogenase	
+JNAJGP_13895	2959064	2960357	+	GGDEF domain-containing protein	
+JNAJGP_13900	2960447	2962217	+	Acyl-CoA dehydrogenase	
+JNAJGP_13905	2962339	2964118	+	Acyl-CoA dehydrogenase	
+JNAJGP_13915	2964345	2965245	-	HTH lysR-type domain-containing protein	
+JNAJGP_13920	2965442	2966705	+	Acetylornithine and succinylornithine aminotransferase	
+JNAJGP_13925	2966887	2967046	+	Membrane putative modulator PMP3/YqaE, plasma membrane proteolipid 3 (PMP3)/Esi3/RCI2/UPF0057 family	
+JNAJGP_13930	2967051	2968203	-	pyrroloquinoline quinone biosynthesis protein PqqE	
+JNAJGP_13935	2968174	2968450	-	pyrroloquinoline quinone biosynthesis peptide chaperone PqqD	
+JNAJGP_13940	2968446	2969199	-	pyrroloquinoline-quinone synthase PqqC	
+JNAJGP_13945	2969210	2970122	-	pyrroloquinoline quinone biosynthesis protein PqqB	
+JNAJGP_13950	2970193	2970268	-	pyrroloquinoline quinone precursor peptide PqqA	
+JNAJGP_13955	2970427	2972797	-	pyrroloquinoline quinone biosynthesis protein PqqF	
+JNAJGP_13960	2972856	2973651	-	(R)-stereoselective amidase	
+JNAJGP_13965	2973662	2975366	-	Monoamine oxidase	
+JNAJGP_13970	2975511	2975958	-	DNA-binding transcriptional regulator, Lrp family	
+
+
+Significant hits: 
+1. BGC0001100	lankacidin C
+
+
+Details:
+
+>>
+1. BGC0001100
+Source: lankacidin C
+Type: NRP+Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 551.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+BAC76462.1	BAC76462.1	1	891	-	pyrroloquinoline_quinone_biosynthesis_protein_B
+BAC76463.1	BAC76463.1	894	1988	-	pyrroloquinoline_quinone_biosynthesis_protein_E
+BAC76464.1	BAC76464.1	1981	2253	-	pyrroloquinoline_quinone_biosynthesis_protein_D
+BAC76465.1	BAC76465.1	2250	2978	-	pyrroloquinoline_quinone_biosynthesis_protein_C
+BAC76466.1	BAC76466.1	3005	3109	-	pyrroloquinoline_quinone_biosynthesis_protein_A
+BAC76467.1	BAC76467.1	3499	5136	+	putative_ABC_transporter_protein
+BAC76468.1	BAC76468.1	5129	6838	+	putative_ABC_transporter_protein
+BAC76469.1	BAC76469.1	6894	7448	-	probable_isochorismatase
+BAC76470.1	BAC76470.1	7513	10293	-	type_I_polyketide_synthase_LkcG
+BAC76471.1	BAC76471.1	10345	17385	-	type_I_polyketide_synthase_LkcF
+BAC76472.1	BAC76472.1	17438	18754	-	amine_oxidase_LkcE
+BAC76473.1	BAC76473.1	18754	19635	-	acyltransferase_LkcD
+BAC76474.1	BAC76474.1	19647	25235	-	type_I_polyketide_synthase_LkcC
+BAC76475.1	BAC76475.1	25265	26095	-	dehydratase_LkcB
+BAC76476.1	BAC76476.1	26092	30960	-	multifunctional_polyketide-peptide_synthase_LkcA
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JNAJGP_13930	BAC76463.1	49	348	89.81723237597912	3.29e-118
+JNAJGP_13940	BAC76465.1	46	203	88.0	2.96e-65
+

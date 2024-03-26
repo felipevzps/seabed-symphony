@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" height="230" width="800" viewBox="0 0 800 230" preserveAspectRatio="none"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text x="5" y="20" class="clusterblast-acc"  >
+Query sequence</text>
+<line x1="10" y1="35" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; "  />
+<polygon points="0,40 69,40 74,35 69,30 0,30 0,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13890&lt;/b&gt;&lt;br&gt;phenylacyl-CoA dehydrogenase&lt;br&gt;Location: 2957054 - 2958860" locus_tag="JNAJGP_13890" class="clusterblast-orf" id="dummy-6_q0_0_all"  />
+<polygon points="83,40 131,40 136,35 131,30 83,30 83,40 " style="fill:#4dd815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13895&lt;/b&gt;&lt;br&gt;GGDEF domain-containing protein&lt;br&gt;Location: 2959064 - 2960357" locus_tag="JNAJGP_13895" class="clusterblast-orf" id="dummy-6_q1_0_all"  />
+<polygon points="140,40 208,40 213,35 208,30 140,30 140,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13900&lt;/b&gt;&lt;br&gt;Acyl-CoA dehydrogenase&lt;br&gt;Location: 2960447 - 2962217" locus_tag="JNAJGP_13900" class="clusterblast-orf" id="dummy-6_q2_0_all"  />
+<polygon points="218,40 286,40 291,35 286,30 218,30 218,40 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13905&lt;/b&gt;&lt;br&gt;Acyl-CoA dehydrogenase&lt;br&gt;Location: 2962339 - 2964118" locus_tag="JNAJGP_13905" class="clusterblast-orf" id="dummy-6_q3_0_all"  />
+<polygon points="301,35 306,30 338,30 338,40 306,40 301,35 " style="fill:#1585d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13915&lt;/b&gt;&lt;br&gt;HTH lysR-type domain-containing protein&lt;br&gt;Location: 2964345 - 2965245" locus_tag="JNAJGP_13915" class="clusterblast-orf" id="dummy-6_q4_0_all"  />
+<polygon points="346,40 393,40 398,35 393,30 346,30 346,40 " style="fill:#a115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13920&lt;/b&gt;&lt;br&gt;Acetylornithine and succinylornithine aminotransferase&lt;br&gt;Location: 2965442 - 2966705" locus_tag="JNAJGP_13920" class="clusterblast-orf" id="dummy-6_q5_0_all"  />
+<polygon points="406,40 407,40 412,35 407,30 406,30 406,40 " style="fill:#d86915; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13925&lt;/b&gt;&lt;br&gt;Membrane putative modulator PMP3/YqaE, plasma membrane proteolipid 3 (PMP3)/Esi3/RCI2/UPF0057 family&lt;br&gt;Location: 2966887 - 2967046" locus_tag="JNAJGP_13925" class="clusterblast-orf" id="dummy-6_q6_0_all"  />
+<polygon points="412,35 417,30 460,30 460,40 417,40 412,35 " style="fill:#15d831; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13930&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis protein PqqE&lt;br&gt;Location: 2967051 - 2968203" locus_tag="JNAJGP_13930" class="clusterblast-orf" id="dummy-6_q7_0_all"  />
+<polygon points="459,35 464,30 470,30 470,40 464,40 459,35 " style="fill:#1531d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13935&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis peptide chaperone PqqD&lt;br&gt;Location: 2968174 - 2968450" locus_tag="JNAJGP_13935" class="clusterblast-orf" id="dummy-6_q8_0_all"  />
+<polygon points="470,35 475,30 501,30 501,40 475,40 470,35 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13940&lt;/b&gt;&lt;br&gt;pyrroloquinoline-quinone synthase PqqC&lt;br&gt;Location: 2968446 - 2969199" locus_tag="JNAJGP_13940" class="clusterblast-orf" id="dummy-6_q9_0_all"  />
+<polygon points="501,35 506,30 539,30 539,40 506,40 501,35 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13945&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis protein PqqB&lt;br&gt;Location: 2969210 - 2970122" locus_tag="JNAJGP_13945" class="clusterblast-orf" id="dummy-6_q10_0_all"  />
+<polygon points="542,35 545,30 545,40 542,35 " style="fill:#15d885; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13950&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone precursor peptide PqqA&lt;br&gt;Location: 2970193 - 2970268" locus_tag="JNAJGP_13950" class="clusterblast-orf" id="dummy-6_q11_0_all"  />
+<polygon points="552,35 557,30 649,30 649,40 557,40 552,35 " style="fill:#4d15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13955&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis protein PqqF&lt;br&gt;Location: 2970427 - 2972797" locus_tag="JNAJGP_13955" class="clusterblast-orf" id="dummy-6_q12_0_all"  />
+<polygon points="652,35 657,30 685,30 685,40 657,40 652,35 " style="fill:#d81569; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13960&lt;/b&gt;&lt;br&gt;(R)-stereoselective amidase&lt;br&gt;Location: 2972856 - 2973651" locus_tag="JNAJGP_13960" class="clusterblast-orf" id="dummy-6_q13_0_all"  />
+<polygon points="685,35 690,30 755,30 755,40 690,40 685,35 " style="fill:#a1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13965&lt;/b&gt;&lt;br&gt;Monoamine oxidase&lt;br&gt;Location: 2973662 - 2975366" locus_tag="JNAJGP_13965" class="clusterblast-orf" id="dummy-6_q14_0_all"  />
+<polygon points="761,35 766,30 780,30 780,40 766,40 761,35 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;JNAJGP_13970&lt;/b&gt;&lt;br&gt;DNA-binding transcriptional regulator, Lrp family&lt;br&gt;Location: 2975511 - 2975958" locus_tag="JNAJGP_13970" class="clusterblast-orf" id="dummy-6_q15_0_all"  />
+</g>
+<g label="NZ_CM001514" description="NZ_CM001514 (5708632-5730780): Pseudomonas synxantha BG33R chromosome, whole ... (88% of genes show similarity), redox-cofactor" class="clusterblast-cluster"  >
+<text x="5" y="70" class="clusterblast-acc"  >
+<a xlink:href="https://antismash-db.secondarymetabolites.org/area?record=NZ_CM001514&amp;start=5708632&amp;end=5730780" target="_blank">NZ_CM001514 (5708632-5730780)</a>: Pseudomonas synxantha BG33R chromosome, whole ... (88% of genes show similarity), redox-cofactor</text>
+<line x1="10" y1="85" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; "  />
+</g>
+<g id="a6_000"  >
+<polygon points="8,90 31,90 36,85 31,80 8,80 8,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02535&lt;/b&gt;&lt;br&gt;dethiobiotin synthase&lt;br&gt;Location: 5730354 - 5729674" locus_tag="PSEBG33_RS02535" class="clusterblast-orf" id="dummy-6_h6_1_0"  />
+</g>
+<g id="a6_001"  >
+<polygon points="41,90 47,90 52,85 47,80 41,80 41,90 " style="fill:white; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02540&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 5729568 - 5729287" locus_tag="PSEBG33_RS02540" class="clusterblast-orf" id="dummy-6_h6_1_1"  />
+</g>
+<g id="a6_002"  >
+<polygon points="66,90 135,90 140,85 135,80 66,80 66,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02545&lt;/b&gt;&lt;br&gt;phenylacyl-CoA dehydrogenase&lt;br&gt;Location: 5728968 - 5727163&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13890&lt;/b&gt;&lt;br&gt;Percentage identity: 99&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1207&lt;br&gt;E-value: 0.0&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13900&lt;/b&gt;&lt;br&gt;Percentage identity: 66&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 786&lt;br&gt;E-value: 6.21e-282&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13905&lt;/b&gt;&lt;br&gt;Percentage identity: 54&lt;br&gt;Percentage coverage: 101&lt;br&gt;BLAST bit score: 617&lt;br&gt;E-value: 2.05e-215" locus_tag="PSEBG33_RS02545" class="clusterblast-orf" id="dummy-6_h6_1_2"  />
+</g>
+<g id="a6_003"  >
+<polygon points="149,90 197,90 202,85 197,80 149,80 149,90 " style="fill:#4dd815; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02550&lt;/b&gt;&lt;br&gt;GGDEF domain-containing protein&lt;br&gt;Location: 5726943 - 5725654&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13895&lt;/b&gt;&lt;br&gt;Percentage identity: 91&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 780&lt;br&gt;E-value: 5.77e-285" locus_tag="PSEBG33_RS02550" class="clusterblast-orf" id="dummy-6_h6_1_3"  />
+</g>
+<g id="a6_004"  >
+<polygon points="208,90 277,90 282,85 277,80 208,80 208,90 " style="fill:#d81515; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02555&lt;/b&gt;&lt;br&gt;acyl-CoA dehydrogenase C-terminal domain-containing protein&lt;br&gt;Location: 5725510 - 5723732&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13890&lt;/b&gt;&lt;br&gt;Percentage identity: 54&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 627&lt;br&gt;E-value: 3.4e-219&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13900&lt;/b&gt;&lt;br&gt;Percentage identity: 57&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 635&lt;br&gt;E-value: 1.02e-222&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13905&lt;/b&gt;&lt;br&gt;Percentage identity: 96&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1115&lt;br&gt;E-value: 0.0" locus_tag="PSEBG33_RS02555" class="clusterblast-orf" id="dummy-6_h6_1_4"  />
+</g>
+<g id="a6_005"  >
+<polygon points="291,85 296,80 328,80 328,90 296,90 291,85 " style="fill:#1585d8; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02560&lt;/b&gt;&lt;br&gt;LysR family transcriptional regulator&lt;br&gt;Location: 5723505 - 5722606&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13915&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 561&lt;br&gt;E-value: 5.93e-203" locus_tag="PSEBG33_RS02560" class="clusterblast-orf" id="dummy-6_h6_1_5"  />
+</g>
+<g id="a6_006"  >
+<polygon points="337,90 384,90 389,85 384,80 337,80 337,90 " style="fill:#a115d8; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02565&lt;/b&gt;&lt;br&gt;aminotransferase class III-fold pyridoxal phosphate-dependent enzyme&lt;br&gt;Location: 5722396 - 5721128&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13920&lt;/b&gt;&lt;br&gt;Percentage identity: 88&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 719&lt;br&gt;E-value: 1.74e-261" locus_tag="PSEBG33_RS02565" class="clusterblast-orf" id="dummy-6_h6_1_6"  />
+</g>
+<g id="a6_007"  >
+<polygon points="397,90 398,90 403,85 398,80 397,80 397,90 " style="fill:#d86915; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS29135&lt;/b&gt;&lt;br&gt;YqaE/Pmp3 family membrane protein&lt;br&gt;Location: 5720944 - 5720786&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13925&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 102&lt;br&gt;E-value: 4.82e-29" locus_tag="PSEBG33_RS29135" class="clusterblast-orf" id="dummy-6_h6_1_7"  />
+</g>
+<g id="a6_008"  >
+<polygon points="403,85 408,80 451,80 451,90 408,90 403,85 " style="fill:#15d831; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02575&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis protein PqqE&lt;br&gt;Location: 5720780 - 5719629&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13930&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 781&lt;br&gt;E-value: 2.64e-287" locus_tag="PSEBG33_RS02575" class="clusterblast-orf" id="dummy-6_h6_1_8"  />
+</g>
+<g id="a6_009"  >
+<polygon points="450,85 455,80 461,80 461,90 455,90 450,85 " style="fill:#1531d8; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02580&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis peptide chaperone PqqD&lt;br&gt;Location: 5719657 - 5719382&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13935&lt;/b&gt;&lt;br&gt;Percentage identity: 91&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 172&lt;br&gt;E-value: 6.06e-56" locus_tag="PSEBG33_RS02580" class="clusterblast-orf" id="dummy-6_h6_1_9"  />
+</g>
+<g id="a6_0010"  >
+<polygon points="461,85 466,80 492,80 492,90 466,90 461,85 " style="fill:#d815bc; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02585&lt;/b&gt;&lt;br&gt;pyrroloquinoline-quinone synthase PqqC&lt;br&gt;Location: 5719385 - 5718633&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13940&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 513&lt;br&gt;E-value: 1.07e-185" locus_tag="PSEBG33_RS02585" class="clusterblast-orf" id="dummy-6_h6_1_10"  />
+</g>
+<g id="a6_0011"  >
+<polygon points="492,85 497,80 530,80 530,90 497,90 492,85 " style="fill:#d8bc15; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02590&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis protein PqqB&lt;br&gt;Location: 5718621 - 5717710&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13945&lt;/b&gt;&lt;br&gt;Percentage identity: 98&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 626&lt;br&gt;E-value: 1.39e-228" locus_tag="PSEBG33_RS02590" class="clusterblast-orf" id="dummy-6_h6_1_11"  />
+</g>
+<g id="a6_0012"  >
+<polygon points="533,85 536,80 536,90 533,85 " style="fill:#15d885; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS29130&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone precursor peptide PqqA&lt;br&gt;Location: 5717638 - 5717564&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13950&lt;/b&gt;&lt;br&gt;Percentage identity: 100&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 55&lt;br&gt;E-value: 3.69e-11" locus_tag="PSEBG33_RS29130" class="clusterblast-orf" id="dummy-6_h6_1_12"  />
+</g>
+<g id="a6_0013"  >
+<polygon points="543,85 548,80 641,80 641,90 548,90 543,85 " style="fill:#4d15d8; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02595&lt;/b&gt;&lt;br&gt;pyrroloquinoline quinone biosynthesis protein PqqF&lt;br&gt;Location: 5717405 - 5715030&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13955&lt;/b&gt;&lt;br&gt;Percentage identity: 74&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 1164&lt;br&gt;E-value: 0.0" locus_tag="PSEBG33_RS02595" class="clusterblast-orf" id="dummy-6_h6_1_13"  />
+</g>
+<g id="a6_0014"  >
+<polygon points="643,85 648,80 675,80 675,90 648,90 643,85 " style="fill:#d81569; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02600&lt;/b&gt;&lt;br&gt;carbon-nitrogen hydrolase family protein&lt;br&gt;Location: 5714981 - 5714187&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13960&lt;/b&gt;&lt;br&gt;Percentage identity: 88&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 474&lt;br&gt;E-value: 1.59e-169" locus_tag="PSEBG33_RS02600" class="clusterblast-orf" id="dummy-6_h6_1_14"  />
+</g>
+<g id="a6_0015"  >
+<polygon points="676,85 681,80 745,80 745,90 681,90 676,85 " style="fill:#a1d815; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02605&lt;/b&gt;&lt;br&gt;NAD(P)/FAD-dependent oxidoreductase&lt;br&gt;Location: 5714176 - 5712494&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13965&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 1129&lt;br&gt;E-value: 0.0" locus_tag="PSEBG33_RS02605" class="clusterblast-orf" id="dummy-6_h6_1_15"  />
+</g>
+<g id="a6_0016"  >
+<polygon points="752,85 757,80 771,80 771,90 757,90 752,85 " style="fill:#15d8d8; stroke-width:1; stroke:black; " description="&lt;b&gt;PSEBG33_RS02610&lt;/b&gt;&lt;br&gt;Lrp/AsnC family transcriptional regulator&lt;br&gt;Location: 5712326 - 5711880&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with JNAJGP_13970&lt;/b&gt;&lt;br&gt;Percentage identity: 97&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 272&lt;br&gt;E-value: 1.26e-93" locus_tag="PSEBG33_RS02610" class="clusterblast-orf" id="dummy-6_h6_1_16"  />
+</g>
+</svg>
