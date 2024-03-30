@@ -1,0 +1,27 @@
+var bigscape_results = [
+    {
+        "label":"2024-03-30_02-16-26_hybrids_auto_c0.30",
+        "networks":[
+            {
+                "css":"Others",
+                "label":"Others",
+                "name":"Others"
+            },
+            {
+                "css":"Saccharides",
+                "label":"Saccharides",
+                "name":"Saccharides"
+            },
+            {
+                "css":"NRPS",
+                "label":"NRPS",
+                "name":"NRPS"
+            },
+            {
+                "css":"RiPPs",
+                "label":"RiPPs",
+                "name":"RiPPs"
+            }
+        ]
+    }
+];
