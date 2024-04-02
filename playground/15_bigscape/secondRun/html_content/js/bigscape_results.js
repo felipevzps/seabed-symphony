@@ -1,21 +1,11 @@
 var bigscape_results = [
     {
-        "label":"2024-03-31_00-39-13_hybrids_auto_c0.30",
+        "label":"2024-04-02_08-17-00_hybrids_auto_c0.30",
         "networks":[
             {
-                "css":"PKSI",
-                "label":"PKSI",
-                "name":"PKSI"
-            },
-            {
-                "css":"Others",
-                "label":"Others",
-                "name":"Others"
-            },
-            {
-                "css":"NRPS",
-                "label":"NRPS",
-                "name":"NRPS"
+                "css":"RiPPs",
+                "label":"RiPPs",
+                "name":"RiPPs"
             },
             {
                 "css":"PKSother",
@@ -23,14 +13,24 @@ var bigscape_results = [
                 "name":"PKSother"
             },
             {
-                "css":"RiPPs",
-                "label":"RiPPs",
-                "name":"RiPPs"
+                "css":"NRPS",
+                "label":"NRPS",
+                "name":"NRPS"
             },
             {
                 "css":"Terpene",
                 "label":"Terpene",
                 "name":"Terpene"
+            },
+            {
+                "css":"Others",
+                "label":"Others",
+                "name":"Others"
+            },
+            {
+                "css":"PKSI",
+                "label":"PKSI",
+                "name":"PKSI"
             }
         ]
     }
