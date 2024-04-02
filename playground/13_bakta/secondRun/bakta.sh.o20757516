@@ -1,0 +1,4452 @@
+
+parse genome sequences...
+	imported: 4
+	filtered & revised: 4
+	contigs: 4
+
+start annotation...
+predict tRNAs...
+	found: 46
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 2
+predict ncRNA regions...
+	found: 16
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 2686 
+	discarded spurious: 2
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 21
+	found PSCCs: 1838
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 6
+		found pseudogenes: 4
+analyze hypothetical proteins: 895
+	detected Pfam hits: 333 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 15370
+	discarded due to overlaps: 12985
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 2749
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 2,692,850 bp
+	Contigs/replicons: 4
+	GC: 66.5 %
+	N50: 1,385,160
+	N ratio: 0.0 %
+	coding density: 90.0 %
+
+annotation summary:
+	tRNAs: 45
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 2
+	ncRNA regions: 15
+	CRISPR arrays: 0
+	CDSs: 2683
+		hypotheticals: 894
+		pseudogenes: 4
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/2078
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 13:04 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[2]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-100>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 03:30:01 2024
+Terminated at Tue Mar 26 03:43:10 2024
+Results reported at Tue Mar 26 03:43:10 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4296.80 sec.
+    Max Memory :                                 7330 MB
+    Average Memory :                             2365.62 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95070.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                19
+    Run time :                                   797 sec.
+    Turnaround time :                            789 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 126
+	filtered & revised: 126
+	contigs: 126
+
+start annotation...
+predict tRNAs...
+	found: 52
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 16
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 5860 
+	discarded spurious: 14
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 14
+	found PSCCs: 2177
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 1
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 43
+		found pseudogenes: 41
+analyze hypothetical proteins: 3829
+	detected Pfam hits: 1241 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 36031
+	discarded due to overlaps: 29264
+	discarded spurious: 1
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 5919
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 5,194,568 bp
+	Contigs/replicons: 126
+	GC: 61.9 %
+	N50: 63,384
+	N ratio: 0.0 %
+	coding density: 85.6 %
+
+annotation summary:
+	tRNAs: 51
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 15
+	CRISPR arrays: 0
+	CDSs: 5845
+		hypotheticals: 3828
+		pseudogenes: 41
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/267
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 18:48 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[3]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-104>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 03:30:01 2024
+Terminated at Tue Mar 26 03:48:54 2024
+Results reported at Tue Mar 26 03:48:54 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5794.51 sec.
+    Max Memory :                                 6613 MB
+    Average Memory :                             2582.89 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95787.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1132 sec.
+    Turnaround time :                            1133 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 218
+	filtered & revised: 218
+	contigs: 218
+
+start annotation...
+predict tRNAs...
+	found: 71
+predict tmRNAs...
+	found: 2
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 6
+predict ncRNA regions...
+	found: 6
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 6868 
+	discarded spurious: 32
+	revised translational exceptions: 0
+	detected IPSs: 2
+	found PSCs: 139
+	found PSCCs: 1846
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 204
+		found pseudogenes: 198
+analyze hypothetical proteins: 4949
+	detected Pfam hits: 1260 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 22536
+	discarded due to overlaps: 15793
+	discarded spurious: 1
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 6903
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 5,434,062 bp
+	Contigs/replicons: 218
+	GC: 68.1 %
+	N50: 37,535
+	N ratio: 0.0 %
+	coding density: 76.1 %
+
+annotation summary:
+	tRNAs: 71
+	tmRNAs: 2
+	rRNAs: 0
+	ncRNAs: 6
+	ncRNA regions: 6
+	CRISPR arrays: 0
+	CDSs: 6818
+		hypotheticals: 4931
+		pseudogenes: 197
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/151_sub
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 22:45 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[1]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-19>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 03:30:01 2024
+Terminated at Tue Mar 26 03:52:51 2024
+Results reported at Tue Mar 26 03:52:51 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5430.00 sec.
+    Max Memory :                                 6729 MB
+    Average Memory :                             2186.09 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95671.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1486 sec.
+    Turnaround time :                            1370 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 171
+	filtered & revised: 171
+	contigs: 171
+
+start annotation...
+predict tRNAs...
+	found: 74
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 4
+predict ncRNAs...
+	found: 5
+predict ncRNA regions...
+	found: 12
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 5965 
+	discarded spurious: 13
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 29
+	found PSCCs: 2284
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 81
+		found pseudogenes: 75
+analyze hypothetical proteins: 3799
+	detected Pfam hits: 1156 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 19801
+
+parse genome sequences...
+	imported: 73
+	filtered & revised: 73
+	contigs: 73
+
+start annotation...
+predict tRNAs...
+	found: 42
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 2
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 16
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3844 
+	discarded spurious: 7
+	revised translational exceptions: 0
+	detected IPSs: 11
+	found PSCs: 912
+	found PSCCs: 1682
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 2
+		protein sequences: 1
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 165
+		found pseudogenes: 156
+analyze hypothetical proteins: 1327
+	detected Pfam hits: 411 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 29311
+	discarded due to overlaps: 13625
+	discarded spurious: 3
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 6037
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 5,373,310 bp
+	Contigs/replicons: 171
+	GC: 70.7 %
+	N50: 44,028
+	N ratio: 0.0 %
+	coding density: 73.7 %
+
+annotation summary:
+	tRNAs: 74
+	tmRNAs: 1
+	rRNAs: 4
+	ncRNAs: 5
+	ncRNA regions: 12
+	CRISPR arrays: 0
+	CDSs: 5941
+		hypotheticals: 3789
+		pseudogenes: 75
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/377
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 19:18 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[4]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-100>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 03:43:43 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 03:43:43 2024
+Terminated at Tue Mar 26 04:03:05 2024
+Results reported at Tue Mar 26 04:03:05 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5606.63 sec.
+    Max Memory :                                 8480 MB
+    Average Memory :                             2039.44 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               93920.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1161 sec.
+    Turnaround time :                            1984 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 23444
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3892
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,721,494 bp
+	Contigs/replicons: 73
+	GC: 61.1 %
+	N50: 67,712
+	N ratio: 0.0 %
+	coding density: 85.6 %
+
+annotation summary:
+	tRNAs: 41
+	tmRNAs: 1
+	rRNAs: 2
+	ncRNAs: 4
+	ncRNA regions: 11
+	CRISPR arrays: 0
+	CDSs: 3833
+		hypotheticals: 1323
+		pseudogenes: 156
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/446
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 14:37 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[5]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-104>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 03:49:43 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 03:49:43 2024
+Terminated at Tue Mar 26 04:04:23 2024
+Results reported at Tue Mar 26 04:04:23 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4370.75 sec.
+    Max Memory :                                 3914 MB
+    Average Memory :                             1019.62 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               98486.00 MB
+    Max Swap :                                   -
+    Max Processes :                              26
+    Max Threads :                                36
+    Run time :                                   880 sec.
+    Turnaround time :                            2062 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 93
+	filtered & revised: 93
+	contigs: 93
+
+start annotation...
+predict tRNAs...
+	found: 26
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 2
+predict ncRNA regions...
+	found: 9
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 5072 
+	discarded spurious: 1
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 122
+	found PSCCs: 3162
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 3
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 85
+		found pseudogenes: 72
+analyze hypothetical proteins: 2018
+	detected Pfam hits: 596 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 59893
+
+parse genome sequences...
+	imported: 88
+	filtered & revised: 88
+	contigs: 88
+
+start annotation...
+predict tRNAs...
+	found: 26
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 3
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3560 
+	discarded spurious: 2
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 88
+	found PSCCs: 1458
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 153
+		found pseudogenes: 149
+analyze hypothetical proteins: 2120
+	detected Pfam hits: 593 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 41873
+	discarded due to overlaps: 42512
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 5102
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 5,124,360 bp
+	Contigs/replicons: 93
+	GC: 53.3 %
+	N50: 83,836
+	N ratio: 0.0 %
+	coding density: 79.1 %
+
+annotation summary:
+	tRNAs: 26
+	tmRNAs: 0
+	rRNAs: 3
+	ncRNAs: 2
+	ncRNA regions: 5
+	CRISPR arrays: 0
+	CDSs: 5066
+		hypotheticals: 2015
+		pseudogenes: 72
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/487_sub
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 23:38 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[6]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-19>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 03:52:53 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 03:52:53 2024
+Terminated at Tue Mar 26 04:16:35 2024
+Results reported at Tue Mar 26 04:16:35 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5471.42 sec.
+    Max Memory :                                 8642 MB
+    Average Memory :                             2230.80 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               93758.00 MB
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                17
+    Run time :                                   1423 sec.
+    Turnaround time :                            2794 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 36
+	filtered & revised: 36
+	contigs: 36
+
+start annotation...
+predict tRNAs...
+	found: 41
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 13
+predict CRISPR arrays...
+	found: 1
+predict & annotate CDSs...
+	predicted: 4099 
+	discarded spurious: 8
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 69
+	found PSCCs: 2527
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 71
+		found pseudogenes: 68
+analyze hypothetical proteins: 1726
+	detected Pfam hits: 582 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 45719
+	discarded due to overlaps: 26829
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3592
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 2,592,513 bp
+	Contigs/replicons: 88
+	GC: 47.8 %
+	N50: 37,631
+	N ratio: 0.0 %
+	coding density: 71.1 %
+
+annotation summary:
+	tRNAs: 25
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 3
+	CRISPR arrays: 0
+	CDSs: 3556
+		hypotheticals: 2118
+		pseudogenes: 148
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/778
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 16:14 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[7]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-100>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:03:05 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:03:05 2024
+Terminated at Tue Mar 26 04:19:22 2024
+Results reported at Tue Mar 26 04:19:22 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3670.69 sec.
+    Max Memory :                                 6308 MB
+    Average Memory :                             1759.11 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               96092.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   977 sec.
+    Turnaround time :                            2961 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 33552
+	discarded spurious: 3
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 4143
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,953,525 bp
+	Contigs/replicons: 36
+	GC: 54.9 %
+	N50: 148,418
+	N ratio: 0.0 %
+	coding density: 80.6 %
+
+annotation summary:
+	tRNAs: 41
+	tmRNAs: 0
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 9
+	CRISPR arrays: 1
+	CDSs: 4085
+		hypotheticals: 1719
+		pseudogenes: 68
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/797
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 16:43 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[8]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-104>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:04:24 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:04:24 2024
+Terminated at Tue Mar 26 04:21:11 2024
+Results reported at Tue Mar 26 04:21:11 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4884.38 sec.
+    Max Memory :                                 3668 MB
+    Average Memory :                             1246.00 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               98732.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1007 sec.
+    Turnaround time :                            3070 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 90
+	filtered & revised: 90
+	contigs: 90
+
+start annotation...
+predict tRNAs...
+	found: 55
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 35
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3923 
+	discarded spurious: 6
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 147
+	found PSCCs: 1863
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 163
+		found pseudogenes: 160
+analyze hypothetical proteins: 1997
+	detected Pfam hits: 639 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 33340
+	discarded due to overlaps: 23755
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3996
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,135,866 bp
+	Contigs/replicons: 90
+	GC: 55.3 %
+	N50: 51,667
+	N ratio: 0.0 %
+	coding density: 79.8 %
+
+annotation summary:
+	tRNAs: 54
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 21
+	CRISPR arrays: 0
+	CDSs: 3913
+		hypotheticals: 1992
+		pseudogenes: 160
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/835
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 18:18 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[9]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-19>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:16:36 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:16:36 2024
+Terminated at Tue Mar 26 04:34:58 2024
+Results reported at Tue Mar 26 04:34:58 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4835.16 sec.
+    Max Memory :                                 7806 MB
+    Average Memory :                             3371.38 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               94594.00 MB
+    Max Swap :                                   -
+    Max Processes :                              24
+    Max Threads :                                33
+    Run time :                                   1103 sec.
+    Turnaround time :                            3897 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 149
+	filtered & revised: 149
+	contigs: 149
+
+start annotation...
+predict tRNAs...
+	found: 68
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 8
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 6865 
+	discarded spurious: 34
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 15
+	found PSCCs: 1612
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 73
+		found pseudogenes: 69
+analyze hypothetical proteins: 5360
+	detected Pfam hits: 1307 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 29569
+	discarded due to overlaps: 22253
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 6905
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 4,679,711 bp
+	Contigs/replicons: 149
+	GC: 64.4 %
+	N50: 81,022
+	N ratio: 0.0 %
+	coding density: 81.2 %
+
+annotation summary:
+	tRNAs: 68
+	tmRNAs: 1
+	rRNAs: 0
+	ncRNAs: 4
+	ncRNA regions: 8
+	CRISPR arrays: 0
+	CDSs: 6824
+		hypotheticals: 5348
+		pseudogenes: 69
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/CONCOCT.10
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 19:36 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[10]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-100>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:19:23 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:19:23 2024
+Terminated at Tue Mar 26 04:39:04 2024
+Results reported at Tue Mar 26 04:39:04 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5475.54 sec.
+    Max Memory :                                 6610 MB
+    Average Memory :                             2872.30 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95790.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1180 sec.
+    Turnaround time :                            4143 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 451
+	filtered & revised: 451
+	contigs: 451
+
+start annotation...
+predict tRNAs...
+	found: 40
+predict tmRNAs...
+	found: 2
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 5
+predict ncRNA regions...
+	found: 36
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 8497 
+	discarded spurious: 10
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 214
+	found PSCCs: 2771
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 2
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 402
+		found pseudogenes: 386
+analyze hypothetical proteins: 5603
+	detected Pfam hits: 1537 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 89955
+	discarded due to overlaps: 55712
+	discarded spurious: 1
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 8551
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 6,288,515 bp
+	Contigs/replicons: 451
+	GC: 47.7 %
+	N50: 16,485
+	N ratio: 0.0 %
+	coding density: 69.4 %
+
+annotation summary:
+	tRNAs: 38
+	tmRNAs: 2
+	rRNAs: 3
+	ncRNAs: 5
+	ncRNA regions: 22
+	CRISPR arrays: 0
+	CDSs: 8481
+		hypotheticals: 5598
+		pseudogenes: 386
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/CONCOCT.29_sub
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 26:09 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[11]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-21-104>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:22:48 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:22:48 2024
+Terminated at Tue Mar 26 04:49:01 2024
+Results reported at Tue Mar 26 04:49:01 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5962.20 sec.
+    Max Memory :                                 9118 MB
+    Average Memory :                             2695.00 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               93282.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1572 sec.
+    Turnaround time :                            4740 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 95
+	filtered & revised: 95
+	contigs: 95
+
+start annotation...
+predict tRNAs...
+	found: 23
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 9
+predict ncRNA regions...
+	found: 8
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3294 
+	discarded spurious: 5
+	revised translational exceptions: 0
+	detected IPSs: 6
+	found PSCs: 227
+	found PSCCs: 1627
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 2
+		protein sequences: 5
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 199
+		found pseudogenes: 182
+analyze hypothetical proteins: 1405
+	detected Pfam hits: 368 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 13809
+	discarded due to overlaps: 10120
+	discarded spurious: 2
+	detected IPSs: 2
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3330
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 2,849,810 bp
+	Contigs/replicons: 95
+	GC: 68.4 %
+	N50: 38,294
+	N ratio: 0.0 %
+	coding density: 78.0 %
+
+annotation summary:
+	tRNAs: 23
+	tmRNAs: 0
+	rRNAs: 3
+	ncRNAs: 9
+	ncRNA regions: 8
+	CRISPR arrays: 0
+	CDSs: 3287
+		hypotheticals: 1403
+		pseudogenes: 182
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.10
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 13:46 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[13]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-11-51>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:40:08 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:40:08 2024
+Terminated at Tue Mar 26 04:53:57 2024
+Results reported at Tue Mar 26 04:53:57 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3465.04 sec.
+    Max Memory :                                 6449 MB
+    Average Memory :                             1980.88 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95951.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   902 sec.
+    Turnaround time :                            5036 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 405
+	filtered & revised: 405
+	contigs: 405
+
+start annotation...
+predict tRNAs...
+	found: 63
+predict tmRNAs...
+	found: 2
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 8
+predict ncRNA regions...
+	found: 17
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 9177 
+	discarded spurious: 21
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 150
+	found PSCCs: 3327
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 323
+		found pseudogenes: 306
+analyze hypothetical proteins: 5996
+	detected Pfam hits: 1598 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 69603
+	discarded due to overlaps: 46548
+	discarded spurious: 1
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 9242
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 6,550,315 bp
+	Contigs/replicons: 405
+	GC: 59.1 %
+	N50: 19,276
+	N ratio: 0.0 %
+	coding density: 75.2 %
+
+annotation summary:
+	tRNAs: 61
+	tmRNAs: 2
+	rRNAs: 0
+	ncRNAs: 8
+	ncRNA regions: 17
+	CRISPR arrays: 0
+	CDSs: 9154
+		hypotheticals: 5992
+		pseudogenes: 306
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/CONCOCT.44
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 26:31 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[12]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:35:45 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:35:45 2024
+Terminated at Tue Mar 26 05:02:20 2024
+Results reported at Tue Mar 26 05:02:20 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5945.76 sec.
+    Max Memory :                                 12369 MB
+    Average Memory :                             3115.42 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               90031.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1690 sec.
+    Turnaround time :                            5539 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 18
+	filtered & revised: 18
+	contigs: 18
+
+start annotation...
+predict tRNAs...
+	found: 51
+predict tmRNAs...
+	found: 2
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 11
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3647 
+	discarded spurious: 2
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 252
+	found PSCCs: 2302
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 1
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 111
+		found pseudogenes: 106
+analyze hypothetical proteins: 1248
+	detected Pfam hits: 378 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 40429
+	discarded due to overlaps: 31740
+	discarded spurious: 1
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3714
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,309,802 bp
+	Contigs/replicons: 18
+	GC: 56.6 %
+	N50: 344,059
+	N ratio: 0.0 %
+	coding density: 85.6 %
+
+annotation summary:
+	tRNAs: 50
+	tmRNAs: 2
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 11
+	CRISPR arrays: 0
+	CDSs: 3644
+		hypotheticals: 1247
+		pseudogenes: 106
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.14
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 16:03 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[14]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:49:01 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:49:01 2024
+Terminated at Tue Mar 26 05:05:08 2024
+Results reported at Tue Mar 26 05:05:08 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4136.42 sec.
+    Max Memory :                                 4613 MB
+    Average Memory :                             1817.78 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               97787.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   975 sec.
+    Turnaround time :                            5707 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 203
+	filtered & revised: 203
+	contigs: 203
+
+start annotation...
+predict tRNAs...
+	found: 41
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 6
+predict ncRNA regions...
+	found: 18
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 5719 
+	discarded spurious: 22
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 87
+	found PSCCs: 2511
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 150
+		found pseudogenes: 143
+analyze hypothetical proteins: 3285
+	detected Pfam hits: 950 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 35565
+
+parse genome sequences...
+	imported: 56
+	filtered & revised: 56
+	contigs: 56
+
+start annotation...
+predict tRNAs...
+	found: 22
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 1
+predict ncRNA regions...
+	found: 7
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 2930 
+	discarded spurious: 9
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 16
+	found PSCCs: 872
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 33
+		found pseudogenes: 29
+analyze hypothetical proteins: 2116
+	detected Pfam hits: 626 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 10056
+	discarded due to overlaps: 7052
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 2945
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 2,486,894 bp
+	Contigs/replicons: 56
+	GC: 70.3 %
+	N50: 50,548
+	N ratio: 0.0 %
+	coding density: 73.6 %
+
+annotation summary:
+	tRNAs: 22
+	tmRNAs: 0
+	rRNAs: 0
+	ncRNAs: 1
+	ncRNA regions: 5
+	CRISPR arrays: 0
+	CDSs: 2917
+		hypotheticals: 2112
+		pseudogenes: 29
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.25_sub
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 10:30 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[16]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:02:22 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:02:22 2024
+Terminated at Tue Mar 26 05:12:56 2024
+Results reported at Tue Mar 26 05:12:56 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2729.09 sec.
+    Max Memory :                                 9644 MB
+    Average Memory :                             2430.83 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               92756.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   635 sec.
+    Turnaround time :                            6175 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 26391
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 5764
+improve annotations...
+	revised gene symbols: 1
+
+genome statistics:
+	Genome size: 4,701,225 bp
+	Contigs/replicons: 203
+	GC: 63.1 %
+	N50: 31,351
+	N ratio: 0.0 %
+	coding density: 80.0 %
+
+annotation summary:
+	tRNAs: 41
+	tmRNAs: 0
+	rRNAs: 3
+	ncRNAs: 6
+	ncRNA regions: 15
+	CRISPR arrays: 0
+	CDSs: 5699
+		hypotheticals: 3283
+		pseudogenes: 143
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.19_sub
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 20:10 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[15]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-11-51>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 04:53:58 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 04:53:58 2024
+Terminated at Tue Mar 26 05:14:13 2024
+Results reported at Tue Mar 26 05:14:13 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5025.59 sec.
+    Max Memory :                                 8380 MB
+    Average Memory :                             2232.33 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               94020.00 MB
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                17
+    Run time :                                   1215 sec.
+    Turnaround time :                            6252 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 57
+	filtered & revised: 57
+	contigs: 57
+
+start annotation...
+predict tRNAs...
+	found: 36
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 2
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 9
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 5567 
+	discarded spurious: 10
+	revised translational exceptions: 0
+	detected IPSs: 6
+	found PSCs: 424
+	found PSCCs: 2466
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 408
+		found pseudogenes: 391
+analyze hypothetical proteins: 2661
+	detected Pfam hits: 792 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 59268
+
+parse genome sequences...
+	imported: 58
+	filtered & revised: 58
+	contigs: 58
+
+start annotation...
+predict tRNAs...
+	found: 35
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 1
+predict ncRNA regions...
+	found: 12
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 2150 
+	discarded spurious: 10
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 33
+	found PSCCs: 727
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 66
+		found pseudogenes: 64
+analyze hypothetical proteins: 1396
+	detected Pfam hits: 402 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 7663
+
+parse genome sequences...
+	imported: 88
+	filtered & revised: 88
+	contigs: 88
+
+start annotation...
+predict tRNAs...
+	found: 45
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 2
+predict ncRNA regions...
+	found: 19
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 4085 
+	discarded spurious: 19
+	revised translational exceptions: 0
+	detected IPSs: 4
+	found PSCs: 73
+	found PSCCs: 1774
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 1
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 123
+		found pseudogenes: 119
+analyze hypothetical proteins: 2343
+	detected Pfam hits: 659 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 23547
+	discarded due to overlaps: 5576
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 2185
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 1,700,150 bp
+	Contigs/replicons: 58
+	GC: 66.5 %
+	N50: 38,822
+	N ratio: 0.0 %
+	coding density: 76.4 %
+
+annotation summary:
+	tRNAs: 34
+	tmRNAs: 1
+	rRNAs: 0
+	ncRNAs: 1
+	ncRNA regions: 12
+	CRISPR arrays: 0
+	CDSs: 2137
+		hypotheticals: 1394
+		pseudogenes: 64
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.31
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 11:38 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[19]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-11-51>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:14:21 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:14:21 2024
+Terminated at Tue Mar 26 05:26:03 2024
+Results reported at Tue Mar 26 05:26:03 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2952.47 sec.
+    Max Memory :                                 7175 MB
+    Average Memory :                             1973.86 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95225.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   702 sec.
+    Turnaround time :                            6962 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 41977
+	discarded spurious: 3
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 5608
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 4,642,618 bp
+	Contigs/replicons: 57
+	GC: 55.5 %
+	N50: 123,207
+	N ratio: 0.0 %
+	coding density: 78.9 %
+
+annotation summary:
+	tRNAs: 35
+	tmRNAs: 1
+	rRNAs: 2
+	ncRNAs: 4
+	ncRNA regions: 9
+	CRISPR arrays: 0
+	CDSs: 5557
+		hypotheticals: 2659
+		pseudogenes: 391
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.28
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 22:10 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[17]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:05:09 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:05:09 2024
+Terminated at Tue Mar 26 05:27:24 2024
+Results reported at Tue Mar 26 05:27:24 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5231.19 sec.
+    Max Memory :                                 6620 MB
+    Average Memory :                             1489.30 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95780.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1335 sec.
+    Turnaround time :                            7043 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 16924
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 4131
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,433,123 bp
+	Contigs/replicons: 88
+	GC: 63.6 %
+	N50: 61,943
+	N ratio: 0.0 %
+	coding density: 77.6 %
+
+annotation summary:
+	tRNAs: 44
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 2
+	ncRNA regions: 15
+	CRISPR arrays: 0
+	CDSs: 4066
+		hypotheticals: 2340
+		pseudogenes: 119
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.30
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 14:39 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[18]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:12:57 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:12:57 2024
+Terminated at Tue Mar 26 05:27:39 2024
+Results reported at Tue Mar 26 05:27:39 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4156.02 sec.
+    Max Memory :                                 12266 MB
+    Average Memory :                             2002.88 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               90134.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   883 sec.
+    Turnaround time :                            7058 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 46
+	filtered & revised: 46
+	contigs: 46
+
+start annotation...
+predict tRNAs...
+	found: 42
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 24
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 4257 
+	discarded spurious: 5
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 82
+	found PSCCs: 2886
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 1
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 37
+		found pseudogenes: 34
+analyze hypothetical proteins: 1516
+	detected Pfam hits: 526 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 47159
+
+parse genome sequences...
+	imported: 33
+	filtered & revised: 33
+	contigs: 33
+
+start annotation...
+predict tRNAs...
+	found: 44
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 6
+predict ncRNAs...
+	found: 2
+predict ncRNA regions...
+	found: 11
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 4239 
+	discarded spurious: 4
+	revised translational exceptions: 0
+	detected IPSs: 3
+	found PSCs: 152
+	found PSCCs: 2263
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 174
+		found pseudogenes: 166
+analyze hypothetical proteins: 1922
+	detected Pfam hits: 599 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 40330
+
+parse genome sequences...
+	imported: 96
+	filtered & revised: 96
+	contigs: 96
+
+start annotation...
+predict tRNAs...
+	found: 51
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 4
+predict ncRNAs...
+	found: 5
+predict ncRNA regions...
+	found: 8
+predict CRISPR arrays...
+	found: 2
+predict & annotate CDSs...
+	predicted: 5525 
+	discarded spurious: 19
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 118
+	found PSCCs: 2663
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 125
+		found pseudogenes: 119
+analyze hypothetical proteins: 2917
+	detected Pfam hits: 748 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 31807
+	discarded due to overlaps: 35335
+	discarded spurious: 1
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 4309
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 4,337,702 bp
+	Contigs/replicons: 46
+	GC: 55.1 %
+	N50: 146,640
+	N ratio: 0.0 %
+	coding density: 83.3 %
+
+annotation summary:
+	tRNAs: 41
+	tmRNAs: 1
+	rRNAs: 0
+	ncRNAs: 4
+	ncRNA regions: 13
+	CRISPR arrays: 0
+	CDSs: 4250
+		hypotheticals: 1514
+		pseudogenes: 34
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.53
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 16:13 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[22]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:27:41 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:27:41 2024
+Terminated at Tue Mar 26 05:43:58 2024
+Results reported at Tue Mar 26 05:43:58 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4042.39 sec.
+    Max Memory :                                 6627 MB
+    Average Memory :                             1423.50 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95773.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   979 sec.
+    Turnaround time :                            8037 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 29795
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 4294
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,654,624 bp
+	Contigs/replicons: 33
+	GC: 53.9 %
+	N50: 231,008
+	N ratio: 0.0 %
+	coding density: 82.2 %
+
+annotation summary:
+	tRNAs: 44
+	tmRNAs: 0
+	rRNAs: 6
+	ncRNAs: 2
+	ncRNA regions: 9
+	CRISPR arrays: 0
+	CDSs: 4233
+		hypotheticals: 1920
+		pseudogenes: 166
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.43
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 17:10 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[21]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:27:25 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:27:25 2024
+Terminated at Tue Mar 26 05:44:39 2024
+Results reported at Tue Mar 26 05:44:39 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4352.44 sec.
+    Max Memory :                                 6545 MB
+    Average Memory :                             1688.00 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               95855.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1034 sec.
+    Turnaround time :                            8078 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 22197
+	discarded spurious: 0
+	detected IPSs: 1
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 1
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 5574
+improve annotations...
+	revised gene symbols: 1
+
+genome statistics:
+	Genome size: 5,091,990 bp
+	Contigs/replicons: 96
+	GC: 68.3 %
+	N50: 86,600
+	N ratio: 0.0 %
+	coding density: 73.6 %
+
+annotation summary:
+	tRNAs: 51
+	tmRNAs: 0
+	rRNAs: 4
+	ncRNAs: 5
+	ncRNA regions: 8
+	CRISPR arrays: 2
+	CDSs: 5503
+		hypotheticals: 2911
+		pseudogenes: 119
+		signal peptides: 0
+	sORFs: 1
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.36
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 19:04 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[20]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-11-51>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:26:03 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:26:03 2024
+Terminated at Tue Mar 26 05:45:11 2024
+Results reported at Tue Mar 26 05:45:11 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4915.13 sec.
+    Max Memory :                                 7470 MB
+    Average Memory :                             1757.00 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               94930.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1148 sec.
+    Turnaround time :                            8110 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 174
+	filtered & revised: 174
+	contigs: 174
+
+start annotation...
+predict tRNAs...
+	found: 50
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 4
+predict ncRNAs...
+	found: 5
+predict ncRNA regions...
+	found: 15
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 6719 
+	discarded spurious: 2
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 278
+	found PSCCs: 2624
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 439
+		found pseudogenes: 426
+analyze hypothetical proteins: 3816
+	detected Pfam hits: 1063 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 70188
+
+parse genome sequences...
+	imported: 15
+	filtered & revised: 15
+	contigs: 15
+
+start annotation...
+predict tRNAs...
+	found: 48
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 5
+predict ncRNA regions...
+	found: 23
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3716 
+	discarded spurious: 7
+	revised translational exceptions: 0
+	detected IPSs: 1
+	found PSCs: 60
+	found PSCCs: 2565
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 62
+		found pseudogenes: 58
+analyze hypothetical proteins: 1213
+	detected Pfam hits: 411 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 19997
+	discarded due to overlaps: 16104
+	discarded spurious: 0
+	detected IPSs: 1
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 1
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3779
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,768,618 bp
+	Contigs/replicons: 15
+	GC: 66.9 %
+	N50: 620,574
+	N ratio: 0.0 %
+	coding density: 87.3 %
+
+annotation summary:
+	tRNAs: 47
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 5
+	ncRNA regions: 17
+	CRISPR arrays: 0
+	CDSs: 3705
+		hypotheticals: 1210
+		pseudogenes: 58
+		signal peptides: 0
+	sORFs: 1
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.62
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 15:09 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[24]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:44:39 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:44:39 2024
+Terminated at Tue Mar 26 05:59:53 2024
+Results reported at Tue Mar 26 05:59:53 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4355.32 sec.
+    Max Memory :                                 7629 MB
+    Average Memory :                             2184.14 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               94771.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   913 sec.
+    Turnaround time :                            8992 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 46871
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 6780
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 4,856,006 bp
+	Contigs/replicons: 174
+	GC: 46.5 %
+	N50: 47,630
+	N ratio: 0.0 %
+	coding density: 73.8 %
+
+annotation summary:
+	tRNAs: 50
+	tmRNAs: 0
+	rRNAs: 4
+	ncRNAs: 5
+	ncRNA regions: 13
+	CRISPR arrays: 0
+	CDSs: 6708
+		hypotheticals: 3808
+		pseudogenes: 426
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.55
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 19:56 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[23]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:44:00 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:44:00 2024
+Terminated at Tue Mar 26 06:03:59 2024
+Results reported at Tue Mar 26 06:03:59 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4319.52 sec.
+    Max Memory :                                 6324 MB
+    Average Memory :                             1277.67 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               96076.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1201 sec.
+    Turnaround time :                            9238 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 261
+	filtered & revised: 261
+	contigs: 261
+
+start annotation...
+predict tRNAs...
+	found: 31
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 7
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 6490 
+	discarded spurious: 25
+	revised translational exceptions: 0
+	detected IPSs: 2
+	found PSCs: 84
+	found PSCCs: 2169
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 223
+		found pseudogenes: 217
+analyze hypothetical proteins: 4363
+	detected Pfam hits: 1180 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 60999
+	discarded due to overlaps: 39749
+	discarded spurious: 0
+	detected IPSs: 1
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 1
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 6506
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 4,907,647 bp
+	Contigs/replicons: 261
+	GC: 52.7 %
+	N50: 24,159
+	N ratio: 0.0 %
+	coding density: 73.1 %
+
+annotation summary:
+	tRNAs: 30
+	tmRNAs: 1
+	rRNAs: 0
+	ncRNAs: 4
+	ncRNA regions: 6
+	CRISPR arrays: 0
+	CDSs: 6464
+		hypotheticals: 4360
+		pseudogenes: 217
+		signal peptides: 0
+	sORFs: 1
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.63
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 24:06 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[25]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-16>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 05:45:49 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 05:45:49 2024
+Terminated at Tue Mar 26 06:10:00 2024
+Results reported at Tue Mar 26 06:10:00 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5193.00 sec.
+    Max Memory :                                 6365 MB
+    Average Memory :                             2128.45 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               96035.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1516 sec.
+    Turnaround time :                            9599 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 170
+	filtered & revised: 170
+	contigs: 170
+
+start annotation...
+predict tRNAs...
+	found: 11
+predict tmRNAs...
+	found: 0
+predict rRNAs...
+	found: 0
+predict ncRNAs...
+	found: 1
+predict ncRNA regions...
+	found: 3
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 3773 
+	discarded spurious: 4
+	revised translational exceptions: 0
+	detected IPSs: 2
+	found PSCs: 86
+	found PSCCs: 1293
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 1
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 171
+		found pseudogenes: 165
+analyze hypothetical proteins: 2436
+	detected Pfam hits: 705 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 35836
+
+parse genome sequences...
+	imported: 66
+	filtered & revised: 66
+	contigs: 66
+
+start annotation...
+predict tRNAs...
+	found: 41
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 13
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 4306 
+	discarded spurious: 8
+	revised translational exceptions: 0
+	detected IPSs: 2
+	found PSCs: 226
+	found PSCCs: 2236
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 2
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 157
+		found pseudogenes: 151
+analyze hypothetical proteins: 1949
+	detected Pfam hits: 553 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 33480
+	discarded due to overlaps: 23692
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 3784
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 2,676,029 bp
+	Contigs/replicons: 170
+	GC: 49.1 %
+	N50: 18,188
+	N ratio: 0.0 %
+	coding density: 73.6 %
+
+annotation summary:
+	tRNAs: 11
+	tmRNAs: 0
+	rRNAs: 0
+	ncRNAs: 1
+	ncRNA regions: 3
+	CRISPR arrays: 0
+	CDSs: 3769
+		hypotheticals: 2436
+		pseudogenes: 165
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.71_sub
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 17:40 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[26]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 06:00:29 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 06:00:29 2024
+Terminated at Tue Mar 26 06:18:13 2024
+Results reported at Tue Mar 26 06:18:13 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3576.04 sec.
+    Max Memory :                                 7968 MB
+    Average Memory :                             2150.75 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               94432.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   1065 sec.
+    Turnaround time :                            10092 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+	discarded due to overlaps: 26894
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 4357
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 3,705,606 bp
+	Contigs/replicons: 66
+	GC: 59.4 %
+	N50: 93,691
+	N ratio: 0.0 %
+	coding density: 85.6 %
+
+annotation summary:
+	tRNAs: 41
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 10
+	CRISPR arrays: 0
+	CDSs: 4298
+		hypotheticals: 1947
+		pseudogenes: 151
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.77
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 15:17 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[27]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-29-36>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 06:04:00 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 06:04:00 2024
+Terminated at Tue Mar 26 06:19:21 2024
+Results reported at Tue Mar 26 06:19:21 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4081.73 sec.
+    Max Memory :                                 8407 MB
+    Average Memory :                             1661.86 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               93993.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   920 sec.
+    Turnaround time :                            10160 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+
+
+parse genome sequences...
+	imported: 3
+	filtered & revised: 3
+	contigs: 3
+
+start annotation...
+predict tRNAs...
+	found: 51
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 3
+predict ncRNAs...
+	found: 4
+predict ncRNA regions...
+	found: 11
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 2197 
+	discarded spurious: 3
+	revised translational exceptions: 0
+	detected IPSs: 0
+	found PSCs: 82
+	found PSCCs: 1653
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 0
+		protein sequences: 0
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 15
+		found pseudogenes: 14
+analyze hypothetical proteins: 534
+	detected Pfam hits: 171 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 8529
+	discarded due to overlaps: 7234
+	discarded spurious: 0
+	detected IPSs: 0
+	found PSCs: 0
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 0
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 0
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 2259
+improve annotations...
+	revised gene symbols: 0
+
+genome statistics:
+	Genome size: 2,166,554 bp
+	Contigs/replicons: 3
+	GC: 67.9 %
+	N50: 1,632,718
+	N ratio: 0.0 %
+	coding density: 90.0 %
+
+annotation summary:
+	tRNAs: 50
+	tmRNAs: 1
+	rRNAs: 3
+	ncRNAs: 4
+	ncRNA regions: 11
+	CRISPR arrays: 0
+	CDSs: 2190
+		hypotheticals: 532
+		pseudogenes: 14
+		signal peptides: 0
+	sORFs: 0
+	gaps: 0
+	oriCs/oriVs: 0
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/secondRun/output/bins.85
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	skip generation of circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 9:10 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20757516[28]: <bakta[1-28]%3> in cluster <dcc> Done
+
+Job <bakta[1-28]%3> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Tue Mar 26 03:30:01 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Tue Mar 26 06:10:43 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/secondRun> was used as the working directory.
+Started at Tue Mar 26 06:10:43 2024
+Terminated at Tue Mar 26 06:19:57 2024
+Results reported at Tue Mar 26 06:19:57 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta[1-28]%3
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
+genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
+output=`basename ${genome/.fa}`
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2556.01 sec.
+    Max Memory :                                 4809 MB
+    Average Memory :                             3050.80 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               97591.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                17
+    Run time :                                   605 sec.
+    Turnaround time :                            10196 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20757516> for stderr output of this job.
+

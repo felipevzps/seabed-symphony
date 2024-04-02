@@ -15,4 +15,4 @@ genome_dir=../../10_non-redundant_bins/secondRun/output/DASToolRun_DASTool_bins/
 genome=`ls -1 $genome_dir | head -n $LSB_JOBINDEX | tail -n 1`
 output=`basename ${genome/.fa}`
 
-/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix bakta --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix $output --output output/$output --meta --threads 10 --keep-contig-headers $genome_dir/$genome
