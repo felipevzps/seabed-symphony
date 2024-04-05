@@ -1,0 +1,5 @@
+file                    format  type   num_seqs         sum_len  min_len  avg_len  max_len
+all.fastq               FASTQ   DNA   5,834,895  20,269,276,398       30  3,473.8  274,651
+all.trimmed.noBC.fastq  FASTQ   DNA   3,628,780  18,102,330,319    1,012  4,988.5  274,596
+
+all.trimmed.noBC.fastq - filtered version (filtlong then porechop)

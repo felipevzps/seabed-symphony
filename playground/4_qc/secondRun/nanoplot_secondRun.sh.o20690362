@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20690362: <nanoplot_secondRun> in cluster <dcc> Done
+
+Job <nanoplot_secondRun> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 23 23:12:49 2024
+Job was executed on host(s) <2*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 00:33:24 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/4_qc> was used as the working directory.
+Started at Sun Mar 24 00:33:24 2024
+Terminated at Sun Mar 24 00:42:02 2024
+Results reported at Sun Mar 24 00:42:02 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J nanoplot_secondRun
+#BSUB -n 2
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=2GB]"
+#BSUB -W 50
+#BSUB -o nanoplot_secondRun.sh.o%J
+#BSUB -e nanoplot_secondRun.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v NanoPlot -t 2 --fastq ../3_adapter_removal/soft_filter/second_run.trimmed.highquality.noadapter.fastq --plots dot --legacy dot --N50 -o nanoplot_secondRun
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   479.00 sec.
+    Max Memory :                                 301 MB
+    Average Memory :                             235.00 MB
+    Total Requested Memory :                     4096.00 MB
+    Delta Memory :                               3795.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                10
+    Run time :                                   608 sec.
+    Turnaround time :                            5353 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <nanoplot_secondRun.sh.e20690362> for stderr output of this job.
+
