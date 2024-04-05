@@ -1,0 +1,157 @@
+
+parse genome sequences...
+	imported: 1
+	filtered & revised: 1
+	contigs: 1
+
+start annotation...
+predict tRNAs...
+	found: 70
+predict tmRNAs...
+	found: 1
+predict rRNAs...
+	found: 18
+predict ncRNAs...
+	found: 58
+predict ncRNA regions...
+	found: 35
+predict CRISPR arrays...
+	found: 0
+predict & annotate CDSs...
+	predicted: 5888 
+	discarded spurious: 9
+	revised translational exceptions: 0
+	detected IPSs: 3465
+	found PSCs: 2040
+	found PSCCs: 256
+	lookup annotations...
+	conduct expert systems...
+		amrfinder: 2
+		protein sequences: 35
+	combine annotations and mark hypotheticals...
+	detect pseudogenes...
+		pseudogene candidates: 54
+		found pseudogenes: 41
+analyze hypothetical proteins: 212
+	detected Pfam hits: 16 
+	calculated proteins statistics
+	revise special cases...
+extract sORF...
+	potential: 55936
+	discarded due to overlaps: 44867
+	discarded spurious: 0
+	detected IPSs: 4
+	found PSCs: 2
+	lookup annotations...
+	filter and combine annotations...
+	filtered sORFs: 3
+detect gaps...
+	found: 0
+detect oriCs/oriVs...
+	found: 1
+detect oriTs...
+	found: 0
+apply feature overlap filters...
+select features and create locus tags...
+selected: 6064
+improve annotations...
+	revised gene symbols: 9
+
+genome statistics:
+	Genome size: 6,542,927 bp
+	Contigs/replicons: 1
+	GC: 60.3 %
+	N50: 6,542,927
+	N ratio: 0.0 %
+	coding density: 89.3 %
+
+annotation summary:
+	tRNAs: 69
+	tmRNAs: 1
+	rRNAs: 18
+	ncRNAs: 58
+	ncRNA regions: 35
+	CRISPR arrays: 0
+	CDSs: 5879
+		hypotheticals: 212
+		pseudogenes: 41
+		signal peptides: 0
+	sORFs: 3
+	gaps: 0
+	oriCs/oriVs: 1
+	oriTs: 0
+
+export annotation results to: /work3/fevape/marine-BGCs/analysis/13_bakta/pseudomonas/output/pseudomonas
+	human readable TSV...
+	GFF3...
+	INSDC GenBank & EMBL...
+	genome sequences...
+	feature nucleotide sequences...
+	translated CDS sequences...
+	circular genome plot...
+	hypothetical TSV...
+	translated hypothetical CDS sequences...
+	machine readable JSON...
+	genome and annotation summary...
+
+If you use these results please cite Bakta: https://doi.org/10.1099/mgen.0.000685
+Annotation successfully finished in 20:23 [mm:ss].
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20813492: <bakta> in cluster <dcc> Done
+
+Job <bakta> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Wed Mar 27 00:16:13 2024
+Job was executed on host(s) <10*n-62-29-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed Mar 27 00:16:14 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/13_bakta/pseudomonas> was used as the working directory.
+Started at Wed Mar 27 00:16:14 2024
+Terminated at Wed Mar 27 00:36:42 2024
+Results reported at Wed Mar 27 00:36:42 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bakta
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o bakta.sh.o%J
+#BSUB -e bakta.sh.e%J
+
+source activate bakta
+
+assembly=assembly/assembly.fasta
+
+/usr/bin/time -v bakta --db /work3/fevape/database/bakta/db/ --prefix pseudomonas --output output/pseudomonas --threads 10 --keep-contig-headers $assembly
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4093.74 sec.
+    Max Memory :                                 7566 MB
+    Average Memory :                             1328.78 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               94834.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                19
+    Run time :                                   1253 sec.
+    Turnaround time :                            1229 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bakta.sh.e20813492> for stderr output of this job.
+
