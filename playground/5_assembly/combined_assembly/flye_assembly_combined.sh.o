@@ -1,0 +1,87 @@
+[2024-03-12 00:03:29] INFO: Starting Flye 2.9.2-b1786
+[2024-03-12 00:03:29] INFO: >>>STAGE: configure
+[2024-03-12 00:03:29] INFO: Configuring run
+[2024-03-12 00:04:32] INFO: Total read length: 17579489028
+[2024-03-12 00:04:32] INFO: Reads N50/N90: 5857 / 2820
+[2024-03-12 00:04:32] INFO: Minimum overlap set to 3000
+[2024-03-12 00:04:32] INFO: >>>STAGE: assembly
+[2024-03-12 00:04:32] INFO: Assembling disjointigs
+[2024-03-12 00:04:32] INFO: Reading sequences
+[2024-03-12 00:05:18] INFO: Building minimizer index
+[2024-03-12 00:05:18] INFO: Pre-calculating index storage
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 00:11:07] INFO: Filling index
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 00:16:37] INFO: Extending reads
+[2024-03-12 00:16:46] INFO: Overlap-based coverage: 2
+[2024-03-12 00:16:46] INFO: Median overlap divergence: 0.0648556
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 01:03:57] INFO: Assembled 218625 disjointigs
+[2024-03-12 01:04:11] INFO: Generating sequence
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 01:07:39] INFO: Filtering contained disjointigs
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 01:11:49] INFO: Contained seqs: 5832
+[2024-03-12 01:12:30] INFO: >>>STAGE: consensus
+[2024-03-12 01:12:30] INFO: Running Minimap2
+[2024-03-12 02:21:35] INFO: Computing consensus
+[2024-03-12 05:28:14] INFO: Alignment error rate: 0.106335
+[2024-03-12 05:28:27] INFO: >>>STAGE: repeat
+[2024-03-12 05:28:27] INFO: Building and resolving repeat graph
+[2024-03-12 05:28:27] INFO: Parsing disjointigs
+[2024-03-12 05:28:39] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 05:40:35] INFO: Median overlap divergence: 0.162869
+[2024-03-12 07:43:45] INFO: Parsing reads
+[2024-03-12 07:44:35] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 08:02:50] INFO: Aligned read sequence: 8400928061 / 15424789313 (0.544638)
+[2024-03-12 08:02:50] INFO: Median overlap divergence: 0.0422789
+[2024-03-12 08:03:00] INFO: Mean edge coverage: 3
+[2024-03-12 08:03:02] INFO: Simplifying the graph
+[2024-03-12 08:05:05] INFO: >>>STAGE: contigger
+[2024-03-12 08:05:05] INFO: Generating contigs
+[2024-03-12 08:05:06] INFO: Reading sequences
+[2024-03-12 08:06:26] INFO: Generated 32497 contigs
+[2024-03-12 08:06:29] INFO: Added 15 scaffold connections
+[2024-03-12 08:06:48] INFO: >>>STAGE: polishing
+[2024-03-12 08:06:48] INFO: Polishing genome (1/1)
+[2024-03-12 08:06:48] INFO: Running minimap2
+[2024-03-12 08:47:28] INFO: Separating alignment into bubbles
+[2024-03-12 09:09:24] INFO: Alignment error rate: 0.114938
+[2024-03-12 09:09:24] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-03-12 13:30:22] INFO: >>>STAGE: finalize
+[2024-03-12 13:30:29] INFO: Assembly statistics:
+
+	Total length:	695593095
+	Fragments:	31075
+	Fragments N50:	35643
+	Largest frg:	6542929
+	Scaffolds:	0
+	Mean coverage:	9
+
+[2024-03-12 13:30:29] INFO: Final assembly: /mnt/raid2/fevape/marine-BGCs/analysis/5_assembly/1_polishing_combined/assembly.fasta
+	Command being timed: "flye --meta --nano-hq ../3_adapter_removal/soft_filter/combined.trimmed.highquality.noadapter.fastq --out-dir 1_polishing_combined --iterations 1 --threads 10"
+	User time (seconds): 366692.08
+	System time (seconds): 39886.61
+	Percent of CPU this job got: 839%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:27:01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 94305172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 7240099728
+	Voluntary context switches: 21684450
+	Involuntary context switches: 925001
+	Swaps: 0
+	File system inputs: 3506288
+	File system outputs: 88896496
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

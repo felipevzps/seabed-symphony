@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20690375: <flye_assembly_secondRun> in cluster <dcc> Done
+
+Job <flye_assembly_secondRun> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 23 23:18:21 2024
+Job was executed on host(s) <10*n-62-29-27>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 00:33:24 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/5_assembly> was used as the working directory.
+Started at Sun Mar 24 00:33:24 2024
+Terminated at Sun Mar 24 09:18:43 2024
+Results reported at Sun Mar 24 09:18:43 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J flye_assembly_secondRun
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o flye_assembly_secondRun.sh.o%J
+#BSUB -e flye_assembly_secondRun.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v flye --meta --nano-hq ../3_adapter_removal/soft_filter/second_run.trimmed.highquality.noadapter.fastq --out-dir secondRun --iterations 2 --threads 10 
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   285980.00 sec.
+    Max Memory :                                 42442 MB
+    Average Memory :                             5371.53 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               59958.00 MB
+    Max Swap :                                   -
+    Max Processes :                              26
+    Max Threads :                                39
+    Run time :                                   31519 sec.
+    Turnaround time :                            36022 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <flye_assembly_secondRun.sh.e20690375> for stderr output of this job.
+
