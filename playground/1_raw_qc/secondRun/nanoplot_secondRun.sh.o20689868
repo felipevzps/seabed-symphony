@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20689868: <nanoplot_secondRun> in cluster <dcc> Done
+
+Job <nanoplot_secondRun> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 23 21:34:56 2024
+Job was executed on host(s) <n-62-31-3>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 23 21:34:58 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/1_raw_qc> was used as the working directory.
+Started at Sat Mar 23 21:34:58 2024
+Terminated at Sat Mar 23 21:48:04 2024
+Results reported at Sat Mar 23 21:48:04 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J nanoplot_secondRun
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o nanoplot_secondRun.sh.o%J
+#BSUB -e nanoplot_secondRun.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v NanoPlot -t 2 --fastq ../0_raw/second_run.fastq --plots dot --legacy dot --N50 -o nanoplot_secondRun
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   734.00 sec.
+    Max Memory :                                 343 MB
+    Average Memory :                             261.38 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4777.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                10
+    Run time :                                   877 sec.
+    Turnaround time :                            788 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <nanoplot_secondRun.sh.e20689868> for stderr output of this job.
+
