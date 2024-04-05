@@ -1,0 +1,69 @@
+	Command being timed: "Fasta_to_Contig2Bin.sh -i ../../9_genome_binning/MetaBAT2/secondRun/bins/ -e fa"
+	User time (seconds): 1.02
+	System time (seconds): 0.43
+	Percent of CPU this job got: 35%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 20
+	Minor (reclaiming a frame) page faults: 110991
+	Voluntary context switches: 11244
+	Involuntary context switches: 1851
+	Swaps: 0
+	File system inputs: 403932
+	File system outputs: 253
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "Fasta_to_Contig2Bin.sh -i ../../9_genome_binning/MaxBin2/secondRun/bins/ -e fasta"
+	User time (seconds): 0.89
+	System time (seconds): 0.23
+	Percent of CPU this job got: 39%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6768
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56305
+	Voluntary context switches: 7671
+	Involuntary context switches: 934
+	Swaps: 0
+	File system inputs: 403254
+	File system outputs: 388
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "perl -pe s/,/\tCONCOCT./g; ../../9_genome_binning/CONCOCT/secondRun/concoct_output/clustering_merged.csv"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 13%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 206
+	Voluntary context switches: 36
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 380
+	File system outputs: 583
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

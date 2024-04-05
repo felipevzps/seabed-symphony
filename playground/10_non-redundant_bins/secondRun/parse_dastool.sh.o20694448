@@ -1,0 +1,66 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20694448: <parse_dastool> in cluster <dcc> Done
+
+Job <parse_dastool> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Sun Mar 24 18:58:16 2024
+Job was executed on host(s) <n-62-31-22>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 18:58:16 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/10_non-redundant_bins/secondRun> was used as the working directory.
+Started at Sun Mar 24 18:58:16 2024
+Terminated at Sun Mar 24 18:58:30 2024
+Results reported at Sun Mar 24 18:58:30 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J parse_dastool
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o parse_dastool.sh.o%J
+#BSUB -e parse_dastool.sh.e%J
+
+source activate metagenomics
+
+mkdir sample_data
+
+# Converting MetaBAT2 fasta output into tab separated contigs2bin file
+/usr/bin/time -v Fasta_to_Contig2Bin.sh -i ../../9_genome_binning/MetaBAT2/secondRun/bins/ -e fa > sample_data/MetaBAT2.contigs2bin.tsv
+
+# Converting MaxBin fasta output into tab separated contigs2bin file
+/usr/bin/time -v Fasta_to_Contig2Bin.sh -i ../../9_genome_binning/MaxBin2/secondRun/bins/ -e fasta > sample_data/MaxBin2.contigs2bin.tsv
+
+# Converting CONCOCT fasta output into tab separated contigs2bin file
+/usr/bin/time -v perl -pe "s/,/\tCONCOCT./g;" ../../9_genome_binning/CONCOCT/secondRun/concoct_output/clustering_merged.csv > sample_data/CONCOCT.contigs2bin.tsv
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.26 sec.
+    Max Memory :                                 5 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1019.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                9
+    Run time :                                   35 sec.
+    Turnaround time :                            14 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <parse_dastool.sh.e20694448> for stderr output of this job.
+
