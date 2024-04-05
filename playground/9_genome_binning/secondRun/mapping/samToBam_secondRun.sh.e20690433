@@ -1,0 +1,70 @@
+	Command being timed: "samtools view -b -o mapped_secondRun.bam mapped_secondRun.sam"
+	User time (seconds): 117.37
+	System time (seconds): 3.49
+	Percent of CPU this job got: 87%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:18.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9
+	Minor (reclaiming a frame) page faults: 1529
+	Voluntary context switches: 161732
+	Involuntary context switches: 1810
+	Swaps: 0
+	File system inputs: 14134047
+	File system outputs: 4100195
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+[bam_sort_core] merging from 13 files and 1 in-memory blocks...
+	Command being timed: "samtools sort -o mapped_sorted_secondRun.bam mapped_secondRun.bam"
+	User time (seconds): 198.08
+	System time (seconds): 2.37
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:31.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 870188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21737
+	Voluntary context switches: 88099
+	Involuntary context switches: 3061
+	Swaps: 0
+	File system inputs: 7902062
+	File system outputs: 7333403
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "samtools index mapped_sorted_secondRun.bam"
+	User time (seconds): 14.09
+	System time (seconds): 0.47
+	Percent of CPU this job got: 90%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2163
+	Voluntary context switches: 42995
+	Involuntary context switches: 224
+	Swaps: 0
+	File system inputs: 3532753
+	File system outputs: 2281
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

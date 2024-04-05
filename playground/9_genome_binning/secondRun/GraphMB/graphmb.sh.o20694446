@@ -1,0 +1,153 @@
+logging to bins/20240324-185409graphmb_output.log
+Running GraphMB 0.2.5
+using cuda: False
+setting seed to 1
+setting tf seed
+Cache not found on bins/
+processing sequences assembly/assembly_prokaryote.fasta
+read 13009 seqs
+processing GFA file (contig nodes) assembly/assembly_graph.gfa
+skipped contigs 0 < 1000
+read 4075, edges
+reading depths
+reading labels
+Saved cache to bins/
+
+Not using SCG file: marker_gene_stats.tsv (not found)
+==============================
+DATASET STATS:
+number of sequences: 13009
+assembly length: 0.271 Gb
+assembly N50: 0.03 Mb
+assembly average length (Mb): 0.021 max: 1.633 min: 0.005
+coverage samples: 1
+Graph file found and read
+graph edges: 4075
+contig paths: 13009
+No SCG markers
+==============================
+==============Running VAE model=====================
+setting tf seed
+edges with overlapping scgs (max=20): []
+deleted 0 edges with same SCGs
+**** Num of edges: 14617
+******* Running model: CCVAE **********
+***** using edge weights: True ******
+***** cluster markers only: False *****
+***** self edges only: False *****
+***** Using raw kmer+abund features: True
+***** SCG neg pairs: (0,)
+***** input features dimension: (13009, 104)
+>>> Pre train stats: {'precision': 1.0, 'recall': 0.31178414943500654, 'f1': 0.4753589217697041, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 4280, 'unresolved_mags': 0}
+*** Model input dim 104, GNN input dim 64
+use_ae: True, run AE only: False output clustering dim 64
+**** initial nodes batch size: 256 ****
+**** epoch batch size doubles: [25, 75, 150, 300] ****
+Increasing nodes batch size from 256 to 512
+Increasing nodes batch size from 512 to 1024
+Increasing nodes batch size from 1024 to 2048
+Increasing nodes batch size from 2048 to 4096
+>>> Last epoch: 0 : {'precision': 1.0, 'recall': 0.057575524636789915, 'f1': 0.10888210495711585, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 5225, 'unresolved_mags': 0, 'epoch': 499} <<<
+>>> best epoch: 0 : {'precision': 1.0, 'recall': 0.057575524636789915, 'f1': 0.10888210495711585, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 5225, 'unresolved_mags': 0, 'epoch': 499} <<<
+===================================================
+writing features to assembly/features.tsv
+RUN 0
+setting torch seed
+setting tf seed
+edges with overlapping scgs (max=20): []
+deleted 0 edges with same SCGs
+**** Num of edges: 14617
+logging to mlflow
+******* Running model: gcn **********
+***** using edge weights: True ******
+***** using disconnected: True ******
+***** concat features: True *****
+***** cluster markers only: False *****
+***** threshold adj matrix: False *****
+***** self edges only: False *****
+***** Using raw kmer+abund features: False
+***** SCG neg pairs: (0,)
+***** input features dimension: 64
+***** Nodes used for clustering: 13009
+>>> Pre train stats: {'precision': 1.0, 'recall': 0.05680682604350834, 'f1': 0.10750654640675007, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 5353, 'unresolved_mags': 0}
+*** Model input dim 64, GNN input dim 64
+*** output clustering dim 32
+>>> best epoch all contigs: 0 : {'precision': 1.0, 'recall': 0.05442386040433546, 'f1': 0.10322956914777283, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 5322, 'unresolved_mags': 0, 'epoch': 499} <<<
+>>> best epoch: 0 : {'precision': 1.0, 'recall': 0.05442386040433546, 'f1': 0.10322956914777283, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 5322, 'unresolved_mags': 0, 'epoch': 499} <<<
+### writing best and last embs to bins/
+5322 clusters
+### skipped 5204 clusters while writing to file
+### wrote 118 clusters 118 >= #contig 1
+setting torch seed
+setting tf seed
+### precision: 1.000 0.000
+### recall: 0.054 0.000
+### f1: 0.103 0.000
+### ari: 0.000 0.000
+### hq: 0.000 0.000
+### mq: 0.000 0.000
+### n_clusters: 5322.000 0.000
+### unresolved_mags: 0.000 0.000
+### epoch: 499.000 0.000
+0.0 0.0 0.0 0.0
+Total run time: 0:19:20.528453
+Seconds per run: 1160.53
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20694446: <graphmb> in cluster <dcc> Done
+
+Job <graphmb> was submitted from host <n-62-30-3> by user <fevape> in cluster <dcc> at Sun Mar 24 18:54:03 2024
+Job was executed on host(s) <10*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 18:54:04 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/GraphMB/secondRun> was used as the working directory.
+Started at Sun Mar 24 18:54:04 2024
+Terminated at Sun Mar 24 19:13:41 2024
+Results reported at Sun Mar 24 19:13:41 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J graphmb
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 3:00
+#BSUB -o graphmb.sh.o%J
+#BSUB -e graphmb.sh.e%J
+
+source activate graphmb
+
+assembly=assembly
+
+/usr/bin/time -v graphmb --assembly $assembly --outdir bins/ --assembly_name assembly_prokaryote.fasta --graph_file assembly_graph.gfa --depth depth.txt --numcores 10 --contignodes --writebins
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2930.02 sec.
+    Max Memory :                                 3105 MB
+    Average Memory :                             1883.17 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               99295.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                29
+    Run time :                                   1241 sec.
+    Turnaround time :                            1178 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <graphmb.sh.e20694446> for stderr output of this job.
+

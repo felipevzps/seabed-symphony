@@ -1,0 +1,63 @@
+MetaBAT 2 (2.15 (Bioconda)) using minContig 2500, minCV 1.0, minCVSum 1.0, maxP 95%, minS 60, maxEdges 200 and minClsSize 200000. with random seed=1711277192
+86 bins (201258715 bases in total) formed.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20690746: <metabat> in cluster <dcc> Done
+
+Job <metabat> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sun Mar 24 01:39:07 2024
+Job was executed on host(s) <5*n-62-30-24>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 11:46:27 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/MetaBAT2/secondRun> was used as the working directory.
+Started at Sun Mar 24 11:46:27 2024
+Terminated at Sun Mar 24 11:47:22 2024
+Results reported at Sun Mar 24 11:47:22 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J metabat
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 1:00
+#BSUB -o metabat.sh.o%J
+#BSUB -e metabat.sh.e%J
+
+source activate metagenomics
+
+assembly=`ls -1 ../../../8_prokaryote_contigs/prokaryote_secondRun/assembly_prokaryote.fasta`
+
+mkdir bins
+
+/usr/bin/time -v metabat2 -i $assembly -a depth.txt -o bins/bins -t 5
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   50.12 sec.
+    Max Memory :                                 946 MB
+    Average Memory :                             946.00 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4174.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   74 sec.
+    Turnaround time :                            36495 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <metabat.sh.e20690746> for stderr output of this job.
+

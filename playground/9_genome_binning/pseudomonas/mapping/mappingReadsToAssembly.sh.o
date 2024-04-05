@@ -1,0 +1,115 @@
+java -ea -Xmx300m -Xms300m -cp /home/fevape/miniconda3/envs/metagenomics/opt/bbmap-39.06-0/current/ jgi.ReformatReads in=CONCOCT_CONCOCT.37.fa out=mapped_reads.fasta fastareadlen=600 trd
+Executing jgi.ReformatReads [in=CONCOCT_CONCOCT.37.fa, out=mapped_reads.fasta, fastareadlen=600, trd]
+
+Input is being processed as unpaired
+Input:                  	10930 reads          	6557340 bases
+Output:                 	10930 reads (100.00%) 	6557340 bases (100.00%)
+
+Time:                         	0.204 seconds.
+Reads Processed:       10930 	53.60k reads/sec
+Bases Processed:       6557k 	32.16m bases/sec
+	Command being timed: "reformat.sh in=CONCOCT_CONCOCT.37.fa out=mapped_reads.fasta fastareadlen=600 trd"
+	User time (seconds): 0.75
+	System time (seconds): 0.06
+	Percent of CPU this job got: 219%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 77952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17538
+	Voluntary context switches: 1145
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 1928
+	File system outputs: 13584
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+java -ea -Xmx111794m -Xms111794m -cp /home/fevape/miniconda3/envs/metagenomics/opt/bbmap-39.06-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 ref=../1_polishing/assembly.fasta in=mapped_reads.fasta out=mapped.sam threads=4
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, ref=../1_polishing/assembly.fasta, in=mapped_reads.fasta, out=mapped.sam, threads=4]
+Version 39.06
+
+Set threads to 4
+Retaining first best site only for ambiguous mappings.
+Writing reference.
+Executing dna.FastaToChromArrays2 [../1_polishing/assembly.fasta, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=true, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=false]
+
+Set genScaffoldInfo=true
+Writing chunk 1
+Set genome to 1
+
+Loaded Reference:	0.006 seconds.
+Loading index for chunk 1-1, build 1
+No index available; generating from reference genome: /mnt/raid2/fevape/marine-BGCs/analysis/5_assembly/pseudomonas/mapping/ref/index/1/chr1_index_k13_c8_b1.block
+Indexing threads started for block 0-1
+Indexing threads finished for block 0-1
+Generated Index:	1.723 seconds.
+Analyzed Index:   	2.164 seconds.
+Started output stream:	0.025 seconds.
+Cleared Memory:    	0.144 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 4 mapping threads.
+Detecting finished threads: 0, 1, 2, 3
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	21858	(6557329 bases)
+
+Mapping:          	0.881 seconds.
+Reads/sec:       	24808.57
+kBases/sec:      	7442.49
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 99.7804% 	    21810 	 99.7804% 	     6542929
+unambiguous:     	 99.0301% 	    21646 	 99.1643% 	     6502529
+ambiguous:       	  0.7503% 	      164 	  0.6161% 	       40400
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	 99.7667% 	    21807 	 99.7636% 	     6541829
+semiperfect site:	 99.7713% 	    21808 	 99.7712% 	     6542329
+
+Match Rate:      	      NA 	       NA 	 99.9995% 	     6542896
+Error Rate:      	  0.0092% 	        2 	  0.0000% 	           2
+Sub Rate:        	  0.0046% 	        1 	  0.0000% 	           1
+Del Rate:        	  0.0000% 	        0 	  0.0000% 	           0
+Ins Rate:        	  0.0046% 	        1 	  0.0000% 	           1
+N Rate:          	  0.0046% 	        1 	  0.0005% 	          31
+
+Total time:     	5.174 seconds.
+	Command being timed: "bbmap.sh ref=../1_polishing/assembly.fasta in=mapped_reads.fasta out=mapped.sam threads=4"
+	User time (seconds): 14.16
+	System time (seconds): 0.99
+	Percent of CPU this job got: 276%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1452720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 372752
+	Voluntary context switches: 4602
+	Involuntary context switches: 64
+	Swaps: 0
+	File system inputs: 4104
+	File system outputs: 94736
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

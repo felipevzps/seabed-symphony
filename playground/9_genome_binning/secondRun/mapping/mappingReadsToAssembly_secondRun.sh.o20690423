@@ -1,0 +1,63 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20690423: <mappingReadsToAssembly_secondRun> in cluster <dcc> Done
+
+Job <mappingReadsToAssembly_secondRun> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 23 23:38:23 2024
+Job was executed on host(s) <10*n-62-29-15>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 09:58:45 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/mapping/secondRun> was used as the working directory.
+Started at Sun Mar 24 09:58:45 2024
+Terminated at Sun Mar 24 11:39:10 2024
+Results reported at Sun Mar 24 11:39:10 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J mappingReadsToAssembly_secondRun
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o mappingReadsToAssembly_secondRun.sh.o%J
+#BSUB -e mappingReadsToAssembly_secondRun.sh.e%J
+
+source activate metagenomics
+
+in=`ls -1 ../../../3_adapter_removal/soft_filter/second_run.trimmed.highquality.noadapter.fastq`
+assembly=`ls -1 ../../../8_prokaryote_contigs/prokaryote_secondRun/assembly_prokaryote.fasta`
+
+# Reformat long reads to max 600 length 
+# trd: Trim the names of reads after the first whitespace
+/usr/bin/time -v reformat.sh in=$in out=mapped_reads_secondRun.fasta fastareadlen=600 trd
+/usr/bin/time -v bbmap.sh ref=$assembly in=mapped_reads_secondRun.fasta out=mapped_secondRun.sam threads=10
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   59377.50 sec.
+    Max Memory :                                 29239 MB
+    Average Memory :                             11626.02 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               73161.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                44
+    Run time :                                   6024 sec.
+    Turnaround time :                            43247 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <mappingReadsToAssembly_secondRun.sh.e20690423> for stderr output of this job.
+

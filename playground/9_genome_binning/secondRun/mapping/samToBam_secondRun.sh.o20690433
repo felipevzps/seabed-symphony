@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20690433: <samToBam_secondRun> in cluster <dcc> Done
+
+Job <samToBam_secondRun> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 23 23:42:29 2024
+Job was executed on host(s) <n-62-31-24>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sun Mar 24 11:39:39 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/mapping/secondRun> was used as the working directory.
+Started at Sun Mar 24 11:39:39 2024
+Terminated at Sun Mar 24 11:45:53 2024
+Results reported at Sun Mar 24 11:45:53 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J samToBam_secondRun
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o samToBam_secondRun.sh.o%J
+#BSUB -e samToBam_secondRun.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v samtools view -b -o mapped_secondRun.bam mapped_secondRun.sam
+/usr/bin/time -v samtools sort -o mapped_sorted_secondRun.bam mapped_secondRun.bam
+/usr/bin/time -v samtools index mapped_sorted_secondRun.bam
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   339.42 sec.
+    Max Memory :                                 852 MB
+    Average Memory :                             150.17 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               172.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   455 sec.
+    Turnaround time :                            43404 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <samToBam_secondRun.sh.e20690433> for stderr output of this job.
+
