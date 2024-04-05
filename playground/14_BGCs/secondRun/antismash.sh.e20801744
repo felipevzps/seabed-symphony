@@ -1,0 +1,644 @@
+	Command being timed: "antismash ../../13_bakta/secondRun/output/151_sub/151_sub.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/151_sub --output-basename 151_sub --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 929.31
+	System time (seconds): 375.49
+	Percent of CPU this job got: 192%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:18.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6092368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1480
+	Minor (reclaiming a frame) page faults: 18074087
+	Voluntary context switches: 21097902
+	Involuntary context switches: 652807
+	Swaps: 0
+	File system inputs: 142495830
+	File system outputs: 107409
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/2078/2078.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/2078 --output-basename 2078 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 320.55
+	System time (seconds): 81.69
+	Percent of CPU this job got: 167%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:00.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4589400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 166
+	Minor (reclaiming a frame) page faults: 8434399
+	Voluntary context switches: 3820264
+	Involuntary context switches: 5751
+	Swaps: 0
+	File system inputs: 95246161
+	File system outputs: 53580
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/267/267.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/267 --output-basename 267 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 1086.91
+	System time (seconds): 304.59
+	Percent of CPU this job got: 197%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:43.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5502544
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 574
+	Minor (reclaiming a frame) page faults: 20491630
+	Voluntary context switches: 17100990
+	Involuntary context switches: 316706
+	Swaps: 0
+	File system inputs: 213020092
+	File system outputs: 113489
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/377/377.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/377 --output-basename 377 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 1078.81
+	System time (seconds): 393.60
+	Percent of CPU this job got: 193%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:39.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4882544
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1640
+	Minor (reclaiming a frame) page faults: 20031205
+	Voluntary context switches: 19771085
+	Involuntary context switches: 856664
+	Swaps: 0
+	File system inputs: 191986769
+	File system outputs: 108461
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/446/446.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/446 --output-basename 446 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 263.73
+	System time (seconds): 109.57
+	Percent of CPU this job got: 177%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:30.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4837492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 82
+	Minor (reclaiming a frame) page faults: 4872000
+	Voluntary context switches: 6377829
+	Involuntary context switches: 149842
+	Swaps: 0
+	File system inputs: 32541262
+	File system outputs: 60661
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/778/778.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/778 --output-basename 778 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 346.44
+	System time (seconds): 143.37
+	Percent of CPU this job got: 191%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:15.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4828164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 164
+	Minor (reclaiming a frame) page faults: 6370869
+	Voluntary context switches: 8236622
+	Involuntary context switches: 264537
+	Swaps: 0
+	File system inputs: 45513498
+	File system outputs: 44192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/487_sub/487_sub.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/487_sub --output-basename 487_sub --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 842.06
+	System time (seconds): 301.75
+	Percent of CPU this job got: 178%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:39.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4864276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 410
+	Minor (reclaiming a frame) page faults: 19872591
+	Voluntary context switches: 13817656
+	Involuntary context switches: 374517
+	Swaps: 0
+	File system inputs: 187896417
+	File system outputs: 105379
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/797/797.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/797 --output-basename 797 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 590.79
+	System time (seconds): 168.20
+	Percent of CPU this job got: 174%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:14.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4842132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 328
+	Minor (reclaiming a frame) page faults: 13763829
+	Voluntary context switches: 7408539
+	Involuntary context switches: 56780
+	Swaps: 0
+	File system inputs: 158056757
+	File system outputs: 83025
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/835/835.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/835 --output-basename 835 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 251.48
+	System time (seconds): 160.72
+	Percent of CPU this job got: 170%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:01.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4843612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 556
+	Minor (reclaiming a frame) page faults: 6961915
+	Voluntary context switches: 7767111
+	Involuntary context switches: 144608
+	Swaps: 0
+	File system inputs: 46764811
+	File system outputs: 55313
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/CONCOCT.10/CONCOCT.10.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/CONCOCT.10 --output-basename CONCOCT.10 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 350.14
+	System time (seconds): 213.33
+	Percent of CPU this job got: 179%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:14.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4895632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 82
+	Minor (reclaiming a frame) page faults: 8347497
+	Voluntary context switches: 13013281
+	Involuntary context switches: 439311
+	Swaps: 0
+	File system inputs: 45498151
+	File system outputs: 75250
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/CONCOCT.29_sub/CONCOCT.29_sub.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/CONCOCT.29_sub --output-basename CONCOCT.29_sub --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 1585.92
+	System time (seconds): 840.66
+	Percent of CPU this job got: 195%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:38.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5308132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 821
+	Minor (reclaiming a frame) page faults: 33538131
+	Voluntary context switches: 41978977
+	Involuntary context switches: 911288
+	Swaps: 0
+	File system inputs: 232430280
+	File system outputs: 142318
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/CONCOCT.44/CONCOCT.44.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/CONCOCT.44 --output-basename CONCOCT.44 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 1137.03
+	System time (seconds): 664.49
+	Percent of CPU this job got: 205%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:35.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4956668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 410
+	Minor (reclaiming a frame) page faults: 20017615
+	Voluntary context switches: 35356690
+	Involuntary context switches: 2113898
+	Swaps: 0
+	File system inputs: 114437913
+	File system outputs: 135698
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.14/bins.14.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.14 --output-basename bins.14 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 171.34
+	System time (seconds): 50.28
+	Percent of CPU this job got: 170%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:10.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4835912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 140
+	Minor (reclaiming a frame) page faults: 3525131
+	Voluntary context switches: 2346980
+	Involuntary context switches: 58216
+	Swaps: 0
+	File system inputs: 27760107
+	File system outputs: 49997
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.10/bins.10.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.10 --output-basename bins.10 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 423.73
+	System time (seconds): 193.71
+	Percent of CPU this job got: 201%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:06.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6279252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 165
+	Minor (reclaiming a frame) page faults: 9851549
+	Voluntary context switches: 9182689
+	Involuntary context switches: 171746
+	Swaps: 0
+	File system inputs: 71667422
+	File system outputs: 73413
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.25_sub/bins.25_sub.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.25_sub --output-basename bins.25_sub --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 300.22
+	System time (seconds): 126.64
+	Percent of CPU this job got: 188%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:46.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5038488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 752
+	Minor (reclaiming a frame) page faults: 7410871
+	Voluntary context switches: 5873179
+	Involuntary context switches: 79812
+	Swaps: 0
+	File system inputs: 63561075
+	File system outputs: 42335
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.19_sub/bins.19_sub.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.19_sub --output-basename bins.19_sub --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 532.09
+	System time (seconds): 300.26
+	Percent of CPU this job got: 184%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:31.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4875836
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 164
+	Minor (reclaiming a frame) page faults: 11312487
+	Voluntary context switches: 18283928
+	Involuntary context switches: 625220
+	Swaps: 0
+	File system inputs: 81117358
+	File system outputs: 78725
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.30/bins.30.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.30 --output-basename bins.30 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 347.74
+	System time (seconds): 142.81
+	Percent of CPU this job got: 189%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:19.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4851500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 164
+	Minor (reclaiming a frame) page faults: 6447880
+	Voluntary context switches: 8306364
+	Involuntary context switches: 230935
+	Swaps: 0
+	File system inputs: 48602380
+	File system outputs: 55614
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.28/bins.28.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.28 --output-basename bins.28 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 702.59
+	System time (seconds): 252.74
+	Percent of CPU this job got: 170%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:20.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4881628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 493
+	Minor (reclaiming a frame) page faults: 20859642
+	Voluntary context switches: 10149808
+	Involuntary context switches: 71320
+	Swaps: 0
+	File system inputs: 204803392
+	File system outputs: 101491
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.31/bins.31.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.31 --output-basename bins.31 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 344.02
+	System time (seconds): 120.90
+	Percent of CPU this job got: 187%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:07.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4763896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 164
+	Minor (reclaiming a frame) page faults: 7203542
+	Voluntary context switches: 6888044
+	Involuntary context switches: 162218
+	Swaps: 0
+	File system inputs: 77380763
+	File system outputs: 36229
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.36/bins.36.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.36 --output-basename bins.36 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 604.71
+	System time (seconds): 225.62
+	Percent of CPU this job got: 195%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:05.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4871736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 410
+	Minor (reclaiming a frame) page faults: 12919000
+	Voluntary context switches: 11198684
+	Involuntary context switches: 144597
+	Swaps: 0
+	File system inputs: 122525114
+	File system outputs: 86054
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.43/bins.43.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.43 --output-basename bins.43 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 891.34
+	System time (seconds): 241.66
+	Percent of CPU this job got: 175%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:45.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6479340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 494
+	Minor (reclaiming a frame) page faults: 21291395
+	Voluntary context switches: 9156859
+	Involuntary context switches: 82972
+	Swaps: 0
+	File system inputs: 228070848
+	File system outputs: 87360
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.53/bins.53.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.53 --output-basename bins.53 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 655.07
+	System time (seconds): 172.97
+	Percent of CPU this job got: 191%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:13.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5056252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 493
+	Minor (reclaiming a frame) page faults: 13988647
+	Voluntary context switches: 7578768
+	Involuntary context switches: 54224
+	Swaps: 0
+	File system inputs: 135591429
+	File system outputs: 85941
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.62/bins.62.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.62 --output-basename bins.62 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 147.32
+	System time (seconds): 40.89
+	Percent of CPU this job got: 172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:49.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4841848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 82
+	Minor (reclaiming a frame) page faults: 2986998
+	Voluntary context switches: 1863579
+	Involuntary context switches: 14966
+	Swaps: 0
+	File system inputs: 26482962
+	File system outputs: 54996
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.55/bins.55.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.55 --output-basename bins.55 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 742.99
+	System time (seconds): 360.21
+	Percent of CPU this job got: 188%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:45.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4898800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 331
+	Minor (reclaiming a frame) page faults: 16137227
+	Voluntary context switches: 17649793
+	Involuntary context switches: 849610
+	Swaps: 0
+	File system inputs: 129780221
+	File system outputs: 96176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.63/bins.63.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.63 --output-basename bins.63 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 750.97
+	System time (seconds): 475.41
+	Percent of CPU this job got: 184%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:04.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4891312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 916
+	Minor (reclaiming a frame) page faults: 18500809
+	Voluntary context switches: 23344657
+	Involuntary context switches: 506692
+	Swaps: 0
+	File system inputs: 129213305
+	File system outputs: 92495
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.71_sub/bins.71_sub.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.71_sub --output-basename bins.71_sub --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 350.50
+	System time (seconds): 278.50
+	Percent of CPU this job got: 197%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:18.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4838624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 82
+	Minor (reclaiming a frame) page faults: 6975052
+	Voluntary context switches: 14056416
+	Involuntary context switches: 583098
+	Swaps: 0
+	File system inputs: 26699645
+	File system outputs: 46072
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.85/bins.85.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.85 --output-basename bins.85 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 182.95
+	System time (seconds): 48.01
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:22.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4510108
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 84
+	Minor (reclaiming a frame) page faults: 4660314
+	Voluntary context switches: 2520084
+	Involuntary context switches: 6159
+	Swaps: 0
+	File system inputs: 53610885
+	File system outputs: 43136
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "antismash ../../13_bakta/secondRun/output/bins.77/bins.77.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/bins.77 --output-basename bins.77 --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 534.38
+	System time (seconds): 193.55
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:31.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5745732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 916
+	Minor (reclaiming a frame) page faults: 13322982
+	Voluntary context switches: 8409161
+	Involuntary context switches: 97578
+	Swaps: 0
+	File system inputs: 121452514
+	File system outputs: 70611
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

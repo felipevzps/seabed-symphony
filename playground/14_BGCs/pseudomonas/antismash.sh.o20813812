@@ -1,0 +1,64 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 20813812: <antismash> in cluster <dcc> Done
+
+Job <antismash> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Wed Mar 27 00:22:28 2024
+Job was executed on host(s) <20*n-62-31-16>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed Mar 27 00:36:43 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/pseudomonas> was used as the working directory.
+Started at Wed Mar 27 00:36:43 2024
+Terminated at Wed Mar 27 00:43:48 2024
+Results reported at Wed Mar 27 00:43:48 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/pseudomonas/output/
+genome=`ls -1 $bakta_annot | head -n 1 | tail -n 1`
+genbank=../../13_bakta/pseudomonas/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   831.17 sec.
+    Max Memory :                                 1750 MB
+    Average Memory :                             1144.60 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               203050.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   425 sec.
+    Turnaround time :                            1280 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e20813812> for stderr output of this job.
+

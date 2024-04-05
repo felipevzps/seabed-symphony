@@ -1,0 +1,23 @@
+	Command being timed: "antismash ../../13_bakta/pseudomonas/output/pseudomonas/pseudomonas.gbff --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/pseudomonas --output-basename pseudomonas --clusterhmmer --cb-general --cb-knownclusters --pfam2go"
+	User time (seconds): 578.69
+	System time (seconds): 250.25
+	Percent of CPU this job got: 196%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:01.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5396896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1169
+	Minor (reclaiming a frame) page faults: 18352622
+	Voluntary context switches: 14945643
+	Involuntary context switches: 6692
+	Swaps: 0
+	File system inputs: 179223044
+	File system outputs: 222229
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
