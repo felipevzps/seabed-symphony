@@ -1,0 +1,23 @@
+NanoPlot needs seaborn and matplotlib with --legacy	Command being timed: "NanoPlot -t 5 --fastq ../0_raw/subsampled_all_fastq_pseudomonas.fastq --plots dot --legacy dot --N50 -o nanoplot_scenarioB"
+	User time (seconds): 464.72
+	System time (seconds): 4.99
+	Percent of CPU this job got: 85%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:10.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 413348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 741
+	Minor (reclaiming a frame) page faults: 208867
+	Voluntary context switches: 211007
+	Involuntary context switches: 626
+	Swaps: 0
+	File system inputs: 19552948
+	File system outputs: 3302
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

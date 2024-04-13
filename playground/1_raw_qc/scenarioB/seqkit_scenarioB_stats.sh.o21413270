@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21413270: <seqkit_scenarioB_stats> in cluster <dcc> Done
+
+Job <seqkit_scenarioB_stats> was submitted from host <n-62-30-7> by user <fevape> in cluster <dcc> at Sat Apr 13 12:34:05 2024
+Job was executed on host(s) <n-62-31-2>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Apr 13 12:34:07 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/1_raw_qc> was used as the working directory.
+Started at Sat Apr 13 12:34:07 2024
+Terminated at Sat Apr 13 12:34:33 2024
+Results reported at Sat Apr 13 12:34:33 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J seqkit_scenarioB_stats
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o seqkit_scenarioB_stats.sh.o%J
+#BSUB -e seqkit_scenarioB_stats.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v seqkit stats ../0_raw/subsampled_all_fastq_pseudomonas.fastq >> seqkit_scenarioB_stats.txt
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13.34 sec.
+    Max Memory :                                 26 MB
+    Average Memory :                             26.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               998.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                9
+    Run time :                                   49 sec.
+    Turnaround time :                            28 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <seqkit_scenarioB_stats.sh.e21413270> for stderr output of this job.
+
