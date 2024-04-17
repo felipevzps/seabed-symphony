@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21443840: <filtlong_scenarioB_highquality> in cluster <dcc> Done
+
+Job <filtlong_scenarioB_highquality> was submitted from host <n-62-27-21> by user <fevape> in cluster <dcc> at Wed Apr 17 15:22:48 2024
+Job was executed on host(s) <n-62-31-2>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed Apr 17 15:42:00 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/2_trimmed/scenarioB> was used as the working directory.
+Started at Wed Apr 17 15:42:00 2024
+Terminated at Wed Apr 17 15:56:50 2024
+Results reported at Wed Apr 17 15:56:50 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J filtlong_scenarioB_highquality
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o filtlong_scenarioB_highquality.sh.o%J
+#BSUB -e filtlong_scenarioB_highquality.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v filtlong --keep_percent 90 soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.fastq >> soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.highquality.fastq  
+
+rm -f soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.fastq
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   459.92 sec.
+    Max Memory :                                 597 MB
+    Average Memory :                             476.12 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4523.00 MB
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   896 sec.
+    Turnaround time :                            2042 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <filtlong_scenarioB_highquality.sh.e21443840> for stderr output of this job.
+

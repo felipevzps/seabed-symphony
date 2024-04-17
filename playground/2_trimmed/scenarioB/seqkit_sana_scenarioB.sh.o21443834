@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21443834: <seqkit_sana> in cluster <dcc> Done
+
+Job <seqkit_sana> was submitted from host <n-62-27-21> by user <fevape> in cluster <dcc> at Wed Apr 17 15:22:21 2024
+Job was executed on host(s) <5*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed Apr 17 15:22:22 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/2_trimmed/scenarioB> was used as the working directory.
+Started at Wed Apr 17 15:22:22 2024
+Terminated at Wed Apr 17 15:25:51 2024
+Results reported at Wed Apr 17 15:25:51 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J seqkit_sana
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o seqkit_sana_scenarioB.sh.o%J
+#BSUB -e seqkit_sana_scenarioB.sh.e%J
+
+source activate metagenomics
+
+mkdir soft_filter
+
+seqkit sana ../../0_raw/subsampled_all_fastq_pseudomonas.fastq --threads 5 -o soft_filter/rescued_subsampled_all_fastq_pseudomonas.fastq
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   288.67 sec.
+    Max Memory :                                 894 MB
+    Average Memory :                             810.00 MB
+    Total Requested Memory :                     25600.00 MB
+    Delta Memory :                               24706.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                13
+    Run time :                                   291 sec.
+    Turnaround time :                            210 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <seqkit_sana_scenarioB.sh.e21443834> for stderr output of this job.
+

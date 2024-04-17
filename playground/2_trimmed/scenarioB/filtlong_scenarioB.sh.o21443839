@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21443839: <filtlong_scenarioB> in cluster <dcc> Done
+
+Job <filtlong_scenarioB> was submitted from host <n-62-27-21> by user <fevape> in cluster <dcc> at Wed Apr 17 15:22:35 2024
+Job was executed on host(s) <n-62-31-3>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed Apr 17 15:25:52 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/2_trimmed/scenarioB> was used as the working directory.
+Started at Wed Apr 17 15:25:52 2024
+Terminated at Wed Apr 17 15:41:59 2024
+Results reported at Wed Apr 17 15:41:59 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J filtlong_scenarioB
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o filtlong_scenarioB.sh.o%J
+#BSUB -e filtlong_scenarioB.sh.e%J
+
+source activate metagenomics
+
+mkdir soft_filter
+
+/usr/bin/time -v filtlong --min_length 1000 soft_filter/rescued_subsampled_all_fastq_pseudomonas.fastq >> soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.fastq
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   479.80 sec.
+    Max Memory :                                 709 MB
+    Average Memory :                             604.22 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4411.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   1031 sec.
+    Turnaround time :                            1164 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <filtlong_scenarioB.sh.e21443839> for stderr output of this job.
+
