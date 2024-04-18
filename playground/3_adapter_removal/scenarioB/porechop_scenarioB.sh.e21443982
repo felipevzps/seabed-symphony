@@ -1,0 +1,23 @@
+	Command being timed: "porechop -i ../../2_trimmed/scenarioB/soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.highquality.fastq -o soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.highquality.noadapter.fastq --threads 5"
+	User time (seconds): 136492.03
+	System time (seconds): 241.43
+	Percent of CPU this job got: 496%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:38:57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14760536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 40
+	Minor (reclaiming a frame) page faults: 12397976
+	Voluntary context switches: 36663316
+	Involuntary context switches: 6534681
+	Swaps: 0
+	File system inputs: 16386454
+	File system outputs: 16245436
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
