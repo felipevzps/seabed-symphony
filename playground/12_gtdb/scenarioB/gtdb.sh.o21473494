@@ -1,0 +1,128 @@
+[2024-04-18 16:24:47] INFO: GTDB-Tk v2.3.2
+[2024-04-18 16:24:47] INFO: gtdbtk classify_wf --genome_dir ../../10_non-redundant_bins/scenarioB/output/DASToolRun_DASTool_bins/ --out_dir output --mash_db mash_db --extension fa --cpus 30
+[2024-04-18 16:24:47] INFO: Using GTDB-Tk reference data version r214: /work3/fevape/database/gtdb/release214
+[2024-04-18 16:24:48] INFO: Loading reference genomes.
+[2024-04-18 16:24:49] INFO: Using Mash version 2.3
+[2024-04-18 16:24:49] INFO: Creating Mash sketch file: output/classify/ani_screen/intermediate_results/mash/gtdbtk.user_query_sketch.msh
+[2024-04-18 16:24:49] INFO: Completed 8 genomes in 0.20 seconds (39.50 genomes/second).
+[2024-04-18 16:24:49] INFO: Creating Mash sketch file: mash_db.msh
+[2024-04-18 16:33:14] INFO: Completed 85,205 genomes in 8.43 minutes (10,111.24 genomes/minute).
+[2024-04-18 16:33:14] INFO: Calculating Mash distances.
+[2024-04-18 16:34:16] INFO: Calculating ANI with FastANI v1.32.
+[2024-04-18 16:34:40] INFO: Completed 238 comparisons in 23.79 seconds (10.01 comparisons/second).
+[2024-04-18 16:34:41] INFO: Summary of results saved to: output/classify/ani_screen/gtdbtk.bac120.ani_summary.tsv
+[2024-04-18 16:34:41] INFO: 1 genome(s) have been classified using the ANI pre-screening step.
+[2024-04-18 16:34:41] INFO: Done.
+[2024-04-18 16:34:41] INFO: Identifying markers in 7 genomes with 30 threads.
+[2024-04-18 16:34:41] TASK: Running Prodigal V2.6.3 to identify genes.
+[2024-04-18 16:35:07] INFO: Completed 7 genomes in 25.81 seconds (3.69 seconds/genome).
+[2024-04-18 16:35:07] TASK: Identifying TIGRFAM protein families.
+[2024-04-18 16:35:12] INFO: Completed 7 genomes in 5.01 seconds (1.40 genomes/second).
+[2024-04-18 16:35:12] TASK: Identifying Pfam protein families.
+[2024-04-18 16:35:13] INFO: Completed 7 genomes in 0.52 seconds (13.55 genomes/second).
+[2024-04-18 16:35:13] INFO: Annotations done using HMMER 3.4 (Aug 2023).
+[2024-04-18 16:35:13] TASK: Summarising identified marker genes.
+[2024-04-18 16:35:13] INFO: Completed 7 genomes in 0.32 seconds (21.81 genomes/second).
+[2024-04-18 16:35:13] INFO: Done.
+[2024-04-18 16:35:15] INFO: Aligning markers in 7 genomes with 30 CPUs.
+[2024-04-18 16:35:15] INFO: Processing 7 genomes identified as bacterial.
+[2024-04-18 16:35:30] INFO: Read concatenated alignment for 80,789 GTDB genomes.
+[2024-04-18 16:35:30] TASK: Generating concatenated alignment for each marker.
+[2024-04-18 16:35:32] INFO: Completed 7 genomes in 0.04 seconds (161.61 genomes/second).
+[2024-04-18 16:35:32] TASK: Aligning 119 identified markers using hmmalign 3.4 (Aug 2023).
+[2024-04-18 16:35:35] INFO: Completed 119 markers in 0.96 seconds (123.74 markers/second).
+[2024-04-18 16:35:35] TASK: Masking columns of bacterial multiple sequence alignment using canonical mask.
+[2024-04-18 16:38:19] INFO: Completed 80,796 sequences in 2.73 minutes (29,619.98 sequences/minute).
+[2024-04-18 16:38:19] INFO: Masked bacterial alignment from 41,084 to 5,035 AAs.
+[2024-04-18 16:38:19] INFO: 0 bacterial user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2024-04-18 16:38:19] INFO: Creating concatenated alignment for 80,796 bacterial GTDB and user genomes.
+[2024-04-18 16:38:50] INFO: Creating concatenated alignment for 7 bacterial user genomes.
+[2024-04-18 16:38:50] INFO: Done.
+[2024-04-18 16:38:51] TASK: Placing 7 bacterial genomes into backbone reference tree with pplacer using 30 CPUs (be patient).
+[2024-04-18 16:38:51] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2024-04-18 16:41:41] INFO: Calculating RED values based on reference tree.
+[2024-04-18 16:41:42] INFO: 7 out of 7 have an class assignments. Those genomes will be reclassified.
+[2024-04-18 16:41:42] TASK: Placing 4 bacterial genomes into class-level reference tree 7 (1/3) with pplacer using 30 CPUs (be patient).
+[2024-04-18 16:47:27] INFO: Calculating RED values based on reference tree.
+[2024-04-18 16:47:29] TASK: Traversing tree to determine classification method.
+[2024-04-18 16:47:29] INFO: Completed 4 genomes in 0.00 seconds (1,112.77 genomes/second).
+[2024-04-18 16:47:29] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2024-04-18 16:47:31] INFO: Completed 20 comparisons in 2.10 seconds (9.53 comparisons/second).
+[2024-04-18 16:47:32] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2024-04-18 16:47:32] TASK: Placing 2 bacterial genomes into class-level reference tree 1 (2/3) with pplacer using 30 CPUs (be patient).
+[2024-04-18 16:53:29] INFO: Calculating RED values based on reference tree.
+[2024-04-18 16:53:32] TASK: Traversing tree to determine classification method.
+[2024-04-18 16:53:32] INFO: Completed 2 genomes in 0.00 seconds (2,427.26 genomes/second).
+[2024-04-18 16:53:32] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2024-04-18 16:53:34] INFO: Completed 14 comparisons in 1.60 seconds (8.75 comparisons/second).
+[2024-04-18 16:53:34] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2024-04-18 16:53:34] TASK: Placing 1 bacterial genomes into class-level reference tree 5 (3/3) with pplacer using 30 CPUs (be patient).
+[2024-04-18 16:56:45] INFO: Calculating RED values based on reference tree.
+[2024-04-18 16:56:47] TASK: Traversing tree to determine classification method.
+[2024-04-18 16:56:47] INFO: Completed 1 genome in 0.06 seconds (17.88 genomes/second).
+[2024-04-18 16:56:47] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2024-04-18 16:56:47] WARNING: 2 of 8 genomes have a warning (see summary file).
+[2024-04-18 16:56:47] INFO: Note that Tk classification mode is insufficient for publication of new taxonomic designations. New designations should be based on one or more de novo trees, an example of which can be produced by Tk in de novo mode.
+[2024-04-18 16:56:47] INFO: Done.
+[2024-04-18 16:56:48] INFO: Removing intermediate files.
+[2024-04-18 16:56:48] INFO: Intermediate files removed.
+[2024-04-18 16:56:48] INFO: Done.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21473494: <gtdb> in cluster <dcc> Done
+
+Job <gtdb> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:20:57 2024
+Job was executed on host(s) <30*n-62-12-3>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 16:24:32 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/12_gtdb/scenarioB> was used as the working directory.
+Started at Thu Apr 18 16:24:32 2024
+Terminated at Thu Apr 18 16:56:49 2024
+Results reported at Thu Apr 18 16:56:49 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J gtdb
+#BSUB -n 30
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=12GB]"
+#BSUB -W 72:00
+#BSUB -o gtdb.sh.o%J
+#BSUB -e gtdb.sh.e%J
+
+source activate gtdbtk-2.3.2
+
+bins=../../10_non-redundant_bins/scenarioB/output/DASToolRun_DASTool_bins/
+
+/usr/bin/time -v gtdbtk classify_wf --genome_dir $bins --out_dir output --mash_db mash_db --extension fa --cpus 30
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14176.00 sec.
+    Max Memory :                                 44604 MB
+    Average Memory :                             19891.50 MB
+    Total Requested Memory :                     368640.00 MB
+    Delta Memory :                               324036.00 MB
+    Max Swap :                                   -
+    Max Processes :                              16
+    Max Threads :                                38
+    Run time :                                   1985 sec.
+    Turnaround time :                            2152 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <gtdb.sh.e21473494> for stderr output of this job.
+
