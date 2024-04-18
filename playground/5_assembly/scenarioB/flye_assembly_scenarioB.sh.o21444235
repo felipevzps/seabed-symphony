@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21444235: <flye_assembly_scenarioB> in cluster <dcc> Done
+
+Job <flye_assembly_scenarioB> was submitted from host <n-62-27-21> by user <fevape> in cluster <dcc> at Wed Apr 17 15:51:10 2024
+Job was executed on host(s) <10*n-62-29-22>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed Apr 17 23:35:58 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/5_assembly/scenarioB> was used as the working directory.
+Started at Wed Apr 17 23:35:58 2024
+Terminated at Thu Apr 18 01:51:19 2024
+Results reported at Thu Apr 18 01:51:19 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J flye_assembly_scenarioB
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o flye_assembly_scenarioB.sh.o%J
+#BSUB -e flye_assembly_scenarioB.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v flye --meta --nano-hq ../../3_adapter_removal/scenarioB/soft_filter/rescued_subsampled_all_fastq_pseudomonas.trimmed.highquality.noadapter.fastq --out-dir scenarioB --iterations 1 --threads 10 
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   74863.00 sec.
+    Max Memory :                                 36789 MB
+    Average Memory :                             4668.97 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               65611.00 MB
+    Max Swap :                                   -
+    Max Processes :                              24
+    Max Threads :                                37
+    Run time :                                   8121 sec.
+    Turnaround time :                            36009 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <flye_assembly_scenarioB.sh.e21444235> for stderr output of this job.
+
