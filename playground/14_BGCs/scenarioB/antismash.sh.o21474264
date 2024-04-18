@@ -1,0 +1,512 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[1]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-12-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:25:48 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:25:48 2024
+Terminated at Thu Apr 18 17:38:09 2024
+Results reported at Thu Apr 18 17:38:09 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1275.00 sec.
+    Max Memory :                                 7025 MB
+    Average Memory :                             4035.71 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197775.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   743 sec.
+    Turnaround time :                            3599 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[2]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-12-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:39:47 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:39:47 2024
+Terminated at Thu Apr 18 17:40:36 2024
+Results reported at Thu Apr 18 17:40:36 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   72.00 sec.
+    Max Memory :                                 188 MB
+    Average Memory :                             188.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204612.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   51 sec.
+    Turnaround time :                            3746 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[3]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-12-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:41:50 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:41:50 2024
+Terminated at Thu Apr 18 17:50:40 2024
+Results reported at Thu Apr 18 17:50:40 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1009.00 sec.
+    Max Memory :                                 6761 MB
+    Average Memory :                             2459.40 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               198039.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   530 sec.
+    Turnaround time :                            4350 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[4]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-21-5>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:48:10 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:48:10 2024
+Terminated at Thu Apr 18 17:58:40 2024
+Results reported at Thu Apr 18 17:58:40 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1222.00 sec.
+    Max Memory :                                 4680 MB
+    Average Memory :                             2953.80 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200120.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   629 sec.
+    Turnaround time :                            4830 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[5]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-12-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:50:42 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:50:42 2024
+Terminated at Thu Apr 18 17:59:35 2024
+Results reported at Thu Apr 18 17:59:35 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1029.00 sec.
+    Max Memory :                                 9086 MB
+    Average Memory :                             4386.17 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               195714.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   532 sec.
+    Turnaround time :                            4885 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[6]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-21-5>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:58:40 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:58:40 2024
+Terminated at Thu Apr 18 18:05:02 2024
+Results reported at Thu Apr 18 18:05:02 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   712.00 sec.
+    Max Memory :                                 4389 MB
+    Average Memory :                             2350.50 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200411.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              6
+    Max Threads :                                19
+    Run time :                                   381 sec.
+    Turnaround time :                            5212 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[7]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-12-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 17:59:35 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 17:59:35 2024
+Terminated at Thu Apr 18 18:07:52 2024
+Results reported at Thu Apr 18 18:07:52 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   933.00 sec.
+    Max Memory :                                 2222 MB
+    Average Memory :                             1362.50 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202578.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   496 sec.
+    Turnaround time :                            5382 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21474264[8]: <antismash[1-8]%2> in cluster <dcc> Done
+
+Job <antismash[1-8]%2> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:38:10 2024
+Job was executed on host(s) <20*n-62-21-5>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 18:05:02 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/14_BGCs/scenarioB> was used as the working directory.
+Started at Thu Apr 18 18:05:02 2024
+Terminated at Thu Apr 18 18:09:06 2024
+Results reported at Thu Apr 18 18:09:06 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-8]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot=../../13_bakta/scenarioB/output/
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank=../../13_bakta/scenarioB/output/${genome}/${genome}.gbff
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases /work3/fevape/database/antismash -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   458.00 sec.
+    Max Memory :                                 2527 MB
+    Average Memory :                             1576.25 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202273.00 MB
+    Max Swap :                                   -
+    Max Processes :                              25
+    Max Threads :                                29
+    Run time :                                   243 sec.
+    Turnaround time :                            5456 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e21474264> for stderr output of this job.
+
