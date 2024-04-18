@@ -1,0 +1,96 @@
+[2024-04-18 16:24:51] INFO: CheckM v1.2.2
+[2024-04-18 16:24:51] INFO: checkm lineage_wf -x fa -t 10 --tab_table ../../10_non-redundant_bins/scenarioB/output/DASToolRun_DASTool_bins/ output/ -f output/checkm.tsv
+[2024-04-18 16:24:51] INFO: CheckM data: /work3/fevape/database/checkm
+[2024-04-18 16:24:51] INFO: [CheckM - tree] Placing bins in reference genome tree.
+[2024-04-18 16:24:52] INFO: Identifying marker genes in 8 bins with 10 threads:
+[2024-04-18 16:25:35] INFO: Saving HMM info to file.
+[2024-04-18 16:25:35] INFO: Calculating genome statistics for 8 bins with 10 threads:
+[2024-04-18 16:25:36] INFO: Extracting marker genes to align.
+[2024-04-18 16:25:36] INFO: Parsing HMM hits to marker genes:
+[2024-04-18 16:25:36] INFO: Extracting 43 HMMs with 10 threads:
+[2024-04-18 16:25:37] INFO: Aligning 43 marker genes with 10 threads:
+[2024-04-18 16:25:38] INFO: Reading marker alignment files.
+[2024-04-18 16:25:38] INFO: Concatenating alignments.
+[2024-04-18 16:25:38] INFO: Placing 8 bins into the genome tree with pplacer (be patient).
+[2024-04-18 16:31:28] INFO: { Current stage: 0:06:36.593 || Total: 0:06:36.593 }
+[2024-04-18 16:31:28] INFO: [CheckM - lineage_set] Inferring lineage-specific marker sets.
+[2024-04-18 16:31:28] INFO: Reading HMM info from file.
+[2024-04-18 16:31:28] INFO: Parsing HMM hits to marker genes:
+[2024-04-18 16:31:28] INFO: Determining marker sets for each genome bin.
+[2024-04-18 16:31:31] INFO: Marker set written to: output/lineage.ms
+[2024-04-18 16:31:31] INFO: { Current stage: 0:00:02.701 || Total: 0:06:39.295 }
+[2024-04-18 16:31:31] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2024-04-18 16:31:31] INFO: Identifying marker genes in 8 bins with 10 threads:
+[2024-04-18 16:35:56] INFO: Saving HMM info to file.
+[2024-04-18 16:35:57] INFO: { Current stage: 0:04:25.912 || Total: 0:11:05.207 }
+[2024-04-18 16:35:57] INFO: Parsing HMM hits to marker genes:
+[2024-04-18 16:35:59] INFO: Aligning marker genes with multiple hits in a single bin:
+[2024-04-18 16:36:09] INFO: { Current stage: 0:00:12.400 || Total: 0:11:17.608 }
+[2024-04-18 16:36:09] INFO: Calculating genome statistics for 8 bins with 10 threads:
+[2024-04-18 16:36:09] INFO: { Current stage: 0:00:00.472 || Total: 0:11:18.080 }
+[2024-04-18 16:36:09] INFO: [CheckM - qa] Tabulating genome statistics.
+[2024-04-18 16:36:09] INFO: Calculating AAI between multi-copy marker genes.
+[2024-04-18 16:36:10] INFO: Reading HMM info from file.
+[2024-04-18 16:36:10] INFO: Parsing HMM hits to marker genes:
+[2024-04-18 16:36:13] INFO: QA information written to: output/checkm.tsv
+[2024-04-18 16:36:13] INFO: { Current stage: 0:00:03.532 || Total: 0:11:21.612 }
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21473483: <checkm> in cluster <dcc> Done
+
+Job <checkm> was submitted from host <n-62-30-4> by user <fevape> in cluster <dcc> at Thu Apr 18 16:20:17 2024
+Job was executed on host(s) <10*n-62-31-22>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Apr 18 16:24:32 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/11_ckeckm/scenarioB> was used as the working directory.
+Started at Thu Apr 18 16:24:32 2024
+Terminated at Thu Apr 18 16:36:14 2024
+Results reported at Thu Apr 18 16:36:14 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J checkm
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 3:00
+#BSUB -o checkm.sh.o%J
+#BSUB -e checkm.sh.e%J
+
+source activate checkm
+
+bins=../../10_non-redundant_bins/scenarioB/output/DASToolRun_DASTool_bins/
+
+/usr/bin/time -v checkm lineage_wf -x fa -t 10 --tab_table $bins output/ -f output/checkm.tsv 
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1517.00 sec.
+    Max Memory :                                 33266 MB
+    Average Memory :                             11202.00 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               69134.00 MB
+    Max Swap :                                   -
+    Max Processes :                              31
+    Max Threads :                                40
+    Run time :                                   732 sec.
+    Turnaround time :                            957 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <checkm.sh.e21473483> for stderr output of this job.
+
