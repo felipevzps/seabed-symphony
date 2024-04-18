@@ -1,0 +1,34 @@
+Output depth matrix to depth.txt
+jgi_summarize_bam_contig_depths 2.15 (Bioconda) 2020-07-03T13:02:15
+Output matrix to depth.txt
+0: Opening bam: ../../mapping/scenarioB/mapped_sorted_scenarioB.bam
+Processing bam files
+Warning: consider running calmd on your bamfile! nm (3282) != insertions (1) + deletions (3248) + mismatches (29) (== 3278) for read 9e766651-f8d0-4c11-a3e1-5a6ac6058e69_part_2
+Thread 0 finished: mapped_sorted_scenarioB.bam with 8421358 reads and 360593 readsWellMapped
+Creating depth matrix file: depth.txt
+Closing most bam files
+Closing last bam file
+Finished
+	Command being timed: "jgi_summarize_bam_contig_depths --outputDepth depth.txt ../../mapping/scenarioB/mapped_sorted_scenarioB.bam"
+	User time (seconds): 9.46
+	System time (seconds): 0.48
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 810
+	Voluntary context switches: 17905
+	Involuntary context switches: 112
+	Swaps: 0
+	File system inputs: 2330496
+	File system outputs: 255
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
