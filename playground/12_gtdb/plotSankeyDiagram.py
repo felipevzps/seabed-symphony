@@ -18,7 +18,13 @@ df = pd.read_csv(infile, sep='\t', usecols=['classification'])
 # extract categories from each level of the classification
 def extract_categories(classification):
     categories = classification.split(';')
-    levels = [category.split('__')[1] for category in categories]
+    #levels = [category.split('__')[1] for category in categories]
+    #return levels
+    levels = []
+    for category in categories:
+        if '__' in category:
+            level = category.split('__')[1]
+            levels.append(level)
     return levels
 
 df['levels'] = df['classification'].apply(extract_categories)
