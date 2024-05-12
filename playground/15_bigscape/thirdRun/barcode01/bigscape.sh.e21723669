@@ -1,0 +1,23 @@
+	Command being timed: "bigscape -i gbks -o output --pfam_dir /work3/fevape/database/pfam -c 20 --verbose --include_singletons --mode auto --mibig"
+	User time (seconds): 19041.74
+	System time (seconds): 149882.94
+	Percent of CPU this job got: 724%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:28:40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 217660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 470
+	Minor (reclaiming a frame) page faults: 43604004
+	Voluntary context switches: 8778917161
+	Involuntary context switches: 853448
+	Swaps: 0
+	File system inputs: 32632560127
+	File system outputs: 679341
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
