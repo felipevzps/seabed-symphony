@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710870: <extract_whokaryote> in cluster <dcc> Done
+
+Job <extract_whokaryote> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:18:49 2024
+Job was executed on host(s) <n-62-31-1>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 22:33:43 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/8_prokaryote_contigs/third_run/barcode05> was used as the working directory.
+Started at Thu May  9 22:33:43 2024
+Terminated at Thu May  9 22:34:00 2024
+Results reported at Thu May  9 22:34:00 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J extract_whokaryote
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o whokaryote.sh.o%J
+#BSUB -e whokaryote.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v ../.././extractContigsFromWhokaryote.py -i ../../../5_assembly/third_run/barcode05/barcode05/assembly.fasta -p ../../../7_assign_taxonomy/third_run/barcode05/output/prokaryote_contig_headers.txt -o prokaryote
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.75 sec.
+    Max Memory :                                 39 MB
+    Average Memory :                             39.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               985.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   36 sec.
+    Turnaround time :                            76511 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <whokaryote.sh.e21710870> for stderr output of this job.
+
