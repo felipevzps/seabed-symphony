@@ -1,0 +1,104 @@
+logging to bins/20240511-043644graphmb_output.log
+Running GraphMB 0.2.5
+using cuda: False
+setting seed to 1
+setting tf seed
+Cache not found on bins/
+processing sequences assembly/assembly_prokaryote.fasta
+read 103 seqs
+processing GFA file (contig nodes) assembly/assembly_graph.gfa
+skipped contigs 0 < 1000
+read 0, edges
+reading depths
+reading labels
+Saved cache to bins/
+
+Not using SCG file: marker_gene_stats.tsv (not found)
+==============================
+DATASET STATS:
+number of sequences: 103
+assembly length: 0.001 Gb
+assembly N50: 0.014 Mb
+assembly average length (Mb): 0.013 max: 0.039 min: 0.005
+coverage samples: 1
+Graph file found and read
+graph edges: 0
+contig paths: 103
+No SCG markers
+==============================
+==============Running VAE model=====================
+setting tf seed
+edges with overlapping scgs (max=20): []
+deleted 0 edges with same SCGs
+Uncaught exception
+Traceback (most recent call last):
+  File "/zhome/56/5/209982/bin/miniconda3/envs/graphmb/bin/graphmb", line 8, in <module>
+    sys.exit(main())
+  File "/zhome/56/5/209982/bin/miniconda3/envs/graphmb/lib/python3.8/site-packages/graphmb/main.py", line 499, in main
+    vae_embs,_,_= train_ccvae.run_model_ccvae(dataset, args, logger, 0,
+  File "/zhome/56/5/209982/bin/miniconda3/envs/graphmb/lib/python3.8/site-packages/graphmb/train_ccvae.py", line 154, in run_model_ccvae
+    X, adj, cluster_mask, neg_pair_idx, pos_pair_idx = prepare_data_for_gnn(
+  File "/zhome/56/5/209982/bin/miniconda3/envs/graphmb/lib/python3.8/site-packages/graphmb/train_ccvae.py", line 91, in prepare_data_for_gnn
+    edge_features = edge_weights / edge_weights.max()
+  File "/zhome/56/5/209982/bin/miniconda3/envs/graphmb/lib/python3.8/site-packages/numpy/core/_methods.py", line 40, in _amax
+    return umr_maximum(a, axis, None, out, keepdims, initial, where)
+ValueError: zero-size array to reduction operation maximum which has no identity
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21723024: <graphmb> in cluster <dcc> Exited
+
+Job <graphmb> was submitted from host <n-62-30-1> by user <fevape> in cluster <dcc> at Sat May 11 04:36:41 2024
+Job was executed on host(s) <10*n-62-31-13>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat May 11 04:36:41 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/GraphMB/third_run/barcode01> was used as the working directory.
+Started at Sat May 11 04:36:41 2024
+Terminated at Sat May 11 04:36:53 2024
+Results reported at Sat May 11 04:36:53 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J graphmb
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 3:00
+#BSUB -o graphmb.sh.o%J
+#BSUB -e graphmb.sh.e%J
+
+source activate graphmb
+
+assembly=assembly
+
+/usr/bin/time -v graphmb --assembly $assembly --outdir bins/ --assembly_name assembly_prokaryote.fasta --graph_file assembly_graph.gfa --depth depth.txt --numcores 10 --contignodes --writebins
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   6.65 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   70 sec.
+    Turnaround time :                            12 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <graphmb.sh.e21723024> for stderr output of this job.
+

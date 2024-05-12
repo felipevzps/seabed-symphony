@@ -1,0 +1,123 @@
+MaxBin 2.2.7
+Input contig: ../../../../8_prokaryote_contigs/third_run/barcode01/prokaryote/assembly_prokaryote.fasta
+Located abundance file [../../../MetaBAT2/third_run/barcode01/depth.txt]
+out header: bins/bins
+Thread: 5
+Searching against 107 marker genes to find starting seed contigs for [../../../../8_prokaryote_contigs/third_run/barcode01/prokaryote/assembly_prokaryote.fasta]...
+Running FragGeneScan....
+Running HMMER hmmsearch....
+Try harder to dig out marker genes from contigs.
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.contig.tmp  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.seed -out bins/bins -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_23 [15728.000000]
+	contig_53 [25886.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 1 (0.97%)
+Elapsed time:  0 days 00:00:00
+
+bins.001.marker.fasta
+bins.002.marker.fasta
+Deleting intermediate files.
+
+
+========== Job finished ==========
+Yielded 2 bins for contig (scaffold) file ../../../../8_prokaryote_contigs/third_run/barcode01/prokaryote/assembly_prokaryote.fasta
+
+Here are the output files for this run.
+Please refer to the README file for further details.
+
+Summary file: bins/bins.summary
+Marker counts: bins/bins.marker
+Marker genes for each bin: bins/bins.marker_of_each_gene.tar.gz
+Bin files: bins/bins.001.fasta - bins/bins.002.fasta
+Unbinned sequences: bins/bins.noclass
+
+
+========== Elapsed Time ==========
+0 hours 0 minutes and 4 seconds.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710904: <maxbin> in cluster <dcc> Done
+
+Job <maxbin> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:31:07 2024
+Job was executed on host(s) <5*n-62-31-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 01:31:07 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/MaxBin2/third_run/barcode01> was used as the working directory.
+Started at Thu May  9 01:31:07 2024
+Terminated at Thu May  9 01:31:19 2024
+Results reported at Thu May  9 01:31:19 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J maxbin
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 1:00
+#BSUB -o maxbin.sh.o%J
+#BSUB -e maxbin.sh.e%J
+
+source activate metagenomics
+
+reads=`ls -1 ../../../../3_adapter_removal/third_run/barcode01/soft_filter/barcode01.trimmed.highquality.noadapter.fastq/BC01.fastq`
+assembly=`ls -1 ../../../../8_prokaryote_contigs/third_run/barcode01/prokaryote/assembly_prokaryote.fasta`
+depth=`ls -1 ../../../MetaBAT2/third_run/barcode01/depth.txt`
+
+mkdir bins
+
+# removed: reads $reads - for first run
+/usr/bin/time -v run_MaxBin.pl -contig $assembly -abund $depth -out bins/bins -thread 5
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.52 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   112 sec.
+    Turnaround time :                            12 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <maxbin.sh.e21710904> for stderr output of this job.
+
