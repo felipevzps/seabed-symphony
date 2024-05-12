@@ -1,15 +1,15 @@
 
 ------------------------------------------------------------
 Sender: LSF System <lsfadmin@hpc.dtu.dk>
-Subject: Job 21710835: <seqkit_stats> in cluster <dcc> Done
+Subject: Job 21710837: <seqkit_stats> in cluster <dcc> Done
 
-Job <seqkit_stats> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:11:33 2024
-Job was executed on host(s) <n-62-31-24>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 01:11:34 2024
+Job <seqkit_stats> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:11:39 2024
+Job was executed on host(s) <n-62-31-24>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 01:11:40 2024
 </zhome/56/5/209982> was used as the home directory.
-</work3/fevape/marine-BGCs/analysis/4_qc/third_run/barcode02> was used as the working directory.
-Started at Thu May  9 01:11:34 2024
-Terminated at Thu May  9 01:13:17 2024
-Results reported at Thu May  9 01:13:17 2024
+</work3/fevape/marine-BGCs/analysis/4_qc/third_run/barcode03> was used as the working directory.
+Started at Thu May  9 01:11:40 2024
+Terminated at Thu May  9 01:12:37 2024
+Results reported at Thu May  9 01:12:37 2024
 
 Your job looked like:
 
@@ -28,7 +28,7 @@ Your job looked like:
 
 source activate metagenomics
 
-/usr/bin/time -v seqkit stats ../../../3_adapter_removal/third_run/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq >> seqkit_stats.txt
+/usr/bin/time -v seqkit stats ../../../3_adapter_removal/third_run/barcode03/soft_filter/barcode03.trimmed.highquality.noadapter.fastq/BC03.fastq >> seqkit_stats.txt
 
 ------------------------------------------------------------
 
@@ -36,7 +36,7 @@ Successfully completed.
 
 Resource usage summary:
 
-    CPU time :                                   36.51 sec.
+    CPU time :                                   20.40 sec.
     Max Memory :                                 26 MB
     Average Memory :                             26.00 MB
     Total Requested Memory :                     1024.00 MB
@@ -44,8 +44,8 @@ Resource usage summary:
     Max Swap :                                   -
     Max Processes :                              5
     Max Threads :                                9
-    Run time :                                   103 sec.
-    Turnaround time :                            104 sec.
+    Run time :                                   62 sec.
+    Turnaround time :                            58 sec.
 
 The output (if any) is above this job summary.
 
@@ -53,5 +53,5 @@ The output (if any) is above this job summary.
 
 PS:
 
-Read file <seqkit_stats.sh.e21710835> for stderr output of this job.
+Read file <seqkit_stats.sh.e21710837> for stderr output of this job.
 

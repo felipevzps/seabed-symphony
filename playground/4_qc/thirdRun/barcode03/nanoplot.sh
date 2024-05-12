@@ -11,4 +11,4 @@
 
 source activate metagenomics
 
-/usr/bin/time -v NanoPlot -t 5 --fastq ../../../3_adapter_removal/third_run/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq --plots dot --legacy dot --N50 -o nanoplot
+/usr/bin/time -v NanoPlot -t 5 --fastq ../../../3_adapter_removal/third_run/barcode03/soft_filter/barcode03.trimmed.highquality.noadapter.fastq/BC03.fastq --plots dot --legacy dot --N50 -o nanoplot
