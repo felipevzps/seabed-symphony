@@ -1,0 +1,22 @@
+2024-05-08 02:14:26,993 NanoPlot 1.42.0 started with arguments Namespace(N50=True, alength=False, bam=None, barcoded=False, color='#4CB391', colormap='Greens', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=None, fastq=['../../../0_raw/third_run/barcode01/barcode01.fastq'], fastq_minimal=None, fastq_rich=None, feather=None, font_scale=1, format=['png'], hide_stats=False, huge=False, info_in_report=False, legacy=['dot'], listcolormaps=False, listcolors=False, loglength=False, maxlength=None, minlength=None, minqual=None, no_N50=False, no_static=False, no_supplementary=False, only_report=False, outdir='nanoplot', path='nanoplot/', percentqual=False, pickle=None, plots=['dot'], prefix='', raw=False, readtype='1D', runtime_until=None, store=False, summary=None, threads=5, title=None, tsv_stats=False, ubam=None, verbose=False)
+2024-05-08 02:14:27,064 Python version is: 3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21)  [GCC 9.4.0]
+2024-05-08 02:14:27,261 Nanoget: Starting to collect statistics from plain fastq file.
+2024-05-08 02:15:06,636 Reduced DataFrame memory usage from 2.35345458984375Mb to 1.5689697265625Mb
+2024-05-08 02:15:06,659 Nanoget: Gathered all metrics of 102824 reads
+2024-05-08 02:15:06,833 Calculated statistics
+2024-05-08 02:15:06,835 Using sequenced read lengths for plotting.
+2024-05-08 02:15:06,884 NanoPlot:  Valid color #4CB391.
+2024-05-08 02:15:06,886 NanoPlot:  Valid colormap Greens.
+2024-05-08 02:15:06,906 NanoPlot:  Creating length plots for Read length.
+2024-05-08 02:15:06,909 NanoPlot: Using 102824 reads with read length N50 of 5723bp and maximum of 43567bp.
+2024-05-08 02:15:18,972 Saved nanoplot/WeightedHistogramReadlength  as png (or png for --legacy)
+2024-05-08 02:15:20,431 Saved nanoplot/WeightedLogTransformed_HistogramReadlength  as png (or png for --legacy)
+2024-05-08 02:15:21,539 Saved nanoplot/Non_weightedHistogramReadlength  as png (or png for --legacy)
+2024-05-08 02:15:22,634 Saved nanoplot/Non_weightedLogTransformed_HistogramReadlength  as png (or png for --legacy)
+2024-05-08 02:15:43,014 Saved nanoplot/Yield_By_Length  as png (or png for --legacy)
+2024-05-08 02:15:43,024 Created length plots
+2024-05-08 02:15:43,035 NanoPlot: Creating Read lengths vs Average read quality plots using 102824 reads.
+2024-05-08 02:15:45,580 Saved nanoplot/LengthvsQualityScatterPlot_dot  as png (or png for --legacy)
+2024-05-08 02:15:45,593 Created LengthvsQual plot
+2024-05-08 02:15:45,594 Writing html report.
+2024-05-08 02:15:45,653 Finished!

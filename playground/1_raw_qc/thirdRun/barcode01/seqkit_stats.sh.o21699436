@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21699436: <seqkit_stats> in cluster <dcc> Done
+
+Job <seqkit_stats> was submitted from host <n-62-27-19> by user <fevape> in cluster <dcc> at Wed May  8 02:13:17 2024
+Job was executed on host(s) <n-62-31-1>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed May  8 02:13:18 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/1_raw_qc/third_run/barcode01> was used as the working directory.
+Started at Wed May  8 02:13:18 2024
+Terminated at Wed May  8 02:13:41 2024
+Results reported at Wed May  8 02:13:41 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J seqkit_stats
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o seqkit_stats.sh.o%J
+#BSUB -e seqkit_stats.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v seqkit stats ../../../0_raw/third_run/barcode01/barcode01.fastq >> seqkit_stats.txt
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.37 sec.
+    Max Memory :                                 30 MB
+    Average Memory :                             13.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               994.00 MB
+    Max Swap :                                   -
+    Max Processes :                              11
+    Max Threads :                                12
+    Run time :                                   22 sec.
+    Turnaround time :                            24 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <seqkit_stats.sh.e21699436> for stderr output of this job.
+
