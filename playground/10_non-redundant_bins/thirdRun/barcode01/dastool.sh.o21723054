@@ -1,0 +1,67 @@
+DAS Tool 1.1.7 
+Analyzing assembly 
+Predicting genes 
+Annotating single copy genes using diamond 
+Dereplicating, aggregating, and scoring bins 
+Writing bins 
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21723054: <dastool> in cluster <dcc> Done
+
+Job <dastool> was submitted from host <n-62-30-1> by user <fevape> in cluster <dcc> at Sat May 11 05:39:58 2024
+Job was executed on host(s) <5*n-62-31-13>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat May 11 05:39:58 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/10_non-redundant_bins/third_run/barcode01> was used as the working directory.
+Started at Sat May 11 05:39:58 2024
+Terminated at Sat May 11 05:40:23 2024
+Results reported at Sat May 11 05:40:23 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J dastool
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 30
+#BSUB -o dastool.sh.o%J
+#BSUB -e dastool.sh.e%J
+
+source activate metagenomics
+
+assembly=`ls -1 ../../../8_prokaryote_contigs/third_run/barcode01/prokaryote/assembly_prokaryote.fasta`
+
+mkdir output
+
+/usr/bin/time -v DAS_Tool -i sample_data/MetaBAT2.contigs2bin.tsv,sample_data/MaxBin2.contigs2bin.tsv,sample_data/CONCOCT.contigs2bin.tsv -l MetaBAT2,MaxBin2,CONCOCT -c $assembly -o output/DASToolRun -t 5 --write_bin_evals --write_bins --score_threshold 0.2
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   66.93 sec.
+    Max Memory :                                 187 MB
+    Average Memory :                             187.00 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4933.00 MB
+    Max Swap :                                   -
+    Max Processes :                              9
+    Max Threads :                                15
+    Run time :                                   83 sec.
+    Turnaround time :                            25 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <dastool.sh.e21723054> for stderr output of this job.
+

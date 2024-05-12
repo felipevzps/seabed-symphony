@@ -1,0 +1,37 @@
+DAS Tool 1.1.7 
+2024-05-11 05:40:03.815863 
+
+Parameters: 
+--bins	sample_data/MetaBAT2.contigs2bin.tsv,sample_data/MaxBin2.contigs2bin.tsv,sample_data/CONCOCT.contigs2bin.tsv
+--contigs	../../../8_prokaryote_contigs/third_run/barcode01/prokaryote/assembly_prokaryote.fasta
+--outputbasename	output/DASToolRun
+--labels	MetaBAT2,MaxBin2,CONCOCT
+--search_engine	diamond
+--proteins	NULL
+--write_bin_evals	TRUE
+--write_bins	TRUE
+--write_unbinned	FALSE
+--threads	5
+--score_threshold	0.2
+--duplicate_penalty	0.6
+--megabin_penalty	0.5
+--max_iter_post_threshold	10
+--dbDirectory	db
+--resume	FALSE
+--debug	FALSE
+--version	FALSE
+--help	FALSE
+
+Dependencies: 
+prodigal	/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/bin/prodigal
+diamond	/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/bin/diamond
+pullseq	/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/bin/pullseq
+ruby	/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/bin/ruby
+usearch	
+blastp	/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/bin/blastp
+
+Analyzing assembly 
+Predicting genes 
+Annotating single copy genes using diamond 
+Dereplicating, aggregating, and scoring bins 
+Writing bins 
