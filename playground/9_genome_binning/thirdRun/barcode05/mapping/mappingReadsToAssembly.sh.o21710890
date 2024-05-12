@@ -1,0 +1,63 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710890: <mapping> in cluster <dcc> Done
+
+Job <mapping> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:23:36 2024
+Job was executed on host(s) <10*n-62-11-61>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 22:34:01 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/mapping/third_run/barcode05> was used as the working directory.
+Started at Thu May  9 22:34:01 2024
+Terminated at Fri May 10 02:27:24 2024
+Results reported at Fri May 10 02:27:24 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J mapping
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o mappingReadsToAssembly.sh.o%J
+#BSUB -e mappingReadsToAssembly.sh.e%J
+
+source activate metagenomics
+
+in=`ls -1 ../../../../3_adapter_removal/third_run/barcode05/soft_filter/barcode05.trimmed.highquality.noadapter.fastq/BC05.fastq`
+assembly=`ls -1 ../../../../8_prokaryote_contigs/third_run/barcode05/prokaryote/assembly_prokaryote.fasta`
+
+# Reformat long reads to max 600 length 
+# trd: Trim the names of reads after the first whitespace
+/usr/bin/time -v reformat.sh in=$in out=mapped_reads.fasta fastareadlen=600 trd
+/usr/bin/time -v bbmap.sh ref=$assembly in=mapped_reads.fasta out=mapped.sam threads=10
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   138694.09 sec.
+    Max Memory :                                 30190 MB
+    Average Memory :                             15158.90 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               72210.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                44
+    Run time :                                   14003 sec.
+    Turnaround time :                            90228 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <mappingReadsToAssembly.sh.e21710890> for stderr output of this job.
+
