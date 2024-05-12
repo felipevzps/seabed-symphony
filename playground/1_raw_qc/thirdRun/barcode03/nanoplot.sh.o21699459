@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21699459: <nanoplot> in cluster <dcc> Done
+
+Job <nanoplot> was submitted from host <n-62-27-19> by user <fevape> in cluster <dcc> at Wed May  8 02:13:34 2024
+Job was executed on host(s) <5*n-62-29-7>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed May  8 02:13:35 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/1_raw_qc/third_run/barcode03> was used as the working directory.
+Started at Wed May  8 02:13:35 2024
+Terminated at Wed May  8 02:28:00 2024
+Results reported at Wed May  8 02:28:00 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J nanoplot
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o nanoplot.sh.o%J
+#BSUB -e nanoplot.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v NanoPlot -t 5 --fastq ../../../0_raw/third_run/barcode03/barcode03.fastq --plots dot --legacy dot --N50 -o nanoplot
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   801.00 sec.
+    Max Memory :                                 352 MB
+    Average Memory :                             259.78 MB
+    Total Requested Memory :                     25600.00 MB
+    Delta Memory :                               25248.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                10
+    Run time :                                   870 sec.
+    Turnaround time :                            866 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <nanoplot.sh.e21699459> for stderr output of this job.
+
