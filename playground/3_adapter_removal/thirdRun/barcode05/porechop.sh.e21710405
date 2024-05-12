@@ -1,0 +1,23 @@
+	Command being timed: "porechop -i ../../../2_trimmed/third_run/barcode04/soft_filter/barcode04.trimmed.highquality.fastq -b soft_filter/barcode04.trimmed.highquality.noadapter.fastq --threads 5"
+	User time (seconds): 74382.72
+	System time (seconds): 696.31
+	Percent of CPU this job got: 402%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10:44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 56206908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 40
+	Minor (reclaiming a frame) page faults: 68995925
+	Voluntary context switches: 39129349
+	Involuntary context switches: 8431783
+	Swaps: 0
+	File system inputs: 63775089
+	File system outputs: 62549312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
