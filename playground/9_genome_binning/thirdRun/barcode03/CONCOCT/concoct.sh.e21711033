@@ -1,0 +1,2326 @@
+	Command being timed: "cut_up_fasta.py ../../../../8_prokaryote_contigs/third_run/barcode03/prokaryote/assembly_prokaryote.fasta -c 10000 -o 0 --merge_last -b contigs_10K.bed"
+	User time (seconds): 3.58
+	System time (seconds): 0.51
+	Percent of CPU this job got: 47%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 68876
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 226
+	Minor (reclaiming a frame) page faults: 33657
+	Voluntary context switches: 7556
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 824938
+	File system outputs: 717289
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "concoct_coverage_table.py contigs_10K.bed ../../../mapping/third_run/barcode03/mapped_sorted.bam"
+	User time (seconds): 64.67
+	System time (seconds): 0.82
+	Percent of CPU this job got: 74%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:28.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 153648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 315
+	Minor (reclaiming a frame) page faults: 55875
+	Voluntary context switches: 23859
+	Involuntary context switches: 50
+	Swaps: 0
+	File system inputs: 3744511
+	File system outputs: 2149
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Setting 5 OMP threads
+Generate input data
+0,-333440.704509,2906.326664
+1,-327326.161158,6114.543351
+2,-319727.086406,7599.074752
+3,-312312.059567,7415.026839
+4,-306028.059733,6283.999834
+5,-301072.916616,4955.143118
+6,-297690.628355,3382.288260
+7,-295210.304139,2480.324217
+8,-293356.747400,1853.556738
+9,-291760.773261,1595.974139
+10,-290449.363579,1311.409683
+11,-289356.907276,1092.456302
+12,-288561.354309,795.552967
+13,-287953.719273,607.635036
+14,-287343.891776,609.827497
+15,-286829.027607,514.864169
+16,-286376.059680,452.967927
+17,-286048.696631,327.363048
+18,-285692.743573,355.953059
+19,-285381.205150,311.538422
+20,-285028.056602,353.148548
+21,-284733.467729,294.588873
+22,-284496.703687,236.764043
+23,-284282.897948,213.805739
+24,-284153.781563,129.116384
+25,-283979.297027,174.484536
+26,-283838.089147,141.207880
+27,-283749.198013,88.891134
+28,-283643.481027,105.716986
+29,-283530.392170,113.088857
+30,-283421.584671,108.807498
+31,-283328.584071,93.000600
+32,-283258.751900,69.832171
+33,-283194.521056,64.230844
+34,-283149.800236,44.720819
+35,-283125.993111,23.807125
+36,-283073.544114,52.448997
+37,-283022.142139,51.401976
+38,-282984.630132,37.512006
+39,-282922.877180,61.752952
+40,-282874.844126,48.033054
+41,-282815.281979,59.562147
+42,-282741.993071,73.288908
+43,-282655.295478,86.697593
+44,-282533.791577,121.503900
+45,-282410.516186,123.275391
+46,-282286.044363,124.471823
+47,-282193.069610,92.974753
+48,-282115.201813,77.867796
+49,-282096.389901,18.811912
+50,-282101.984134,5.594232
+51,-282066.481470,35.502664
+52,-282020.341421,46.140049
+53,-281982.893015,37.448406
+54,-281926.524982,56.368033
+55,-281874.579681,51.945301
+56,-281797.091331,77.488349
+57,-281692.095170,104.996162
+58,-281578.001453,114.093717
+59,-281519.726240,58.275213
+60,-281498.562067,21.164173
+61,-281494.368305,4.193761
+62,-281478.079880,16.288426
+63,-281477.582131,0.497748
+64,-281476.482012,1.100120
+65,-281475.320588,1.161424
+66,-281473.440001,1.880587
+67,-281471.381393,2.058608
+68,-281469.625741,1.755652
+69,-281468.358295,1.267446
+70,-281467.473788,0.884507
+71,-281466.835921,0.637867
+72,-281466.332342,0.503579
+73,-281465.853205,0.479137
+74,-281465.332799,0.520406
+75,-281464.744464,0.588334
+76,-281464.082722,0.661742
+77,-281463.350577,0.732145
+78,-281462.549911,0.800666
+79,-281461.700572,0.849338
+80,-281460.892814,0.807758
+81,-281460.312663,0.580151
+82,-281460.101445,0.211219
+83,-281460.256145,0.154701
+84,-281460.633003,0.376858
+85,-281461.066633,0.433630
+86,-281461.477590,0.410958
+87,-281461.815687,0.338096
+88,-281462.009803,0.194116
+89,-281461.944266,0.065537
+90,-281461.687083,0.257183
+91,-281462.121269,0.434186
+92,-281462.844320,0.723050
+93,-281463.442570,0.598250
+94,-281463.979827,0.537257
+95,-281464.433879,0.454052
+96,-281464.950532,0.516654
+97,-281465.371399,0.420866
+98,-281464.795128,0.576271
+99,-281463.785623,1.009504
+100,-281463.196710,0.588913
+101,-281462.770031,0.426680
+102,-281462.377407,0.392624
+103,-281461.989045,0.388362
+104,-281461.595784,0.393261
+105,-281461.192918,0.402866
+106,-281460.777419,0.415500
+107,-281460.347986,0.429433
+108,-281459.902770,0.445216
+109,-281459.439334,0.463435
+110,-281458.955549,0.483785
+111,-281458.449660,0.505890
+112,-281457.919033,0.530627
+113,-281457.361674,0.557358
+114,-281456.775823,0.585852
+115,-281456.161889,0.613933
+116,-281455.521542,0.640348
+117,-281454.858197,0.663345
+118,-281454.181173,0.677024
+119,-281453.501973,0.679199
+120,-281452.832995,0.668978
+121,-281452.180226,0.652769
+122,-281451.539394,0.640832
+123,-281450.896714,0.642680
+124,-281450.246836,0.649878
+125,-281449.606674,0.640162
+126,-281449.009659,0.597015
+127,-281448.491165,0.518493
+128,-281448.074028,0.417137
+129,-281447.760500,0.313527
+130,-281447.539115,0.221386
+131,-281447.386826,0.152289
+132,-281447.280165,0.106661
+133,-281447.197260,0.082905
+134,-281447.119588,0.077672
+135,-281447.035691,0.083897
+136,-281446.936545,0.099146
+137,-281446.819740,0.116805
+138,-281446.684333,0.135407
+139,-281446.532129,0.152204
+140,-281446.368034,0.164095
+141,-281446.199368,0.168666
+142,-281446.036049,0.163319
+143,-281445.891357,0.144692
+144,-281445.778508,0.112849
+145,-281445.708972,0.069535
+146,-281445.686638,0.022334
+147,-281445.706883,0.020245
+148,-281445.759603,0.052720
+149,-281445.832061,0.072458
+150,-281445.912714,0.080652
+151,-281445.991766,0.079052
+152,-281446.062939,0.071173
+153,-281446.121662,0.058723
+154,-281446.166269,0.044608
+155,-281446.196476,0.030207
+156,-281446.213051,0.016575
+157,-281446.217769,0.004717
+158,-281446.212336,0.005433
+159,-281446.198461,0.013875
+160,-281446.178042,0.020418
+161,-281446.152562,0.025480
+162,-281446.123235,0.029327
+163,-281446.091220,0.032015
+164,-281446.057542,0.033678
+165,-281446.022773,0.034768
+166,-281445.987703,0.035070
+167,-281445.952521,0.035182
+168,-281445.917832,0.034689
+169,-281445.883566,0.034266
+170,-281445.850222,0.033344
+171,-281445.817961,0.032261
+172,-281445.786663,0.031298
+173,-281445.756439,0.030224
+174,-281445.727339,0.029100
+175,-281445.699243,0.028096
+176,-281445.672540,0.026703
+177,-281445.646903,0.025637
+178,-281445.622291,0.024612
+179,-281445.598794,0.023497
+180,-281445.576183,0.022611
+181,-281445.554644,0.021538
+182,-281445.534147,0.020497
+183,-281445.514355,0.019792
+184,-281445.495610,0.018744
+185,-281445.477585,0.018026
+186,-281445.460402,0.017183
+187,-281445.444003,0.016398
+188,-281445.428350,0.015653
+189,-281445.413353,0.014997
+190,-281445.399008,0.014345
+191,-281445.385231,0.013777
+192,-281445.372102,0.013129
+193,-281445.359474,0.012628
+194,-281445.347450,0.012024
+195,-281445.335989,0.011462
+196,-281445.324976,0.011013
+197,-281445.314402,0.010574
+198,-281445.304306,0.010096
+199,-281445.294623,0.009683
+200,-281445.285316,0.009306
+201,-281445.276397,0.008919
+202,-281445.267955,0.008442
+203,-281445.259844,0.008112
+204,-281445.252016,0.007828
+205,-281445.244557,0.007459
+206,-281445.237454,0.007103
+207,-281445.230461,0.006993
+208,-281445.223942,0.006519
+209,-281445.217633,0.006309
+210,-281445.211607,0.006026
+211,-281445.205852,0.005755
+212,-281445.200251,0.005601
+213,-281445.194987,0.005264
+214,-281445.189875,0.005112
+215,-281445.185070,0.004805
+216,-281445.180436,0.004634
+217,-281445.175938,0.004498
+218,-281445.171617,0.004321
+219,-281445.167554,0.004063
+220,-281445.163630,0.003925
+221,-281445.159934,0.003696
+222,-281445.156315,0.003619
+223,-281445.152906,0.003408
+224,-281445.149617,0.003289
+225,-281445.146471,0.003146
+226,-281445.143481,0.002990
+227,-281445.140643,0.002838
+228,-281445.137866,0.002777
+229,-281445.135288,0.002578
+230,-281445.132694,0.002594
+231,-281445.130362,0.002332
+232,-281445.128053,0.002309
+233,-281445.125931,0.002123
+234,-281445.123873,0.002057
+235,-281445.121880,0.001993
+236,-281445.120010,0.001870
+237,-281445.118287,0.001723
+238,-281445.116616,0.001670
+239,-281445.115020,0.001596
+240,-281445.113458,0.001562
+241,-281445.112011,0.001446
+242,-281445.110648,0.001363
+243,-281445.109381,0.001267
+244,-281445.108262,0.001119
+245,-281445.107068,0.001194
+246,-281445.105999,0.001069
+247,-281445.104958,0.001041
+248,-281445.104044,0.000914
+249,-281445.103202,0.000842
+250,-281445.102413,0.000789
+251,-281445.101636,0.000777
+252,-281445.101023,0.000613
+253,-281445.100327,0.000696
+254,-281445.099777,0.000550
+255,-281445.099279,0.000498
+256,-281445.098778,0.000501
+257,-281445.098477,0.000300
+258,-281445.098062,0.000415
+259,-281445.097792,0.000270
+260,-281445.097505,0.000287
+261,-281445.097347,0.000158
+262,-281445.097159,0.000188
+263,-281445.097182,0.000023
+Up and running. Check /work3/fevape/marine-BGCs/analysis/9_genome_binning/CONCOCT/third_run/barcode03/concoct_output/log.txt for progress
+/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/sklearn/utils/validation.py:1692: FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['int', 'str']. An error will be raised in 1.2.
+  FutureWarning,
+/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/sklearn/utils/validation.py:1692: FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['int', 'str']. An error will be raised in 1.2.
+  FutureWarning,
+	Command being timed: "concoct --composition_file contigs_10K.fa --coverage_file coverage_table.tsv -b concoct_output/ -t 5"
+	User time (seconds): 353.62
+	System time (seconds): 1.76
+	Percent of CPU this job got: 168%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:30.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 475080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 289
+	Minor (reclaiming a frame) page faults: 846177
+	Voluntary context switches: 14478
+	Involuntary context switches: 656
+	Swaps: 0
+	File system inputs: 819254
+	File system outputs: 154412
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+No consensus cluster for contig contig_100: [('12', 16), ('52', 1), ('10', 1), ('50', 1), ('58', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_10002: [('52', 1), ('12', 7)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1001: [('52', 3), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1002: [('4', 1), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_10024: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_10055: [('37', 8), ('21', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10066: [('39', 1), ('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10075: [('14', 5), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10080: [('50', 2), ('16', 2)]	 Chosen cluster: 50
+No consensus cluster for contig contig_10082: [('40', 2), ('13', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_10089: [('14', 3), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10094: [('31', 6), ('41', 2), ('21', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_10102: [('44', 1), ('31', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_1011: [('44', 1), ('24', 3)]	 Chosen cluster: 24
+No consensus cluster for contig contig_10112: [('11', 1), ('48', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10114: [('44', 1), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_10120: [('46', 6), ('52', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_10128: [('6', 1), ('47', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_1013: [('44', 1), ('21', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_10132: [('12', 2), ('14', 17), ('10', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10133: [('59', 4), ('18', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_10136: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_10138: [('29', 1), ('9', 3)]	 Chosen cluster: 9
+No consensus cluster for contig contig_10146: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_10161: [('44', 1), ('51', 5), ('2', 12)]	 Chosen cluster: 2
+No consensus cluster for contig contig_10170: [('50', 2), ('33', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_10171: [('39', 1), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_10174: [('18', 1), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_10175: [('35', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_10177: [('47', 1), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_10178: [('18', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_102: [('42', 1), ('44', 1), ('51', 2), ('18', 1), ('2', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_10253: [('48', 5), ('58', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_10260: [('46', 1), ('52', 1), ('0', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_10266: [('10', 1), ('14', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_10268: [('14', 1), ('18', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10273: [('52', 1), ('36', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_10276: [('24', 2), ('43', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_10283: [('47', 1), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_1029: [('2', 6), ('10', 1), ('51', 4)]	 Chosen cluster: 2
+No consensus cluster for contig contig_10290: [('42', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_10320: [('11', 12), ('13', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10333: [('14', 4), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10343: [('14', 1), ('12', 3), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_10358: [('49', 1), ('37', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_10368: [('12', 7), ('15', 1), ('37', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1038: [('44', 3), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_10380: [('40', 1), ('48', 8), ('35', 1), ('1', 1), ('10', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1039: [('24', 6), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_1042: [('2', 2), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_10426: [('14', 2), ('15', 2), ('37', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1043: [('37', 7), ('18', 7)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10446: [('35', 1), ('11', 16), ('1', 4)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10451: [('51', 1), ('11', 11)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10452: [('54', 1), ('14', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_10456: [('11', 1), ('33', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10457: [('34', 1), ('18', 1), ('37', 1)]	 Chosen cluster: 34
+No consensus cluster for contig contig_1046: [('14', 6), ('52', 1), ('10', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10461: [('9', 1), ('52', 1), ('37', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_10462: [('1', 1), ('11', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10465: [('2', 10), ('51', 2), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_10466: [('4', 4), ('47', 2)]	 Chosen cluster: 4
+No consensus cluster for contig contig_10476: [('11', 2), ('1', 7), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_10479: [('52', 4), ('36', 4)]	 Chosen cluster: 52
+No consensus cluster for contig contig_10508: [('14', 2), ('18', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10538: [('43', 1), ('24', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_10539: [('48', 18), ('17', 1), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1056: [('37', 1), ('21', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1057: [('46', 2), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_10572: [('24', 1), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_10585: [('17', 4), ('11', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_106: [('13', 1), ('30', 2)]	 Chosen cluster: 30
+No consensus cluster for contig contig_10625: [('47', 2), ('23', 1), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_10649: [('1', 8), ('11', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_10656: [('44', 1), ('10', 3), ('21', 2)]	 Chosen cluster: 10
+No consensus cluster for contig contig_10679: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_10698: [('55', 3), ('56', 1), ('54', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_107: [('11', 4), ('45', 4)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10706: [('59', 1), ('58', 2)]	 Chosen cluster: 58
+No consensus cluster for contig contig_10710: [('2', 1), ('41', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_10717: [('39', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1072: [('39', 4), ('14', 1), ('18', 2), ('42', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_10721: [('41', 2), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_10748: [('2', 2), ('47', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_10762: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1077: [('37', 1), ('18', 3)]	 Chosen cluster: 18
+No consensus cluster for contig contig_10779: [('24', 3), ('23', 1), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_10795: [('37', 10), ('49', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10798: [('37', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10808: [('38', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_10814: [('52', 1), ('36', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1082: [('14', 15), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10820: [('37', 2), ('14', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10822: [('12', 1), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1083: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_10835: [('25', 3), ('42', 1)]	 Chosen cluster: 25
+No consensus cluster for contig contig_10836: [('37', 1), ('52', 2)]	 Chosen cluster: 52
+No consensus cluster for contig contig_10839: [('48', 1), ('1', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_10847: [('11', 5), ('13', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_10859: [('33', 1), ('59', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_10879: [('39', 7), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_1089: [('14', 35), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10896: [('48', 4), ('42', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1090: [('14', 14), ('18', 2), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10905: [('37', 2), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10919: [('30', 2), ('37', 3)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10929: [('37', 1), ('15', 5)]	 Chosen cluster: 15
+No consensus cluster for contig contig_10936: [('52', 1), ('37', 6), ('12', 1), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_10938: [('3', 3), ('2', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_1095: [('14', 16), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10959: [('4', 1), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_1097: [('14', 5), ('12', 3), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_10975: [('23', 5), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_10978: [('54', 1), ('40', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_10981: [('42', 1), ('31', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_10984: [('31', 1), ('3', 2), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_10987: [('25', 7), ('47', 1)]	 Chosen cluster: 25
+No consensus cluster for contig contig_10989: [('17', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_10998: [('23', 4), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_11004: [('30', 1), ('43', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_11009: [('12', 1), ('52', 2), ('32', 3)]	 Chosen cluster: 32
+No consensus cluster for contig contig_11017: [('45', 1), ('11', 1)]	 Chosen cluster: 45
+No consensus cluster for contig contig_11034: [('21', 1), ('37', 1), ('49', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_11041: [('42', 1), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_11055: [('4', 1), ('18', 1), ('14', 9), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11060: [('45', 1), ('11', 1)]	 Chosen cluster: 45
+No consensus cluster for contig contig_11066: [('33', 10), ('42', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_1107: [('14', 31), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11082: [('52', 1), ('12', 4)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11085: [('44', 1), ('51', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_1109: [('14', 3), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11126: [('54', 1), ('11', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_11130: [('13', 4), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_11142: [('52', 1), ('9', 7)]	 Chosen cluster: 9
+No consensus cluster for contig contig_11143: [('18', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_11145: [('48', 3), ('35', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_11179: [('21', 1), ('41', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_11182: [('12', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11189: [('14', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11199: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_112: [('10', 1), ('18', 7), ('37', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1122: [('37', 1), ('18', 1), ('56', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1123: [('48', 14), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_11239: [('33', 4), ('24', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_1124: [('58', 1), ('50', 2)]	 Chosen cluster: 50
+No consensus cluster for contig contig_11247: [('3', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_11249: [('21', 2), ('31', 6)]	 Chosen cluster: 31
+No consensus cluster for contig contig_11251: [('12', 1), ('14', 3), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11255: [('1', 2), ('11', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_11258: [('41', 2), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1127: [('16', 1), ('48', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_11282: [('18', 4), ('37', 2), ('49', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1129: [('14', 14), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11298: [('43', 3), ('30', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_11320: [('14', 3), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11330: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11351: [('15', 1), ('37', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_1136: [('15', 2), ('37', 1), ('14', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_11396: [('23', 3), ('24', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_11412: [('21', 2), ('12', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_11413: [('52', 1), ('15', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_11416: [('12', 1), ('37', 9), ('18', 13)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1144: [('58', 1), ('48', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_11448: [('21', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11454: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_11458: [('9', 8), ('52', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_11466: [('35', 2), ('48', 12)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1150: [('50', 1), ('58', 2)]	 Chosen cluster: 58
+No consensus cluster for contig contig_11500: [('39', 3), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_11514: [('49', 8), ('37', 2)]	 Chosen cluster: 49
+No consensus cluster for contig contig_11523: [('59', 1), ('18', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_11525: [('39', 1), ('12', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_11542: [('2', 13), ('44', 1), ('47', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_11544: [('41', 1), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_11550: [('47', 1), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11551: [('36', 1), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_11583: [('18', 1), ('51', 1), ('34', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_116: [('58', 5), ('51', 20)]	 Chosen cluster: 51
+No consensus cluster for contig contig_11601: [('21', 2), ('41', 5), ('46', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_11602: [('1', 4), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_11614: [('12', 5), ('14', 11), ('10', 1), ('21', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11615: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11664: [('16', 7), ('48', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_11679: [('52', 1), ('15', 9)]	 Chosen cluster: 15
+No consensus cluster for contig contig_117: [('12', 1), ('39', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11705: [('2', 2), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_11710: [('11', 16), ('35', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_11713: [('12', 1), ('39', 4)]	 Chosen cluster: 39
+No consensus cluster for contig contig_1174: [('25', 8), ('59', 1)]	 Chosen cluster: 25
+No consensus cluster for contig contig_11742: [('55', 3), ('56', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_11748: [('15', 1), ('19', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_1175: [('40', 2), ('24', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_11759: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11761: [('14', 13), ('12', 6), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1177: [('47', 1), ('23', 1), ('11', 1), ('1', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11775: [('18', 1), ('37', 7)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11778: [('44', 2), ('42', 1), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_11780: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11800: [('37', 3), ('52', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11804: [('45', 1), ('25', 2)]	 Chosen cluster: 25
+No consensus cluster for contig contig_11807: [('23', 2), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_11812: [('23', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11818: [('49', 3), ('10', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_1182: [('50', 1), ('13', 1), ('16', 1), ('48', 11)]	 Chosen cluster: 48
+No consensus cluster for contig contig_11820: [('18', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11821: [('46', 4), ('37', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_11830: [('3', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_11840: [('12', 1), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11841: [('58', 3), ('13', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_11842: [('36', 25), ('52', 12), ('38', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_11847: [('46', 6), ('23', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_11848: [('11', 1), ('48', 6)]	 Chosen cluster: 48
+No consensus cluster for contig contig_11857: [('47', 5), ('4', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11860: [('31', 16), ('21', 1), ('54', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_1187: [('11', 10), ('45', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_11884: [('37', 8), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11890: [('52', 2), ('36', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_11895: [('50', 1), ('58', 6)]	 Chosen cluster: 58
+No consensus cluster for contig contig_11896: [('37', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1190: [('1', 4), ('35', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_11910: [('35', 2), ('16', 2)]	 Chosen cluster: 35
+No consensus cluster for contig contig_11921: [('37', 24), ('52', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11922: [('4', 1), ('47', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11929: [('2', 1), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1193: [('24', 1), ('18', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_11934: [('44', 1), ('2', 1), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_11935: [('47', 3), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11944: [('52', 19), ('36', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1195: [('37', 5), ('52', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11956: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11957: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_11960: [('52', 4), ('37', 5)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11964: [('52', 1), ('37', 4), ('15', 1), ('14', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_11972: [('1', 7), ('11', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_11979: [('2', 11), ('53', 1), ('51', 1), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_11983: [('9', 4), ('15', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_11988: [('39', 5), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_11990: [('47', 16), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_11992: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_11993: [('51', 5), ('2', 2), ('42', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12: [('30', 1), ('58', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_120: [('10', 1), ('31', 6)]	 Chosen cluster: 31
+No consensus cluster for contig contig_12001: [('14', 2), ('18', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12006: [('55', 3), ('56', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_12007: [('0', 2), ('49', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_1201: [('12', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12012: [('44', 2), ('18', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_12022: [('4', 2), ('47', 2)]	 Chosen cluster: 4
+No consensus cluster for contig contig_12023: [('50', 1), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_12028: [('10', 1), ('42', 3), ('3', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12029: [('21', 1), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1203: [('37', 1), ('49', 2)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12033: [('3', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12041: [('15', 8), ('37', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12047: [('14', 7), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12048: [('9', 1), ('29', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_12052: [('2', 1), ('41', 1), ('31', 1), ('44', 1), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12055: [('21', 1), ('49', 6)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12057: [('2', 2), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1206: [('12', 4), ('37', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12063: [('37', 2), ('18', 3)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12067: [('44', 1), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_12077: [('46', 5), ('38', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12081: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12083: [('46', 9), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12084: [('4', 2), ('47', 4), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12094: [('47', 2), ('4', 11)]	 Chosen cluster: 4
+No consensus cluster for contig contig_12097: [('49', 2), ('37', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12100: [('45', 1), ('58', 4)]	 Chosen cluster: 58
+No consensus cluster for contig contig_12101: [('42', 1), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12102: [('49', 6), ('37', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12105: [('39', 4), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12113: [('44', 1), ('23', 3)]	 Chosen cluster: 23
+No consensus cluster for contig contig_12114: [('59', 1), ('24', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_1212: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12121: [('13', 1), ('42', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12123: [('18', 1), ('39', 7), ('44', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12126: [('51', 9), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12134: [('46', 1), ('52', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12136: [('13', 1), ('40', 2)]	 Chosen cluster: 40
+No consensus cluster for contig contig_12138: [('15', 1), ('9', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12139: [('49', 1), ('37', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12150: [('42', 2), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12154: [('48', 18), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12157: [('36', 1), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_12161: [('42', 1), ('54', 2)]	 Chosen cluster: 54
+No consensus cluster for contig contig_12167: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12169: [('56', 1), ('18', 3)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12171: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12181: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_122: [('32', 1), ('0', 17), ('52', 1), ('5', 2)]	 Chosen cluster: 0
+No consensus cluster for contig contig_12206: [('14', 5), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1221: [('47', 1), ('29', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12210: [('30', 1), ('13', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_12213: [('21', 2), ('41', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1222: [('12', 3), ('14', 5), ('18', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12222: [('37', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12227: [('13', 2), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12230: [('24', 1), ('13', 4)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12233: [('51', 1), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12235: [('52', 1), ('15', 4)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12241: [('24', 2), ('13', 1), ('54', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_12248: [('37', 1), ('15', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_1225: [('2', 3), ('51', 1), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12251: [('48', 20), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12261: [('34', 1), ('37', 3)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12268: [('52', 3), ('29', 2), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1227: [('48', 16), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12271: [('36', 16), ('38', 1), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_12279: [('46', 1), ('37', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12287: [('36', 1), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_1229: [('11', 9), ('1', 1), ('35', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_12291: [('18', 1), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12297: [('37', 5), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12298: [('35', 1), ('33', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_123: [('0', 3), ('44', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_12306: [('54', 1), ('55', 4)]	 Chosen cluster: 55
+No consensus cluster for contig contig_12310: [('41', 6), ('21', 1), ('51', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_12311: [('48', 17), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12319: [('48', 33), ('10', 1), ('1', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12321: [('51', 3), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12323: [('14', 9), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12326: [('14', 6), ('39', 1), ('12', 1), ('37', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12327: [('37', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12329: [('10', 1), ('15', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_12330: [('5', 1), ('0', 4)]	 Chosen cluster: 0
+No consensus cluster for contig contig_12331: [('11', 1), ('1', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_12334: [('52', 15), ('36', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1234: [('58', 2), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_12341: [('37', 2), ('18', 7)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12343: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12348: [('16', 1), ('13', 4), ('30', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12360: [('14', 2), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12366: [('46', 6), ('37', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12368: [('13', 1), ('54', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12372: [('9', 5), ('52', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_12373: [('15', 4), ('52', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12381: [('12', 3), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12394: [('21', 1), ('39', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_124: [('58', 18), ('43', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_12403: [('15', 1), ('18', 1), ('12', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12405: [('12', 16), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12410: [('16', 4), ('50', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_12413: [('12', 1), ('37', 1), ('15', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12414: [('14', 1), ('12', 1), ('39', 2)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12419: [('37', 5), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12431: [('18', 2), ('23', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12432: [('37', 2), ('52', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12434: [('14', 4), ('12', 2), ('10', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12440: [('47', 1), ('23', 3)]	 Chosen cluster: 23
+No consensus cluster for contig contig_12442: [('14', 5), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12443: [('14', 14), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12449: [('48', 7), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12457: [('49', 3), ('37', 2)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12464: [('30', 47), ('13', 3)]	 Chosen cluster: 30
+No consensus cluster for contig contig_12466: [('2', 5), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12470: [('2', 1), ('6', 2), ('47', 1), ('44', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_12471: [('51', 26), ('34', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12473: [('37', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12476: [('48', 9), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12478: [('57', 1), ('30', 9)]	 Chosen cluster: 30
+No consensus cluster for contig contig_12481: [('39', 4), ('12', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12487: [('21', 3), ('31', 9)]	 Chosen cluster: 31
+No consensus cluster for contig contig_12490: [('10', 1), ('12', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_12491: [('48', 10), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12492: [('37', 5), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12498: [('21', 2), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1250: [('58', 1), ('11', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_12500: [('50', 2), ('2', 11), ('51', 2), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12501: [('21', 1), ('34', 1), ('18', 1), ('14', 6), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12503: [('48', 14), ('50', 2), ('16', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12507: [('11', 7), ('17', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_12508: [('4', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12509: [('44', 1), ('31', 2)]	 Chosen cluster: 31
+No consensus cluster for contig contig_12510: [('14', 3), ('12', 2), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12512: [('31', 6), ('21', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_12513: [('48', 10), ('35', 3)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12515: [('23', 1), ('18', 5)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12516: [('39', 2), ('12', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12518: [('9', 1), ('12', 1), ('44', 1), ('21', 4)]	 Chosen cluster: 21
+No consensus cluster for contig contig_12520: [('12', 2), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12524: [('18', 3), ('51', 1), ('37', 1), ('21', 1), ('41', 1), ('2', 2), ('42', 1), ('31', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12531: [('12', 2), ('15', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12543: [('12', 1), ('15', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12551: [('35', 1), ('58', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_12553: [('54', 1), ('55', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_12555: [('1', 3), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_12556: [('47', 11), ('23', 1), ('4', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12560: [('23', 1), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_12562: [('14', 1), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12564: [('2', 6), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12565: [('37', 2), ('18', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1257: [('37', 11), ('18', 12)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12570: [('23', 7), ('7', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_12571: [('42', 2), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12578: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12580: [('51', 1), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12582: [('29', 2), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_12584: [('47', 3), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12589: [('12', 1), ('14', 1), ('39', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1259: [('48', 4), ('40', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12590: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12595: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12603: [('41', 2), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_12609: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12612: [('37', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12613: [('37', 1), ('14', 1), ('18', 9), ('12', 4)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12620: [('37', 1), ('15', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12621: [('14', 5), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12628: [('46', 1), ('21', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_12629: [('1', 24), ('11', 3)]	 Chosen cluster: 1
+No consensus cluster for contig contig_12630: [('18', 3), ('12', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12633: [('37', 3), ('18', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12634: [('37', 3), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12641: [('41', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12642: [('31', 2), ('47', 10), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12643: [('35', 1), ('50', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_12644: [('51', 6), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_1265: [('44', 1), ('49', 5)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12651: [('38', 1), ('46', 6)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12654: [('48', 11), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12657: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_12660: [('2', 9), ('42', 1), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12661: [('11', 11), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_12662: [('36', 29), ('52', 2)]	 Chosen cluster: 36
+No consensus cluster for contig contig_1267: [('2', 1), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12677: [('54', 16), ('55', 1), ('42', 2)]	 Chosen cluster: 54
+No consensus cluster for contig contig_12681: [('35', 1), ('16', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_12683: [('1', 14), ('35', 2), ('11', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_1269: [('15', 1), ('8', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12690: [('11', 1), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_12692: [('18', 1), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12693: [('52', 1), ('0', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_12698: [('44', 1), ('15', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12700: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12705: [('46', 6), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_12706: [('12', 6), ('14', 28), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12710: [('18', 1), ('14', 10), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12712: [('13', 1), ('40', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12714: [('49', 10), ('37', 2)]	 Chosen cluster: 49
+No consensus cluster for contig contig_12718: [('50', 3), ('35', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_12728: [('3', 1), ('47', 7)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12729: [('18', 1), ('15', 3)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12734: [('52', 5), ('12', 2), ('36', 14)]	 Chosen cluster: 36
+No consensus cluster for contig contig_12737: [('24', 2), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_12738: [('12', 1), ('48', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12739: [('37', 13), ('12', 1), ('18', 17)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12745: [('12', 2), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12749: [('18', 1), ('47', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12756: [('47', 10), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12776: [('2', 8), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12778: [('42', 1), ('54', 2)]	 Chosen cluster: 54
+No consensus cluster for contig contig_12780: [('47', 13), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12782: [('51', 1), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12786: [('4', 1), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_12791: [('1', 14), ('11', 3), ('48', 3)]	 Chosen cluster: 1
+No consensus cluster for contig contig_12797: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1280: [('44', 2), ('47', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_12804: [('18', 1), ('37', 2), ('9', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12805: [('42', 6), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12810: [('14', 2), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12811: [('15', 1), ('12', 3), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12828: [('12', 8), ('15', 1), ('52', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12829: [('42', 1), ('33', 6)]	 Chosen cluster: 33
+No consensus cluster for contig contig_1283: [('37', 1), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12836: [('14', 3), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12838: [('23', 1), ('18', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_12847: [('18', 17), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12848: [('12', 1), ('51', 2), ('21', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_12855: [('15', 3), ('43', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12858: [('14', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12860: [('17', 8), ('13', 1), ('11', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_12863: [('43', 1), ('30', 4)]	 Chosen cluster: 30
+No consensus cluster for contig contig_12864: [('12', 2), ('14', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_12870: [('59', 2), ('47', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_12874: [('48', 12), ('35', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12875: [('46', 1), ('21', 3)]	 Chosen cluster: 21
+No consensus cluster for contig contig_12876: [('59', 1), ('24', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_12877: [('2', 15), ('6', 1), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1289: [('37', 1), ('18', 20), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_12893: [('15', 6), ('52', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_12895: [('42', 3), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_12904: [('31', 4), ('18', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_12907: [('48', 1), ('17', 1), ('13', 2)]	 Chosen cluster: 13
+No consensus cluster for contig contig_12912: [('47', 4), ('6', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12916: [('14', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_12921: [('23', 2), ('47', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_12925: [('21', 2), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_12928: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_12929: [('2', 3), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_12930: [('48', 5), ('1', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12936: [('33', 1), ('48', 9)]	 Chosen cluster: 48
+No consensus cluster for contig contig_12937: [('12', 1), ('58', 4)]	 Chosen cluster: 58
+No consensus cluster for contig contig_1295: [('42', 5), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_1297: [('2', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_1302: [('6', 2), ('47', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_1308: [('50', 1), ('16', 5)]	 Chosen cluster: 16
+No consensus cluster for contig contig_1315: [('36', 16), ('52', 2)]	 Chosen cluster: 36
+No consensus cluster for contig contig_1321: [('30', 18), ('24', 1), ('13', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_1329: [('12', 1), ('37', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1333: [('37', 12), ('21', 1), ('18', 1), ('14', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1334: [('58', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1335: [('12', 4), ('14', 5), ('52', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1343: [('14', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1345: [('56', 1), ('55', 1)]	 Chosen cluster: 56
+No consensus cluster for contig contig_1347: [('11', 13), ('1', 1), ('35', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_1349: [('11', 2), ('44', 1), ('33', 5), ('30', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_1356: [('18', 1), ('42', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1357: [('21', 2), ('49', 1), ('37', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1361: [('3', 1), ('11', 6)]	 Chosen cluster: 11
+No consensus cluster for contig contig_1365: [('41', 6), ('21', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_137: [('37', 1), ('18', 11), ('39', 3), ('14', 3)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1371: [('41', 1), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1372: [('21', 3), ('51', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1375: [('3', 1), ('2', 3)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1377: [('12', 1), ('18', 13), ('37', 1), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1383: [('50', 102), ('33', 1), ('24', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_1384: [('34', 1), ('30', 14)]	 Chosen cluster: 30
+No consensus cluster for contig contig_1397: [('14', 9), ('12', 1), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_140: [('41', 13), ('21', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1402: [('14', 14), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1405: [('46', 7), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1407: [('21', 2), ('41', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1413: [('23', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_1426: [('30', 1), ('13', 5), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_1433: [('18', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1434: [('12', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1436: [('37', 1), ('46', 3)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1437: [('37', 2), ('46', 4)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1440: [('41', 1), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1442: [('18', 1), ('37', 2), ('56', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1443: [('58', 1), ('50', 2)]	 Chosen cluster: 50
+No consensus cluster for contig contig_1447: [('58', 2), ('16', 2), ('50', 1), ('48', 1), ('13', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_145: [('51', 3), ('44', 1), ('2', 13)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1455: [('14', 21), ('12', 1), ('15', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_146: [('50', 4), ('58', 25), ('16', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_1465: [('58', 1), ('12', 1), ('52', 5)]	 Chosen cluster: 52
+No consensus cluster for contig contig_1473: [('18', 2), ('39', 1), ('14', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1478: [('14', 2), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1484: [('21', 1), ('47', 11)]	 Chosen cluster: 47
+No consensus cluster for contig contig_1489: [('37', 1), ('44', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_149: [('37', 8), ('18', 6), ('21', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1490: [('41', 6), ('21', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1494: [('30', 2), ('13', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_1495: [('42', 3), ('18', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_1496: [('44', 1), ('42', 4), ('54', 5)]	 Chosen cluster: 54
+No consensus cluster for contig contig_15: [('14', 7), ('21', 1), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1509: [('46', 6), ('52', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1510: [('24', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1519: [('14', 10), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1522: [('50', 1), ('35', 1), ('16', 1), ('48', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1530: [('51', 1), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_1543: [('47', 23), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_1545: [('14', 18), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1546: [('14', 8), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_155: [('11', 2), ('1', 1), ('35', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_1551: [('12', 11), ('14', 1), ('15', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_156: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1561: [('4', 2), ('47', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_1568: [('54', 3), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_157: [('37', 1), ('14', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1575: [('14', 15), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1586: [('4', 5), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_1592: [('11', 2), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_1594: [('39', 1), ('14', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1607: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_1610: [('18', 1), ('39', 8), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_1613: [('42', 1), ('11', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_1618: [('41', 3), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1623: [('12', 3), ('14', 27), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1624: [('14', 11), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1627: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1631: [('43', 1), ('49', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_1632: [('16', 1), ('50', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_1643: [('54', 1), ('3', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_1657: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_1662: [('48', 2), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_1665: [('54', 4), ('42', 3)]	 Chosen cluster: 54
+No consensus cluster for contig contig_1669: [('14', 38), ('39', 2), ('12', 4), ('10', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_167: [('3', 3), ('45', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_1672: [('42', 1), ('54', 3)]	 Chosen cluster: 54
+No consensus cluster for contig contig_1677: [('24', 2), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_1679: [('41', 2), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1685: [('44', 1), ('21', 1), ('31', 2)]	 Chosen cluster: 31
+No consensus cluster for contig contig_1688: [('41', 4), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_1697: [('11', 6), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_17: [('39', 1), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_1702: [('52', 1), ('12', 3), ('14', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1706: [('35', 5), ('33', 1), ('11', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_1707: [('2', 15), ('51', 11), ('47', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1712: [('14', 5), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1716: [('51', 1), ('2', 3)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1719: [('47', 1), ('23', 2)]	 Chosen cluster: 23
+No consensus cluster for contig contig_1721: [('14', 7), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1730: [('2', 7), ('51', 1), ('53', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1743: [('14', 10), ('12', 3), ('52', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1757: [('59', 1), ('58', 3)]	 Chosen cluster: 58
+No consensus cluster for contig contig_1762: [('54', 2), ('24', 1), ('56', 2)]	 Chosen cluster: 54
+No consensus cluster for contig contig_1765: [('24', 1), ('48', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_1770: [('18', 9), ('39', 1), ('10', 1), ('14', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_1771: [('37', 4), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1775: [('51', 38), ('42', 1), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_1778: [('36', 2), ('52', 2)]	 Chosen cluster: 36
+No consensus cluster for contig contig_1781: [('53', 1), ('21', 24), ('41', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1786: [('11', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_179: [('44', 1), ('21', 37), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_18: [('18', 1), ('14', 11), ('12', 3), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1800: [('46', 11), ('37', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1807: [('10', 1), ('46', 4)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1809: [('29', 1), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_1818: [('21', 4), ('30', 26), ('43', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_1820: [('37', 1), ('21', 4), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1830: [('37', 1), ('15', 4), ('18', 1), ('12', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_1831: [('46', 5), ('37', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1834: [('21', 1), ('46', 12)]	 Chosen cluster: 46
+No consensus cluster for contig contig_1843: [('2', 2), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1845: [('18', 2), ('37', 4)]	 Chosen cluster: 37
+No consensus cluster for contig contig_1848: [('14', 16), ('52', 1), ('12', 3), ('10', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_185: [('2', 5), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_1855: [('9', 7), ('52', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_1856: [('31', 1), ('39', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_1865: [('59', 1), ('14', 9), ('12', 4), ('52', 3), ('10', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1872: [('12', 3), ('14', 13)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1883: [('14', 17), ('12', 8), ('18', 1), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_19: [('12', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1917: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1921: [('12', 1), ('14', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1928: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1930: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1933: [('17', 1), ('13', 1), ('40', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_194: [('35', 1), ('1', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_1941: [('2', 1), ('51', 1), ('18', 1), ('3', 58), ('42', 6)]	 Chosen cluster: 3
+No consensus cluster for contig contig_1942: [('44', 1), ('18', 1), ('51', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_195: [('11', 1), ('17', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_1954: [('3', 20), ('2', 11), ('51', 2), ('44', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_1959: [('40', 1), ('13', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_196: [('18', 1), ('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_1961: [('36', 20), ('52', 4), ('15', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_1963: [('4', 3), ('47', 2)]	 Chosen cluster: 4
+No consensus cluster for contig contig_1964: [('45', 4), ('11', 1)]	 Chosen cluster: 45
+No consensus cluster for contig contig_1994: [('21', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_1998: [('46', 1), ('44', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_20: [('14', 3), ('12', 4)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2000: [('12', 1), ('14', 3), ('21', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2001: [('58', 29), ('10', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2013: [('52', 2), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2019: [('58', 2), ('1', 1), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2023: [('52', 3), ('36', 2)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2027: [('16', 4), ('48', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_203: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2035: [('52', 20), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2046: [('37', 1), ('18', 13)]	 Chosen cluster: 18
+No consensus cluster for contig contig_2049: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_2058: [('43', 1), ('49', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_2060: [('30', 12), ('50', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_2061: [('41', 4), ('21', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_2073: [('21', 2), ('51', 5)]	 Chosen cluster: 51
+No consensus cluster for contig contig_2086: [('30', 1), ('25', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_2091: [('13', 4), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_2096: [('44', 1), ('51', 5)]	 Chosen cluster: 51
+No consensus cluster for contig contig_21: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2102: [('40', 1), ('30', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_2104: [('14', 8), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2107: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2110: [('15', 1), ('9', 3)]	 Chosen cluster: 9
+No consensus cluster for contig contig_2119: [('29', 1), ('37', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_2124: [('42', 3), ('54', 22), ('13', 3)]	 Chosen cluster: 54
+No consensus cluster for contig contig_213: [('12', 4), ('14', 14)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2134: [('12', 5), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2136: [('1', 20), ('48', 4), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_2138: [('4', 1), ('23', 15), ('17', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_2142: [('9', 2), ('38', 2)]	 Chosen cluster: 9
+No consensus cluster for contig contig_2148: [('37', 4), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2150: [('10', 1), ('14', 8)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2152: [('14', 5), ('24', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2159: [('23', 1), ('58', 17)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2160: [('42', 1), ('3', 1), ('49', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2162: [('44', 1), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_2164: [('39', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_217: [('12', 1), ('21', 1), ('31', 5)]	 Chosen cluster: 31
+No consensus cluster for contig contig_2174: [('48', 1), ('58', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_218: [('14', 1), ('15', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2184: [('52', 1), ('12', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2186: [('14', 10), ('44', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2190: [('39', 2), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_2192: [('18', 1), ('44', 1), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_2193: [('18', 1), ('39', 1), ('14', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2201: [('37', 1), ('12', 4)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2207: [('16', 4), ('35', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_2210: [('41', 3), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_2212: [('6', 2), ('2', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_2220: [('42', 1), ('13', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_224: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2244: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2245: [('14', 2), ('52', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2246: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2265: [('33', 1), ('35', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_2269: [('2', 2), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_227: [('52', 1), ('9', 8)]	 Chosen cluster: 9
+No consensus cluster for contig contig_2276: [('29', 3), ('52', 4), ('36', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2281: [('14', 1), ('37', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2283: [('12', 15), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2284: [('12', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2288: [('35', 2), ('1', 23), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_229: [('52', 1), ('46', 10)]	 Chosen cluster: 46
+No consensus cluster for contig contig_23: [('50', 13), ('10', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_2305: [('51', 2), ('2', 5)]	 Chosen cluster: 2
+No consensus cluster for contig contig_2310: [('21', 1), ('41', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_2313: [('47', 5), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2314: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_232: [('47', 2), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2324: [('42', 3), ('3', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2327: [('44', 1), ('21', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_2344: [('4', 4), ('47', 3)]	 Chosen cluster: 4
+No consensus cluster for contig contig_2351: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2355: [('14', 1), ('12', 5)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2356: [('52', 1), ('14', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2358: [('42', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2360: [('48', 1), ('23', 7), ('7', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_2362: [('41', 1), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_2364: [('47', 1), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2366: [('4', 15), ('47', 6), ('23', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_2369: [('58', 2), ('50', 5)]	 Chosen cluster: 50
+No consensus cluster for contig contig_2370: [('50', 19), ('35', 1), ('58', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_2371: [('30', 2), ('13', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_2372: [('44', 1), ('30', 18), ('42', 2), ('18', 1), ('25', 1), ('13', 2)]	 Chosen cluster: 30
+No consensus cluster for contig contig_2377: [('14', 3), ('39', 5), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_2379: [('37', 12), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2395: [('14', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2401: [('51', 18), ('44', 1), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_2404: [('50', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2419: [('42', 7), ('54', 31), ('17', 1), ('47', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_2420: [('14', 3), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2423: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2428: [('55', 1), ('56', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_2440: [('50', 1), ('58', 3)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2441: [('42', 6), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2443: [('52', 4), ('36', 11), ('10', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_2445: [('4', 11), ('47', 7), ('51', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_2452: [('42', 1), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2453: [('54', 1), ('13', 2), ('30', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_2455: [('52', 1), ('12', 3), ('14', 13)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2457: [('44', 1), ('14', 4), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2458: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2459: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2461: [('30', 1), ('2', 10)]	 Chosen cluster: 2
+No consensus cluster for contig contig_2473: [('21', 1), ('18', 4)]	 Chosen cluster: 18
+No consensus cluster for contig contig_2475: [('18', 2), ('37', 5), ('12', 1), ('9', 1), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_248: [('14', 12), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2481: [('37', 1), ('12', 5), ('14', 14)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2484: [('48', 7), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2490: [('16', 8), ('35', 2), ('58', 1), ('10', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_250: [('12', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2501: [('3', 1), ('42', 1), ('54', 8)]	 Chosen cluster: 54
+No consensus cluster for contig contig_2509: [('12', 16), ('52', 5), ('33', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_251: [('12', 2), ('14', 2), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2512: [('47', 3), ('44', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2514: [('44', 2), ('47', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_2515: [('44', 1), ('42', 1), ('4', 5)]	 Chosen cluster: 4
+No consensus cluster for contig contig_2516: [('52', 2), ('12', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2519: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_252: [('42', 1), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2520: [('14', 11), ('12', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2524: [('47', 4), ('23', 1), ('17', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2529: [('13', 5), ('54', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_2533: [('18', 1), ('41', 1), ('21', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_2540: [('51', 9), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_2541: [('58', 1), ('48', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2543: [('48', 6), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2544: [('33', 1), ('16', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_2562: [('17', 3), ('13', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_257: [('54', 7), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_2573: [('13', 1), ('23', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_2578: [('35', 34), ('48', 1), ('50', 3), ('16', 1), ('13', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_2582: [('58', 1), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2592: [('54', 21), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_2602: [('11', 4), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_2604: [('2', 1), ('51', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_2609: [('42', 1), ('39', 5), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_261: [('54', 16), ('42', 1), ('13', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_2611: [('58', 6), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2615: [('21', 2), ('44', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_262: [('54', 4), ('42', 5)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2627: [('11', 1), ('1', 4), ('42', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_2629: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2631: [('44', 1), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_2634: [('3', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_2635: [('52', 2), ('14', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_2637: [('52', 1), ('12', 9)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2655: [('12', 4), ('14', 29)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2660: [('39', 1), ('24', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_2668: [('54', 1), ('42', 5)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2671: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2674: [('1', 20), ('11', 2), ('48', 9)]	 Chosen cluster: 1
+No consensus cluster for contig contig_2675: [('1', 1), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_2676: [('47', 3), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2678: [('37', 1), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2680: [('47', 9), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2685: [('47', 1), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2688: [('55', 3), ('54', 2)]	 Chosen cluster: 55
+No consensus cluster for contig contig_2691: [('2', 8), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_2695: [('48', 2), ('10', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2697: [('10', 1), ('48', 3)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2700: [('50', 3), ('58', 4)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2702: [('51', 1), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_2709: [('47', 8), ('24', 2), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2713: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2719: [('47', 3), ('4', 13)]	 Chosen cluster: 4
+No consensus cluster for contig contig_2720: [('48', 8), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2727: [('0', 5), ('38', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_2730: [('37', 1), ('44', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2732: [('2', 19), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_2741: [('14', 1), ('15', 5)]	 Chosen cluster: 15
+No consensus cluster for contig contig_275: [('37', 13), ('52', 1), ('12', 1), ('18', 28), ('14', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_2756: [('38', 1), ('46', 1)]	 Chosen cluster: 38
+No consensus cluster for contig contig_277: [('15', 1), ('37', 2), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2771: [('48', 1), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2774: [('13', 1), ('24', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_2781: [('39', 3), ('12', 2)]	 Chosen cluster: 39
+No consensus cluster for contig contig_2784: [('13', 3), ('24', 2)]	 Chosen cluster: 13
+No consensus cluster for contig contig_2791: [('15', 1), ('37', 4)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2794: [('59', 1), ('44', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_2796: [('43', 1), ('15', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_2798: [('30', 1), ('25', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_2799: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2800: [('12', 2), ('14', 1), ('15', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2804: [('58', 1), ('50', 4)]	 Chosen cluster: 50
+No consensus cluster for contig contig_281: [('37', 6), ('15', 1), ('52', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2815: [('12', 4), ('14', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_282: [('37', 13), ('18', 14), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_2820: [('42', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2828: [('39', 2), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_283: [('39', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2832: [('58', 2), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2833: [('16', 1), ('58', 3)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2834: [('25', 5), ('4', 1)]	 Chosen cluster: 25
+No consensus cluster for contig contig_2835: [('44', 1), ('31', 18), ('49', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_2850: [('12', 14), ('52', 1), ('14', 19)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2853: [('23', 2), ('4', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_2855: [('49', 2), ('44', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_286: [('14', 27), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2866: [('14', 7), ('39', 1), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2872: [('52', 1), ('15', 4)]	 Chosen cluster: 15
+No consensus cluster for contig contig_2876: [('24', 4), ('42', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_289: [('24', 3), ('13', 3), ('33', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_2892: [('50', 1), ('58', 4)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2893: [('1', 3), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_2894: [('12', 13), ('52', 1), ('51', 1), ('1', 10), ('11', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_2899: [('37', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2900: [('54', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_2905: [('36', 2), ('12', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_2906: [('41', 1), ('46', 1), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_2910: [('15', 1), ('37', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_2916: [('47', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_2917: [('14', 14), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2918: [('13', 1), ('33', 2)]	 Chosen cluster: 33
+No consensus cluster for contig contig_2930: [('14', 3), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2932: [('33', 4), ('35', 1), ('42', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_2936: [('48', 2), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_2937: [('58', 5), ('53', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_2939: [('49', 8), ('21', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_294: [('12', 1), ('14', 30)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2940: [('11', 4), ('16', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_2964: [('3', 1), ('2', 2), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_2977: [('18', 3), ('37', 4)]	 Chosen cluster: 37
+No consensus cluster for contig contig_298: [('3', 1), ('11', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_2981: [('51', 1), ('2', 4)]	 Chosen cluster: 2
+No consensus cluster for contig contig_2984: [('2', 1), ('51', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_2986: [('52', 2), ('37', 3)]	 Chosen cluster: 37
+No consensus cluster for contig contig_2988: [('37', 1), ('46', 3)]	 Chosen cluster: 46
+No consensus cluster for contig contig_2989: [('18', 1), ('14', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_299: [('50', 3), ('30', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_2990: [('14', 13), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_2994: [('16', 1), ('48', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_2997: [('36', 3), ('52', 3)]	 Chosen cluster: 36
+No consensus cluster for contig contig_3006: [('52', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3012: [('14', 4), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3014: [('17', 1), ('13', 1), ('48', 1), ('39', 1), ('15', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_3017: [('47', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3019: [('46', 1), ('44', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_3032: [('52', 2), ('12', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3040: [('14', 21), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3043: [('46', 1), ('21', 2), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3047: [('12', 3), ('39', 8), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_3049: [('46', 4), ('2', 3), ('3', 48), ('45', 1), ('42', 4), ('33', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_3054: [('48', 4), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_3055: [('55', 4), ('56', 2)]	 Chosen cluster: 55
+No consensus cluster for contig contig_3057: [('29', 1), ('37', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_306: [('16', 3), ('50', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_3061: [('58', 7), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_3067: [('13', 1), ('42', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_3068: [('54', 11), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3074: [('50', 2), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_3078: [('12', 9), ('14', 24), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3083: [('48', 1), ('58', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_3084: [('46', 1), ('21', 8)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3100: [('41', 3), ('21', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_3101: [('41', 1), ('21', 3)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3107: [('14', 2), ('18', 1), ('39', 1), ('0', 7)]	 Chosen cluster: 0
+No consensus cluster for contig contig_311: [('23', 3), ('47', 2)]	 Chosen cluster: 23
+No consensus cluster for contig contig_3123: [('49', 17), ('44', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_3124: [('21', 1), ('44', 2), ('37', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_3128: [('30', 68), ('42', 1), ('33', 1), ('24', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_3132: [('58', 1), ('50', 3)]	 Chosen cluster: 50
+No consensus cluster for contig contig_3136: [('59', 1), ('34', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_3141: [('44', 1), ('59', 2)]	 Chosen cluster: 59
+No consensus cluster for contig contig_3151: [('11', 5), ('17', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_3156: [('21', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3166: [('44', 1), ('46', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_3168: [('48', 1), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_3169: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3170: [('36', 31), ('38', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_3172: [('9', 1), ('37', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_3180: [('33', 1), ('50', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_3186: [('14', 37), ('12', 6), ('52', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3187: [('14', 2), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_319: [('13', 202), ('45', 1), ('3', 3), ('24', 2), ('17', 2), ('57', 1), ('50', 1), ('35', 1), ('58', 1), ('16', 2), ('10', 1), ('54', 1), ('30', 2)]	 Chosen cluster: 13
+No consensus cluster for contig contig_3190: [('58', 1), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_3191: [('2', 1), ('6', 3)]	 Chosen cluster: 6
+No consensus cluster for contig contig_3192: [('37', 1), ('18', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_3194: [('39', 1), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_3198: [('1', 1), ('48', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_32: [('42', 1), ('54', 3)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3210: [('12', 5), ('52', 1), ('14', 41), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3211: [('52', 1), ('12', 9)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3213: [('33', 5), ('42', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_3220: [('39', 1), ('58', 2)]	 Chosen cluster: 58
+No consensus cluster for contig contig_3226: [('48', 1), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_3234: [('21', 2), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3238: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3239: [('12', 4), ('14', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_324: [('47', 4), ('4', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3255: [('52', 1), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_3258: [('23', 2), ('24', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_3264: [('35', 1), ('1', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_3269: [('12', 1), ('10', 1), ('58', 3)]	 Chosen cluster: 58
+No consensus cluster for contig contig_327: [('47', 1), ('54', 16), ('55', 1), ('3', 1), ('42', 1), ('13', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3273: [('2', 6), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_3279: [('21', 9), ('46', 8), ('37', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3281: [('16', 1), ('50', 3)]	 Chosen cluster: 50
+No consensus cluster for contig contig_3295: [('12', 1), ('37', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3304: [('0', 12), ('58', 7)]	 Chosen cluster: 0
+No consensus cluster for contig contig_3305: [('0', 17), ('32', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_3313: [('15', 1), ('29', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_3316: [('36', 1), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_3323: [('47', 4), ('6', 1), ('4', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3330: [('11', 1), ('45', 2)]	 Chosen cluster: 45
+No consensus cluster for contig contig_3341: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3344: [('9', 1), ('29', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_3349: [('42', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3350: [('55', 4), ('56', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_3353: [('52', 2), ('9', 5)]	 Chosen cluster: 9
+No consensus cluster for contig contig_3356: [('16', 1), ('33', 3)]	 Chosen cluster: 33
+No consensus cluster for contig contig_3357: [('47', 2), ('30', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3359: [('45', 4), ('11', 1)]	 Chosen cluster: 45
+No consensus cluster for contig contig_3381: [('47', 3), ('4', 5)]	 Chosen cluster: 4
+No consensus cluster for contig contig_3388: [('48', 8), ('1', 1), ('11', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_3394: [('37', 1), ('12', 2), ('15', 5), ('14', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_3399: [('12', 3), ('14', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3402: [('35', 1), ('48', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_3405: [('25', 1), ('42', 2), ('57', 1), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_341: [('21', 26), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3416: [('42', 1), ('54', 5)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3422: [('54', 8), ('42', 3)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3425: [('10', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3426: [('10', 1), ('42', 1), ('3', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_3432: [('51', 1), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_3443: [('24', 1), ('34', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_3452: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3463: [('54', 1), ('42', 3), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3466: [('14', 8), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3467: [('12', 7), ('14', 30), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3478: [('11', 1), ('45', 2)]	 Chosen cluster: 45
+No consensus cluster for contig contig_3479: [('11', 1), ('1', 18)]	 Chosen cluster: 1
+No consensus cluster for contig contig_3482: [('42', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3488: [('6', 2), ('2', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_3491: [('47', 22), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3492: [('47', 13), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3495: [('41', 1), ('21', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3497: [('14', 12), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3508: [('44', 2), ('42', 2)]	 Chosen cluster: 44
+No consensus cluster for contig contig_3512: [('46', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_3514: [('46', 1), ('29', 2)]	 Chosen cluster: 29
+No consensus cluster for contig contig_3516: [('21', 20), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3526: [('21', 10), ('10', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3528: [('21', 3), ('46', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3534: [('37', 1), ('9', 5)]	 Chosen cluster: 9
+No consensus cluster for contig contig_3538: [('52', 1), ('29', 3)]	 Chosen cluster: 29
+No consensus cluster for contig contig_3539: [('3', 1), ('35', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_3545: [('2', 26), ('51', 2), ('21', 59), ('46', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3555: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3562: [('11', 1), ('45', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_3563: [('18', 4), ('47', 22), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3566: [('24', 1), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_3567: [('29', 1), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_3572: [('44', 1), ('59', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_3585: [('42', 1), ('41', 6), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_3594: [('2', 1), ('18', 3)]	 Chosen cluster: 18
+No consensus cluster for contig contig_360: [('54', 4), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3602: [('36', 2), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_3610: [('24', 2), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_3621: [('14', 11), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3634: [('18', 3), ('37', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_3640: [('33', 10), ('3', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_365: [('52', 2), ('12', 18)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3650: [('50', 1), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_3653: [('51', 18), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_3658: [('48', 1), ('1', 2)]	 Chosen cluster: 1
+No consensus cluster for contig contig_3666: [('13', 1), ('30', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_3672: [('2', 1), ('51', 3)]	 Chosen cluster: 51
+No consensus cluster for contig contig_3679: [('14', 12), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3693: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_3694: [('0', 5), ('52', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_3699: [('41', 4), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_3701: [('46', 3), ('21', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_3702: [('15', 1), ('9', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_3717: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_3718: [('12', 1), ('37', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3724: [('35', 1), ('48', 7)]	 Chosen cluster: 48
+No consensus cluster for contig contig_3728: [('37', 1), ('46', 6)]	 Chosen cluster: 46
+No consensus cluster for contig contig_3734: [('12', 9), ('14', 42), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3735: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3737: [('12', 5), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3738: [('3', 1), ('2', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_374: [('45', 1), ('11', 4)]	 Chosen cluster: 11
+No consensus cluster for contig contig_3740: [('42', 12), ('21', 1), ('44', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3744: [('51', 8), ('44', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_3754: [('47', 22), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3755: [('47', 22), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3756: [('47', 1), ('13', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3772: [('42', 2), ('54', 16), ('40', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_3786: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_379: [('12', 1), ('14', 6)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3790: [('42', 2), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_3795: [('24', 2), ('59', 1), ('13', 1), ('50', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_3822: [('46', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_383: [('52', 1), ('15', 3)]	 Chosen cluster: 15
+No consensus cluster for contig contig_3849: [('45', 1), ('30', 70), ('13', 1), ('10', 1), ('44', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_3872: [('18', 1), ('21', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_3874: [('2', 13), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_3875: [('46', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_3878: [('33', 4), ('42', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_3884: [('52', 1), ('12', 4)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3886: [('48', 1), ('1', 3)]	 Chosen cluster: 1
+No consensus cluster for contig contig_3890: [('54', 6), ('55', 1), ('13', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_39: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3906: [('21', 1), ('41', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_391: [('44', 1), ('1', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_3916: [('52', 1), ('12', 8)]	 Chosen cluster: 12
+No consensus cluster for contig contig_392: [('12', 4), ('14', 14)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3930: [('12', 2), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3936: [('14', 1), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3937: [('12', 4), ('14', 3), ('15', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3939: [('46', 8), ('38', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_3942: [('37', 1), ('21', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_3946: [('17', 1), ('11', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_3947: [('47', 2), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_3957: [('12', 9), ('14', 73), ('18', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3959: [('12', 1), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_3977: [('14', 5), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_3992: [('37', 1), ('15', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_3993: [('15', 1), ('19', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_4007: [('37', 1), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_4015: [('1', 5), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_4017: [('44', 1), ('21', 1), ('41', 4), ('2', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4020: [('21', 2), ('2', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_4021: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_4036: [('59', 1), ('24', 3)]	 Chosen cluster: 24
+No consensus cluster for contig contig_4037: [('19', 1), ('15', 1)]	 Chosen cluster: 19
+No consensus cluster for contig contig_4039: [('46', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_404: [('18', 10), ('37', 1), ('42', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4044: [('52', 3), ('12', 14)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4052: [('21', 2), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_4055: [('50', 2), ('16', 4)]	 Chosen cluster: 16
+No consensus cluster for contig contig_4061: [('51', 1), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_4070: [('15', 1), ('49', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_4077: [('13', 3), ('33', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_409: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4099: [('24', 3), ('13', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_4100: [('42', 2), ('3', 1), ('54', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_4105: [('42', 2), ('44', 2), ('2', 4), ('51', 2), ('47', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4106: [('33', 1), ('35', 1), ('50', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_411: [('12', 1), ('52', 1), ('14', 15)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4113: [('14', 14), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4124: [('23', 2), ('3', 1), ('45', 2)]	 Chosen cluster: 23
+No consensus cluster for contig contig_4131: [('44', 1), ('52', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4133: [('14', 2), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4136: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4139: [('54', 2), ('56', 1), ('55', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_4141: [('24', 2), ('13', 1), ('51', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_415: [('12', 3), ('14', 6)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4155: [('18', 1), ('44', 2)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4157: [('52', 1), ('14', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_4162: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4163: [('14', 4), ('18', 1), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4166: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_417: [('23', 3), ('24', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_4171: [('18', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_4174: [('40', 1), ('30', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_4176: [('18', 30), ('14', 4), ('37', 3), ('12', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4183: [('47', 3), ('24', 1), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_4197: [('30', 1), ('13', 3)]	 Chosen cluster: 13
+No consensus cluster for contig contig_42: [('3', 1), ('45', 3)]	 Chosen cluster: 45
+No consensus cluster for contig contig_4200: [('24', 1), ('23', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_4206: [('2', 4), ('51', 4)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4210: [('4', 1), ('23', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_4218: [('15', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4222: [('46', 1), ('44', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_4227: [('50', 2), ('58', 4)]	 Chosen cluster: 58
+No consensus cluster for contig contig_423: [('36', 8), ('52', 2)]	 Chosen cluster: 36
+No consensus cluster for contig contig_4236: [('54', 2), ('56', 5)]	 Chosen cluster: 56
+No consensus cluster for contig contig_4243: [('33', 1), ('30', 1), ('11', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_4244: [('49', 1), ('44', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_4246: [('39', 5), ('14', 2)]	 Chosen cluster: 39
+No consensus cluster for contig contig_4251: [('14', 3), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4257: [('34', 1), ('21', 4), ('46', 1), ('51', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_426: [('1', 1), ('48', 9)]	 Chosen cluster: 48
+No consensus cluster for contig contig_4263: [('21', 3), ('41', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_4264: [('33', 1), ('16', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_4266: [('42', 2), ('54', 4)]	 Chosen cluster: 54
+No consensus cluster for contig contig_427: [('24', 4), ('45', 1), ('13', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_4287: [('30', 17), ('43', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_4291: [('47', 1), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_4292: [('41', 4), ('21', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4295: [('1', 14), ('35', 1), ('11', 4), ('48', 2), ('40', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_4297: [('59', 1), ('44', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_43: [('12', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4311: [('51', 60), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_4317: [('18', 8), ('21', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4332: [('2', 1), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4336: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4345: [('52', 1), ('15', 3)]	 Chosen cluster: 15
+No consensus cluster for contig contig_4365: [('1', 10), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_4368: [('12', 1), ('14', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_437: [('24', 1), ('50', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_4374: [('40', 2), ('13', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_4375: [('46', 11), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_4379: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_4382: [('42', 1), ('3', 2)]	 Chosen cluster: 3
+No consensus cluster for contig contig_4388: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4390: [('14', 3), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4392: [('52', 1), ('0', 1), ('44', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_4408: [('13', 3), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_4416: [('12', 2), ('52', 3)]	 Chosen cluster: 52
+No consensus cluster for contig contig_4418: [('12', 3), ('14', 3), ('52', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4423: [('21', 1), ('41', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4424: [('36', 1), ('37', 3)]	 Chosen cluster: 37
+No consensus cluster for contig contig_4427: [('13', 2), ('40', 2)]	 Chosen cluster: 13
+No consensus cluster for contig contig_4441: [('11', 1), ('17', 3)]	 Chosen cluster: 17
+No consensus cluster for contig contig_446: [('12', 1), ('39', 2)]	 Chosen cluster: 39
+No consensus cluster for contig contig_4466: [('52', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4473: [('33', 7), ('3', 2), ('42', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_4475: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_4477: [('50', 1), ('58', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_4486: [('2', 16), ('51', 4)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4492: [('37', 1), ('18', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4495: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4500: [('19', 1), ('37', 2), ('18', 4), ('21', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4511: [('21', 1), ('41', 5)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4516: [('41', 2), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4517: [('41', 4), ('31', 1), ('21', 1), ('51', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4523: [('13', 1), ('17', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_4524: [('15', 1), ('9', 4)]	 Chosen cluster: 9
+No consensus cluster for contig contig_4529: [('49', 5), ('47', 1), ('23', 5)]	 Chosen cluster: 49
+No consensus cluster for contig contig_4532: [('36', 10), ('52', 2)]	 Chosen cluster: 36
+No consensus cluster for contig contig_4542: [('52', 2), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_4547: [('44', 1), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4548: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4549: [('49', 2), ('47', 2), ('4', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_4574: [('12', 1), ('14', 8)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4585: [('21', 2), ('2', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_4591: [('37', 1), ('12', 2), ('14', 11)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4600: [('2', 11), ('51', 3)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4601: [('13', 1), ('59', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_4607: [('12', 1), ('14', 6)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4608: [('12', 1), ('14', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4609: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4611: [('49', 1), ('44', 2)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4617: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4618: [('42', 1), ('23', 1), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_4629: [('50', 3), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_4630: [('37', 1), ('21', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_4635: [('50', 4), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_4648: [('29', 1), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_4650: [('23', 1), ('4', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_4655: [('12', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4667: [('11', 11), ('45', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_4668: [('46', 1), ('41', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_4669: [('37', 8), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_4671: [('44', 1), ('15', 3)]	 Chosen cluster: 15
+No consensus cluster for contig contig_4676: [('58', 1), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_4679: [('41', 8), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_4709: [('11', 9), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_4710: [('44', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_4711: [('39', 2), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_4713: [('47', 11), ('42', 1), ('57', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_4724: [('48', 1), ('16', 4), ('50', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_4725: [('33', 1), ('16', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_473: [('54', 10), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_4730: [('4', 1), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_4738: [('44', 1), ('51', 36), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_4748: [('14', 3), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4753: [('50', 1), ('58', 3)]	 Chosen cluster: 58
+No consensus cluster for contig contig_4755: [('12', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_4767: [('44', 2), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4774: [('44', 1), ('12', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4784: [('1', 1), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_4795: [('42', 1), ('2', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4796: [('42', 1), ('2', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_4799: [('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_48: [('14', 1), ('12', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_481: [('42', 2), ('24', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_4816: [('51', 40), ('2', 3), ('44', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_4824: [('12', 5), ('39', 4), ('14', 17)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4833: [('30', 1), ('33', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_4836: [('49', 1), ('14', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_4840: [('37', 1), ('49', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_4844: [('33', 1), ('10', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_4848: [('37', 9), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_485: [('2', 7), ('41', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_4854: [('14', 2), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4871: [('12', 5), ('10', 2), ('14', 7)]	 Chosen cluster: 14
+No consensus cluster for contig contig_4875: [('4', 1), ('23', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_4876: [('35', 1), ('33', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_4877: [('42', 1), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_4878: [('44', 1), ('33', 1), ('3', 6), ('39', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_4893: [('59', 1), ('51', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_4895: [('29', 1), ('37', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_4896: [('37', 2), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_49: [('18', 1), ('12', 1), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4903: [('30', 17), ('13', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_4905: [('24', 1), ('50', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_4915: [('44', 3), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4923: [('58', 1), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_4926: [('11', 1), ('1', 1), ('10', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_4927: [('10', 1), ('1', 2), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_4928: [('10', 1), ('1', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_4930: [('10', 1), ('45', 2)]	 Chosen cluster: 45
+No consensus cluster for contig contig_4953: [('30', 2), ('33', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_4958: [('43', 2), ('57', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_4959: [('33', 10), ('13', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_4962: [('37', 1), ('18', 3)]	 Chosen cluster: 18
+No consensus cluster for contig contig_4964: [('30', 2), ('40', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_4970: [('47', 1), ('23', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_4972: [('52', 7), ('37', 2)]	 Chosen cluster: 52
+No consensus cluster for contig contig_4979: [('47', 1), ('4', 1), ('23', 2)]	 Chosen cluster: 23
+No consensus cluster for contig contig_4984: [('47', 3), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_4991: [('44', 1), ('11', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_4995: [('15', 7), ('9', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_501: [('12', 2), ('46', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5012: [('2', 3), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5014: [('42', 1), ('33', 2)]	 Chosen cluster: 33
+No consensus cluster for contig contig_5017: [('37', 2), ('49', 4), ('44', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_502: [('46', 2), ('18', 1), ('44', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_5021: [('58', 4), ('50', 2)]	 Chosen cluster: 58
+No consensus cluster for contig contig_5030: [('44', 1), ('51', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_5032: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5052: [('3', 1), ('13', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_5055: [('14', 1), ('2', 12), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5056: [('37', 7), ('12', 1), ('18', 14)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5060: [('12', 11), ('14', 13), ('52', 1), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5065: [('37', 1), ('18', 4)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5067: [('37', 1), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5068: [('46', 4), ('44', 1), ('25', 4)]	 Chosen cluster: 46
+No consensus cluster for contig contig_5072: [('49', 1), ('15', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_508: [('18', 22), ('14', 2), ('37', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5080: [('16', 1), ('50', 2)]	 Chosen cluster: 50
+No consensus cluster for contig contig_5084: [('17', 1), ('13', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_5088: [('12', 1), ('37', 1), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5089: [('58', 3), ('50', 3)]	 Chosen cluster: 58
+No consensus cluster for contig contig_51: [('12', 9), ('10', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5100: [('2', 3), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5101: [('33', 3), ('35', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_5107: [('30', 1), ('13', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_5108: [('3', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_511: [('29', 1), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_5114: [('14', 6), ('12', 1), ('24', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5127: [('12', 7), ('14', 11)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5140: [('18', 15), ('14', 2), ('37', 5)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5141: [('12', 2), ('37', 1), ('11', 12)]	 Chosen cluster: 11
+No consensus cluster for contig contig_5145: [('14', 7), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5146: [('14', 2), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5147: [('1', 1), ('11', 5)]	 Chosen cluster: 11
+No consensus cluster for contig contig_515: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5152: [('3', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_5154: [('47', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_5156: [('30', 1), ('40', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_5175: [('15', 1), ('19', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_518: [('18', 2), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5194: [('37', 7), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5195: [('58', 4), ('16', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_5200: [('2', 2), ('21', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5204: [('12', 2), ('14', 11)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5210: [('44', 1), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_5214: [('42', 1), ('47', 1), ('23', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_5218: [('12', 3), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5225: [('2', 3), ('21', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5227: [('47', 1), ('25', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_523: [('14', 26), ('12', 6), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5241: [('42', 3), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_5245: [('44', 1), ('42', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_5251: [('2', 18), ('42', 2), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5261: [('46', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_5262: [('21', 2), ('46', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_5269: [('48', 1), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_5272: [('44', 1), ('12', 6)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5290: [('44', 1), ('2', 9), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5293: [('49', 8), ('10', 1), ('44', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_5308: [('14', 3), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_531: [('54', 2), ('56', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_5322: [('21', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_533: [('37', 15), ('18', 17), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5338: [('2', 1), ('59', 1), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5345: [('37', 4), ('39', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5348: [('1', 2), ('35', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_535: [('37', 1), ('18', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5375: [('52', 1), ('12', 4)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5378: [('24', 1), ('33', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_5386: [('18', 1), ('21', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5388: [('44', 2), ('51', 9)]	 Chosen cluster: 51
+No consensus cluster for contig contig_54: [('18', 2), ('12', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5403: [('50', 2), ('58', 1), ('3', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_5405: [('52', 1), ('29', 2)]	 Chosen cluster: 29
+No consensus cluster for contig contig_5408: [('43', 1), ('13', 2)]	 Chosen cluster: 13
+No consensus cluster for contig contig_541: [('41', 7), ('21', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_542: [('48', 2), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_5422: [('54', 1), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_5426: [('16', 1), ('48', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_543: [('15', 1), ('12', 26)]	 Chosen cluster: 12
+No consensus cluster for contig contig_5434: [('1', 6), ('48', 1), ('10', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_5438: [('12', 1), ('15', 2)]	 Chosen cluster: 15
+No consensus cluster for contig contig_5448: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5451: [('37', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5456: [('51', 4), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_547: [('1', 1), ('35', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_5473: [('2', 14), ('51', 3)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5490: [('2', 1), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_55: [('21', 1), ('18', 1), ('14', 1), ('12', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_550: [('1', 3), ('35', 189), ('50', 7), ('16', 8), ('10', 1), ('48', 4), ('11', 3), ('58', 4)]	 Chosen cluster: 35
+No consensus cluster for contig contig_5505: [('47', 4), ('4', 8)]	 Chosen cluster: 4
+No consensus cluster for contig contig_5517: [('23', 5), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_553: [('21', 26), ('41', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_5533: [('41', 3), ('21', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_5536: [('47', 1), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_5537: [('21', 1), ('41', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_5538: [('11', 1), ('1', 7)]	 Chosen cluster: 1
+No consensus cluster for contig contig_5546: [('40', 1), ('30', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_5551: [('37', 5), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5553: [('13', 1), ('17', 3)]	 Chosen cluster: 17
+No consensus cluster for contig contig_5556: [('37', 2), ('10', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5561: [('4', 7), ('47', 2)]	 Chosen cluster: 4
+No consensus cluster for contig contig_5576: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_5581: [('41', 1), ('2', 4), ('44', 2), ('42', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5582: [('48', 3), ('1', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_56: [('12', 4), ('14', 6), ('10', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5602: [('1', 1), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_5606: [('13', 1), ('50', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_5626: [('44', 2), ('39', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_5627: [('47', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_563: [('37', 3), ('12', 2), ('18', 4), ('52', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5645: [('2', 1), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5649: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5654: [('50', 2), ('16', 2)]	 Chosen cluster: 50
+No consensus cluster for contig contig_5660: [('37', 6), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5671: [('21', 1), ('2', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_5679: [('11', 4), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_5706: [('18', 5), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5718: [('15', 10), ('52', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_5728: [('42', 1), ('16', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_573: [('12', 2), ('14', 14), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5731: [('19', 1), ('37', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_5733: [('24', 2), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_5734: [('51', 1), ('2', 5)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5742: [('37', 1), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5746: [('21', 1), ('44', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_5753: [('24', 3), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_5760: [('37', 1), ('14', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5768: [('2', 1), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5769: [('52', 1), ('9', 6), ('38', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_5785: [('17', 1), ('48', 1), ('7', 1)]	 Chosen cluster: 17
+No consensus cluster for contig contig_5793: [('46', 6), ('52', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_5796: [('11', 29), ('1', 1), ('40', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_5797: [('24', 1), ('42', 1), ('33', 4)]	 Chosen cluster: 33
+No consensus cluster for contig contig_580: [('37', 1), ('14', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5807: [('41', 2), ('44', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_5812: [('33', 3), ('11', 2)]	 Chosen cluster: 33
+No consensus cluster for contig contig_5821: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5823: [('11', 15), ('45', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_5826: [('3', 6), ('10', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_5830: [('13', 1), ('40', 6), ('25', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_5834: [('50', 13), ('35', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_5837: [('1', 1), ('11', 7)]	 Chosen cluster: 11
+No consensus cluster for contig contig_5845: [('58', 5), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_5846: [('50', 1), ('58', 6)]	 Chosen cluster: 58
+No consensus cluster for contig contig_5847: [('14', 1), ('18', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_5848: [('55', 6), ('54', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_5867: [('2', 6), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5872: [('43', 1), ('49', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_5890: [('2', 14), ('3', 1), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5902: [('21', 2), ('12', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_5921: [('31', 14), ('21', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_5925: [('9', 2), ('37', 1)]	 Chosen cluster: 9
+No consensus cluster for contig contig_5938: [('50', 28), ('24', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_5943: [('18', 1), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5946: [('35', 1), ('48', 3), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_596: [('42', 1), ('2', 3), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_5962: [('4', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_5973: [('18', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_5985: [('0', 4), ('52', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_5989: [('37', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_5994: [('43', 1), ('15', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_5998: [('56', 1), ('55', 1)]	 Chosen cluster: 56
+No consensus cluster for contig contig_600: [('44', 1), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_6004: [('39', 2), ('14', 2)]	 Chosen cluster: 39
+No consensus cluster for contig contig_6007: [('14', 8), ('12', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6014: [('13', 1), ('16', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_6018: [('11', 1), ('1', 5)]	 Chosen cluster: 1
+No consensus cluster for contig contig_602: [('18', 2), ('44', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_6024: [('52', 1), ('9', 2)]	 Chosen cluster: 9
+No consensus cluster for contig contig_6029: [('14', 2), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6042: [('15', 2), ('37', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_6043: [('51', 1), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_6058: [('14', 4), ('12', 5)]	 Chosen cluster: 12
+No consensus cluster for contig contig_6068: [('10', 1), ('11', 16)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6072: [('39', 1), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_6075: [('21', 1), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_6092: [('24', 2), ('33', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_6102: [('12', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6111: [('12', 1), ('39', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_6127: [('52', 1), ('12', 1), ('18', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_6154: [('1', 7), ('35', 1), ('11', 2), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_616: [('36', 1), ('52', 8)]	 Chosen cluster: 52
+No consensus cluster for contig contig_6160: [('3', 2), ('45', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_6162: [('48', 14), ('16', 3), ('35', 1), ('50', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_6163: [('23', 1), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_6166: [('13', 1), ('24', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_6167: [('18', 1), ('56', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_617: [('45', 4), ('11', 1)]	 Chosen cluster: 45
+No consensus cluster for contig contig_6175: [('11', 5), ('35', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6178: [('39', 2), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_6186: [('50', 1), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_619: [('37', 2), ('49', 4)]	 Chosen cluster: 49
+No consensus cluster for contig contig_6192: [('3', 1), ('33', 2)]	 Chosen cluster: 33
+No consensus cluster for contig contig_6205: [('16', 1), ('1', 2), ('48', 10)]	 Chosen cluster: 48
+No consensus cluster for contig contig_6207: [('48', 19), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_6209: [('37', 3), ('18', 4), ('44', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_6225: [('0', 3), ('52', 2)]	 Chosen cluster: 0
+No consensus cluster for contig contig_6228: [('14', 4), ('39', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_623: [('48', 1), ('35', 1), ('16', 2)]	 Chosen cluster: 16
+No consensus cluster for contig contig_6232: [('21', 2), ('41', 1), ('2', 11), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6235: [('12', 2), ('14', 5), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6244: [('59', 1), ('47', 1)]	 Chosen cluster: 59
+No consensus cluster for contig contig_6261: [('58', 4), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_6295: [('11', 1), ('45', 3)]	 Chosen cluster: 45
+No consensus cluster for contig contig_6297: [('12', 1), ('14', 6)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6301: [('37', 4), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_631: [('42', 1), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_633: [('54', 15), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_6330: [('23', 30), ('4', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_6342: [('3', 2), ('42', 2)]	 Chosen cluster: 3
+No consensus cluster for contig contig_635: [('14', 12), ('39', 2), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6350: [('37', 1), ('15', 2), ('8', 1), ('52', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_6353: [('12', 4), ('14', 13), ('52', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_636: [('21', 5), ('41', 8), ('12', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_6363: [('45', 1), ('11', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6365: [('37', 2), ('19', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6370: [('52', 1), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_6373: [('24', 1), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_638: [('14', 6), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6389: [('21', 7), ('41', 4)]	 Chosen cluster: 21
+No consensus cluster for contig contig_6391: [('21', 1), ('12', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_64: [('37', 31), ('18', 47), ('14', 1), ('52', 1), ('21', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_6411: [('14', 5), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6424: [('47', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_6431: [('56', 1), ('54', 1)]	 Chosen cluster: 56
+No consensus cluster for contig contig_6437: [('12', 3), ('14', 13), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6439: [('19', 1), ('37', 1), ('12', 1)]	 Chosen cluster: 19
+No consensus cluster for contig contig_644: [('11', 1), ('33', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6440: [('47', 9), ('44', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_6444: [('42', 1), ('3', 2)]	 Chosen cluster: 3
+No consensus cluster for contig contig_6445: [('11', 2), ('45', 3)]	 Chosen cluster: 45
+No consensus cluster for contig contig_6448: [('52', 1), ('15', 13)]	 Chosen cluster: 15
+No consensus cluster for contig contig_647: [('46', 17), ('44', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_6476: [('3', 2), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_6479: [('11', 1), ('40', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6484: [('13', 1), ('33', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_6487: [('31', 1), ('21', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_6502: [('47', 2), ('23', 6)]	 Chosen cluster: 23
+No consensus cluster for contig contig_6507: [('18', 1), ('37', 4)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6511: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_653: [('11', 17), ('1', 1), ('17', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6539: [('52', 1), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_6541: [('44', 3), ('51', 5), ('2', 3)]	 Chosen cluster: 51
+No consensus cluster for contig contig_6544: [('52', 1), ('12', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_657: [('21', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_6573: [('50', 1), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_6578: [('13', 1), ('17', 2)]	 Chosen cluster: 17
+No consensus cluster for contig contig_6585: [('11', 1), ('45', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_6592: [('2', 18), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6601: [('13', 1), ('33', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_6603: [('40', 2), ('13', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_6607: [('2', 15), ('51', 8), ('44', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6613: [('52', 1), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_6627: [('51', 5), ('2', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_6631: [('47', 1), ('42', 4), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_6634: [('33', 2), ('11', 1), ('3', 1), ('35', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_6635: [('7', 1), ('14', 1)]	 Chosen cluster: 7
+No consensus cluster for contig contig_6654: [('56', 1), ('55', 1), ('54', 1)]	 Chosen cluster: 56
+No consensus cluster for contig contig_6659: [('36', 9), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_6670: [('18', 18), ('14', 2), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_6674: [('18', 2), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_668: [('18', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6683: [('33', 1), ('13', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_6687: [('51', 2), ('2', 8), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6696: [('48', 2), ('16', 3)]	 Chosen cluster: 16
+No consensus cluster for contig contig_6699: [('12', 1), ('14', 7), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6705: [('14', 5), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6707: [('18', 9), ('21', 1), ('37', 4)]	 Chosen cluster: 18
+No consensus cluster for contig contig_6717: [('51', 5), ('2', 11)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6719: [('24', 1), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_6722: [('44', 2), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_6723: [('42', 1), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_6727: [('42', 2), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_6731: [('40', 1), ('30', 2)]	 Chosen cluster: 30
+No consensus cluster for contig contig_6733: [('21', 7), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_6741: [('42', 1), ('54', 5)]	 Chosen cluster: 54
+No consensus cluster for contig contig_676: [('57', 1), ('30', 8)]	 Chosen cluster: 30
+No consensus cluster for contig contig_6769: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_677: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6771: [('33', 1), ('42', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_679: [('14', 10), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_6791: [('51', 2), ('31', 1), ('44', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_6795: [('42', 1), ('33', 4)]	 Chosen cluster: 33
+No consensus cluster for contig contig_6799: [('21', 3), ('37', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_6826: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_683: [('44', 2), ('51', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_6835: [('44', 1), ('10', 1), ('34', 1), ('51', 4), ('2', 4)]	 Chosen cluster: 51
+No consensus cluster for contig contig_6837: [('21', 1), ('2', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_684: [('52', 4), ('38', 1), ('0', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_6842: [('13', 1), ('40', 4)]	 Chosen cluster: 40
+No consensus cluster for contig contig_685: [('39', 7), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_6852: [('13', 1), ('24', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_6857: [('1', 16), ('11', 1), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_6859: [('2', 4), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_686: [('58', 9), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_6868: [('13', 1), ('40', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_687: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_6878: [('21', 1), ('44', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_6890: [('6', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_6897: [('12', 3), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_69: [('18', 3), ('12', 1), ('44', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_6900: [('19', 1), ('37', 1)]	 Chosen cluster: 19
+No consensus cluster for contig contig_6911: [('3', 2), ('33', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_6925: [('42', 1), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_6927: [('2', 1), ('3', 1), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6934: [('44', 1), ('37', 7), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6939: [('37', 1), ('21', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6942: [('37', 29), ('52', 1), ('49', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_6943: [('13', 6), ('30', 1), ('24', 2)]	 Chosen cluster: 13
+No consensus cluster for contig contig_6960: [('2', 14), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_6974: [('11', 3), ('13', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_699: [('48', 3), ('50', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_6991: [('39', 7), ('12', 1), ('18', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_6993: [('42', 2), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_7016: [('23', 1), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_7029: [('37', 1), ('15', 3)]	 Chosen cluster: 15
+No consensus cluster for contig contig_7031: [('10', 1), ('54', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_704: [('46', 10), ('12', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_7042: [('29', 2), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_706: [('52', 1), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_7064: [('45', 3), ('11', 2)]	 Chosen cluster: 45
+No consensus cluster for contig contig_7070: [('36', 6), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_7072: [('42', 1), ('13', 1), ('30', 2)]	 Chosen cluster: 30
+No consensus cluster for contig contig_7075: [('23', 2), ('3', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_7076: [('2', 7), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7079: [('1', 1), ('11', 5)]	 Chosen cluster: 11
+No consensus cluster for contig contig_7090: [('38', 1), ('46', 3)]	 Chosen cluster: 46
+No consensus cluster for contig contig_711: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7110: [('48', 4), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7112: [('4', 1), ('23', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_7113: [('23', 1), ('47', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_7117: [('46', 1), ('37', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_7129: [('51', 1), ('44', 1), ('2', 22)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7133: [('2', 16), ('51', 2), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7143: [('14', 8), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7150: [('56', 1), ('18', 1), ('10', 3), ('15', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_7153: [('46', 4), ('21', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_7158: [('21', 2), ('31', 2), ('41', 6)]	 Chosen cluster: 41
+No consensus cluster for contig contig_7164: [('3', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_7167: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7173: [('54', 6), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_7182: [('21', 3), ('41', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_7205: [('21', 2), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_7208: [('18', 10), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7211: [('10', 1), ('7', 1), ('17', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_7217: [('55', 2), ('56', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_7218: [('47', 6), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_722: [('14', 10), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7221: [('2', 1), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7227: [('42', 1), ('23', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_7230: [('17', 1), ('44', 1), ('37', 2)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7238: [('2', 16), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_724: [('18', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7241: [('2', 4), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7242: [('45', 2), ('11', 2)]	 Chosen cluster: 45
+No consensus cluster for contig contig_7250: [('13', 1), ('33', 2)]	 Chosen cluster: 33
+No consensus cluster for contig contig_7259: [('18', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7261: [('48', 2), ('35', 1), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7263: [('48', 1), ('13', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_728: [('14', 16), ('12', 3), ('44', 1), ('18', 2), ('51', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7295: [('14', 9), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7296: [('13', 1), ('30', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_7297: [('23', 12), ('4', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_730: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7314: [('21', 2), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_7317: [('54', 2), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_7320: [('4', 3), ('47', 2)]	 Chosen cluster: 4
+No consensus cluster for contig contig_7332: [('18', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7342: [('40', 1), ('17', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_7345: [('14', 1), ('39', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7354: [('52', 1), ('12', 1), ('14', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_737: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_738: [('14', 20), ('39', 1), ('18', 1), ('12', 8)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7385: [('48', 8), ('16', 1), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7387: [('10', 1), ('6', 1)]	 Chosen cluster: 10
+No consensus cluster for contig contig_7406: [('24', 1), ('34', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_7408: [('2', 25), ('51', 6)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7411: [('24', 2), ('13', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_7415: [('47', 1), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_742: [('12', 1), ('52', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_7433: [('31', 5), ('41', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_7440: [('48', 1), ('13', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7442: [('48', 1), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7443: [('47', 1), ('23', 7)]	 Chosen cluster: 23
+No consensus cluster for contig contig_75: [('44', 1), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_7505: [('18', 1), ('12', 1), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7520: [('37', 1), ('18', 3), ('53', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7523: [('54', 1), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_7529: [('50', 5), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_7535: [('21', 2), ('41', 5)]	 Chosen cluster: 41
+No consensus cluster for contig contig_7538: [('42', 1), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_7542: [('18', 2), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7552: [('39', 1), ('18', 2), ('37', 6)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7554: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_757: [('12', 1), ('14', 17)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7574: [('51', 1), ('2', 6)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7576: [('8', 3), ('15', 2)]	 Chosen cluster: 8
+No consensus cluster for contig contig_7587: [('48', 14), ('1', 1), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7623: [('8', 6), ('15', 1)]	 Chosen cluster: 8
+No consensus cluster for contig contig_763: [('49', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7635: [('37', 5), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7639: [('51', 3), ('2', 31)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7642: [('35', 1), ('48', 1), ('33', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_7649: [('37', 2), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7650: [('37', 5), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7664: [('14', 4), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7676: [('0', 2), ('12', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_7677: [('13', 1), ('24', 2)]	 Chosen cluster: 24
+No consensus cluster for contig contig_7678: [('44', 1), ('4', 1), ('51', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_7683: [('37', 1), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7688: [('52', 1), ('29', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_7689: [('24', 1), ('14', 7), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7696: [('3', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_7698: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_77: [('14', 1), ('12', 5)]	 Chosen cluster: 12
+No consensus cluster for contig contig_772: [('2', 3), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7728: [('47', 1), ('23', 2)]	 Chosen cluster: 23
+No consensus cluster for contig contig_7729: [('15', 1), ('14', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_7745: [('37', 2), ('44', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_775: [('21', 29), ('46', 1), ('41', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_7753: [('18', 1), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_7756: [('52', 1), ('37', 7), ('10', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7765: [('48', 1), ('33', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7775: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_779: [('41', 1), ('21', 1), ('37', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_7795: [('37', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7797: [('14', 2), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7801: [('48', 3), ('1', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7807: [('21', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_782: [('48', 1), ('16', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_7821: [('52', 1), ('37', 3)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7822: [('47', 13), ('18', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_783: [('15', 1), ('12', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_7841: [('44', 1), ('47', 1), ('2', 5), ('51', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_7847: [('14', 2), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7858: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_7861: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_7862: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7865: [('24', 1), ('47', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_7883: [('37', 31), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_7884: [('47', 4), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_7892: [('41', 1), ('21', 3)]	 Chosen cluster: 21
+No consensus cluster for contig contig_7906: [('47', 14), ('23', 1), ('4', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_7918: [('31', 1), ('3', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_7928: [('13', 2), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_7944: [('12', 1), ('18', 1), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7949: [('41', 1), ('31', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_7953: [('14', 4), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_7954: [('38', 1), ('52', 1)]	 Chosen cluster: 38
+No consensus cluster for contig contig_7996: [('51', 3), ('21', 1), ('12', 1), ('37', 1), ('18', 2), ('14', 1)]	 Chosen cluster: 51
+No consensus cluster for contig contig_800: [('14', 4), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8008: [('18', 6), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_8020: [('11', 2), ('45', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_8030: [('12', 3), ('15', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8039: [('50', 1), ('58', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_8041: [('36', 3), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_8046: [('14', 5), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8065: [('44', 1), ('21', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_8072: [('12', 4), ('14', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8102: [('37', 1), ('36', 10), ('20', 1), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_8103: [('50', 1), ('16', 2)]	 Chosen cluster: 16
+No consensus cluster for contig contig_8106: [('42', 1), ('54', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_8118: [('49', 1), ('37', 1)]	 Chosen cluster: 49
+No consensus cluster for contig contig_8119: [('21', 1), ('2', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_8126: [('41', 1), ('21', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_814: [('42', 3), ('47', 1), ('54', 2)]	 Chosen cluster: 42
+No consensus cluster for contig contig_8141: [('38', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_8145: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8164: [('30', 4), ('13', 1), ('40', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_8167: [('46', 4), ('52', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_8177: [('18', 3), ('52', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_8181: [('33', 10), ('27', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_8187: [('3', 1), ('16', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_8192: [('23', 5), ('24', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_8194: [('47', 13), ('44', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8200: [('35', 2), ('50', 2)]	 Chosen cluster: 35
+No consensus cluster for contig contig_8214: [('36', 12), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_8217: [('50', 1), ('48', 2)]	 Chosen cluster: 48
+No consensus cluster for contig contig_8218: [('33', 1), ('3', 1)]	 Chosen cluster: 33
+No consensus cluster for contig contig_822: [('11', 1), ('1', 8), ('48', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_8220: [('21', 3), ('41', 3)]	 Chosen cluster: 21
+No consensus cluster for contig contig_8241: [('48', 9), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_825: [('2', 7), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8260: [('58', 1), ('3', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_8263: [('44', 1), ('40', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_8272: [('37', 1), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_8278: [('52', 3), ('12', 2)]	 Chosen cluster: 52
+No consensus cluster for contig contig_8280: [('21', 3), ('41', 6), ('12', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_8282: [('16', 2), ('35', 1), ('50', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_829: [('0', 4), ('52', 2)]	 Chosen cluster: 0
+No consensus cluster for contig contig_830: [('3', 189), ('42', 13), ('2', 2), ('45', 1), ('23', 1), ('13', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_831: [('11', 2), ('45', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_8317: [('1', 4), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_8319: [('45', 1), ('11', 1)]	 Chosen cluster: 45
+No consensus cluster for contig contig_8333: [('44', 1), ('2', 2)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8336: [('30', 1), ('56', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_834: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8340: [('48', 2), ('42', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_8342: [('52', 1), ('12', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8353: [('39', 4), ('14', 2)]	 Chosen cluster: 39
+No consensus cluster for contig contig_8354: [('12', 1), ('39', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8359: [('12', 1), ('14', 3), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8365: [('36', 11), ('52', 1)]	 Chosen cluster: 36
+No consensus cluster for contig contig_8377: [('31', 3), ('21', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_8386: [('12', 5), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_839: [('14', 42), ('12', 5), ('15', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8397: [('21', 2), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_840: [('14', 9), ('12', 3), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8419: [('42', 3), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_8420: [('24', 3), ('30', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_8438: [('51', 2), ('47', 18), ('24', 1), ('42', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_844: [('14', 6), ('12', 2)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8441: [('47', 10), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8449: [('2', 13), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_845: [('12', 3), ('14', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8458: [('16', 1), ('50', 1)]	 Chosen cluster: 16
+No consensus cluster for contig contig_8486: [('50', 1), ('24', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_8490: [('4', 3), ('47', 9)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8498: [('12', 2), ('14', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8502: [('44', 1), ('42', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_8514: [('12', 1), ('46', 2)]	 Chosen cluster: 46
+No consensus cluster for contig contig_852: [('18', 1), ('12', 2), ('14', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_853: [('14', 1), ('52', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8534: [('51', 2), ('2', 7)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8538: [('18', 1), ('14', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_854: [('12', 4), ('14', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_857: [('12', 4), ('14', 17), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8575: [('2', 2), ('6', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8585: [('54', 2), ('42', 4)]	 Chosen cluster: 42
+No consensus cluster for contig contig_8590: [('41', 6), ('21', 2), ('51', 1), ('3', 1), ('2', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_8592: [('2', 2), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8605: [('47', 5), ('4', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_861: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8620: [('54', 1), ('56', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_8624: [('52', 3), ('37', 3)]	 Chosen cluster: 52
+No consensus cluster for contig contig_8625: [('21', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_8633: [('41', 4), ('21', 2)]	 Chosen cluster: 41
+No consensus cluster for contig contig_8635: [('3', 1), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_8654: [('21', 1), ('41', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_8661: [('37', 2), ('52', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_8669: [('13', 1), ('30', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_867: [('18', 1), ('56', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_8688: [('12', 1), ('37', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8689: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_8692: [('14', 2), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_870: [('47', 14), ('6', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8701: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_8703: [('21', 2), ('41', 3)]	 Chosen cluster: 41
+No consensus cluster for contig contig_871: [('58', 7), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_8720: [('23', 1), ('4', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_8722: [('24', 2), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_8725: [('1', 11), ('35', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_874: [('18', 13), ('14', 2), ('39', 2), ('12', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_8744: [('47', 1), ('25', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8749: [('13', 13), ('30', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_8759: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8760: [('52', 1), ('9', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_8772: [('44', 1), ('2', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_88: [('12', 4), ('14', 12)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8822: [('2', 2), ('51', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8825: [('23', 1), ('47', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8830: [('47', 1), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8838: [('18', 2), ('37', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_8839: [('18', 3), ('37', 2)]	 Chosen cluster: 18
+No consensus cluster for contig contig_8843: [('48', 2), ('1', 3)]	 Chosen cluster: 1
+No consensus cluster for contig contig_8850: [('1', 7), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_8862: [('50', 1), ('58', 7)]	 Chosen cluster: 58
+No consensus cluster for contig contig_8869: [('30', 20), ('57', 1)]	 Chosen cluster: 30
+No consensus cluster for contig contig_8876: [('34', 1), ('44', 1)]	 Chosen cluster: 34
+No consensus cluster for contig contig_8877: [('47', 3), ('4', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8897: [('14', 5), ('12', 4)]	 Chosen cluster: 14
+No consensus cluster for contig contig_890: [('50', 1), ('58', 4), ('18', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_8906: [('37', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_8912: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_8926: [('29', 2), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_8929: [('35', 1), ('48', 1)]	 Chosen cluster: 35
+No consensus cluster for contig contig_8933: [('14', 1), ('15', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_8949: [('2', 11), ('51', 1), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_8957: [('35', 1), ('50', 21)]	 Chosen cluster: 50
+No consensus cluster for contig contig_8960: [('47', 2), ('23', 2), ('6', 1), ('51', 2)]	 Chosen cluster: 47
+No consensus cluster for contig contig_8979: [('23', 1), ('24', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_8981: [('54', 2), ('42', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_8987: [('41', 1), ('46', 1)]	 Chosen cluster: 41
+No consensus cluster for contig contig_9: [('52', 2), ('12', 3)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9003: [('51', 3), ('2', 11), ('44', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_9016: [('47', 9), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_9023: [('4', 3), ('47', 3)]	 Chosen cluster: 4
+No consensus cluster for contig contig_903: [('12', 7), ('14', 13)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9055: [('18', 1), ('39', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_9059: [('40', 1), ('30', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_906: [('52', 2), ('38', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_9068: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9077: [('42', 4), ('2', 1), ('47', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_9089: [('55', 5), ('54', 1)]	 Chosen cluster: 55
+No consensus cluster for contig contig_9097: [('52', 1), ('29', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_9114: [('37', 1), ('52', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_9130: [('37', 1), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_9139: [('47', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_9144: [('15', 1), ('14', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_9156: [('12', 2), ('46', 22)]	 Chosen cluster: 46
+No consensus cluster for contig contig_916: [('14', 17), ('12', 3)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9161: [('51', 2), ('2', 3)]	 Chosen cluster: 2
+No consensus cluster for contig contig_9169: [('14', 1), ('39', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9174: [('21', 2), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_9189: [('52', 3), ('36', 16)]	 Chosen cluster: 36
+No consensus cluster for contig contig_9194: [('58', 1), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_92: [('12', 2), ('18', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9200: [('3', 1), ('54', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_9205: [('48', 25), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_9223: [('12', 2), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9243: [('44', 1), ('51', 1)]	 Chosen cluster: 44
+No consensus cluster for contig contig_9247: [('31', 6), ('42', 1), ('41', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_9251: [('54', 1), ('40', 1), ('48', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_9273: [('18', 1), ('12', 4), ('14', 4)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9274: [('21', 1), ('18', 1), ('14', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_9279: [('0', 3), ('52', 1)]	 Chosen cluster: 0
+No consensus cluster for contig contig_9287: [('51', 3), ('2', 17)]	 Chosen cluster: 2
+No consensus cluster for contig contig_93: [('14', 18), ('12', 5), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9301: [('47', 1), ('23', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_9302: [('29', 1), ('52', 1)]	 Chosen cluster: 29
+No consensus cluster for contig contig_9310: [('6', 1), ('2', 1)]	 Chosen cluster: 6
+No consensus cluster for contig contig_9325: [('31', 8), ('21', 5)]	 Chosen cluster: 31
+No consensus cluster for contig contig_9337: [('2', 1), ('3', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_9348: [('58', 2), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_9349: [('48', 1), ('11', 4)]	 Chosen cluster: 11
+No consensus cluster for contig contig_9357: [('11', 1), ('45', 3)]	 Chosen cluster: 45
+No consensus cluster for contig contig_9374: [('23', 7), ('4', 1)]	 Chosen cluster: 23
+No consensus cluster for contig contig_94: [('14', 1), ('18', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9403: [('12', 3), ('14', 2)]	 Chosen cluster: 12
+No consensus cluster for contig contig_941: [('15', 5), ('37', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_942: [('39', 6), ('23', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_9420: [('4', 1), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_9435: [('42', 1), ('3', 1)]	 Chosen cluster: 42
+No consensus cluster for contig contig_9437: [('13', 1), ('24', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_9446: [('21', 7), ('41', 2)]	 Chosen cluster: 21
+No consensus cluster for contig contig_949: [('39', 1), ('14', 1)]	 Chosen cluster: 39
+No consensus cluster for contig contig_9499: [('54', 4), ('56', 1)]	 Chosen cluster: 54
+No consensus cluster for contig contig_954: [('48', 1), ('35', 2)]	 Chosen cluster: 35
+No consensus cluster for contig contig_9543: [('42', 1), ('33', 1), ('54', 3)]	 Chosen cluster: 54
+No consensus cluster for contig contig_9546: [('47', 1), ('4', 1)]	 Chosen cluster: 47
+No consensus cluster for contig contig_9551: [('18', 1), ('37', 1)]	 Chosen cluster: 18
+No consensus cluster for contig contig_9570: [('21', 2), ('46', 1)]	 Chosen cluster: 21
+No consensus cluster for contig contig_958: [('12', 3), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9581: [('13', 1), ('11', 2)]	 Chosen cluster: 11
+No consensus cluster for contig contig_961: [('3', 1), ('42', 2), ('44', 1), ('54', 5)]	 Chosen cluster: 54
+No consensus cluster for contig contig_9610: [('4', 1), ('47', 1)]	 Chosen cluster: 4
+No consensus cluster for contig contig_9621: [('15', 1), ('14', 1)]	 Chosen cluster: 15
+No consensus cluster for contig contig_9632: [('48', 14), ('35', 1)]	 Chosen cluster: 48
+No consensus cluster for contig contig_9639: [('44', 1), ('47', 3)]	 Chosen cluster: 47
+No consensus cluster for contig contig_9640: [('12', 1), ('14', 2), ('37', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9645: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_965: [('39', 1), ('14', 32), ('12', 5)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9650: [('12', 4), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_967: [('12', 4), ('14', 13)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9686: [('43', 2), ('49', 1)]	 Chosen cluster: 43
+No consensus cluster for contig contig_9714: [('11', 5), ('1', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_9727: [('40', 2), ('30', 1), ('13', 1)]	 Chosen cluster: 40
+No consensus cluster for contig contig_974: [('12', 1), ('18', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9746: [('37', 1), ('44', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_9747: [('37', 2), ('18', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_9749: [('52', 2), ('15', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_9762: [('58', 1), ('48', 4)]	 Chosen cluster: 48
+No consensus cluster for contig contig_9763: [('2', 4), ('42', 1)]	 Chosen cluster: 2
+No consensus cluster for contig contig_9780: [('3', 4), ('42', 1)]	 Chosen cluster: 3
+No consensus cluster for contig contig_9794: [('58', 2), ('50', 1)]	 Chosen cluster: 58
+No consensus cluster for contig contig_9799: [('14', 1), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9804: [('12', 2), ('10', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9814: [('1', 6), ('48', 1), ('11', 1)]	 Chosen cluster: 1
+No consensus cluster for contig contig_9816: [('14', 3), ('12', 1)]	 Chosen cluster: 14
+No consensus cluster for contig contig_9826: [('9', 1), ('12', 1), ('15', 7)]	 Chosen cluster: 15
+No consensus cluster for contig contig_9829: [('13', 1), ('16', 1)]	 Chosen cluster: 13
+No consensus cluster for contig contig_983: [('51', 4), ('2', 2), ('44', 2)]	 Chosen cluster: 51
+No consensus cluster for contig contig_9833: [('24', 4), ('13', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_9834: [('37', 1), ('12', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_9838: [('31', 8), ('21', 1)]	 Chosen cluster: 31
+No consensus cluster for contig contig_9855: [('16', 1), ('48', 3)]	 Chosen cluster: 48
+No consensus cluster for contig contig_9861: [('24', 1), ('48', 1)]	 Chosen cluster: 24
+No consensus cluster for contig contig_9867: [('12', 3), ('15', 4)]	 Chosen cluster: 15
+No consensus cluster for contig contig_9868: [('11', 3), ('45', 1), ('3', 1)]	 Chosen cluster: 11
+No consensus cluster for contig contig_9895: [('52', 1), ('37', 1)]	 Chosen cluster: 52
+No consensus cluster for contig contig_9908: [('41', 1), ('21', 4)]	 Chosen cluster: 21
+No consensus cluster for contig contig_9916: [('45', 1), ('13', 4)]	 Chosen cluster: 13
+No consensus cluster for contig contig_9924: [('37', 1), ('15', 1)]	 Chosen cluster: 37
+No consensus cluster for contig contig_993: [('46', 1), ('21', 1)]	 Chosen cluster: 46
+No consensus cluster for contig contig_9936: [('12', 1), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_996: [('38', 1), ('0', 14)]	 Chosen cluster: 0
+No consensus cluster for contig contig_9961: [('58', 1), ('50', 5), ('16', 1)]	 Chosen cluster: 50
+No consensus cluster for contig contig_9987: [('12', 5), ('14', 1)]	 Chosen cluster: 12
+No consensus cluster for contig contig_9992: [('13', 1), ('24', 4)]	 Chosen cluster: 24
+No consensus cluster for contig contig_9995: [('44', 2), ('54', 8)]	 Chosen cluster: 54
+	Command being timed: "merge_cutup_clustering.py concoct_output/clustering_gt1000.csv"
+	User time (seconds): 0.12
+	System time (seconds): 0.01
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16588
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3130
+	Voluntary context switches: 167
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 1945
+	File system outputs: 695
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "extract_fasta_bins.py ../../../../8_prokaryote_contigs/third_run/barcode03/prokaryote/assembly_prokaryote.fasta concoct_output/clustering_merged.csv --output_path bins"
+	User time (seconds): 5.79
+	System time (seconds): 0.82
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 525776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 250311
+	Voluntary context switches: 9619
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 724729
+	File system outputs: 724370
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
