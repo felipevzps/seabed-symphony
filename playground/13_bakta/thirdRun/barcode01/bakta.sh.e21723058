@@ -1,0 +1,23 @@
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.002 --output output/bins.002 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode01/output/DASToolRun_DASTool_bins//bins.002.fa"
+	User time (seconds): 1775.82
+	System time (seconds): 100.33
+	Percent of CPU this job got: 342%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:07.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12764496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1772
+	Minor (reclaiming a frame) page faults: 2557047
+	Voluntary context switches: 3864658
+	Involuntary context switches: 9577
+	Swaps: 0
+	File system inputs: 165942954
+	File system outputs: 49387
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
