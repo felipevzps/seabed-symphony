@@ -1,0 +1,37 @@
+var bigscape_results = [
+    {
+        "label":"2024-05-11_12-59-22_hybrids_auto_c0.30",
+        "networks":[
+            {
+                "css":"Terpene",
+                "label":"Terpene",
+                "name":"Terpene"
+            },
+            {
+                "css":"RiPPs",
+                "label":"RiPPs",
+                "name":"RiPPs"
+            },
+            {
+                "css":"PKSI",
+                "label":"PKSI",
+                "name":"PKSI"
+            },
+            {
+                "css":"NRPS",
+                "label":"NRPS",
+                "name":"NRPS"
+            },
+            {
+                "css":"Others",
+                "label":"Others",
+                "name":"Others"
+            },
+            {
+                "css":"PKSother",
+                "label":"PKSother",
+                "name":"PKSother"
+            }
+        ]
+    }
+];
