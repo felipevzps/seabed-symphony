@@ -1,0 +1,116 @@
+java -ea -Xmx300m -Xms300m -cp /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/bbmap-39.06-0/current/ jgi.ReformatReads in=../../../../3_adapter_removal/third_run/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq out=mapped_reads.fasta fastareadlen=600 trd
+Executing jgi.ReformatReads [in=../../../../3_adapter_removal/third_run/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq, out=mapped_reads.fasta, fastareadlen=600, trd]
+
+Input is being processed as unpaired
+Input:                  	2762406 reads          	14196176086 bases
+Output:                 	2762406 reads (100.00%) 	14196176086 bases (100.00%)
+
+Time:                         	114.476 seconds.
+Reads Processed:       2762k 	24.13k reads/sec
+Bases Processed:      14196m 	124.01m bases/sec
+	Command being timed: "reformat.sh in=../../../../3_adapter_removal/third_run/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq out=mapped_reads.fasta fastareadlen=600 trd"
+	User time (seconds): 123.75
+	System time (seconds): 20.41
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:54.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 263152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 31344
+	Voluntary context switches: 500111
+	Involuntary context switches: 875
+	Swaps: 0
+	File system inputs: 57714828
+	File system outputs: 28331485
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+java -ea -Xmx161053m -Xms161053m -cp /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/bbmap-39.06-0/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 ref=../../../../8_prokaryote_contigs/third_run/barcode02/prokaryote/assembly_prokaryote.fasta in=mapped_reads.fasta out=mapped.sam threads=10
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, ref=../../../../8_prokaryote_contigs/third_run/barcode02/prokaryote/assembly_prokaryote.fasta, in=mapped_reads.fasta, out=mapped.sam, threads=10]
+Version 39.06
+
+Retaining first best site only for ambiguous mappings.
+Writing reference.
+Executing dna.FastaToChromArrays2 [../../../../8_prokaryote_contigs/third_run/barcode02/prokaryote/assembly_prokaryote.fasta, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=true, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=false]
+
+Set genScaffoldInfo=true
+Writing chunk 1
+Writing chunk 2
+Set genome to 1
+
+Loaded Reference:	0.102 seconds.
+Loading index for chunk 1-2, build 1
+No index available; generating from reference genome: /work3/fevape/marine-BGCs/analysis/9_genome_binning/mapping/third_run/barcode02/ref/index/1/chr1-2_index_k13_c2_b1.block
+Indexing threads started for block 0-2
+Indexing threads finished for block 0-2
+Generated Index:	63.522 seconds.
+Finished Writing:	2.050 seconds.
+Analyzed Index:   	5.291 seconds.
+Started output stream:	0.164 seconds.
+Cleared Memory:    	0.195 seconds.
+Processing reads in single-ended mode.
+Started read stream.
+Started 10 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.56
+Mapping Mode:         	normal
+Reads Used:           	29698159	(14195597125 bases)
+
+Mapping:          	23814.594 seconds.
+Reads/sec:       	1247.06
+kBases/sec:      	596.09
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	 37.3769% 	 11100266 	 37.4217% 	  5312227920
+unambiguous:     	 36.4144% 	 10814406 	 36.7172% 	  5212224373
+ambiguous:       	  0.9626% 	   285860 	  0.7045% 	   100003547
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  1.1095% 	   329496 	  0.8736% 	   124006344
+semiperfect site:	  1.1359% 	   337343 	  0.8933% 	   126805424
+
+Match Rate:      	      NA 	       NA 	 91.9335% 	  5090237513
+Error Rate:      	 89.9023% 	 10763141 	  7.9951% 	   442678571
+Sub Rate:        	 87.4984% 	 10475351 	  3.3090% 	   183217074
+Del Rate:        	 70.4126% 	  8429821 	  4.0572% 	   224639519
+Ins Rate:        	 56.4033% 	  6752633 	  0.6289% 	    34821978
+N Rate:          	  0.5966% 	    71427 	  0.0714% 	     3951355
+
+Total time:     	23893.563 seconds.
+	Command being timed: "bbmap.sh ref=../../../../8_prokaryote_contigs/third_run/barcode02/prokaryote/assembly_prokaryote.fasta in=mapped_reads.fasta out=mapped.sam threads=10"
+	User time (seconds): 238035.53
+	System time (seconds): 67.17
+	Percent of CPU this job got: 996%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:38:14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 86677352
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 15
+	Minor (reclaiming a frame) page faults: 977155
+	Voluntary context switches: 1531694
+	Involuntary context switches: 2029732
+	Swaps: 0
+	File system inputs: 29646080
+	File system outputs: 39373099
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

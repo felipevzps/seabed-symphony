@@ -1,0 +1,23 @@
+	Command being timed: "metabat2 -i ../../../../8_prokaryote_contigs/third_run/barcode02/prokaryote/assembly_prokaryote.fasta -a depth.txt -o bins/bins -t 5"
+	User time (seconds): 215.25
+	System time (seconds): 1.41
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:40.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4150064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 179273
+	Voluntary context switches: 19189
+	Involuntary context switches: 232
+	Swaps: 0
+	File system inputs: 1314065
+	File system outputs: 1075909
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

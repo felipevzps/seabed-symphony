@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21722429: <samToBam> in cluster <dcc> Done
+
+Job <samToBam> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri May 10 22:26:17 2024
+Job was executed on host(s) <n-62-31-22>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri May 10 22:26:18 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/mapping/third_run/barcode02> was used as the working directory.
+Started at Fri May 10 22:26:18 2024
+Terminated at Fri May 10 22:44:09 2024
+Results reported at Fri May 10 22:44:09 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J samToBam
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 50
+#BSUB -o samToBam.sh.o%J
+#BSUB -e samToBam.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v samtools view -b -o mapped.bam mapped.sam
+/usr/bin/time -v samtools sort -o mapped_sorted.bam mapped.bam
+/usr/bin/time -v samtools index mapped_sorted.bam
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1016.64 sec.
+    Max Memory :                                 896 MB
+    Average Memory :                             465.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               128.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   1085 sec.
+    Turnaround time :                            1072 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <samToBam.sh.e21722429> for stderr output of this job.
+

@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21722436: <bamDepths> in cluster <dcc> Done
+
+Job <bamDepths> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri May 10 22:33:00 2024
+Job was executed on host(s) <n-62-31-22>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri May 10 22:44:11 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/9_genome_binning/MetaBAT2/third_run/barcode02> was used as the working directory.
+Started at Fri May 10 22:44:11 2024
+Terminated at Fri May 10 22:45:25 2024
+Results reported at Fri May 10 22:45:25 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J bamDepths
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o bamDepths.sh.o%J
+#BSUB -e bamDepths.sh.e%J
+
+source activate metagenomics
+
+bam=`ls -1 ../../../mapping/third_run/barcode02/mapped_sorted.bam`
+
+/usr/bin/time -v jgi_summarize_bam_contig_depths --outputDepth depth.txt $bam
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   70.24 sec.
+    Max Memory :                                 15 MB
+    Average Memory :                             14.67 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1009.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   76 sec.
+    Turnaround time :                            745 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <bamDepths.sh.e21722436> for stderr output of this job.
+
