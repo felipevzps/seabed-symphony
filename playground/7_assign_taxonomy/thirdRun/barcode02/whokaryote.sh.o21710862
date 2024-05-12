@@ -1,0 +1,93 @@
+Classification took 175.2293050289154 seconds.
+149.64962621790244 sequences per second.
+3775183.043103658 base pairs per second.
+Classification done.
+First iteration statistics:
+	archaea: 343
+	bacteria: 25381
+	eukarya: 126
+	organelle: 11
+	prokarya: 320
+	unknown: 42
+Second iteration statistics:
+	mitochondrion: 3
+	plastid: 8
+
+Output saved to output/tiara_pred.txt.
+Log file saved to output/log_tiara_pred.txt.
+
+Removing contigs with length < 5000 bp...
+Total contigs checked:	28454 
+Number of contigs >=5000bp:	26223 
+Number of contigs <5000bp and removed:	2231
+Model with tiara predictions selected.
+Running tiara with 4 threads...
+Running prodigal...
+Prodigal gene prediction successful. Saving gene coordinate file...
+Gene coordinate file saved.
+Gene prediction took 7688.308265686035 seconds.
+Calculating gene structure features with gene predictions...
+File extension: GFF
+Calculating features successful.
+Calculating gene structure features took 13.8108491897583 seconds.
+Predicting contig class...
+Using model with tiara predictions to predict contig class...
+Prediction successful! See output directory.
+Predicting contig class took 130.02553462982178 seconds.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710862: <whokaryote> in cluster <dcc> Done
+
+Job <whokaryote> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:16:36 2024
+Job was executed on host(s) <4*n-62-31-13>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri May 10 02:41:20 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/7_assign_taxonomy/third_run/barcode02> was used as the working directory.
+Started at Fri May 10 02:41:20 2024
+Terminated at Fri May 10 04:54:55 2024
+Results reported at Fri May 10 04:54:55 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J whokaryote
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=2GB]"
+#BSUB -W 3:00
+#BSUB -o whokaryote.sh.o%J
+#BSUB -e whokaryote.sh.e%J
+
+source activate whokaryote
+
+/usr/bin/time -v whokaryote.py --contigs ../../../5_assembly/third_run/barcode02/barcode02/assembly.fasta --outdir output --threads 4
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8240.00 sec.
+    Max Memory :                                 3517 MB
+    Average Memory :                             174.53 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               4675.00 MB
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                18
+    Run time :                                   8066 sec.
+    Turnaround time :                            99499 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <whokaryote.sh.e21710862> for stderr output of this job.
+
