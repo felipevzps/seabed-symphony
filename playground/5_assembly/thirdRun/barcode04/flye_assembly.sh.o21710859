@@ -1,0 +1,58 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710859: <flye_assembly> in cluster <dcc> Exited
+
+Job <flye_assembly> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:15:06 2024
+Job was executed on host(s) <10*n-62-29-13>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 02:56:03 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/5_assembly/third_run/barcode04> was used as the working directory.
+Started at Thu May  9 02:56:03 2024
+Terminated at Fri May 10 08:56:22 2024
+Results reported at Fri May 10 08:56:22 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J flye_assembly
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o flye_assembly.sh.o%J
+#BSUB -e flye_assembly.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v flye --meta --nano-hq ../../../3_adapter_removal/third_run/barcode04/soft_filter/barcode04.trimmed.highquality.noadapter.fastq/BC04.fastq --out-dir barcode04 --iterations 2 --threads 10 
+
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   966257.00 sec.
+    Max Memory :                                 88928 MB
+    Average Memory :                             13180.93 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               13472.00 MB
+    Max Swap :                                   78 MB
+    Max Processes :                              26
+    Max Threads :                                39
+    Run time :                                   108079 sec.
+    Turnaround time :                            114076 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <flye_assembly.sh.e21710859> for stderr output of this job.
+

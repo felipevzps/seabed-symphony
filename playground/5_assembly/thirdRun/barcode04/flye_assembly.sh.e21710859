@@ -1,0 +1,59 @@
+[2024-05-09 02:56:12] INFO: Starting Flye 2.9.2-b1786
+[2024-05-09 02:56:12] INFO: >>>STAGE: configure
+[2024-05-09 02:56:12] INFO: Configuring run
+[2024-05-09 02:57:43] INFO: Total read length: 15506160818
+[2024-05-09 02:57:43] INFO: Reads N50/N90: 7936 / 3781
+[2024-05-09 02:57:43] INFO: Minimum overlap set to 4000
+[2024-05-09 02:57:43] INFO: >>>STAGE: assembly
+[2024-05-09 02:57:43] INFO: Assembling disjointigs
+[2024-05-09 02:57:43] INFO: Reading sequences
+[2024-05-09 02:59:09] INFO: Building minimizer index
+[2024-05-09 02:59:09] INFO: Pre-calculating index storage
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 03:04:53] INFO: Filling index
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 03:10:32] INFO: Extending reads
+[2024-05-09 03:10:52] INFO: Overlap-based coverage: 2
+[2024-05-09 03:10:52] INFO: Median overlap divergence: 0.0553163
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 04:01:37] INFO: Assembled 140325 disjointigs
+[2024-05-09 04:01:58] INFO: Generating sequence
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 04:05:36] INFO: Filtering contained disjointigs
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 04:08:31] INFO: Contained seqs: 2422
+[2024-05-09 04:09:37] INFO: >>>STAGE: consensus
+[2024-05-09 04:09:37] INFO: Running Minimap2
+[2024-05-09 04:59:52] INFO: Computing consensus
+[2024-05-09 07:00:58] INFO: Alignment error rate: 0.103849
+[2024-05-09 07:01:20] INFO: >>>STAGE: repeat
+[2024-05-09 07:01:20] INFO: Building and resolving repeat graph
+[2024-05-09 07:01:20] INFO: Parsing disjointigs
+[2024-05-09 07:01:42] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 07:30:53] INFO: Median overlap divergence: 0.164637
+[2024-05-09 07:59:19] INFO: Parsing reads
+[2024-05-09 08:02:04] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-09 08:47:54] INFO: Aligned read sequence: 7772333832 / 13702718550 (0.567211)
+[2024-05-09 08:47:54] INFO: Median overlap divergence: 0.0303213
+[2024-05-09 08:48:03] INFO: Mean edge coverage: 3
+[2024-05-09 08:51:11] INFO: Simplifying the graph
+[2024-05-09 08:53:33] INFO: >>>STAGE: contigger
+[2024-05-09 08:53:33] INFO: Generating contigs
+[2024-05-09 08:53:33] INFO: Reading sequences
+[2024-05-09 08:57:06] INFO: Generated 28711 contigs
+[2024-05-09 08:57:15] INFO: Added 15 scaffold connections
+[2024-05-09 08:57:46] INFO: >>>STAGE: polishing
+[2024-05-09 08:57:46] INFO: Polishing genome (1/2)
+[2024-05-09 08:57:46] INFO: Running minimap2
+[2024-05-09 10:02:42] INFO: Separating alignment into bubbles
+[2024-05-09 10:32:15] INFO: Alignment error rate: 0.110562
+[2024-05-09 10:32:15] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-10 00:27:11] INFO: Polishing genome (2/2)
+[2024-05-10 00:27:11] INFO: Running minimap2
+[2024-05-10 01:06:45] INFO: Separating alignment into bubbles
+[2024-05-10 02:29:51] INFO: Alignment error rate: 0.105758
+[2024-05-10 02:29:51] INFO: Correcting bubbles
+0% 10% 20% 30% 40% User defined signal 2

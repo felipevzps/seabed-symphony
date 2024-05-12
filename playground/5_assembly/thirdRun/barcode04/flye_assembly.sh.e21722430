@@ -1,0 +1,95 @@
+[2024-05-10 22:30:27] INFO: Starting Flye 2.9.2-b1786
+[2024-05-10 22:30:27] INFO: >>>STAGE: configure
+[2024-05-10 22:30:27] INFO: Configuring run
+[2024-05-10 22:32:47] INFO: Total read length: 15506160818
+[2024-05-10 22:32:47] INFO: Reads N50/N90: 7936 / 3781
+[2024-05-10 22:32:47] INFO: Minimum overlap set to 4000
+[2024-05-10 22:32:47] INFO: >>>STAGE: assembly
+[2024-05-10 22:32:47] INFO: Assembling disjointigs
+[2024-05-10 22:32:47] INFO: Reading sequences
+[2024-05-10 22:34:12] INFO: Building minimizer index
+[2024-05-10 22:34:12] INFO: Pre-calculating index storage
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-10 22:40:20] INFO: Filling index
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-10 22:50:33] INFO: Extending reads
+[2024-05-10 22:50:52] INFO: Overlap-based coverage: 2
+[2024-05-10 22:50:52] INFO: Median overlap divergence: 0.0553163
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-10 23:52:08] INFO: Assembled 140307 disjointigs
+[2024-05-10 23:52:28] INFO: Generating sequence
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-10 23:57:03] INFO: Filtering contained disjointigs
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-11 00:02:57] INFO: Contained seqs: 2417
+[2024-05-11 00:04:03] INFO: >>>STAGE: consensus
+[2024-05-11 00:04:03] INFO: Running Minimap2
+[2024-05-11 00:55:49] INFO: Computing consensus
+[2024-05-11 03:05:10] INFO: Alignment error rate: 0.103859
+[2024-05-11 03:05:32] INFO: >>>STAGE: repeat
+[2024-05-11 03:05:32] INFO: Building and resolving repeat graph
+[2024-05-11 03:05:32] INFO: Parsing disjointigs
+[2024-05-11 03:05:53] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-11 03:22:17] INFO: Median overlap divergence: 0.164709
+[2024-05-11 03:55:45] INFO: Parsing reads
+[2024-05-11 03:58:15] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-11 04:17:57] INFO: Aligned read sequence: 7771385446 / 13702718550 (0.567142)
+[2024-05-11 04:17:57] INFO: Median overlap divergence: 0.0303288
+[2024-05-11 04:18:06] INFO: Mean edge coverage: 3
+[2024-05-11 04:20:35] INFO: Simplifying the graph
+[2024-05-11 04:23:04] INFO: >>>STAGE: contigger
+[2024-05-11 04:23:04] INFO: Generating contigs
+[2024-05-11 04:23:05] INFO: Reading sequences
+[2024-05-11 04:26:19] INFO: Generated 28724 contigs
+[2024-05-11 04:26:28] INFO: Added 16 scaffold connections
+[2024-05-11 04:27:02] INFO: >>>STAGE: polishing
+[2024-05-11 04:27:02] INFO: Polishing genome (1/2)
+[2024-05-11 04:27:02] INFO: Running minimap2
+[2024-05-11 05:09:33] INFO: Separating alignment into bubbles
+[2024-05-11 05:37:24] INFO: Alignment error rate: 0.110461
+[2024-05-11 05:37:24] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2024-05-11 19:54:45] INFO: Polishing genome (2/2)
+[2024-05-11 19:54:45] INFO: Running minimap2
+[2024-05-11 20:36:17] INFO: Separating alignment into bubbles
+[2024-05-11 21:57:12] INFO: Alignment error rate: 0.105813
+[2024-05-11 21:57:12] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+Traceback (most recent call last):
+  File "/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/bin/flye", line 33, in <module>
+    sys.exit(load_entry_point('flye==2.9.2', 'console_scripts', 'flye')())
+  File "/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/flye/main.py", line 751, in main
+    _run(args)
+  File "/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/flye/main.py", line 490, in _run
+    jobs[i].run()
+  File "/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/flye/main.py", line 325, in run
+    self.out_files["stats"], self.out_files["contigs"])
+  File "/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/flye/polishing/polish.py", line 242, in filter_by_coverage
+    ctg_id, ctg_len, ctg_cov = tokens[0], int(tokens[1]), int(tokens[2])
+ValueError: invalid literal for int() with base 10: '[]\n'
+Command exited with non-zero status 1
+	Command being timed: "flye --meta --nano-hq ../../../3_adapter_removal/third_run/barcode04/soft_filter/barcode04.trimmed.highquality.noadapter.fastq/BC04.fastq --out-dir barcode04 --iterations 2 --threads 10"
+	User time (seconds): 1276757.31
+	System time (seconds): 175657.69
+	Percent of CPU this job got: 907%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 44:26:15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 91249252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 38271
+	Minor (reclaiming a frame) page faults: 6430030011
+	Voluntary context switches: 10386939218
+	Involuntary context switches: 72875841
+	Swaps: 0
+	File system inputs: 5046497731
+	File system outputs: 130110298
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
