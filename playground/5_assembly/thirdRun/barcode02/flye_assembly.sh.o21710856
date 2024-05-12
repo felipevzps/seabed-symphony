@@ -1,0 +1,57 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710856: <flye_assembly> in cluster <dcc> Done
+
+Job <flye_assembly> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:14:00 2024
+Job was executed on host(s) <10*n-62-11-66>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 01:14:02 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/5_assembly/third_run/barcode02> was used as the working directory.
+Started at Thu May  9 01:14:02 2024
+Terminated at Fri May 10 02:41:19 2024
+Results reported at Fri May 10 02:41:19 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J flye_assembly
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o flye_assembly.sh.o%J
+#BSUB -e flye_assembly.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v flye --meta --nano-hq ../../../3_adapter_removal/third_run/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq --out-dir barcode02 --iterations 2 --threads 10 
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   746441.00 sec.
+    Max Memory :                                 86481 MB
+    Average Memory :                             12040.65 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               15919.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              26
+    Max Threads :                                49
+    Run time :                                   91668 sec.
+    Turnaround time :                            91639 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <flye_assembly.sh.e21710856> for stderr output of this job.
+
