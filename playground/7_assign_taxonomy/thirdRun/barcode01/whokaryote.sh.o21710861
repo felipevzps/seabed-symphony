@@ -1,0 +1,85 @@
+Classification took 10.328094720840454 seconds.
+9.972797769966455 sequences per second.
+125477.16060204201 base pairs per second.
+Classification done.
+First iteration statistics:
+	bacteria: 103
+
+Output saved to output/tiara_pred.txt.
+Log file saved to output/log_tiara_pred.txt.
+
+Removing contigs with length < 5000 bp...
+Total contigs checked:	112 
+Number of contigs >=5000bp:	103 
+Number of contigs <5000bp and removed:	9
+Model with tiara predictions selected.
+Running tiara with 4 threads...
+Running prodigal...
+Prodigal gene prediction successful. Saving gene coordinate file...
+Gene coordinate file saved.
+Gene prediction took 16.217158555984497 seconds.
+Calculating gene structure features with gene predictions...
+File extension: GFF
+Calculating features successful.
+Calculating gene structure features took 0.09521079063415527 seconds.
+Predicting contig class...
+Using model with tiara predictions to predict contig class...
+Prediction successful! See output directory.
+Predicting contig class took 4.98208475112915 seconds.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21710861: <whokaryote> in cluster <dcc> Done
+
+Job <whokaryote> was submitted from host <n-62-30-8> by user <fevape> in cluster <dcc> at Thu May  9 01:16:16 2024
+Job was executed on host(s) <4*n-62-31-15>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu May  9 01:18:51 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/7_assign_taxonomy/third_run/barcode01> was used as the working directory.
+Started at Thu May  9 01:18:51 2024
+Terminated at Thu May  9 01:21:20 2024
+Results reported at Thu May  9 01:21:20 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J whokaryote
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=2GB]"
+#BSUB -W 3:00
+#BSUB -o whokaryote.sh.o%J
+#BSUB -e whokaryote.sh.e%J
+
+source activate whokaryote
+
+/usr/bin/time -v whokaryote.py --contigs ../../../5_assembly/third_run/barcode01/barcode01/assembly.fasta --outdir output --threads 4
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52.36 sec.
+    Max Memory :                                 167 MB
+    Average Memory :                             116.67 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               8025.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   148 sec.
+    Turnaround time :                            304 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <whokaryote.sh.e21710861> for stderr output of this job.
+
