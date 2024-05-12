@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 21706381: <filtlong_highquality> in cluster <dcc> Done
+
+Job <filtlong_highquality> was submitted from host <n-62-27-22> by user <fevape> in cluster <dcc> at Wed May  8 18:56:06 2024
+Job was executed on host(s) <n-62-31-3>, in queue <hpc>, as user <fevape> in cluster <dcc> at Wed May  8 20:07:19 2024
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/marine-BGCs/analysis/2_trimmed/third_run/barcode04> was used as the working directory.
+Started at Wed May  8 20:07:19 2024
+Terminated at Wed May  8 21:14:16 2024
+Results reported at Wed May  8 21:14:16 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J filtlong_highquality
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 2:00
+#BSUB -o filtlong_highquality.sh.o%J
+#BSUB -e filtlong_highquality.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v filtlong --keep_percent 90 soft_filter/barcode04.trimmed.fastq >> soft_filter/barcode04.trimmed.highquality.fastq  
+
+rm -f soft_filter/barcode04.trimmed.fastq
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1817.40 sec.
+    Max Memory :                                 1231 MB
+    Average Memory :                             1015.84 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               3889.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   4019 sec.
+    Turnaround time :                            8290 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <filtlong_highquality.sh.e21706381> for stderr output of this job.
+
