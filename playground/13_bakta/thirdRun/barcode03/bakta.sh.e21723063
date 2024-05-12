@@ -1,0 +1,920 @@
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 116 --output output/116 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//116.fa"
+	User time (seconds): 3709.91
+	System time (seconds): 277.10
+	Percent of CPU this job got: 460%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:25.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8173520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2604
+	Minor (reclaiming a frame) page faults: 6239779
+	Voluntary context switches: 29775136
+	Involuntary context switches: 55002
+	Swaps: 0
+	File system inputs: 167361860
+	File system outputs: 668102
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 10 --output output/10 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//10.fa"
+	User time (seconds): 5248.80
+	System time (seconds): 293.38
+	Percent of CPU this job got: 484%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 19:03.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11423956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3145
+	Minor (reclaiming a frame) page faults: 9190108
+	Voluntary context switches: 25186568
+	Involuntary context switches: 58233
+	Swaps: 0
+	File system inputs: 168786169
+	File system outputs: 976660
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 306_sub --output output/306_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//306_sub.fa"
+	User time (seconds): 3643.65
+	System time (seconds): 277.05
+	Percent of CPU this job got: 388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:48.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8729536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1407
+	Minor (reclaiming a frame) page faults: 6213942
+	Voluntary context switches: 25741990
+	Involuntary context switches: 39316
+	Swaps: 0
+	File system inputs: 167216824
+	File system outputs: 686603
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 340 --output output/340 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//340.fa"
+	User time (seconds): 3887.88
+	System time (seconds): 280.99
+	Percent of CPU this job got: 508%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:39.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8717992
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1618
+	Minor (reclaiming a frame) page faults: 5465694
+	Voluntary context switches: 29197296
+	Involuntary context switches: 57386
+	Swaps: 0
+	File system inputs: 166838911
+	File system outputs: 614782
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 540 --output output/540 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//540.fa"
+	User time (seconds): 4003.19
+	System time (seconds): 275.73
+	Percent of CPU this job got: 446%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:59.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8154552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1894
+	Minor (reclaiming a frame) page faults: 6970729
+	Voluntary context switches: 25010432
+	Involuntary context switches: 43527
+	Swaps: 0
+	File system inputs: 167697186
+	File system outputs: 841694
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 555 --output output/555 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//555.fa"
+	User time (seconds): 5198.45
+	System time (seconds): 277.24
+	Percent of CPU this job got: 515%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 17:42.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11900144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2341
+	Minor (reclaiming a frame) page faults: 7063181
+	Voluntary context switches: 23406456
+	Involuntary context switches: 51365
+	Swaps: 0
+	File system inputs: 167329667
+	File system outputs: 821498
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 582 --output output/582 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//582.fa"
+	User time (seconds): 4286.13
+	System time (seconds): 338.13
+	Percent of CPU this job got: 425%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 18:06.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8198236
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1757
+	Minor (reclaiming a frame) page faults: 7791241
+	Voluntary context switches: 37287598
+	Involuntary context switches: 81680
+	Swaps: 0
+	File system inputs: 168009119
+	File system outputs: 871938
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 583 --output output/583 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//583.fa"
+	User time (seconds): 4025.82
+	System time (seconds): 275.41
+	Percent of CPU this job got: 460%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:33.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8561484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1635
+	Minor (reclaiming a frame) page faults: 6903017
+	Voluntary context switches: 25047755
+	Involuntary context switches: 47712
+	Swaps: 0
+	File system inputs: 167674829
+	File system outputs: 714994
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 600_sub --output output/600_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//600_sub.fa"
+	User time (seconds): 3369.92
+	System time (seconds): 222.16
+	Percent of CPU this job got: 422%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:10.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8234684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1531
+	Minor (reclaiming a frame) page faults: 5158333
+	Voluntary context switches: 19316581
+	Involuntary context switches: 34279
+	Swaps: 0
+	File system inputs: 167072076
+	File system outputs: 641391
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix 78 --output output/78 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//78.fa"
+	User time (seconds): 3766.92
+	System time (seconds): 257.91
+	Percent of CPU this job got: 499%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:26.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8429488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1762
+	Minor (reclaiming a frame) page faults: 6056320
+	Voluntary context switches: 25069893
+	Involuntary context switches: 51973
+	Swaps: 0
+	File system inputs: 167242220
+	File system outputs: 556628
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.001 --output output/bins.001 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.001.fa"
+	User time (seconds): 3718.46
+	System time (seconds): 210.40
+	Percent of CPU this job got: 548%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:56.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9005076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1564
+	Minor (reclaiming a frame) page faults: 3703659
+	Voluntary context switches: 16925683
+	Involuntary context switches: 34638
+	Swaps: 0
+	File system inputs: 165924273
+	File system outputs: 597858
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.013 --output output/bins.013 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.013.fa"
+	User time (seconds): 1341.06
+	System time (seconds): 72.39
+	Percent of CPU this job got: 432%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:26.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8006332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 867
+	Minor (reclaiming a frame) page faults: 1447011
+	Voluntary context switches: 2850642
+	Involuntary context switches: 12503
+	Swaps: 0
+	File system inputs: 165427392
+	File system outputs: 42514
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix CONCOCT.2_sub --output output/CONCOCT.2_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//CONCOCT.2_sub.fa"
+	User time (seconds): 3966.14
+	System time (seconds): 298.62
+	Percent of CPU this job got: 459%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:28.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8326236
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1744
+	Minor (reclaiming a frame) page faults: 8580329
+	Voluntary context switches: 26948897
+	Involuntary context switches: 53603
+	Swaps: 0
+	File system inputs: 168073695
+	File system outputs: 725825
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.052_sub --output output/bins.052_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.052_sub.fa"
+	User time (seconds): 1592.34
+	System time (seconds): 91.78
+	Percent of CPU this job got: 451%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:12.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8291048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 921
+	Minor (reclaiming a frame) page faults: 2268111
+	Voluntary context switches: 5177787
+	Involuntary context switches: 8317
+	Swaps: 0
+	File system inputs: 165630926
+	File system outputs: 94369
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.062_sub --output output/bins.062_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.062_sub.fa"
+	User time (seconds): 2881.05
+	System time (seconds): 192.30
+	Percent of CPU this job got: 457%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:11.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8235312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1280
+	Minor (reclaiming a frame) page faults: 3994332
+	Voluntary context switches: 17101579
+	Involuntary context switches: 50526
+	Swaps: 0
+	File system inputs: 166413351
+	File system outputs: 315976
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.104 --output output/bins.104 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.104.fa"
+	User time (seconds): 4053.27
+	System time (seconds): 268.96
+	Percent of CPU this job got: 496%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:30.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11057632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1664
+	Minor (reclaiming a frame) page faults: 6190431
+	Voluntary context switches: 21892345
+	Involuntary context switches: 44439
+	Swaps: 0
+	File system inputs: 167109518
+	File system outputs: 595439
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.106_sub --output output/bins.106_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.106_sub.fa"
+	User time (seconds): 3744.60
+	System time (seconds): 245.59
+	Percent of CPU this job got: 491%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:31.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8480748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1706
+	Minor (reclaiming a frame) page faults: 7584095
+	Voluntary context switches: 21327259
+	Involuntary context switches: 47959
+	Swaps: 0
+	File system inputs: 167531353
+	File system outputs: 621249
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.108 --output output/bins.108 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.108.fa"
+	User time (seconds): 3028.99
+	System time (seconds): 231.53
+	Percent of CPU this job got: 483%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:14.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8125096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1517
+	Minor (reclaiming a frame) page faults: 4642720
+	Voluntary context switches: 23726288
+	Involuntary context switches: 47775
+	Swaps: 0
+	File system inputs: 166803075
+	File system outputs: 468484
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.122 --output output/bins.122 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.122.fa"
+	User time (seconds): 3421.18
+	System time (seconds): 225.06
+	Percent of CPU this job got: 479%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:40.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9645600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1561
+	Minor (reclaiming a frame) page faults: 4330934
+	Voluntary context switches: 18220013
+	Involuntary context switches: 23637
+	Swaps: 0
+	File system inputs: 167508694
+	File system outputs: 551191
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.124 --output output/bins.124 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.124.fa"
+	User time (seconds): 2860.81
+	System time (seconds): 199.47
+	Percent of CPU this job got: 532%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:35.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8112244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1402
+	Minor (reclaiming a frame) page faults: 3792551
+	Voluntary context switches: 19770790
+	Involuntary context switches: 27979
+	Swaps: 0
+	File system inputs: 165951698
+	File system outputs: 411458
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.109 --output output/bins.109 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.109.fa"
+	User time (seconds): 6699.53
+	System time (seconds): 383.12
+	Percent of CPU this job got: 412%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 28:38.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8326264
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2917
+	Minor (reclaiming a frame) page faults: 16143918
+	Voluntary context switches: 35538510
+	Involuntary context switches: 78593
+	Swaps: 0
+	File system inputs: 171688348
+	File system outputs: 1633406
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.132 --output output/bins.132 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.132.fa"
+	User time (seconds): 3897.84
+	System time (seconds): 244.16
+	Percent of CPU this job got: 554%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:27.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8145348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1868
+	Minor (reclaiming a frame) page faults: 4165252
+	Voluntary context switches: 22508711
+	Involuntary context switches: 32451
+	Swaps: 0
+	File system inputs: 166049814
+	File system outputs: 778980
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.134_sub --output output/bins.134_sub --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.134_sub.fa"
+	User time (seconds): 4211.90
+	System time (seconds): 301.48
+	Percent of CPU this job got: 455%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 16:29.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8316092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1943
+	Minor (reclaiming a frame) page faults: 9443021
+	Voluntary context switches: 31333708
+	Involuntary context switches: 86875
+	Swaps: 0
+	File system inputs: 168049341
+	File system outputs: 791928
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.17 --output output/bins.17 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.17.fa"
+	User time (seconds): 3589.45
+	System time (seconds): 243.22
+	Percent of CPU this job got: 531%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:01.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8368692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1852
+	Minor (reclaiming a frame) page faults: 5093026
+	Voluntary context switches: 21747454
+	Involuntary context switches: 34253
+	Swaps: 0
+	File system inputs: 166647434
+	File system outputs: 685163
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.24 --output output/bins.24 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.24.fa"
+	User time (seconds): 4324.31
+	System time (seconds): 230.31
+	Percent of CPU this job got: 485%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:39.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8522852
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1840
+	Minor (reclaiming a frame) page faults: 5530723
+	Voluntary context switches: 20475137
+	Involuntary context switches: 36687
+	Swaps: 0
+	File system inputs: 167569596
+	File system outputs: 821203
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.30 --output output/bins.30 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.30.fa"
+	User time (seconds): 4420.68
+	System time (seconds): 304.28
+	Percent of CPU this job got: 503%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:38.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8669976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1930
+	Minor (reclaiming a frame) page faults: 6973106
+	Voluntary context switches: 34207365
+	Involuntary context switches: 67258
+	Swaps: 0
+	File system inputs: 167349199
+	File system outputs: 845489
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.31 --output output/bins.31 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.31.fa"
+	User time (seconds): 4282.12
+	System time (seconds): 283.72
+	Percent of CPU this job got: 521%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:36.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8261204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1979
+	Minor (reclaiming a frame) page faults: 7368341
+	Voluntary context switches: 26172615
+	Involuntary context switches: 47398
+	Swaps: 0
+	File system inputs: 167643754
+	File system outputs: 839719
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.34 --output output/bins.34 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.34.fa"
+	User time (seconds): 4032.28
+	System time (seconds): 222.72
+	Percent of CPU this job got: 513%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:49.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8398668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1782
+	Minor (reclaiming a frame) page faults: 5507580
+	Voluntary context switches: 19708862
+	Involuntary context switches: 37341
+	Swaps: 0
+	File system inputs: 167403715
+	File system outputs: 762380
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.35 --output output/bins.35 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.35.fa"
+	User time (seconds): 2835.52
+	System time (seconds): 208.85
+	Percent of CPU this job got: 503%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:05.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8727036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1186
+	Minor (reclaiming a frame) page faults: 4595937
+	Voluntary context switches: 20228018
+	Involuntary context switches: 50273
+	Swaps: 0
+	File system inputs: 166312091
+	File system outputs: 315860
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.59 --output output/bins.59 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.59.fa"
+	User time (seconds): 3951.00
+	System time (seconds): 304.44
+	Percent of CPU this job got: 500%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:09.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13000172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1583
+	Minor (reclaiming a frame) page faults: 5986217
+	Voluntary context switches: 30597215
+	Involuntary context switches: 61458
+	Swaps: 0
+	File system inputs: 167071556
+	File system outputs: 634754
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.47 --output output/bins.47 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.47.fa"
+	User time (seconds): 6246.99
+	System time (seconds): 300.01
+	Percent of CPU this job got: 497%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 21:55.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8308596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2839
+	Minor (reclaiming a frame) page faults: 10328494
+	Voluntary context switches: 27793632
+	Involuntary context switches: 58483
+	Swaps: 0
+	File system inputs: 170042537
+	File system outputs: 1522709
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.58 --output output/bins.58 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.58.fa"
+	User time (seconds): 5429.27
+	System time (seconds): 329.57
+	Percent of CPU this job got: 459%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:52.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9870936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2011
+	Minor (reclaiming a frame) page faults: 11025160
+	Voluntary context switches: 30104515
+	Involuntary context switches: 63992
+	Swaps: 0
+	File system inputs: 169707940
+	File system outputs: 1093125
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.61 --output output/bins.61 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.61.fa"
+	User time (seconds): 2981.94
+	System time (seconds): 190.15
+	Percent of CPU this job got: 538%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:49.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10066348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2253
+	Minor (reclaiming a frame) page faults: 5053875
+	Voluntary context switches: 13727294
+	Involuntary context switches: 31349
+	Swaps: 0
+	File system inputs: 166794653
+	File system outputs: 314322
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.71 --output output/bins.71 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.71.fa"
+	User time (seconds): 3949.89
+	System time (seconds): 264.75
+	Percent of CPU this job got: 534%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:09.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8140008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1753
+	Minor (reclaiming a frame) page faults: 6260957
+	Voluntary context switches: 24087234
+	Involuntary context switches: 43557
+	Swaps: 0
+	File system inputs: 167426947
+	File system outputs: 692029
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.75 --output output/bins.75 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.75.fa"
+	User time (seconds): 3112.65
+	System time (seconds): 172.82
+	Percent of CPU this job got: 485%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:17.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11891940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1343
+	Minor (reclaiming a frame) page faults: 5994777
+	Voluntary context switches: 12062227
+	Involuntary context switches: 42285
+	Swaps: 0
+	File system inputs: 166842513
+	File system outputs: 342219
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.77 --output output/bins.77 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.77.fa"
+	User time (seconds): 3453.36
+	System time (seconds): 211.89
+	Percent of CPU this job got: 535%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:24.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10345676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1534
+	Minor (reclaiming a frame) page faults: 4545031
+	Voluntary context switches: 16877737
+	Involuntary context switches: 36574
+	Swaps: 0
+	File system inputs: 166209937
+	File system outputs: 473554
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.86 --output output/bins.86 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.86.fa"
+	User time (seconds): 3609.89
+	System time (seconds): 223.20
+	Percent of CPU this job got: 542%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:45.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10313556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1449
+	Minor (reclaiming a frame) page faults: 4916644
+	Voluntary context switches: 18404217
+	Involuntary context switches: 29228
+	Swaps: 0
+	File system inputs: 166582300
+	File system outputs: 618973
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.80 --output output/bins.80 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.80.fa"
+	User time (seconds): 4076.46
+	System time (seconds): 220.60
+	Percent of CPU this job got: 490%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 14:35.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8814796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1785
+	Minor (reclaiming a frame) page faults: 6132467
+	Voluntary context switches: 19067387
+	Involuntary context switches: 38943
+	Swaps: 0
+	File system inputs: 167393440
+	File system outputs: 758959
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.93 --output output/bins.93 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.93.fa"
+	User time (seconds): 4150.94
+	System time (seconds): 270.62
+	Percent of CPU this job got: 529%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:55.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9051676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1764
+	Minor (reclaiming a frame) page faults: 6662077
+	Voluntary context switches: 24824730
+	Involuntary context switches: 44447
+	Swaps: 0
+	File system inputs: 167402931
+	File system outputs: 851249
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bakta --db /work3/fevape/database/bakta/db/ --prefix bins.97 --output output/bins.97 --meta --threads 10 --keep-contig-headers ../../../10_non-redundant_bins/third_run/barcode03/output/DASToolRun_DASTool_bins//bins.97.fa"
+	User time (seconds): 2972.74
+	System time (seconds): 185.49
+	Percent of CPU this job got: 544%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:39.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8105860
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1329
+	Minor (reclaiming a frame) page faults: 3867024
+	Voluntary context switches: 15277386
+	Involuntary context switches: 27017
+	Swaps: 0
+	File system inputs: 166080916
+	File system outputs: 455366
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
