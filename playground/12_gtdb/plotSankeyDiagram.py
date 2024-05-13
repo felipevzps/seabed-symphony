@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.colors
 
-parser = argparse.ArgumentParser(prog='plotSankeyDiagram.py', description='plot sankey diagram contigs from GTDB taxonomic classification', add_help=True)
+parser = argparse.ArgumentParser(prog='plotSankeyDiagram.py', description='plot sankey diagram from GTDB taxonomic classification', add_help=True)
 parser.add_argument('-i', dest='infile', metavar='gtdbtk.bac120.summary.tsv', help="GTDB classification file", required=True)
  
 args = parser.parse_args()
