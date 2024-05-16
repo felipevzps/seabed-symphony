@@ -20,12 +20,13 @@ def extract_categories(classification):
     categories = classification.split(';')
     #levels = [category.split('__')[1] for category in categories]
     #return levels
-    levels = []
+    levels = set()
     for category in categories:
         if '__' in category:
             level = category.split('__')[1]
-            levels.append(level)
-    return levels
+            #levels.append(level)
+            levels.add(level)
+    return list(levels)
 
 df['levels'] = df['classification'].apply(extract_categories)
 
