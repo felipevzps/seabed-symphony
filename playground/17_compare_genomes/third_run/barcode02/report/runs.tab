@@ -1,0 +1,2 @@
+	run ID	name	method	date run	command-line
+0	1	ANIm_2024-05-22T07:44:30.107364	ANIm	2024-05-22 07:44:30.107364	/zhome/56/5/209982/bin/miniconda3/bin/pyani anim -i genomes -o genomes_ANIm --dbpath barcode02db
