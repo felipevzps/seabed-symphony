@@ -1,0 +1,3 @@
+	Comparison ID	Query ID	Query description	Subject ID	Subject description	% identity	% query coverage	% subject coverage	alignment length	similarity errors	program	version	fragment size	maxmatch	Run ID
+0	1	2	contig_1	1	contig_10610	0.81101904346562	0.0031499663682630114	0.00445448221494515	20610	3900	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+1	2	1	contig_10610	2	contig_1	0.81101904346562	0.00445448221494515	0.0031499663682630114	20664	3900	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
