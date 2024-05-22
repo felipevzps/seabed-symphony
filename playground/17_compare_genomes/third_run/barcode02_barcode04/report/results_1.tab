@@ -1,0 +1,13 @@
+	Comparison ID	Query ID	Query description	Subject ID	Subject description	% identity	% query coverage	% subject coverage	alignment length	similarity errors	program	version	fragment size	maxmatch	Run ID
+0	1	2	contig_10099	1	contig_10017	0.8320317108274544	0.04210183909171674	0.034410331157875895	168518	28476	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+1	2	3	contig_10610	1	contig_10017	0.8485645754313743	0.051708985038122	0.04993263153010119	239874	36492	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+2	3	4	contig_1	1	contig_10017	0.8453532021385508	0.008048385684266385	0.010944683277041024	52660	8157	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+3	4	1	contig_10017	2	contig_10099	0.8321360075415272	0.034340932518835	0.04201789424348203	165770	28402	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+4	5	3	contig_10610	2	contig_10099	0.9606607718342309	0.7682339198128532	0.8957557384798187	3563778	141276	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+5	6	4	contig_1	2	contig_10099	0.8149745197961583	0.0033064712475013094	0.0051823451992041225	21634	4012	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+6	7	1	contig_10017	3	contig_10610	0.8484861069006615	0.04989658566982323	0.051672769735561466	240860	36485	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+7	8	2	contig_10099	3	contig_10610	0.960701633044186	0.895745994881363	0.768224865987213	3585338	141137	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+8	9	4	contig_1	3	contig_10610	0.81101904346562	0.0031499663682630114	0.00445448221494515	20610	3900	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+9	10	1	contig_10017	4	contig_1	0.8453721609221553	0.010944683277041024	0.008048385684266385	52832	8156	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+10	11	2	contig_10099	4	contig_1	0.8152384058139805	0.005127880982194698	0.0032731528259447185	20525	3966	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
+11	12	3	contig_10610	4	contig_1	0.81101904346562	0.00445448221494515	0.0031499663682630114	20664	3900	nucmer	Linux_3.1 (/work3/fevape/bin/MUMmer3.23/nucmer)		False	1
