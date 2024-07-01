@@ -1,3 +1,10 @@
 # seabed-symphony
 
-![](https://github.com/felipevzps/seabed-symphony/blob/main/playground/workflow.PNG)
+This repository hosts the metagenomics pipeline for BGCs identification.
+
+![](https://github.com/felipevzps/seabed-symphony/blob/main/docs/seabed-symphony.PNG)
+![](https://github.com/felipevzps/seabed-symphony/blob/main/docs/workflow.PNG)
+
+# documentation
+
+[This PDF](https://github.com/felipevzps/seabed-symphony/blob/main/docs/documentation.pdf) provides a tutorial demonstrating how to use the pipeline.
