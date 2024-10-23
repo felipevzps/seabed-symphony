@@ -1,6 +1,7 @@
 import json
 import re
 import matplotlib.pyplot as plt
+import random
 
 with open('playground/15_bigscape/thirdRun/barcode03/html_content/networks/2024-05-11_12-11-20_hybrids_auto_c0.30/run_data.js', 'r') as file:
     content = file.read()
@@ -29,8 +30,17 @@ plt.figure(figsize=(12, 12))
 #plt.pie(sizes_genomes, labels=labels_genomes, autopct='%1.1f%%', startangle=140)
 
 # use labels
+#colors_genomes = plt.cm.hsv(np.linspace(0, 1, len(labels_genomes))) # cool rainbow
+
+# choose random colors
+def random_color():
+    return [random.random() for _ in range(3)]
+
+colors_genomes = [random_color() for _ in range(len(labels_genomes))]
+
 #plt.pie(sizes_genomes, labels=labels_genomes, startangle=140)
-plt.pie(sizes_genomes, startangle=140)
+plt.pie(sizes_genomes, startangle=140, colors=colors_genomes)
+plt.legend(labels_genomes, loc="best")
 
 plt.title("BGC per Genome")
 plt.axis('equal')  # keep circle
@@ -64,6 +74,6 @@ plt.pie(sizes_classes, labels=labels_classes, autopct=lambda pct: func(pct, size
 
 #plt.title("BGC per Class", fontsize=16, fontweight='bold')
 plt.axis('equal')  # keep circle
-plt.savefig("bgc_per_class.svg", format="svg")
+#plt.savefig("bgc_per_class.svg", format="svg")
 plt.show()
 plt.close()
