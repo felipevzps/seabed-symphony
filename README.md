@@ -1,10 +1,10 @@
 # seabed-symphony: metagenomics pipeline for BGCs identification
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](docs/documentation.pdf) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![Documentation](https://img.shields.io/badge/docs-available-brightgreen.svg)](documentation/documentation.pdf) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## 🌊 Overview
 **seabed-symphony** is a metagenomics pipeline designed for **Biosynthetic Gene Clusters (BGCs) identification** from marine sediment microbiome sequencing data using long-reads. This workflow processes raw sequencing reads, performs quality control, assembles metagenomes (MAGs), classifies bacterial genomes taxonomically, annotates their functions, and detects BGCs using state-of-the-art tools.
 
-<img src="https://github.com/felipevzps/seabed-symphony/blob/main/docs/seabed-symphony.png" width="900">
+<img src="https://github.com/felipevzps/seabed-symphony/blob/main/images/seabed-symphony.png" width="900">
 
 ## 📜 Features
 ✅ Barcode demultiplexing for multiplexed sequencing data  
@@ -17,7 +17,7 @@
 ## 📂 Pipeline Structure
 The pipeline follows a **stepwise approach** to process raw sequencing data:
 
-<img src="https://github.com/felipevzps/seabed-symphony/blob/main/docs/workflow.png" width="900">
+<img src="https://github.com/felipevzps/seabed-symphony/blob/main/images/workflow.png" width="900">
 
 ### 🏁 **Preprocessing & Quality Control**
 - `0_rawReads` → Raw sequencing reads
@@ -44,7 +44,7 @@ The pipeline follows a **stepwise approach** to process raw sequencing data:
 - `15_BiG-SCAPE` → BGC classification and networking ([BiG-SCAPE](https://github.com/medema-group/BiG-SCAPE))
 
 ## 📖 Documentation
-A step-by-step tutorial is available in [`docs/documentation.pdf`](docs/documentation.pdf), providing guidance on installation, usage, and best practices.
+A step-by-step tutorial is available in [`documentation/documentation.pdf`](documentation/documentation.pdf), providing guidance on installation, usage, and best practices.
 
 ## 📬 Contact
 For questions, feel free to open an [issue](https://github.com/felipevzps/seabed-symphony/issues).
