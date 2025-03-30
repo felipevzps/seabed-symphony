@@ -1,0 +1,24 @@
+mkdir: cannot create directory ‘soft_filter’: File exists
+	Command being timed: "porechop -i /work3/fevape/rerun-analysis/2_trimmedReads/run03/barcode03/soft_filter/barcode03.trimmed.highquality.fastq -b soft_filter/barcode03.trimmed.highquality.noadapter.fastq --barcode_threshold 95 --threads 5"
+	User time (seconds): 45186.90
+	System time (seconds): 162.41
+	Percent of CPU this job got: 488%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:34:41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28724332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 26575513
+	Voluntary context switches: 35311655
+	Involuntary context switches: 6049536
+	Swaps: 0
+	File system inputs: 32131659
+	File system outputs: 31519040
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

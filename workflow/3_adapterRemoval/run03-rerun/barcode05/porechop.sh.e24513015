@@ -1,0 +1,23 @@
+	Command being timed: "porechop -i /work3/fevape/rerun-analysis/2_trimmedReads/run03/barcode05/soft_filter/barcode05.trimmed.highquality.fastq -b soft_filter/barcode05.trimmed.highquality.noadapter.fastq --threads 5"
+	User time (seconds): 39873.58
+	System time (seconds): 271.32
+	Percent of CPU this job got: 482%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:18:33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 42269328
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 86
+	Minor (reclaiming a frame) page faults: 44991472
+	Voluntary context switches: 46782762
+	Involuntary context switches: 12593373
+	Swaps: 0
+	File system inputs: 45308721
+	File system outputs: 44093100
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
