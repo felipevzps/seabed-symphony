@@ -1,0 +1,2860 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[1]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:32:30 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:32:30 2025
+Terminated at Fri Mar 28 23:32:52 2025
+Results reported at Fri Mar 28 23:32:52 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   12.00 sec.
+    Max Memory :                                 104 MB
+    Average Memory :                             104.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204696.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   38 sec.
+    Turnaround time :                            10427 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[3]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:32:52 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:32:52 2025
+Terminated at Fri Mar 28 23:37:12 2025
+Results reported at Fri Mar 28 23:37:12 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   567.00 sec.
+    Max Memory :                                 4174 MB
+    Average Memory :                             3181.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200626.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   260 sec.
+    Turnaround time :                            10687 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[4]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:37:13 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:37:13 2025
+Terminated at Fri Mar 28 23:37:28 2025
+Results reported at Fri Mar 28 23:37:28 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   28.00 sec.
+    Max Memory :                                 144 MB
+    Average Memory :                             144.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204656.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                26
+    Run time :                                   15 sec.
+    Turnaround time :                            10703 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[2]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:32:30 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:32:30 2025
+Terminated at Fri Mar 28 23:39:13 2025
+Results reported at Fri Mar 28 23:39:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   825.00 sec.
+    Max Memory :                                 2155 MB
+    Average Memory :                             1739.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202645.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   430 sec.
+    Turnaround time :                            10808 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[5]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:37:29 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:37:29 2025
+Terminated at Fri Mar 28 23:41:31 2025
+Results reported at Fri Mar 28 23:41:31 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   523.00 sec.
+    Max Memory :                                 6769 MB
+    Average Memory :                             3500.25 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               198031.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                23
+    Run time :                                   243 sec.
+    Turnaround time :                            10946 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[7]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:41:33 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:41:33 2025
+Terminated at Fri Mar 28 23:42:19 2025
+Results reported at Fri Mar 28 23:42:19 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   95.00 sec.
+    Max Memory :                                 166 MB
+    Average Memory :                             166.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204634.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   48 sec.
+    Turnaround time :                            10994 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[6]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:39:13 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:39:13 2025
+Terminated at Fri Mar 28 23:42:22 2025
+Results reported at Fri Mar 28 23:42:22 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   426.00 sec.
+    Max Memory :                                 283 MB
+    Average Memory :                             254.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204517.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                24
+    Run time :                                   189 sec.
+    Turnaround time :                            10997 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[8]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:42:20 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:42:20 2025
+Terminated at Fri Mar 28 23:44:45 2025
+Results reported at Fri Mar 28 23:44:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   330.00 sec.
+    Max Memory :                                 214 MB
+    Average Memory :                             213.50 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204586.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   146 sec.
+    Turnaround time :                            11140 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[9]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:42:24 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:42:24 2025
+Terminated at Fri Mar 28 23:45:48 2025
+Results reported at Fri Mar 28 23:45:48 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   402.00 sec.
+    Max Memory :                                 6836 MB
+    Average Memory :                             4041.50 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197964.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   206 sec.
+    Turnaround time :                            11203 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[11]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:45:48 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:45:48 2025
+Terminated at Fri Mar 28 23:47:19 2025
+Results reported at Fri Mar 28 23:47:19 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   209.00 sec.
+    Max Memory :                                 191 MB
+    Average Memory :                             191.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204609.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   91 sec.
+    Turnaround time :                            11294 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[10]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:44:47 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:44:47 2025
+Terminated at Fri Mar 28 23:50:56 2025
+Results reported at Fri Mar 28 23:50:56 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   782.00 sec.
+    Max Memory :                                 2740 MB
+    Average Memory :                             1661.60 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202060.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   371 sec.
+    Turnaround time :                            11511 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[12]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:47:21 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:47:21 2025
+Terminated at Fri Mar 28 23:58:04 2025
+Results reported at Fri Mar 28 23:58:04 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1369.00 sec.
+    Max Memory :                                 7034 MB
+    Average Memory :                             2741.57 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197766.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   645 sec.
+    Turnaround time :                            11939 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[13]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:50:57 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:50:57 2025
+Terminated at Fri Mar 28 23:58:55 2025
+Results reported at Fri Mar 28 23:58:55 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1050.00 sec.
+    Max Memory :                                 2539 MB
+    Average Memory :                             1869.33 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202261.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   479 sec.
+    Turnaround time :                            11990 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[14]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:58:06 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:58:06 2025
+Terminated at Sat Mar 29 00:06:13 2025
+Results reported at Sat Mar 29 00:06:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1062.00 sec.
+    Max Memory :                                 3084 MB
+    Average Memory :                             2063.67 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               201716.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   489 sec.
+    Turnaround time :                            12428 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[16]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:06:14 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:06:14 2025
+Terminated at Sat Mar 29 00:12:15 2025
+Results reported at Sat Mar 29 00:12:15 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   840.00 sec.
+    Max Memory :                                 2618 MB
+    Average Memory :                             1689.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202182.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                14
+    Run time :                                   361 sec.
+    Turnaround time :                            12790 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[15]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 23:58:57 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 23:58:57 2025
+Terminated at Sat Mar 29 00:13:10 2025
+Results reported at Sat Mar 29 00:13:10 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1994.00 sec.
+    Max Memory :                                 6863 MB
+    Average Memory :                             3772.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197937.00 MB
+    Max Swap :                                   -
+    Max Processes :                              25
+    Max Threads :                                29
+    Run time :                                   855 sec.
+    Turnaround time :                            12845 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[18]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:13:11 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:13:11 2025
+Terminated at Sat Mar 29 00:13:34 2025
+Results reported at Sat Mar 29 00:13:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   39.00 sec.
+    Max Memory :                                 168 MB
+    Average Memory :                             168.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204632.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   23 sec.
+    Turnaround time :                            12869 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[17]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:12:16 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:12:16 2025
+Terminated at Sat Mar 29 00:16:53 2025
+Results reported at Sat Mar 29 00:16:53 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   588.00 sec.
+    Max Memory :                                 6802 MB
+    Average Memory :                             5165.75 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197998.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   278 sec.
+    Turnaround time :                            13068 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[20]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:16:55 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:16:55 2025
+Terminated at Sat Mar 29 00:18:27 2025
+Results reported at Sat Mar 29 00:18:27 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   203.00 sec.
+    Max Memory :                                 206 MB
+    Average Memory :                             182.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204594.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   94 sec.
+    Turnaround time :                            13162 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[19]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:13:35 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:13:35 2025
+Terminated at Sat Mar 29 00:21:45 2025
+Results reported at Sat Mar 29 00:21:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1146.00 sec.
+    Max Memory :                                 2985 MB
+    Average Memory :                             2056.67 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               201815.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   491 sec.
+    Turnaround time :                            13360 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[22]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:21:45 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:21:45 2025
+Terminated at Sat Mar 29 00:24:47 2025
+Results reported at Sat Mar 29 00:24:47 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   370.00 sec.
+    Max Memory :                                 7309 MB
+    Average Memory :                             5531.50 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197491.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   182 sec.
+    Turnaround time :                            13542 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[21]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:18:27 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:18:27 2025
+Terminated at Sat Mar 29 00:28:20 2025
+Results reported at Sat Mar 29 00:28:20 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1259.00 sec.
+    Max Memory :                                 4049 MB
+    Average Memory :                             2051.33 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200751.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   593 sec.
+    Turnaround time :                            13755 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[23]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:24:49 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:24:49 2025
+Terminated at Sat Mar 29 00:35:01 2025
+Results reported at Sat Mar 29 00:35:01 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1385.00 sec.
+    Max Memory :                                 4040 MB
+    Average Memory :                             2106.57 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200760.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   614 sec.
+    Turnaround time :                            14156 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[24]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:28:21 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:28:21 2025
+Terminated at Sat Mar 29 00:36:14 2025
+Results reported at Sat Mar 29 00:36:14 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1047.00 sec.
+    Max Memory :                                 2348 MB
+    Average Memory :                             1893.33 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202452.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   474 sec.
+    Turnaround time :                            14229 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[26]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:36:14 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:36:14 2025
+Terminated at Sat Mar 29 00:40:07 2025
+Results reported at Sat Mar 29 00:40:07 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   474.00 sec.
+    Max Memory :                                 2533 MB
+    Average Memory :                             1962.75 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202267.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   233 sec.
+    Turnaround time :                            14462 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[27]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:40:09 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:40:09 2025
+Terminated at Sat Mar 29 00:45:54 2025
+Results reported at Sat Mar 29 00:45:54 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   789.00 sec.
+    Max Memory :                                 3347 MB
+    Average Memory :                             2079.60 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               201453.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   347 sec.
+    Turnaround time :                            14809 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[25]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:35:02 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:35:02 2025
+Terminated at Sat Mar 29 00:50:49 2025
+Results reported at Sat Mar 29 00:50:49 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2171.00 sec.
+    Max Memory :                                 9116 MB
+    Average Memory :                             4662.78 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               195684.00 MB
+    Max Swap :                                   -
+    Max Processes :                              25
+    Max Threads :                                29
+    Run time :                                   948 sec.
+    Turnaround time :                            15104 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[28]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:45:54 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:45:54 2025
+Terminated at Sat Mar 29 00:52:21 2025
+Results reported at Sat Mar 29 00:52:21 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   876.00 sec.
+    Max Memory :                                 7993 MB
+    Average Memory :                             2893.17 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               196807.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   387 sec.
+    Turnaround time :                            15196 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[29]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:50:49 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:50:49 2025
+Terminated at Sat Mar 29 00:53:29 2025
+Results reported at Sat Mar 29 00:53:29 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   269.00 sec.
+    Max Memory :                                 3857 MB
+    Average Memory :                             2946.25 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200943.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   160 sec.
+    Turnaround time :                            15264 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[31]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:53:29 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:53:29 2025
+Terminated at Sat Mar 29 00:54:59 2025
+Results reported at Sat Mar 29 00:54:59 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   163.26 sec.
+    Max Memory :                                 196 MB
+    Average Memory :                             196.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204604.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   90 sec.
+    Turnaround time :                            15354 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[30]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:52:22 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:52:22 2025
+Terminated at Sat Mar 29 00:58:11 2025
+Results reported at Sat Mar 29 00:58:11 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   765.00 sec.
+    Max Memory :                                 4308 MB
+    Average Memory :                             3031.40 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200492.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   350 sec.
+    Turnaround time :                            15546 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[32]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:54:59 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:54:59 2025
+Terminated at Sat Mar 29 01:02:31 2025
+Results reported at Sat Mar 29 01:02:31 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1009.00 sec.
+    Max Memory :                                 2072 MB
+    Average Memory :                             1678.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202728.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                25
+    Run time :                                   452 sec.
+    Turnaround time :                            15806 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[33]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 00:58:11 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 00:58:11 2025
+Terminated at Sat Mar 29 01:02:58 2025
+Results reported at Sat Mar 29 01:02:58 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   559.00 sec.
+    Max Memory :                                 6795 MB
+    Average Memory :                             2737.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               198005.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   287 sec.
+    Turnaround time :                            15833 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[34]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:02:33 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:02:33 2025
+Terminated at Sat Mar 29 01:07:34 2025
+Results reported at Sat Mar 29 01:07:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   618.00 sec.
+    Max Memory :                                 3462 MB
+    Average Memory :                             2533.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               201338.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   303 sec.
+    Turnaround time :                            16109 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[35]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-11>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:02:58 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:02:58 2025
+Terminated at Sat Mar 29 01:10:11 2025
+Results reported at Sat Mar 29 01:10:11 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   938.00 sec.
+    Max Memory :                                 3984 MB
+    Average Memory :                             2196.67 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200816.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                20
+    Run time :                                   433 sec.
+    Turnaround time :                            16266 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[36]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:07:34 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:07:34 2025
+Terminated at Sat Mar 29 01:17:01 2025
+Results reported at Sat Mar 29 01:17:01 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1126.00 sec.
+    Max Memory :                                 6858 MB
+    Average Memory :                             2561.83 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197942.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   653 sec.
+    Turnaround time :                            16676 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[37]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:10:13 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:10:13 2025
+Terminated at Sat Mar 29 01:18:34 2025
+Results reported at Sat Mar 29 01:18:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   994.00 sec.
+    Max Memory :                                 4237 MB
+    Average Memory :                             2546.86 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               200563.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   594 sec.
+    Turnaround time :                            16769 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[38]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:17:03 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:17:03 2025
+Terminated at Sat Mar 29 01:20:23 2025
+Results reported at Sat Mar 29 01:20:23 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   376.00 sec.
+    Max Memory :                                 2370 MB
+    Average Memory :                             1838.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202430.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                19
+    Run time :                                   202 sec.
+    Turnaround time :                            16878 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[40]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:20:23 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:20:23 2025
+Terminated at Sat Mar 29 01:22:31 2025
+Results reported at Sat Mar 29 01:22:31 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   263.00 sec.
+    Max Memory :                                 576 MB
+    Average Memory :                             576.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204224.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   128 sec.
+    Turnaround time :                            17006 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[41]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:22:31 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:22:31 2025
+Terminated at Sat Mar 29 01:27:00 2025
+Results reported at Sat Mar 29 01:27:00 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   519.00 sec.
+    Max Memory :                                 2664 MB
+    Average Memory :                             2077.75 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202136.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   269 sec.
+    Turnaround time :                            17275 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[39]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-13>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:18:36 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:18:36 2025
+Terminated at Sat Mar 29 01:28:45 2025
+Results reported at Sat Mar 29 01:28:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1305.00 sec.
+    Max Memory :                                 6970 MB
+    Average Memory :                             2824.29 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197830.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   611 sec.
+    Turnaround time :                            17380 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[42]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:27:00 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:27:00 2025
+Terminated at Sat Mar 29 01:31:10 2025
+Results reported at Sat Mar 29 01:31:10 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   503.00 sec.
+    Max Memory :                                 6888 MB
+    Average Memory :                             5226.75 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               197912.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   250 sec.
+    Turnaround time :                            17525 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[43]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-31-13>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:28:46 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:28:46 2025
+Terminated at Sat Mar 29 01:31:45 2025
+Results reported at Sat Mar 29 01:31:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   362.00 sec.
+    Max Memory :                                 1923 MB
+    Average Memory :                             1496.50 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202877.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                17
+    Run time :                                   179 sec.
+    Turnaround time :                            17560 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517119[44]: <antismash[1-44]%2> in cluster <dcc> Done
+
+Job <antismash[1-44]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:39:05 2025
+Job was executed on host(s) <20*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 01:31:12 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 01:31:12 2025
+Terminated at Sat Mar 29 01:34:55 2025
+Results reported at Sat Mar 29 01:34:55 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-44]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode05/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   509.00 sec.
+    Max Memory :                                 1930 MB
+    Average Memory :                             1511.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               202870.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   225 sec.
+    Turnaround time :                            17750 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24517119> for stderr output of this job.
+

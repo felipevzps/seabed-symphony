@@ -1,0 +1,65 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24510331[1]: <antismash[1-1]%2> in cluster <dcc> Done
+
+Job <antismash[1-1]%2> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Thu Mar 27 00:14:28 2025
+Job was executed on host(s) <20*n-62-21-108>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Mar 27 00:18:37 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/14_BGCs/run03/barcode01> was used as the working directory.
+Started at Thu Mar 27 00:18:37 2025
+Terminated at Thu Mar 27 00:19:17 2025
+Results reported at Thu Mar 27 00:19:17 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J antismash[1-1]%2
+#BSUB -n 20
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 72:00
+#BSUB -o antismash.sh.o%J
+#BSUB -e antismash.sh.e%J
+
+source activate antismash
+
+bakta_annot="/work3/fevape/rerun-analysis/13_bakta/run03/barcode01/output/"
+genome=`ls -1 $bakta_annot | head -n $LSB_JOBINDEX | tail -n 1`
+genbank="/work3/fevape/rerun-analysis/13_bakta/run03/barcode01/output/${genome}/${genome}.gbff"
+database="/work3/fevape/database/antismash"
+
+mkdir -p output
+mkdir output/$genome
+
+/usr/bin/time -v antismash $genbank --databases $database -t bacteria -c 20 --output-dir output/$genome --output-basename $genome --clusterhmmer --cb-general --cb-knownclusters --pfam2go
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   78.00 sec.
+    Max Memory :                                 152 MB
+    Average Memory :                             152.00 MB
+    Total Requested Memory :                     204800.00 MB
+    Delta Memory :                               204648.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                26
+    Run time :                                   40 sec.
+    Turnaround time :                            289 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <antismash.sh.e24510331> for stderr output of this job.
+
