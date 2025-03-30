@@ -1,49 +1,66 @@
 # samples description
 
-### run01
+## run01
 
-* 40GB samples sequenced by Kristina (`all.fastq`)
+* 40GB samples sequenced by Kristina 
+* file: `all.fastq`
+  
+## runSmall
 
-### runSmall
+* a subset of 500k reads from run01 
+* file: `all.500k.fastq`
+  
+## pseudomonas (P5)
 
-* a subset of 500k reads from run01 (`all.500k.fastq`)
-
-### pseudomonas
-
-* pure pseudomonas culture data from Adele Marie (`P5_1.fastq`)
-
-### run01+pseudomonas (scenario A)
+* pure pseudomonas culture sequenced by Adele Marie
+* file: `P5_1.fastq`
+  
+## run01+pseudomonas (scenario A)
 
 * sample from run01 combined with pseudomonas (P5)
-	* generated for comparing size-selected vs non-size selected samples (given that non-selected is much deeper sequenced)
+>[!NOTE]
+>generated for comparing **size-selected vs non-size selected samples**  
+>given that non-selected is much deeper sequenced  
 
-### runB (scenario B)
+## runB (scenario B)
 
 * same data as run01+pseudomonas, except the sequencing depth was normalized
-	* generated for comparing size-selected vs non-size selected samples, but with equal depth
+>[!NOTE]
+>generated for comparing **size-selected vs non-size selected samples**, but with equal depth
 
-### run02
+## run02
 
-* second batch of samples sequenced by Kristina (`second_run.fastq`)
-* path of origin (gridion): /data/231205_Metagenomes_sediment_Kristina/KK_1903_N3/no_sample/20240319_1550_X1_FAX80973_b466842e/fastq_pass/ 
+* second batch of samples sequenced by Kristina  
+* file: `second_run.fastq`  
+* path of origin (gridion):
+```bash
+/data/231205_Metagenomes_sediment_Kristina/KK_1903_N3/no_sample/20240319_1550_X1_FAX80973_b466842e/fastq_pass/ 
+```
 
-### run03
+## run03
 
-* ~100GB sequencing dataset using 05 barcodes (one for each experiment)
-* path of origin (gridion): /data/2024-05-03-Sediment-Promethion/2024-05-03-Sediment-Promethion/20240503_1728_P2S-01248-A_PAQ61173_ffaf27f4/fastq_pass
+* ~100GB sequencing dataset using 05 barcodes (one for each experiment)  
+* path of origin (gridion):
+```bash
+/data/2024-05-03-Sediment-Promethion/2024-05-03-Sediment-Promethion/20240503_1728_P2S-01248-A_PAQ61173_ffaf27f4/fastq_pass
+```
 
-barcode01 - DNA extracted from a vacuum centrifuged sediment sample (VCS4)
-barcode02 - The same vacuum centrifuged sample (VCS4), but with 1% Pseudomonas Protegens DTU 9.1
-barcode03 - Size selected DNA from VCS4
-barcode04 - Size selected DNA from VCS4, but with 1% Pseudomonas Protegens DTU 9.1
-barcode05 - DNA extracted from a vacuum centrifuged sediment sample using a different bead beating method (VTLS)
+| Barcode | Sample Description |
+|---------|--------------------|
+| **01** | DNA extracted from a vacuum-centrifuged sediment sample (VCS4). |
+| **02** | The same vacuum-centrifuged sample (VCS4) with 1% *Pseudomonas protegens* DTU 9.1. |
+| **03** | Size-selected DNA from VCS4. |
+| **04** | Size-selected DNA from VCS4 with 1% *Pseudomonas protegens* DTU 9.1. |
+| **05** | DNA extracted from a vacuum-centrifuged sediment sample using a different bead-beating method (VTLS). |
 
-### run03-rerun
+## run03-rerun
 
-* same data as run03:
+* Workflow rerun of run03 with the same dataset and barcode structure.
 
-barcode01 - DNA extracted from a vacuum centrifuged sediment sample (VCS4)
-barcode02 - The same vacuum centrifuged sample (VCS4), but with 1% Pseudomonas Protegens DTU 9.1
-barcode03 - Size selected DNA from VCS4
-barcode04 - Size selected DNA from VCS4, but with 1% Pseudomonas Protegens DTU 9.1
-barcode05 - DNA extracted from a vacuum centrifuged sediment sample using a different bead beating method (VTLS)
+| Barcode | Sample Description |
+|---------|--------------------|
+| **01** | DNA extracted from a vacuum-centrifuged sediment sample (VCS4). |
+| **02** | The same vacuum-centrifuged sample (VCS4) with 1% *Pseudomonas protegens* DTU 9.1. |
+| **03** | Size-selected DNA from VCS4. |
+| **04** | Size-selected DNA from VCS4 with 1% *Pseudomonas protegens* DTU 9.1. |
+| **05** | DNA extracted from a vacuum-centrifuged sediment sample using a different bead-beating method (VTLS). |
