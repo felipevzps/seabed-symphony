@@ -1,0 +1,23 @@
+	Command being timed: "/work3/fevape/rerun-analysis/bin/./plotPie.py --i output/html_content/networks/2025-03-29_05-06-14_hybrids_auto_c0.30/run_data.js"
+	User time (seconds): 1.48
+	System time (seconds): 0.33
+	Percent of CPU this job got: 68%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 100044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 95
+	Minor (reclaiming a frame) page faults: 19211
+	Voluntary context switches: 1740
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 30562
+	File system outputs: 153
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

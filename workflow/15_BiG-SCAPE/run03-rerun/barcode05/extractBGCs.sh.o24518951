@@ -1,0 +1,78 @@
+File saved successfully: bgc_count.tsv
+
+Sum of each category:
+Terpene: 16
+RiPPs: 50
+PKSother: 15
+NRPS: 10
+Others: 34
+PKSI: 7
+PKS-NRP_Hybrids: 1
+Total: 133
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24518951: <extractBGCs> in cluster <dcc> Done
+
+Job <extractBGCs> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 22:15:36 2025
+Job was executed on host(s) <n-62-31-2>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 22:15:36 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/15_bigscape/run03/barcode05> was used as the working directory.
+Started at Sat Mar 29 22:15:36 2025
+Terminated at Sat Mar 29 22:15:42 2025
+Results reported at Sat Mar 29 22:15:42 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J extractBGCs
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o extractBGCs.sh.o%J
+#BSUB -e extractBGCs.sh.e%J
+
+source activate metagenomics
+
+# find most recent run_data.js inside BiG-SCAPE output
+run_data=$(find output/html_content/networks/ -type f -path "*/run_data.js" | sort | tail -n 1)
+
+if [[ -z "$run_data" ]]; then
+	echo "ERROR: run_data.js not found."
+	exit 1
+fi
+
+output="bgc_count.tsv"
+
+/usr/bin/time -v /work3/fevape/rerun-analysis/bin/./extractBGCs.py --i $run_data --o $output
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.43 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   118 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <extractBGCs.sh.e24518951> for stderr output of this job.
+
