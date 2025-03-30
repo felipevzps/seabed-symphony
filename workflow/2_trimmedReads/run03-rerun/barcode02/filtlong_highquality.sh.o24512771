@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24512771: <filtlong_highquality> in cluster <dcc> Done
+
+Job <filtlong_highquality> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Thu Mar 27 20:00:13 2025
+Job was executed on host(s) <n-62-31-21>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Mar 27 20:32:09 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/2_trimmedReads/run03/barcode02> was used as the working directory.
+Started at Thu Mar 27 20:32:09 2025
+Terminated at Thu Mar 27 21:02:44 2025
+Results reported at Thu Mar 27 21:02:44 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J filtlong_highquality
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o filtlong_highquality.sh.o%J
+#BSUB -e filtlong_highquality.sh.e%J
+
+source activate metagenomics
+
+/usr/bin/time -v filtlong --keep_percent 90 soft_filter/barcode02.trimmed.fastq >> soft_filter/barcode02.trimmed.highquality.fastq  
+
+rm -f soft_filter/barcode02.trimmed.fastq
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   779.33 sec.
+    Max Memory :                                 1459 MB
+    Average Memory :                             1242.25 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               3661.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   1837 sec.
+    Turnaround time :                            3751 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <filtlong_highquality.sh.e24512771> for stderr output of this job.
+

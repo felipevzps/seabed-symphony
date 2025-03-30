@@ -1,0 +1,61 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24513013: <filtlong> in cluster <dcc> Done
+
+Job <filtlong> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Thu Mar 27 22:22:15 2025
+Job was executed on host(s) <n-62-31-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Thu Mar 27 22:22:15 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/2_trimmedReads/run03/barcode05> was used as the working directory.
+Started at Thu Mar 27 22:22:15 2025
+Terminated at Thu Mar 27 22:44:50 2025
+Results reported at Thu Mar 27 22:44:50 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J filtlong
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=5GB]"
+#BSUB -W 50
+#BSUB -o filtlong.sh.o%J
+#BSUB -e filtlong.sh.e%J
+
+source activate metagenomics
+
+mkdir soft_filter
+
+input="/work3/fevape/rerun-analysis/0_rawReads/run03/barcode05/barcode05.fastq"
+
+/usr/bin/time -v filtlong --min_length 1000 $input  >> soft_filter/barcode05.trimmed.fastq
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   640.29 sec.
+    Max Memory :                                 1259 MB
+    Average Memory :                             1059.18 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               3861.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   1417 sec.
+    Turnaround time :                            1355 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <filtlong.sh.e24513013> for stderr output of this job.
+
