@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24513372: <nanoplot> in cluster <dcc> Done
+
+Job <nanoplot> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 08:40:51 2025
+Job was executed on host(s) <5*n-62-30-25>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 08:40:51 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/4_trimmedReadsQC/run03/barcode03> was used as the working directory.
+Started at Fri Mar 28 08:40:51 2025
+Terminated at Fri Mar 28 08:50:56 2025
+Results reported at Fri Mar 28 08:50:56 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J nanoplot
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=2GB]"
+#BSUB -W 50
+#BSUB -o nanoplot.sh.o%J
+#BSUB -e nanoplot.sh.e%J
+
+source activate metagenomics
+
+input="/work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode03/soft_filter/barcode03.trimmed.highquality.noadapter.fastq/none.fastq"
+
+/usr/bin/time -v NanoPlot -t 5 --fastq $input --plots dot --legacy dot --N50 -o nanoplot
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   591.00 sec.
+    Max Memory :                                 314 MB
+    Average Memory :                             256.43 MB
+    Total Requested Memory :                     10240.00 MB
+    Delta Memory :                               9926.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                10
+    Run time :                                   710 sec.
+    Turnaround time :                            605 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <nanoplot.sh.e24513372> for stderr output of this job.
+

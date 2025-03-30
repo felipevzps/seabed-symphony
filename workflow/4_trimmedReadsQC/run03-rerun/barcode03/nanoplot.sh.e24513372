@@ -1,0 +1,23 @@
+NanoPlot needs seaborn and matplotlib with --legacy	Command being timed: "NanoPlot -t 5 --fastq /work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode03/soft_filter/barcode03.trimmed.highquality.noadapter.fastq/none.fastq --plots dot --legacy dot --N50 -o nanoplot"
+	User time (seconds): 573.79
+	System time (seconds): 8.19
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:01.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 380672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 182575
+	Voluntary context switches: 447239
+	Involuntary context switches: 1788
+	Swaps: 0
+	File system inputs: 31505508
+	File system outputs: 3242
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

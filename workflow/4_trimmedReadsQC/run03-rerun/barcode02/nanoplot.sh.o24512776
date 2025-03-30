@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24512776: <nanoplot> in cluster <dcc> Done
+
+Job <nanoplot> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Thu Mar 27 20:05:04 2025
+Job was executed on host(s) <5*n-62-30-23>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 00:23:56 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/4_trimmedReadsQC/run03/barcode02> was used as the working directory.
+Started at Fri Mar 28 00:23:56 2025
+Terminated at Fri Mar 28 00:41:26 2025
+Results reported at Fri Mar 28 00:41:26 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J nanoplot
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=2GB]"
+#BSUB -W 50
+#BSUB -o nanoplot.sh.o%J
+#BSUB -e nanoplot.sh.e%J
+
+source activate metagenomics
+
+input="/work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq"
+
+/usr/bin/time -v NanoPlot -t 5 --fastq $input --plots dot --legacy dot --N50 -o nanoplot
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1034.00 sec.
+    Max Memory :                                 523 MB
+    Average Memory :                             342.73 MB
+    Total Requested Memory :                     10240.00 MB
+    Delta Memory :                               9717.00 MB
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                56
+    Run time :                                   1081 sec.
+    Turnaround time :                            16582 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <nanoplot.sh.e24512776> for stderr output of this job.
+

@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24512777: <seqkit_stats> in cluster <dcc> Done
+
+Job <seqkit_stats> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Thu Mar 27 20:05:08 2025
+Job was executed on host(s) <n-62-31-4>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 00:23:56 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/4_trimmedReadsQC/run03/barcode02> was used as the working directory.
+Started at Fri Mar 28 00:23:56 2025
+Terminated at Fri Mar 28 00:24:39 2025
+Results reported at Fri Mar 28 00:24:39 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J seqkit_stats
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o seqkit_stats.sh.o%J
+#BSUB -e seqkit_stats.sh.e%J
+
+source activate metagenomics
+
+input="/work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq"
+
+/usr/bin/time -v seqkit stats $input  >> seqkit_stats.txt
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   36.51 sec.
+    Max Memory :                                 18 MB
+    Average Memory :                             18.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1006.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                9
+    Run time :                                   57 sec.
+    Turnaround time :                            15571 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <seqkit_stats.sh.e24512777> for stderr output of this job.
+
