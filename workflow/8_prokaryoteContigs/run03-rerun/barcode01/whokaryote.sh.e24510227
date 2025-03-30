@@ -1,0 +1,23 @@
+	Command being timed: "/work3/fevape/rerun-analysis/bin/./extractContigsFromWhokaryote.py --i /work3/fevape/rerun-analysis/5_metagenomeAssembly/run03/barcode01/assembly/assembly.fasta --p /work3/fevape/rerun-analysis/7_assignTaxonomy/run03/barcode01/output/prokaryote_contig_headers.txt --o prokaryote"
+	User time (seconds): 0.29
+	System time (seconds): 0.13
+	Percent of CPU this job got: 48%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 58664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 491
+	Minor (reclaiming a frame) page faults: 11479
+	Voluntary context switches: 2006
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 103380
+	File system outputs: 2746
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

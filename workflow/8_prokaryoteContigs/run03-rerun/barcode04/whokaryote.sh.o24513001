@@ -1,0 +1,60 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24513001: <extract_whokaryote> in cluster <dcc> Done
+
+Job <extract_whokaryote> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Thu Mar 27 22:17:01 2025
+Job was executed on host(s) <n-62-31-4>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 05:06:14 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode04> was used as the working directory.
+Started at Sat Mar 29 05:06:14 2025
+Terminated at Sat Mar 29 05:06:35 2025
+Results reported at Sat Mar 29 05:06:35 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J extract_whokaryote
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o whokaryote.sh.o%J
+#BSUB -e whokaryote.sh.e%J
+
+source activate metagenomics
+
+assembly="/work3/fevape/rerun-analysis/5_metagenomeAssembly/run03/barcode04/assembly/assembly.fasta"
+headers="/work3/fevape/rerun-analysis/7_assignTaxonomy/run03/barcode04/output/prokaryote_contig_headers.txt"
+
+/usr/bin/time -v /work3/fevape/rerun-analysis/bin/./extractContigsFromWhokaryote.py --i $assembly --p $headers --o prokaryote
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   16.69 sec.
+    Max Memory :                                 45 MB
+    Average Memory :                             45.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               979.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                6
+    Run time :                                   78 sec.
+    Turnaround time :                            110974 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <whokaryote.sh.e24513001> for stderr output of this job.
+
