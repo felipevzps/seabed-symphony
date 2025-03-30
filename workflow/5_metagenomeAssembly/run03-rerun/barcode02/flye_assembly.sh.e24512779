@@ -1,0 +1,93 @@
+[2025-03-28 00:24:01] INFO: Starting Flye 2.9.2-b1786
+[2025-03-28 00:24:01] INFO: >>>STAGE: configure
+[2025-03-28 00:24:01] INFO: Configuring run
+[2025-03-28 00:25:15] INFO: Total read length: 14196176086
+[2025-03-28 00:25:15] INFO: Reads N50/N90: 6247 / 2727
+[2025-03-28 00:25:15] INFO: Minimum overlap set to 3000
+[2025-03-28 00:25:15] INFO: >>>STAGE: assembly
+[2025-03-28 00:25:15] INFO: Assembling disjointigs
+[2025-03-28 00:25:15] INFO: Reading sequences
+[2025-03-28 00:26:23] INFO: Building minimizer index
+[2025-03-28 00:26:23] INFO: Pre-calculating index storage
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 00:31:14] INFO: Filling index
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 00:36:08] INFO: Extending reads
+[2025-03-28 00:36:22] INFO: Overlap-based coverage: 2
+[2025-03-28 00:36:22] INFO: Median overlap divergence: 0.0535714
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 01:13:49] INFO: Assembled 163697 disjointigs
+[2025-03-28 01:14:08] INFO: Generating sequence
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 01:16:53] INFO: Filtering contained disjointigs
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 01:19:07] INFO: Contained seqs: 3029
+[2025-03-28 01:19:56] INFO: >>>STAGE: consensus
+[2025-03-28 01:19:56] INFO: Running Minimap2
+[2025-03-28 02:02:39] INFO: Computing consensus
+[2025-03-28 04:06:03] INFO: Alignment error rate: 0.096910
+[2025-03-28 04:06:19] INFO: >>>STAGE: repeat
+[2025-03-28 04:06:19] INFO: Building and resolving repeat graph
+[2025-03-28 04:06:19] INFO: Parsing disjointigs
+[2025-03-28 04:06:37] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 04:16:49] INFO: Median overlap divergence: 0.161651
+[2025-03-28 04:56:38] INFO: Parsing reads
+[2025-03-28 04:58:22] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 05:10:54] INFO: Aligned read sequence: 6449593830 / 12327140644 (0.523203)
+[2025-03-28 05:10:54] INFO: Median overlap divergence: 0.0310649
+[2025-03-28 05:10:59] INFO: Mean edge coverage: 3
+[2025-03-28 05:12:13] INFO: Simplifying the graph
+[2025-03-28 05:13:56] INFO: >>>STAGE: contigger
+[2025-03-28 05:13:56] INFO: Generating contigs
+[2025-03-28 05:13:56] INFO: Reading sequences
+[2025-03-28 05:15:51] INFO: Generated 29733 contigs
+[2025-03-28 05:15:57] INFO: Added 18 scaffold connections
+[2025-03-28 05:16:20] INFO: >>>STAGE: polishing
+[2025-03-28 05:16:20] INFO: Polishing genome (1/2)
+[2025-03-28 05:16:20] INFO: Running minimap2
+[2025-03-28 05:47:01] INFO: Separating alignment into bubbles
+[2025-03-28 06:10:21] INFO: Alignment error rate: 0.102359
+[2025-03-28 06:10:21] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 12:51:49] INFO: Polishing genome (2/2)
+[2025-03-28 12:51:49] INFO: Running minimap2
+[2025-03-28 13:22:09] INFO: Separating alignment into bubbles
+[2025-03-28 14:18:24] INFO: Alignment error rate: 0.098178
+[2025-03-28 14:18:24] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-03-28 19:07:01] INFO: >>>STAGE: finalize
+[2025-03-28 19:07:13] INFO: Assembly statistics:
+
+	Total length:	671412655
+	Fragments:	28476
+	Fragments N50:	37648
+	Largest frg:	2689020
+	Scaffolds:	0
+	Mean coverage:	9
+
+[2025-03-28 19:07:13] INFO: Final assembly: /work3/fevape/rerun-analysis/5_metagenomeAssembly/run03/barcode02/assembly/assembly.fasta
+	Command being timed: "flye --meta --nano-hq /work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq --out-dir assembly --iterations 2 --threads 10"
+	User time (seconds): 583736.14
+	System time (seconds): 41656.70
+	Percent of CPU this job got: 927%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 18:43:13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 88852372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 9712
+	Minor (reclaiming a frame) page faults: 5740095041
+	Voluntary context switches: 135336474
+	Involuntary context switches: 21696881
+	Swaps: 0
+	File system inputs: 6160832186
+	File system outputs: 99052635
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

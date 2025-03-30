@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24513376: <flye_assembly> in cluster <dcc> Done
+
+Job <flye_assembly> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 08:43:27 2025
+Job was executed on host(s) <10*n-62-28-36>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 08:43:29 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/5_metagenomeAssembly/run03/barcode03> was used as the working directory.
+Started at Fri Mar 28 08:43:29 2025
+Terminated at Fri Mar 28 17:54:15 2025
+Results reported at Fri Mar 28 17:54:15 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J flye_assembly
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 30:00
+#BSUB -o flye_assembly.sh.o%J
+#BSUB -e flye_assembly.sh.e%J
+
+source activate metagenomics
+
+input="/work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode03/soft_filter/barcode03.trimmed.highquality.noadapter.fastq/none.fastq"
+
+/usr/bin/time -v flye --meta --nano-hq $input --out-dir assembly --iterations 2 --threads 10 
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   314488.00 sec.
+    Max Memory :                                 72709 MB
+    Average Memory :                             8769.56 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               29691.00 MB
+    Max Swap :                                   -
+    Max Processes :                              25
+    Max Threads :                                38
+    Run time :                                   33046 sec.
+    Turnaround time :                            33048 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <flye_assembly.sh.e24513376> for stderr output of this job.
+
