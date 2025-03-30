@@ -1,0 +1,102 @@
+[2025-03-29 11:01:27] INFO: GTDB-Tk v2.3.2
+[2025-03-29 11:01:27] INFO: gtdbtk classify_wf --genome_dir /work3/fevape/rerun-analysis/10_nonRedundantBins/run03/barcode01/output/DASToolRun_DASTool_bins/ --out_dir output --mash_db mash_db --extension fa --cpus 30
+[2025-03-29 11:01:27] INFO: Using GTDB-Tk reference data version r214: /work3/fevape/database/gtdb/release214
+[2025-03-29 11:01:28] INFO: Loading reference genomes.
+[2025-03-29 11:01:28] INFO: Using Mash version 2.3
+[2025-03-29 11:01:28] INFO: Creating Mash sketch file: output/classify/ani_screen/intermediate_results/mash/gtdbtk.user_query_sketch.msh
+[2025-03-29 11:01:29] INFO: Completed 1 genome in 0.05 seconds (20.89 genomes/second).
+[2025-03-29 11:01:29] INFO: Creating Mash sketch file: mash_db.msh
+[2025-03-29 11:04:31] INFO: Completed 85,205 genomes in 3.05 minutes (27,956.85 genomes/minute).
+[2025-03-29 11:04:32] INFO: Calculating Mash distances.
+[2025-03-29 11:04:36] INFO: Calculating ANI with FastANI v1.32.
+[2025-03-29 11:04:37] INFO: 0 genome(s) have been classified using the ANI pre-screening step.
+[2025-03-29 11:04:37] INFO: Done.
+[2025-03-29 11:04:37] INFO: Identifying markers in 1 genomes with 30 threads.
+[2025-03-29 11:04:37] TASK: Running Prodigal V2.6.3 to identify genes.
+[2025-03-29 11:04:39] INFO: Completed 1 genome in 1.85 seconds (1.85 seconds/genome).
+[2025-03-29 11:04:39] TASK: Identifying TIGRFAM protein families.
+[2025-03-29 11:04:41] INFO: Completed 1 genome in 2.25 seconds (2.25 seconds/genome).
+[2025-03-29 11:04:41] TASK: Identifying Pfam protein families.
+[2025-03-29 11:04:42] INFO: Completed 1 genome in 0.29 seconds (3.39 genomes/second).
+[2025-03-29 11:04:42] INFO: Annotations done using HMMER 3.4 (Aug 2023).
+[2025-03-29 11:04:42] TASK: Summarising identified marker genes.
+[2025-03-29 11:04:42] INFO: Completed 1 genome in 0.02 seconds (66.14 genomes/second).
+[2025-03-29 11:04:42] INFO: Done.
+[2025-03-29 11:04:42] INFO: Aligning markers in 1 genomes with 30 CPUs.
+[2025-03-29 11:04:42] INFO: Processing 1 genomes identified as bacterial.
+[2025-03-29 11:04:49] INFO: Read concatenated alignment for 80,789 GTDB genomes.
+[2025-03-29 11:04:49] TASK: Generating concatenated alignment for each marker.
+[2025-03-29 11:04:52] INFO: Completed 1 genome in 0.02 seconds (59.70 genomes/second).
+[2025-03-29 11:04:52] TASK: Aligning 10 identified markers using hmmalign 3.4 (Aug 2023).
+[2025-03-29 11:04:55] INFO: Completed 10 markers in 0.35 seconds (28.54 markers/second).
+[2025-03-29 11:04:55] TASK: Masking columns of bacterial multiple sequence alignment using canonical mask.
+[2025-03-29 11:06:24] INFO: Completed 80,790 sequences in 1.48 minutes (54,718.94 sequences/minute).
+[2025-03-29 11:06:24] INFO: Masked bacterial alignment from 41,084 to 5,035 AAs.
+[2025-03-29 11:06:24] INFO: 1 bacterial user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2025-03-29 11:06:24] INFO: Creating concatenated alignment for 80,789 bacterial GTDB and user genomes.
+[2025-03-29 11:06:43] INFO: All bacterial user genomes have been filtered out.
+[2025-03-29 11:06:43] INFO: Done.
+[2025-03-29 11:06:44] INFO: Note that Tk classification mode is insufficient for publication of new taxonomic designations. New designations should be based on one or more de novo trees, an example of which can be produced by Tk in de novo mode.
+[2025-03-29 11:06:44] INFO: Done.
+[2025-03-29 11:06:44] INFO: Removing intermediate files.
+[2025-03-29 11:06:44] INFO: Intermediate files removed.
+[2025-03-29 11:06:44] INFO: Done.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517980: <gtdb> in cluster <dcc> Done
+
+Job <gtdb> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 11:01:11 2025
+Job was executed on host(s) <30*n-62-13-8>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 11:01:12 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/12_gtdb/run03/barcode01> was used as the working directory.
+Started at Sat Mar 29 11:01:12 2025
+Terminated at Sat Mar 29 11:06:45 2025
+Results reported at Sat Mar 29 11:06:45 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J gtdb
+#BSUB -n 30
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=12GB]"
+#BSUB -W 72:00
+#BSUB -o gtdb.sh.o%J
+#BSUB -e gtdb.sh.e%J
+
+source activate gtdbtk-2.3.2
+
+bins="/work3/fevape/rerun-analysis/10_nonRedundantBins/run03/barcode01/output/DASToolRun_DASTool_bins/"
+
+/usr/bin/time -v gtdbtk classify_wf --genome_dir $bins --out_dir output --mash_db mash_db --extension fa --cpus 30
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5464.70 sec.
+    Max Memory :                                 6515 MB
+    Average Memory :                             4657.80 MB
+    Total Requested Memory :                     368640.00 MB
+    Delta Memory :                               362125.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                38
+    Run time :                                   452 sec.
+    Turnaround time :                            334 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <gtdb.sh.e24517980> for stderr output of this job.
+

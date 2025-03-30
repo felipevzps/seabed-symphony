@@ -1,0 +1,59 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24518936: <plotSankeyDiagram> in cluster <dcc> Done
+
+Job <plotSankeyDiagram> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 22:01:54 2025
+Job was executed on host(s) <n-62-31-2>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 23:24:27 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/12_gtdb/run03/barcode04> was used as the working directory.
+Started at Sat Mar 29 23:24:27 2025
+Terminated at Sat Mar 29 23:24:35 2025
+Results reported at Sat Mar 29 23:24:35 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J plotSankeyDiagram
+#BSUB -n 1
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 15
+#BSUB -o plotSankeyDiagram.sh.o%J
+#BSUB -e plotSankeyDiagram.sh.e%J
+
+source activate metagenomics
+
+gtdb_summary="output/gtdbtk.bac120.summary.tsv"
+
+/usr/bin/time -v /work3/fevape/rerun-analysis/bin/./plotSankeyDiagram.py --i $gtdb_summary
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.58 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   86 sec.
+    Turnaround time :                            4961 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <plotSankeyDiagram.sh.e24518936> for stderr output of this job.
+

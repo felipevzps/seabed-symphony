@@ -1,0 +1,151 @@
+[2025-03-29 22:21:02] INFO: GTDB-Tk v2.3.2
+[2025-03-29 22:21:02] INFO: gtdbtk classify_wf --genome_dir /work3/fevape/rerun-analysis/10_nonRedundantBins/run03/barcode04/output/DASToolRun_DASTool_bins/ --out_dir output --mash_db mash_db --extension fa --cpus 30
+[2025-03-29 22:21:02] INFO: Using GTDB-Tk reference data version r214: /work3/fevape/database/gtdb/release214
+[2025-03-29 22:21:03] INFO: Loading reference genomes.
+[2025-03-29 22:21:03] INFO: Using Mash version 2.3
+[2025-03-29 22:21:03] INFO: Creating Mash sketch file: output/classify/ani_screen/intermediate_results/mash/gtdbtk.user_query_sketch.msh
+[2025-03-29 22:21:05] INFO: Completed 94 genomes in 2.10 seconds (44.84 genomes/second).
+[2025-03-29 22:21:05] INFO: Creating Mash sketch file: mash_db.msh
+[2025-03-29 22:26:44] INFO: Completed 85,205 genomes in 5.64 minutes (15,099.59 genomes/minute).
+[2025-03-29 22:26:44] INFO: Calculating Mash distances.
+[2025-03-29 22:27:09] INFO: Calculating ANI with FastANI v1.32.
+[2025-03-29 22:27:18] INFO: Completed 208 comparisons in 8.51 seconds (24.45 comparisons/second).
+[2025-03-29 22:27:19] INFO: Summary of results saved to: output/classify/ani_screen/gtdbtk.bac120.ani_summary.tsv
+[2025-03-29 22:27:19] INFO: 4 genome(s) have been classified using the ANI pre-screening step.
+[2025-03-29 22:27:19] INFO: Done.
+[2025-03-29 22:27:19] INFO: Identifying markers in 90 genomes with 30 threads.
+[2025-03-29 22:27:19] TASK: Running Prodigal V2.6.3 to identify genes.
+[2025-03-29 22:28:49] INFO: Completed 90 genomes in 1.50 minutes (60.04 genomes/minute).
+[2025-03-29 22:28:49] TASK: Identifying TIGRFAM protein families.
+[2025-03-29 22:29:17] INFO: Completed 90 genomes in 28.34 seconds (3.18 genomes/second).
+[2025-03-29 22:29:17] TASK: Identifying Pfam protein families.
+[2025-03-29 22:29:19] INFO: Completed 90 genomes in 1.63 seconds (55.30 genomes/second).
+[2025-03-29 22:29:19] INFO: Annotations done using HMMER 3.4 (Aug 2023).
+[2025-03-29 22:29:19] TASK: Summarising identified marker genes.
+[2025-03-29 22:29:22] INFO: Completed 90 genomes in 3.28 seconds (27.47 genomes/second).
+[2025-03-29 22:29:22] INFO: Done.
+[2025-03-29 22:29:23] INFO: Aligning markers in 90 genomes with 30 CPUs.
+[2025-03-29 22:29:23] INFO: Processing 90 genomes identified as bacterial.
+[2025-03-29 22:29:32] INFO: Read concatenated alignment for 80,789 GTDB genomes.
+[2025-03-29 22:29:32] TASK: Generating concatenated alignment for each marker.
+[2025-03-29 22:29:35] INFO: Completed 90 genomes in 0.11 seconds (851.64 genomes/second).
+[2025-03-29 22:29:35] TASK: Aligning 120 identified markers using hmmalign 3.4 (Aug 2023).
+[2025-03-29 22:29:42] INFO: Completed 120 markers in 3.87 seconds (30.99 markers/second).
+[2025-03-29 22:29:42] TASK: Masking columns of bacterial multiple sequence alignment using canonical mask.
+[2025-03-29 22:32:29] INFO: Completed 80,879 sequences in 2.79 minutes (29,016.32 sequences/minute).
+[2025-03-29 22:32:29] INFO: Masked bacterial alignment from 41,084 to 5,035 AAs.
+[2025-03-29 22:32:29] INFO: 2 bacterial user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2025-03-29 22:32:29] INFO: Creating concatenated alignment for 80,877 bacterial GTDB and user genomes.
+[2025-03-29 22:33:00] INFO: Creating concatenated alignment for 88 bacterial user genomes.
+[2025-03-29 22:33:00] INFO: Done.
+[2025-03-29 22:33:01] TASK: Placing 88 bacterial genomes into backbone reference tree with pplacer using 30 CPUs (be patient).
+[2025-03-29 22:33:01] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2025-03-29 22:36:16] INFO: Calculating RED values based on reference tree.
+[2025-03-29 22:36:17] INFO: 88 out of 88 have an class assignments. Those genomes will be reclassified.
+[2025-03-29 22:36:17] TASK: Placing 28 bacterial genomes into class-level reference tree 7 (1/6) with pplacer using 30 CPUs (be patient).
+[2025-03-29 22:43:29] INFO: Calculating RED values based on reference tree.
+[2025-03-29 22:43:31] TASK: Traversing tree to determine classification method.
+[2025-03-29 22:43:31] INFO: Completed 28 genomes in 0.01 seconds (4,293.04 genomes/second).
+[2025-03-29 22:43:31] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2025-03-29 22:43:38] INFO: Completed 116 comparisons in 6.98 seconds (16.62 comparisons/second).
+[2025-03-29 22:43:40] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2025-03-29 22:43:41] TASK: Placing 26 bacterial genomes into class-level reference tree 1 (2/6) with pplacer using 30 CPUs (be patient).
+[2025-03-29 22:52:53] INFO: Calculating RED values based on reference tree.
+[2025-03-29 22:52:55] TASK: Traversing tree to determine classification method.
+[2025-03-29 22:52:55] INFO: Completed 26 genomes in 0.01 seconds (4,927.34 genomes/second).
+[2025-03-29 22:52:56] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2025-03-29 22:53:07] INFO: Completed 272 comparisons in 10.99 seconds (24.75 comparisons/second).
+[2025-03-29 22:53:09] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2025-03-29 22:53:09] TASK: Placing 16 bacterial genomes into class-level reference tree 5 (3/6) with pplacer using 30 CPUs (be patient).
+[2025-03-29 22:59:46] INFO: Calculating RED values based on reference tree.
+[2025-03-29 22:59:48] TASK: Traversing tree to determine classification method.
+[2025-03-29 22:59:48] INFO: Completed 16 genomes in 0.08 seconds (205.26 genomes/second).
+[2025-03-29 22:59:49] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2025-03-29 22:59:54] INFO: Completed 120 comparisons in 5.05 seconds (23.76 comparisons/second).
+[2025-03-29 22:59:55] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2025-03-29 22:59:55] TASK: Placing 9 bacterial genomes into class-level reference tree 4 (4/6) with pplacer using 30 CPUs (be patient).
+[2025-03-29 23:07:48] INFO: Calculating RED values based on reference tree.
+[2025-03-29 23:07:51] TASK: Traversing tree to determine classification method.
+[2025-03-29 23:07:51] INFO: Completed 9 genomes in 0.00 seconds (3,518.38 genomes/second).
+[2025-03-29 23:07:51] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2025-03-29 23:08:00] INFO: Completed 250 comparisons in 8.31 seconds (30.10 comparisons/second).
+[2025-03-29 23:08:01] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2025-03-29 23:08:01] TASK: Placing 6 bacterial genomes into class-level reference tree 3 (5/6) with pplacer using 30 CPUs (be patient).
+[2025-03-29 23:17:23] INFO: Calculating RED values based on reference tree.
+[2025-03-29 23:17:26] TASK: Traversing tree to determine classification method.
+[2025-03-29 23:17:26] INFO: Completed 6 genomes in 0.02 seconds (353.13 genomes/second).
+[2025-03-29 23:17:26] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2025-03-29 23:17:30] INFO: Completed 52 comparisons in 4.03 seconds (12.90 comparisons/second).
+[2025-03-29 23:17:31] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2025-03-29 23:17:31] TASK: Placing 3 bacterial genomes into class-level reference tree 6 (6/6) with pplacer using 30 CPUs (be patient).
+[2025-03-29 23:24:19] INFO: Calculating RED values based on reference tree.
+[2025-03-29 23:24:21] TASK: Traversing tree to determine classification method.
+[2025-03-29 23:24:21] INFO: Completed 3 genomes in 0.00 seconds (1,861.38 genomes/second).
+[2025-03-29 23:24:22] TASK: Calculating average nucleotide identity using FastANI (v1.32).
+[2025-03-29 23:24:24] INFO: Completed 6 comparisons in 2.39 seconds (2.51 comparisons/second).
+[2025-03-29 23:24:25] INFO: 0 genome(s) have been classified using FastANI and pplacer.
+[2025-03-29 23:24:25] WARNING: 29 of 92 genomes have a warning (see summary file).
+[2025-03-29 23:24:25] INFO: Note that Tk classification mode is insufficient for publication of new taxonomic designations. New designations should be based on one or more de novo trees, an example of which can be produced by Tk in de novo mode.
+[2025-03-29 23:24:25] INFO: Done.
+[2025-03-29 23:24:25] INFO: Removing intermediate files.
+[2025-03-29 23:24:26] INFO: Intermediate files removed.
+[2025-03-29 23:24:26] INFO: Done.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24518903: <gtdb> in cluster <dcc> Done
+
+Job <gtdb> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 21:43:46 2025
+Job was executed on host(s) <30*n-62-12-5>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 22:20:57 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/12_gtdb/run03/barcode04> was used as the working directory.
+Started at Sat Mar 29 22:20:57 2025
+Terminated at Sat Mar 29 23:24:27 2025
+Results reported at Sat Mar 29 23:24:27 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J gtdb
+#BSUB -n 30
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=12GB]"
+#BSUB -W 72:00
+#BSUB -o gtdb.sh.o%J
+#BSUB -e gtdb.sh.e%J
+
+source activate gtdbtk-2.3.2
+
+bins="/work3/fevape/rerun-analysis/10_nonRedundantBins/run03/barcode04/output/DASToolRun_DASTool_bins/"
+
+/usr/bin/time -v gtdbtk classify_wf --genome_dir $bins --out_dir output --mash_db mash_db --extension fa --cpus 30
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   18661.00 sec.
+    Max Memory :                                 67286 MB
+    Average Memory :                             30865.22 MB
+    Total Requested Memory :                     368640.00 MB
+    Delta Memory :                               301354.00 MB
+    Max Swap :                                   -
+    Max Processes :                              67
+    Max Threads :                                102
+    Run time :                                   3923 sec.
+    Turnaround time :                            6041 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <gtdb.sh.e24518903> for stderr output of this job.
+
