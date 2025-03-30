@@ -1,0 +1,68 @@
+DAS Tool 1.1.7 
+Warning:  Non-unique bin-ids given. Renaming bin-ids. 
+Analyzing assembly 
+Predicting genes 
+Annotating single copy genes using diamond 
+Dereplicating, aggregating, and scoring bins 
+Writing bins 
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517758: <dastool> in cluster <dcc> Done
+
+Job <dastool> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 07:05:17 2025
+Job was executed on host(s) <5*n-62-28-28>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 07:05:17 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/10_nonRedundantBins/run03/barcode02> was used as the working directory.
+Started at Sat Mar 29 07:05:17 2025
+Terminated at Sat Mar 29 07:35:19 2025
+Results reported at Sat Mar 29 07:35:19 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J dastool
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 30
+#BSUB -o dastool.sh.o%J
+#BSUB -e dastool.sh.e%J
+
+source activate metagenomics
+
+assembly="/work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode02/prokaryote/assembly_prokaryote.fasta"
+
+mkdir output
+
+/usr/bin/time -v DAS_Tool -i sample_data/MetaBAT2.contigs2bin.tsv,sample_data/MaxBin2.contigs2bin.tsv,sample_data/CONCOCT.contigs2bin.tsv,sample_data/GraphMB.contigs2bin.tsv -l MetaBAT2,MaxBin2,CONCOCT,GraphMB -c $assembly -o output/DASToolRun -t 5 --write_bin_evals --write_bins --score_threshold 0.5
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7650.88 sec.
+    Max Memory :                                 356 MB
+    Average Memory :                             274.29 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4764.00 MB
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                13
+    Run time :                                   1802 sec.
+    Turnaround time :                            1802 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <dastool.sh.e24517758> for stderr output of this job.
+

@@ -1,0 +1,67 @@
+DAS Tool 1.1.7 
+Analyzing assembly 
+Predicting genes 
+Annotating single copy genes using diamond 
+Dereplicating, aggregating, and scoring bins 
+Writing bins 
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517042: <dastool> in cluster <dcc> Done
+
+Job <dastool> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 20:06:13 2025
+Job was executed on host(s) <5*n-62-31-14>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 20:06:14 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/10_nonRedundantBins/run03/barcode05> was used as the working directory.
+Started at Fri Mar 28 20:06:14 2025
+Terminated at Fri Mar 28 20:25:32 2025
+Results reported at Fri Mar 28 20:25:32 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J dastool
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 30
+#BSUB -o dastool.sh.o%J
+#BSUB -e dastool.sh.e%J
+
+source activate metagenomics
+
+assembly="/work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode05/prokaryote/assembly_prokaryote.fasta"
+
+mkdir output
+
+/usr/bin/time -v DAS_Tool -i sample_data/MetaBAT2.contigs2bin.tsv,sample_data/MaxBin2.contigs2bin.tsv,sample_data/CONCOCT.contigs2bin.tsv,sample_data/GraphMB.contigs2bins.tsv -l MetaBAT2,MaxBin2,CONCOCT,GraphMB -c $assembly -o output/DASToolRun -t 5 --write_bin_evals --write_bins --score_threshold 0.5
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5218.07 sec.
+    Max Memory :                                 287 MB
+    Average Memory :                             241.00 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4833.00 MB
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                13
+    Run time :                                   1267 sec.
+    Turnaround time :                            1159 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <dastool.sh.e24517042> for stderr output of this job.
+
