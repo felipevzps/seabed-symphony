@@ -1,0 +1,1446 @@
+MaxBin 2.2.7
+Input contig: /work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode02/prokaryote/assembly_prokaryote.fasta
+Located abundance file [/work3/fevape/rerun-analysis/9_genomeBinning/MetaBAT2/run03/barcode02/depth.txt]
+out header: bins/bins
+Thread: 5
+Searching against 107 marker genes to find starting seed contigs for [/work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode02/prokaryote/assembly_prokaryote.fasta]...
+Running FragGeneScan....
+Running HMMER hmmsearch....
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.contig.tmp  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.seed -out bins/bins -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_1043 [14083.000000]
+	contig_1044 [13149.000000]
+	contig_10615 [35715.000000]
+	contig_11067 [15853.000000]
+	contig_11070 [53917.000000]
+	contig_11948 [32241.000000]
+	contig_12297 [53504.000000]
+	contig_1237 [237622.000000]
+	contig_12385 [30151.000000]
+	contig_12389 [19911.000000]
+	contig_12460 [17132.000000]
+	contig_12884 [123696.000000]
+	contig_12982 [40822.000000]
+	contig_13294 [130899.000000]
+	contig_13736 [48159.000000]
+	contig_14221 [10683.000000]
+	contig_1458 [229151.000000]
+	contig_14781 [12998.000000]
+	contig_14937 [36041.000000]
+	contig_15261 [25535.000000]
+	contig_1527 [54404.000000]
+	contig_15823 [95420.000000]
+	contig_16042 [25729.000000]
+	contig_16919 [17606.000000]
+	contig_1693 [255620.000000]
+	contig_1701 [67927.000000]
+	contig_1709 [1990520.000000]
+	contig_1735 [188083.000000]
+	contig_1770 [71737.000000]
+	contig_1771 [14516.000000]
+	contig_17879 [46752.000000]
+	contig_18099 [19526.000000]
+	contig_18291 [62926.000000]
+	contig_18388 [67022.000000]
+	contig_18657 [70614.000000]
+	contig_18664 [17999.000000]
+	contig_18922 [19674.000000]
+	contig_19018 [271519.000000]
+	contig_19073 [45586.000000]
+	contig_19150 [63021.000000]
+	contig_19218 [25351.000000]
+	contig_19760 [19247.000000]
+	contig_20738 [27673.000000]
+	contig_21083 [15560.000000]
+	contig_21252 [60352.000000]
+	contig_2141 [336464.000000]
+	contig_21546 [44598.000000]
+	contig_21613 [47692.000000]
+	contig_21793 [27590.000000]
+	contig_22286 [20689.000000]
+	contig_22660 [97111.000000]
+	contig_22943 [24065.000000]
+	contig_2414 [327497.000000]
+	contig_24287 [86177.000000]
+	contig_24526 [13716.000000]
+	contig_25269 [15801.000000]
+	contig_25865 [6301.000000]
+	contig_26345 [23130.000000]
+	contig_27183 [108804.000000]
+	contig_27238 [52128.000000]
+	contig_27291 [12624.000000]
+	contig_27301 [28846.000000]
+	contig_2742 [526021.000000]
+	contig_2749 [362550.000000]
+	contig_27981 [49884.000000]
+	contig_2835 [272020.000000]
+	contig_28963 [27092.000000]
+	contig_29129 [84716.000000]
+	contig_29251 [100101.000000]
+	contig_29375 [31714.000000]
+	contig_29389 [113472.000000]
+	contig_29425 [85473.000000]
+	contig_29610 [68498.000000]
+	contig_3145 [171610.000000]
+	contig_3295 [544368.000000]
+	contig_362 [152496.000000]
+	contig_394 [626022.000000]
+	contig_4157 [722968.000000]
+	contig_4566 [561181.000000]
+	contig_4821 [34856.000000]
+	contig_517 [2689020.000000]
+	contig_54 [58114.000000]
+	contig_541 [283854.000000]
+	contig_5639 [34481.000000]
+	contig_5951 [117272.000000]
+	contig_5952 [45453.000000]
+	contig_6518 [299357.000000]
+	contig_6590 [51016.000000]
+	contig_6786 [181856.000000]
+	contig_7004 [41673.000000]
+	contig_729 [244405.000000]
+	contig_7322 [201191.000000]
+	contig_850 [739491.000000]
+	contig_8524 [265910.000000]
+	contig_8833 [44259.000000]
+	contig_9356 [157354.000000]
+	contig_9435 [192849.000000]
+	contig_9512 [19916.000000]
+	contig_9678 [33181.000000]
+	contig_9688 [35275.000000]
+Get 100 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 14750 (57.23%)
+Elapsed time:  0 days 00:12:47
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0027.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0027.out.seed -out bins/bins.0027.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_12727 [58672.000000]
+	contig_20901 [31079.000000]
+	contig_9864 [7344.000000]
+Get 3 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 396 (54.77%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0031.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0031.out.seed -out bins/bins.0031.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_176 [113914.000000]
+	contig_177 [164400.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0039.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0039.out.seed -out bins/bins.0039.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_14127 [48668.000000]
+	contig_6590 [51016.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0048.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0048.out.seed -out bins/bins.0048.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_13142 [46791.000000]
+	contig_28091 [45112.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0049.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0049.out.seed -out bins/bins.0049.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_26125 [34002.000000]
+	contig_4381 [141825.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0051.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0051.out.seed -out bins/bins.0051.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_28135 [13831.000000]
+	contig_4195 [766989.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0067.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0067.out.seed -out bins/bins.0067.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_22231 [25639.000000]
+	contig_25307 [27642.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0068.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0068.out.seed -out bins/bins.0068.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_29389 [113472.000000]
+	contig_7290 [70393.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0073.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0073.out.seed -out bins/bins.0073.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_15823 [95420.000000]
+	contig_29610 [68498.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0081.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0081.out.seed -out bins/bins.0081.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_27183 [108804.000000]
+	contig_9680 [110512.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0082.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0082.out.seed -out bins/bins.0082.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_16585 [20178.000000]
+	contig_3380 [37887.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:02
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0085.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0085.out.seed -out bins/bins.0085.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_14273 [29411.000000]
+	contig_22660 [97111.000000]
+	contig_4842 [191344.000000]
+Get 3 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 1 bins without any sequences.
+Number of unclassified sequences: 218 (96.04%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0098.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0098.out.seed -out bins/bins.0098.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_24287 [86177.000000]
+	contig_29425 [85473.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0039.out.0002.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0039.out.0002.out.seed -out bins/bins.0039.out.0002.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_14127 [48668.000000]
+	contig_6590 [51016.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0048.out.0002.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0048.out.0002.out.seed -out bins/bins.0048.out.0002.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_28933 [45283.000000]
+	contig_5047 [46333.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0049.out.0002.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0049.out.0002.out.seed -out bins/bins.0049.out.0002.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_4728 [148676.000000]
+	contig_7419 [40068.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0068.out.0001.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0068.out.0001.out.seed -out bins/bins.0068.out.0001.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_1770 [71737.000000]
+	contig_29389 [113472.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0081.out.0002.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0081.out.0002.out.seed -out bins/bins.0081.out.0002.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_27183 [108804.000000]
+	contig_9680 [110512.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0048.out.0002.out.0002.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0048.out.0002.out.0002.out.seed -out bins/bins.0048.out.0002.out.0002.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_13736 [48159.000000]
+	contig_21613 [47692.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0049.out.0002.out.0002.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0049.out.0002.out.0002.out.seed -out bins/bins.0049.out.0002.out.0002.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_4728 [148676.000000]
+	contig_7419 [40068.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:01
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0048.out.0002.out.0002.out.0001.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0048.out.0002.out.0002.out.0001.out.seed -out bins/bins.0048.out.0002.out.0002.out.0001.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_13736 [48159.000000]
+	contig_21613 [47692.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0049.out.0002.out.0002.out.0001.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0049.out.0002.out.0002.out.0001.out.seed -out bins/bins.0049.out.0002.out.0002.out.0001.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_4728 [148676.000000]
+	contig_7419 [40068.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0048.out.0002.out.0002.out.0001.out.0001.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0048.out.0002.out.0002.out.0001.out.0001.out.seed -out bins/bins.0048.out.0002.out.0002.out.0001.out.0001.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_13736 [48159.000000]
+	contig_21613 [47692.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+Done data collection. Running MaxBin...
+Command: /zhome/56/5/209982/bin/miniconda3/envs/metagenomics/opt/MaxBin-2.2.7/src/MaxBin -fasta bins/bins.0049.out.0002.out.0002.out.0001.out.0001.fasta  -abund bins/bins.contig.tmp.abund1 -seed bins/bins.0049.out.0002.out.0002.out.0001.out.0001.out.seed -out bins/bins.0049.out.0002.out.0002.out.0001.out.0001.out -min_contig_length 1000 -thread 5
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	contig_4728 [148676.000000]
+	contig_7419 [40068.000000]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Iteration 21
+Iteration 22
+Iteration 23
+Iteration 24
+Iteration 25
+Iteration 26
+Iteration 27
+Iteration 28
+Iteration 29
+Iteration 30
+Iteration 31
+Iteration 32
+Iteration 33
+Iteration 34
+Iteration 35
+Iteration 36
+Iteration 37
+Iteration 38
+Iteration 39
+Iteration 40
+Iteration 41
+Iteration 42
+Iteration 43
+Iteration 44
+Iteration 45
+Iteration 46
+Iteration 47
+Iteration 48
+Iteration 49
+Iteration 50
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bins.002.marker.fasta
+bins.003.marker.fasta
+bins.004.marker.fasta
+bins.005.marker.fasta
+bins.006.marker.fasta
+bins.007.marker.fasta
+bins.008.marker.fasta
+bins.009.marker.fasta
+bins.010.marker.fasta
+bins.011.marker.fasta
+bins.012.marker.fasta
+bins.013.marker.fasta
+bins.014.marker.fasta
+bins.015.marker.fasta
+bins.016.marker.fasta
+bins.017.marker.fasta
+bins.018.marker.fasta
+bins.019.marker.fasta
+bins.020.marker.fasta
+bins.021.marker.fasta
+bins.022.marker.fasta
+bins.023.marker.fasta
+bins.024.marker.fasta
+bins.025.marker.fasta
+bins.026.marker.fasta
+bins.027.marker.fasta
+bins.028.marker.fasta
+bins.029.marker.fasta
+bins.030.marker.fasta
+bins.031.marker.fasta
+bins.032.marker.fasta
+bins.033.marker.fasta
+bins.034.marker.fasta
+bins.035.marker.fasta
+bins.036.marker.fasta
+bins.037.marker.fasta
+bins.038.marker.fasta
+bins.039.marker.fasta
+bins.040.marker.fasta
+bins.041.marker.fasta
+bins.042.marker.fasta
+bins.043.marker.fasta
+bins.044.marker.fasta
+bins.045.marker.fasta
+bins.046.marker.fasta
+bins.047.marker.fasta
+bins.048.marker.fasta
+bins.049.marker.fasta
+bins.050.marker.fasta
+bins.051.marker.fasta
+bins.052.marker.fasta
+bins.053.marker.fasta
+bins.054.marker.fasta
+bins.055.marker.fasta
+bins.056.marker.fasta
+bins.057.marker.fasta
+bins.058.marker.fasta
+bins.059.marker.fasta
+bins.060.marker.fasta
+bins.061.marker.fasta
+bins.062.marker.fasta
+bins.063.marker.fasta
+bins.064.marker.fasta
+bins.065.marker.fasta
+bins.066.marker.fasta
+bins.067.marker.fasta
+bins.068.marker.fasta
+bins.069.marker.fasta
+bins.070.marker.fasta
+bins.071.marker.fasta
+bins.072.marker.fasta
+bins.073.marker.fasta
+bins.074.marker.fasta
+bins.075.marker.fasta
+bins.076.marker.fasta
+bins.077.marker.fasta
+bins.078.marker.fasta
+bins.079.marker.fasta
+bins.080.marker.fasta
+bins.081.marker.fasta
+bins.082.marker.fasta
+bins.083.marker.fasta
+bins.084.marker.fasta
+bins.085.marker.fasta
+bins.086.marker.fasta
+bins.087.marker.fasta
+bins.088.marker.fasta
+bins.089.marker.fasta
+bins.090.marker.fasta
+bins.091.marker.fasta
+bins.092.marker.fasta
+bins.093.marker.fasta
+bins.094.marker.fasta
+bins.095.marker.fasta
+bins.096.marker.fasta
+bins.097.marker.fasta
+bins.098.marker.fasta
+bins.099.marker.fasta
+bins.100.marker.fasta
+bins.101.marker.fasta
+bins.102.marker.fasta
+bins.103.marker.fasta
+bins.104.marker.fasta
+bins.105.marker.fasta
+bins.106.marker.fasta
+bins.107.marker.fasta
+bins.108.marker.fasta
+bins.109.marker.fasta
+bins.110.marker.fasta
+bins.111.marker.fasta
+bins.112.marker.fasta
+bins.113.marker.fasta
+bins.114.marker.fasta
+bins.115.marker.fasta
+bins.116.marker.fasta
+bins.117.marker.fasta
+bins.118.marker.fasta
+bins.119.marker.fasta
+bins.120.marker.fasta
+bins.121.marker.fasta
+bins.122.marker.fasta
+bins.123.marker.fasta
+bins.124.marker.fasta
+Deleting intermediate files.
+
+
+========== Job finished ==========
+Yielded 124 bins for contig (scaffold) file /work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode02/prokaryote/assembly_prokaryote.fasta
+
+Here are the output files for this run.
+Please refer to the README file for further details.
+
+Summary file: bins/bins.summary
+Marker counts: bins/bins.marker
+Marker genes for each bin: bins/bins.marker_of_each_gene.tar.gz
+Bin files: bins/bins.001.fasta - bins/bins.124.fasta
+Unbinned sequences: bins/bins.noclass
+
+
+========== Elapsed Time ==========
+0 hours 21 minutes and 7 seconds.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517724: <maxbin> in cluster <dcc> Done
+
+Job <maxbin> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 05:20:20 2025
+Job was executed on host(s) <5*n-62-28-29>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 05:36:15 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/9_genomeBinning/MaxBin2/run03/barcode02> was used as the working directory.
+Started at Sat Mar 29 05:36:15 2025
+Terminated at Sat Mar 29 05:57:28 2025
+Results reported at Sat Mar 29 05:57:28 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J maxbin
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 1:00
+#BSUB -o maxbin.sh.o%J
+#BSUB -e maxbin.sh.e%J
+
+source activate metagenomics
+
+reads="/work3/fevape/rerun-analysis/3_adapterRemoval/run03/barcode02/soft_filter/barcode02.trimmed.highquality.noadapter.fastq/BC02.fastq"
+assembly="/work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode02/prokaryote/assembly_prokaryote.fasta"
+depth="/work3/fevape/rerun-analysis/9_genomeBinning/MetaBAT2/run03/barcode02/depth.txt"
+
+mkdir bins
+
+# removed: reads $reads - for first run
+/usr/bin/time -v run_MaxBin.pl -contig $assembly -abund $depth -out bins/bins -thread 5
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1960.58 sec.
+    Max Memory :                                 726 MB
+    Average Memory :                             528.75 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4394.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                13
+    Run time :                                   1304 sec.
+    Turnaround time :                            2228 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <maxbin.sh.e24517724> for stderr output of this job.
+

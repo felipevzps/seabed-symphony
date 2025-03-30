@@ -1,0 +1,75 @@
+75060 2346 5
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24517731: <concoct> in cluster <dcc> Done
+
+Job <concoct> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Sat Mar 29 05:25:19 2025
+Job was executed on host(s) <5*n-62-28-28>, in queue <hpc>, as user <fevape> in cluster <dcc> at Sat Mar 29 12:12:55 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/9_genomeBinning/CONCOCT/run03/barcode04> was used as the working directory.
+Started at Sat Mar 29 12:12:55 2025
+Terminated at Sat Mar 29 12:24:22 2025
+Results reported at Sat Mar 29 12:24:22 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J concoct
+#BSUB -n 5
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=1GB]"
+#BSUB -W 1:00
+#BSUB -o concoct.sh.o%J
+#BSUB -e concoct.sh.e%J
+
+source activate metagenomics
+
+assembly="/work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode04/prokaryote/assembly_prokaryote.fasta"
+bam="/work3/fevape/rerun-analysis/9_genomeBinning/mapping/run03/barcode04/mapped_sorted.bam"
+
+# Cut contigs into smaller parts
+/usr/bin/time -v cut_up_fasta.py $assembly -c 10000 -o 0 --merge_last -b contigs_10K.bed > contigs_10K.fa
+	
+# Generate table with coverage depth
+/usr/bin/time -v concoct_coverage_table.py contigs_10K.bed $bam > coverage_table.tsv
+	
+# Run COCOCT
+/usr/bin/time -v concoct --composition_file contigs_10K.fa --coverage_file coverage_table.tsv -b concoct_output/ -t 5
+
+# Merge subcontig clustering into original contig clustering:
+/usr/bin/time -v merge_cutup_clustering.py concoct_output/clustering_gt1000.csv > concoct_output/clustering_merged.csv
+
+# Extract bins as individual FASTA
+mkdir bins
+/usr/bin/time -v extract_fasta_bins.py $assembly concoct_output/clustering_merged.csv --output_path bins
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1362.89 sec.
+    Max Memory :                                 561 MB
+    Average Memory :                             370.00 MB
+    Total Requested Memory :                     5120.00 MB
+    Delta Memory :                               4559.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                11
+    Run time :                                   687 sec.
+    Turnaround time :                            25143 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <concoct.sh.e24517731> for stderr output of this job.
+

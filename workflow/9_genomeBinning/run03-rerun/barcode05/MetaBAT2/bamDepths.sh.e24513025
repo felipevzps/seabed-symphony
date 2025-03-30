@@ -1,0 +1,34 @@
+Output depth matrix to depth.txt
+jgi_summarize_bam_contig_depths 2.15 (Bioconda) 2020-07-03T13:02:15
+Output matrix to depth.txt
+0: Opening bam: /work3/fevape/rerun-analysis/9_genomeBinning/mapping/run03/barcode05/mapped_sorted.bam
+Processing bam files
+Warning: consider running calmd on your bamfile! nm (772) != insertions (1) + deletions (621) + mismatches (13) (== 635) for read 3cc42de0-17ab-4fe4-8087-ad43c4ca546c_part_6
+Thread 0 finished: mapped_sorted.bam with 22681219 reads and 3585053 readsWellMapped
+Creating depth matrix file: depth.txt
+Closing most bam files
+Closing last bam file
+Finished
+	Command being timed: "jgi_summarize_bam_contig_depths --outputDepth depth.txt /work3/fevape/rerun-analysis/9_genomeBinning/mapping/run03/barcode05/mapped_sorted.bam"
+	User time (seconds): 55.77
+	System time (seconds): 1.75
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 750
+	Voluntary context switches: 50465
+	Involuntary context switches: 643
+	Swaps: 0
+	File system inputs: 6276239
+	File system outputs: 1858
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

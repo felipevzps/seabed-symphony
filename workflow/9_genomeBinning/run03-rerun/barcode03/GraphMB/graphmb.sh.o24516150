@@ -1,0 +1,159 @@
+logging to bins/20250328-211626graphmb_output.log
+Running GraphMB 0.2.5
+using cuda: False
+setting seed to 1
+setting tf seed
+Cache not found on bins/
+processing sequences assembly/assembly_prokaryote.fasta
+read 11856 seqs
+processing GFA file (contig nodes) assembly/assembly_graph.gfa
+skipped contigs 0 < 1000
+read 5040, edges
+reading depths
+reading labels
+Saved cache to bins/
+
+Not using SCG file: marker_gene_stats.tsv (not found)
+==============================
+DATASET STATS:
+number of sequences: 11856
+assembly length: 0.365 Gb
+assembly N50: 0.05 Mb
+assembly average length (Mb): 0.031 max: 2.66 min: 0.005
+coverage samples: 1
+Graph file found and read
+graph edges: 5040
+contig paths: 11856
+No SCG markers
+==============================
+==============Running VAE model=====================
+setting tf seed
+edges with overlapping scgs (max=20): []
+deleted 0 edges with same SCGs
+**** Num of edges: 13890
+******* Running model: CCVAE **********
+***** using edge weights: True ******
+***** cluster markers only: False *****
+***** self edges only: False *****
+***** Using raw kmer+abund features: True
+***** SCG neg pairs: (0,)
+***** input features dimension: (11856, 104)
+>>> Pre train stats: {'precision': 1.0, 'recall': 0.31106612685560053, 'f1': 0.4745239320638188, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 2252, 'unresolved_mags': 0}
+*** Model input dim 104, GNN input dim 64
+use_ae: True, run AE only: False output clustering dim 64
+**** initial nodes batch size: 256 ****
+**** epoch batch size doubles: [25, 75, 150, 300] ****
+Increasing nodes batch size from 256 to 512
+Increasing nodes batch size from 512 to 1024
+Increasing nodes batch size from 1024 to 2048
+Increasing nodes batch size from 2048 to 4096
+>>> Last epoch: 0 : {'precision': 1.0, 'recall': 0.04267881241565452, 'f1': 0.08186377608801165, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 6541, 'unresolved_mags': 0, 'epoch': 499} <<<
+>>> best epoch: 0 : {'precision': 1.0, 'recall': 0.04267881241565452, 'f1': 0.08186377608801165, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 6541, 'unresolved_mags': 0, 'epoch': 499} <<<
+===================================================
+writing features to assembly/features.tsv
+RUN 0
+setting torch seed
+setting tf seed
+edges with overlapping scgs (max=20): []
+deleted 0 edges with same SCGs
+**** Num of edges: 13890
+logging to mlflow
+******* Running model: gcn **********
+***** using edge weights: True ******
+***** using disconnected: True ******
+***** concat features: True *****
+***** cluster markers only: False *****
+***** threshold adj matrix: False *****
+***** self edges only: False *****
+***** Using raw kmer+abund features: False
+***** SCG neg pairs: (0,)
+***** input features dimension: 64
+***** Nodes used for clustering: 11856
+>>> Pre train stats: {'precision': 1.0, 'recall': 0.04436572199730095, 'f1': 0.08496204167339687, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 6543, 'unresolved_mags': 0}
+*** Model input dim 64, GNN input dim 64
+*** output clustering dim 32
+>>> best epoch all contigs: 0 : {'precision': 1.0, 'recall': 0.035931174089068825, 'f1': 0.06936980947728383, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 6341, 'unresolved_mags': 0, 'epoch': 499} <<<
+>>> best epoch: 0 : {'precision': 1.0, 'recall': 0.035931174089068825, 'f1': 0.06936980947728383, 'ari': 0, 'hq': 0, 'mq': 0, 'n_clusters': 6341, 'unresolved_mags': 0, 'epoch': 499} <<<
+### writing best and last embs to bins/
+6341 clusters
+### skipped 6204 clusters while writing to file
+### wrote 137 clusters 137 >= #contig 1
+setting torch seed
+setting tf seed
+### precision: 1.000 0.000
+### recall: 0.036 0.000
+### f1: 0.069 0.000
+### ari: 0.000 0.000
+### hq: 0.000 0.000
+### mq: 0.000 0.000
+### n_clusters: 6341.000 0.000
+### unresolved_mags: 0.000 0.000
+### epoch: 499.000 0.000
+0.0 0.0 0.0 0.0
+Total run time: 0:19:42.574400
+Seconds per run: 1182.57
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24516150: <graphmb> in cluster <dcc> Done
+
+Job <graphmb> was submitted from host <n-62-27-17> by user <fevape> in cluster <dcc> at Fri Mar 28 16:23:07 2025
+Job was executed on host(s) <10*n-62-29-35>, in queue <hpc>, as user <fevape> in cluster <dcc> at Fri Mar 28 21:16:07 2025
+</zhome/56/5/209982> was used as the home directory.
+</work3/fevape/rerun-analysis/9_genomeBinning/GraphMB/run03/barcode03> was used as the working directory.
+Started at Fri Mar 28 21:16:07 2025
+Terminated at Fri Mar 28 21:36:23 2025
+Results reported at Fri Mar 28 21:36:23 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+
+#BSUB -q hpc
+#BSUB -J graphmb
+#BSUB -n 10
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=10GB]"
+#BSUB -W 3:00
+#BSUB -o graphmb.sh.o%J
+#BSUB -e graphmb.sh.e%J
+
+source activate graphmb
+
+mkdir -p assembly
+
+ln -s "/work3/fevape/rerun-analysis/5_metagenomeAssembly/run03/barcode03/assembly/assembly_graph.gfa" assembly/assembly_graph.gfa
+ln -s "/work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode03/prokaryote/assembly_prokaryote.fasta" assembly/assembly_prokaryote.fasta
+ln -s "/work3/fevape/rerun-analysis/9_genomeBinning/MetaBAT2/run03/barcode03/depth.txt" assembly/depth.txt
+
+assembly=assembly
+
+/usr/bin/time -v graphmb --assembly $assembly --outdir bins/ --assembly_name assembly_prokaryote.fasta --graph_file assembly_graph.gfa --depth depth.txt --numcores 10 --contignodes --writebins
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2318.31 sec.
+    Max Memory :                                 27018 MB
+    Average Memory :                             12143.00 MB
+    Total Requested Memory :                     102400.00 MB
+    Delta Memory :                               75382.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                29
+    Run time :                                   1216 sec.
+    Turnaround time :                            18796 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <graphmb.sh.e24516150> for stderr output of this job.
+

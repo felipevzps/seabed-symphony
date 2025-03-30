@@ -1,0 +1,142 @@
+	Command being timed: "cut_up_fasta.py /work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode01/prokaryote/assembly_prokaryote.fasta -c 10000 -o 0 --merge_last -b contigs_10K.bed"
+	User time (seconds): 0.24
+	System time (seconds): 0.07
+	Percent of CPU this job got: 54%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 59312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11179
+	Voluntary context switches: 1113
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 2754
+	File system outputs: 2716
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "concoct_coverage_table.py contigs_10K.bed /work3/fevape/rerun-analysis/9_genomeBinning/mapping/run03/barcode01/mapped_sorted.bam"
+	User time (seconds): 0.75
+	System time (seconds): 0.22
+	Percent of CPU this job got: 59%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 133180
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 19
+	Minor (reclaiming a frame) page faults: 31571
+	Voluntary context switches: 2462
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 12461
+	File system outputs: 7
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Setting 4 OMP threads
+Generate input data
+0,-2995.449168,1298.132805
+1,-2053.741758,941.707410
+2,-1757.548424,296.193335
+3,-1547.424058,210.124366
+4,-1354.343726,193.080332
+5,-1308.217108,46.126618
+6,-1273.266040,34.951068
+7,-1247.235634,26.030406
+8,-1243.391220,3.844414
+9,-1222.642733,20.748487
+10,-1222.576285,0.066448
+11,-1222.521422,0.054863
+12,-1222.462907,0.058515
+13,-1222.425369,0.037538
+14,-1222.406737,0.018632
+15,-1222.398543,0.008193
+16,-1222.395213,0.003330
+17,-1222.394016,0.001197
+18,-1222.393739,0.000278
+19,-1222.393810,0.000072
+Up and running. Check /work3/fevape/rerun-analysis/9_genomeBinning/CONCOCT/run03/barcode01/concoct_output/log.txt for progress
+/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/sklearn/utils/validation.py:1692: FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['int', 'str']. An error will be raised in 1.2.
+  FutureWarning,
+/zhome/56/5/209982/bin/miniconda3/envs/metagenomics/lib/python3.7/site-packages/sklearn/utils/validation.py:1692: FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['int', 'str']. An error will be raised in 1.2.
+  FutureWarning,
+	Command being timed: "concoct --composition_file contigs_10K.fa --coverage_file coverage_table.tsv -b concoct_output/ -t 5"
+	User time (seconds): 1.86
+	System time (seconds): 0.40
+	Percent of CPU this job got: 21%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 184476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 217
+	Minor (reclaiming a frame) page faults: 44953
+	Voluntary context switches: 5020
+	Involuntary context switches: 18
+	Swaps: 0
+	File system inputs: 43617
+	File system outputs: 611
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "merge_cutup_clustering.py concoct_output/clustering_gt1000.csv"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 53%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1243
+	Voluntary context switches: 168
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 14
+	File system outputs: 2
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "extract_fasta_bins.py /work3/fevape/rerun-analysis/8_prokaryoteContigs/run03/barcode01/prokaryote/assembly_prokaryote.fasta concoct_output/clustering_merged.csv --output_path bins"
+	User time (seconds): 0.66
+	System time (seconds): 0.21
+	Percent of CPU this job got: 59%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 141624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22502
+	Voluntary context switches: 2768
+	Involuntary context switches: 4
+	Swaps: 0
+	File system inputs: 2757
+	File system outputs: 2746
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
